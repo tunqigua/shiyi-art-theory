@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f1ea" />
+    <meta name="description" content="识艺：12章艺术概论选择题学习站，支持单元练、疯狂混练、错题本与答题速度记录。" />
+    <title>识艺 · 艺术概论刷题</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="rail" aria-label="主导航">
+        <a class="brand" href="#overview" aria-label="识艺首页">
+          <span class="brand-mark">艺</span>
+          <span class="brand-name">识艺</span>
+        </a>
+
+        <nav class="rail-nav">
+          <button class="rail-item is-active" data-view="overview" aria-label="学习总览">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13h6V4H4v9Zm0 7h6v-4H4v4Zm10 0h6v-9h-6v9Zm0-16v4h6V4h-6Z" /></svg>
+            <span>总览</span>
+          </button>
+          <button class="rail-item" id="unitTrigger" aria-expanded="false" aria-controls="unitPanel">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5" /></svg>
+            <span>单元练</span>
+          </button>
+          <button class="rail-item" data-action="mix" aria-label="疯狂混练">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3c5 0 5 10 10 10h3M17 4l3 3-3 3M4 17h3c2.2 0 3.4-1.8 4.6-4M17 14l3 3-3 3" /></svg>
+            <span>疯狂混</span>
+          </button>
+          <button class="rail-item" data-view="mistakes" aria-label="错题本">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-3-6 3V3ZM9 8l6 6M15 8l-6 6" /></svg>
+            <span>错题本</span>
+            <b class="nav-count" id="mistakeNavCount">0</b>
+          </button>
+          <button class="rail-item" data-view="records" aria-label="学习记录">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8v5l3 2M12 3a9 9 0 1 0 9 9 9 9 0 0 0-9-9Z" /></svg>
+            <span>记录</span>
+          </button>
+        </nav>
+
+        <div class="local-state"><i></i><span>本机保存</span></div>
+      </aside>
+
+      <div class="panel-backdrop" id="panelBackdrop" hidden></div>
+      <section class="unit-panel" id="unitPanel" aria-label="选择章节" aria-hidden="true">
+        <div class="unit-panel-head">
+          <div>
+            <span class="eyebrow">UNIT PRACTICE</span>
+            <h2>选择章节</h2>
+          </div>
+          <button class="icon-button" id="closeUnitPanel" aria-label="关闭章节选择">×</button>
+        </div>
+        <p class="panel-note">点选章节开始练习。正式题库加入后，题量和进度会自动更新。</p>
+        <div class="chapter-grid" id="chapterGrid"></div>
+      </section>
+
+      <main>
+        <header class="topbar">
+          <div>
+            <span class="topbar-kicker">ART THEORY · 12 UNITS</span>
+            <strong id="pageTitle">学习总览</strong>
+          </div>
+          <div class="topbar-meta">
+            <span class="status-pill"><i></i> 题库框架版</span>
+            <span id="todayLabel"></span>
+          </div>
+        </header>
+
+        <section class="view is-visible" id="overviewView">
+          <div class="hero-grid">
+            <article class="hero-card">
+              <span class="eyebrow">ART IS A WAY OF KNOWING</span>
+              <h1>把艺术史论，<br />练成你的直觉。</h1>
+              <p>12 章拆开学，选择题逐道练。记住知识，也记住自己在哪些地方犹豫。</p>
+              <div class="hero-actions">
+                <button class="primary-button" id="continueButton">开始演示练习 <span>→</span></button>
+                <button class="secondary-button" data-action="mix">疯狂混练</button>
+              </div>
+              <div class="hero-foot">
+                <span>当前为结构演示题</span>
+                <span>正式题库到位后一键替换</span>
+              </div>
+            </article>
+
+            <article class="today-card">
+              <div class="card-heading">
+                <div>
+                  <span class="eyebrow">TODAY</span>
+                  <h2>今日状态</h2>
+                </div>
+                <span class="date-chip" id="dateChip"></span>
+              </div>
+              <div class="ring-wrap">
+                <div class="progress-ring" id="progressRing"><strong id="todayDone">0</strong><span>今日作答</span></div>
+                <div class="today-stats">
+                  <div><span>正确率</span><strong id="todayAccuracy">—</strong></div>
+                  <div><span>平均速度</span><strong id="todaySpeed">—</strong></div>
+                  <div><span>待复习错题</span><strong id="todayMistakes">0</strong></div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <section class="overview-section">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">LEARNING MAP</span>
+                <h2>十二章学习地图</h2>
+              </div>
+              <button class="text-button" id="openUnitsButton">展开单元练 <span>↗</span></button>
+            </div>
+            <div class="chapter-map" id="chapterMap"></div>
+          </section>
+
+          <section class="overview-section lower-grid">
+            <article class="info-card">
+              <span class="index">01</span>
+              <div><h3>单元练</h3><p>一次只专注一章。点左侧“单元练”，12 章会以弹层展开，不占固定空间。</p></div>
+            </article>
+            <article class="info-card accent-card">
+              <span class="index">02</span>
+              <div><h3>疯狂混练</h3><p>打散所有章节顺序，训练你在没有章节提示时准确调用知识。</p></div>
+            </article>
+            <article class="info-card">
+              <span class="index">03</span>
+              <div><h3>错题与速度</h3><p>每次作答都会留下对错、用时与次数，方便专门重练薄弱题。</p></div>
+            </article>
+          </section>
+        </section>
+
+        <section class="view" id="practiceView">
+          <div class="practice-wrap">
+            <div class="practice-head">
+              <button class="back-button" data-view="overview">← 返回总览</button>
+              <div class="practice-title">
+                <span class="eyebrow" id="practiceModeLabel">UNIT PRACTICE</span>
+                <h2 id="practiceTitle">第一章</h2>
+              </div>
+              <button class="favorite-button" id="favoriteButton" aria-label="收藏本题">☆</button>
+            </div>
+
+            <div class="question-progress">
+              <div><span id="questionPosition">1 / 1</span><span id="liveTimer">0.0 秒</span></div>
+              <div class="progress-track"><i id="questionProgressBar"></i></div>
+            </div>
+
+            <article class="question-card" id="questionCard">
+              <div class="question-tags"><span id="chapterTag">第1章</span><span id="demoTag">演示题</span></div>
+              <h1 id="questionText"></h1>
+              <div class="options" id="optionsList"></div>
+              <div class="answer-panel" id="answerPanel" hidden>
+                <div class="answer-status" id="answerStatus"></div>
+                <p id="answerExplanation"></p>
+              </div>
+            </article>
+
+            <div class="practice-actions">
+              <span>键盘 1–4 选择 · Enter 下一题</span>
+              <button class="primary-button" id="nextButton" disabled>下一题 <span>→</span></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="mistakesView">
+          <div class="page-intro">
+            <span class="eyebrow">MISTAKE BOOK</span>
+            <h1>错题不是失败，<br />是复习的路线图。</h1>
+            <p>这里按错题累计次数排列。重练答对后仍保留历史，方便看见真正的薄弱点。</p>
+          </div>
+          <div class="list-toolbar">
+            <span id="mistakeSummary">暂无错题</span>
+            <button class="primary-button small" id="retryMistakesButton" disabled>重练全部错题</button>
+          </div>
+          <div class="question-list" id="mistakeList"></div>
+        </section>
+
+        <section class="view" id="recordsView">
+          <div class="page-intro compact">
+            <span class="eyebrow">LEARNING RECORD</span>
+            <h1>速度、正确率与练习轨迹。</h1>
+            <p>不只看做了多少，也看你是否答得更稳、更快。</p>
+          </div>
+          <div class="record-cards">
+            <article><span>累计作答</span><strong id="allAttempts">0</strong><small>次</small></article>
+            <article><span>累计正确率</span><strong id="allAccuracy">—</strong></article>
+            <article><span>平均速度</span><strong id="allSpeed">—</strong></article>
+            <article><span>最快作答</span><strong id="fastestSpeed">—</strong></article>
+          </div>
+          <section class="record-section">
+            <div class="section-heading"><div><span class="eyebrow">BY UNIT</span><h2>各章记录</h2></div></div>
+            <div class="unit-records" id="unitRecords"></div>
+          </section>
+          <section class="record-section">
+            <div class="section-heading"><div><span class="eyebrow">RECENT</span><h2>最近作答</h2></div></div>
+            <div class="attempt-log" id="attemptLog"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./questions.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
