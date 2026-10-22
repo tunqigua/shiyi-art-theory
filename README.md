@@ -2,7 +2,7 @@
 
 一个面向艺术概论考试的纯选择题学习站。界面以 12 章为单位，提供单元练、疯狂混练、错题本、收藏、答题速度与学习记录。
 
-[打开在线网站](https://shiyi-art-theory.tunqigua.chatgpt.site)
+[打开无需登录的独立网站](https://tunqigua.github.io/shiyi-art-theory/)
 
 ## 当前状态
 
