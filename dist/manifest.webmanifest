@@ -1,0 +1,11 @@
+{
+  "id": "/shiyi-art-theory/",
+  "name": "识艺 · 艺术概论刷题",
+  "short_name": "识艺",
+  "start_url": "/shiyi-art-theory/",
+  "scope": "/shiyi-art-theory/",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#174e73",
+  "icons": [{"src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]
+}
