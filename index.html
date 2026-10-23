@@ -9,7 +9,7 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?v=2" />
+    <link rel="stylesheet" href="./styles.css?v=3" />
   </head>
   <body>
     <div class="app-shell">
@@ -49,7 +49,7 @@
           </div>
           <button class="icon-button" id="closeUnitPanel" aria-label="关闭章节选择">×</button>
         </div>
-        <p class="panel-note">点选章节开始练习。正式题库加入后，题量和进度会自动更新。</p>
+        <p class="panel-note">点选章节开始练习。多选题选完后提交，多空题按空分别练习。</p>
         <div class="chapter-grid" id="chapterGrid"></div>
       </section>
 
@@ -59,7 +59,7 @@
             <strong id="pageTitle">学习总览</strong>
           </div>
           <div class="topbar-meta">
-            <span class="status-pill">题库待录入</span>
+            <span class="status-pill" id="bankStatus">十二章题库</span>
             <span id="todayLabel"></span>
           </div>
         </header>
@@ -101,6 +101,12 @@
               <button class="text-button" id="openUnitsButton">展开单元练</button>
             </div>
             <div class="chapter-map" id="chapterMap"></div>
+            <p class="panel-note" id="bankSummary"></p>
+            <details class="bank-audit">
+              <summary id="auditSummary">题库核对说明</summary>
+              <p id="answerPolicy"></p>
+              <div id="pendingQuestions"></div>
+            </details>
           </section>
         </section>
 
@@ -120,9 +126,10 @@
             </div>
 
             <article class="question-card" id="questionCard">
-              <div class="question-tags"><span id="chapterTag">第1章</span></div>
+              <div class="question-tags"><span id="chapterTag">第1章</span><span id="questionType"></span></div>
               <h1 id="questionText"></h1>
               <div class="options" id="optionsList"></div>
+              <button class="primary-button" id="submitButton" hidden disabled>提交答案</button>
               <div class="answer-panel" id="answerPanel" hidden>
                 <div class="answer-status" id="answerStatus"></div>
                 <p id="answerExplanation"></p>
@@ -130,7 +137,7 @@
             </article>
 
             <div class="practice-actions">
-              <span>键盘 1–4 选择 · Enter 下一题</span>
+              <span>数字键选择 · 多选需提交 · Enter 确认 / 下一题</span>
               <button class="primary-button" id="nextButton" disabled>下一题</button>
             </div>
           </div>
@@ -172,7 +179,7 @@
     </div>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="./questions.js?v=2"></script>
-    <script src="./app.js?v=2"></script>
+    <script src="./questions.js?v=3"></script>
+    <script src="./app.js?v=3"></script>
   </body>
 </html>

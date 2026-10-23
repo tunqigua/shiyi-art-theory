@@ -151,7 +151,7 @@
 
   function beginQuestion() {
     session.answered = false;
-    session.selected = null;
+    session.selected = [];
     session.startedAt = Date.now();
     setView("practice");
     renderQuestion();
@@ -165,6 +165,9 @@
     byId("practiceTitle").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "mix" ? "疯狂混练" : "错题重练");
     byId("chapterTag").textContent = chapter.title;
     byId("questionText").textContent = question.stem;
+    byId("questionType").textContent = question.multiple ? "多选题 · 选完提交" : "单选题";
+    byId("submitButton").hidden = !question.multiple;
+    byId("submitButton").disabled = true;
     byId("questionPosition").textContent = (session.index + 1) + " / " + session.queue.length;
     byId("questionProgressBar").style.width = ((session.index + 1) / session.queue.length * 100) + "%";
     byId("answerPanel").hidden = true;
@@ -178,33 +181,56 @@
     question.options.forEach(function (text, index) {
       var button = document.createElement("button");
       button.className = "option-button";
-      button.innerHTML = "<b>" + String.fromCharCode(65 + index) + "</b><span>" + text + "</span>";
-      button.addEventListener("click", function () { answerQuestion(index); });
+      var label = document.createElement("b");
+      label.textContent = String.fromCharCode(65 + index);
+      var content = document.createElement("span");
+      content.textContent = text;
+      button.append(label, content);
+      button.setAttribute("aria-pressed", "false");
+      button.addEventListener("click", function () { selectOption(index); });
       options.appendChild(button);
     });
   }
 
-  function answerQuestion(selectedIndex) {
+  function selectOption(index) {
     if (session.answered) return;
+    var question = session.queue[session.index];
+    if (index < 0 || index >= question.options.length) return;
+    if (!question.multiple) return answerQuestion([index]);
+    var position = session.selected.indexOf(index);
+    if (position < 0) session.selected.push(index);
+    else session.selected.splice(position, 1);
+    var button = byId("optionsList").children[index];
+    button.classList.toggle("is-selected", position < 0);
+    button.setAttribute("aria-pressed", String(position < 0));
+    byId("submitButton").disabled = !session.selected.length;
+  }
+
+  function answerQuestion(selectedIndices) {
+    if (session.answered) return;
+    if (!selectedIndices.length) return;
     session.answered = true;
-    session.selected = selectedIndex;
+    session.selected = selectedIndices.slice().sort();
     stopTimer();
     var question = session.queue[session.index];
-    var correct = selectedIndex === question.answer;
+    var expected = question.answers || [question.answer];
+    var correct = JSON.stringify(session.selected) === JSON.stringify(expected.slice().sort());
+    byId("submitButton").hidden = true;
     var durationMs = Math.max(300, Date.now() - session.startedAt);
     var buttons = Array.from(document.querySelectorAll(".option-button"));
     buttons.forEach(function (button, index) {
       button.disabled = true;
-      if (index === question.answer) button.classList.add("is-correct");
-      if (index === selectedIndex && !correct) button.classList.add("is-wrong");
+      button.classList.remove("is-selected");
+      if (expected.indexOf(index) !== -1) button.classList.add("is-correct");
+      if (selectedIndices.indexOf(index) !== -1 && expected.indexOf(index) === -1) button.classList.add("is-wrong");
     });
     var panel = byId("answerPanel");
     panel.hidden = false;
     panel.classList.toggle("is-wrong", !correct);
-    byId("answerStatus").textContent = correct ? "回答正确 · " + formatSeconds(durationMs) : "回答错误 · 正确答案为 " + String.fromCharCode(65 + question.answer);
+    byId("answerStatus").textContent = correct ? "回答正确 · " + formatSeconds(durationMs) : "回答错误 · 正确答案为 " + expected.map(function (i) { return String.fromCharCode(65 + i); }).join("、");
     byId("answerExplanation").textContent = question.explanation;
     byId("nextButton").disabled = false;
-    recordAttempt(question, correct, durationMs, selectedIndex);
+    recordAttempt(question, correct, durationMs, session.selected.slice());
     refreshSummary();
   }
 
@@ -287,7 +313,7 @@
       var stat = state.questionStats[question.id];
       var row = document.createElement("article");
       row.className = "mistake-row";
-      row.innerHTML = "<span class=\"unit-label\">UNIT " + String(question.chapter).padStart(2, "0") + "</span><div><h3>" + question.stem + "</h3><p>累计错 " + stat.wrongCount + " 次 · 最近用时 " + formatSeconds(stat.lastDurationMs) + "</p></div><button>单题重练</button>";
+      row.innerHTML = "<span class=\"unit-label\">第" + question.chapter + "章</span><div><h3>" + question.stem + "</h3><p>累计错 " + stat.wrongCount + " 次 · 最近用时 " + formatSeconds(stat.lastDurationMs) + "</p></div><button>单题重练</button>";
       row.querySelector("button").addEventListener("click", function () { startMix([question]); });
       list.appendChild(row);
     });
@@ -368,12 +394,19 @@
     byId("panelBackdrop").addEventListener("click", closeUnitPanel);
     byId("continueButton").addEventListener("click", openUnitPanel);
     byId("nextButton").addEventListener("click", nextQuestion);
+    byId("submitButton").addEventListener("click", function () { answerQuestion(session.selected); });
     byId("favoriteButton").addEventListener("click", toggleFavorite);
     byId("retryMistakesButton").addEventListener("click", function () { startMix(mistakeQuestions()); });
     document.addEventListener("keydown", function (event) {
       if (!views.practice.classList.contains("is-visible")) return;
-      if (event.key >= "1" && event.key <= "4" && !session.answered) answerQuestion(Number(event.key) - 1);
-      if (event.key === "Enter" && session.answered) nextQuestion();
+      if (event.repeat || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName)) return;
+      if (event.key >= "1" && event.key <= "9" && !session.answered) selectOption(Number(event.key) - 1);
+      if (event.key === "Enter") {
+        if (!session.answered && event.target.classList.contains("option-button")) return;
+        event.preventDefault();
+        if (session.answered) nextQuestion();
+        else if (session.queue[session.index].multiple) answerQuestion(session.selected);
+      }
     });
   }
 
@@ -384,7 +417,37 @@
     byId("dateChip").textContent = String(date.getMonth() + 1).padStart(2, "0") + "." + String(date.getDate()).padStart(2, "0") + " / " + days[date.getDay()];
   }
 
+  function renderAudit() {
+    byId("bankStatus").textContent = BANK.questions.length + " 个练习项";
+    byId("bankSummary").textContent = "已保留 " + BANK.sourceQuestionCount + " 道原题 · " + BANK.gradedSourceCount + " 道进入判分 · 多空题逐空练习";
+    byId("auditSummary").textContent = "题库核对说明 · " + BANK.pending.length + " 项待核对（不参与判分）";
+    byId("answerPolicy").textContent = BANK.answerPolicy;
+    BANK.pending.forEach(function (q) {
+      var item = document.createElement("article");
+      var title = document.createElement("strong");
+      title.textContent = "第" + q.chapter + "章 · " + (q.kind === "s" ? "单选" : "多选") + q.number + (q.page ? " · 原书第" + q.page + "页" : "");
+      var reason = document.createElement("p");
+      reason.textContent = q.reason;
+      item.append(title, reason);
+      if (q.stem) {
+        var stem = document.createElement("p");
+        stem.textContent = q.stem;
+        item.appendChild(stem);
+        q.options.forEach(function (option, index) {
+          var line = document.createElement("div");
+          line.textContent = String.fromCharCode(65 + index) + " · " + option;
+          item.appendChild(line);
+        });
+        var key = document.createElement("p");
+        key.textContent = "原书参考答案（未采用）：" + q.originalKey;
+        item.appendChild(key);
+      }
+      byId("pendingQuestions").appendChild(item);
+    });
+  }
+
   initDate();
+  renderAudit();
   bindEvents();
   refreshAll();
 })();
