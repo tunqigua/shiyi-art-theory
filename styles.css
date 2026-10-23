@@ -339,3 +339,12 @@ main { margin-left: var(--rail); min-height: 100vh; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+
+/* 简洁黑白界面。 */
+body { filter: grayscale(1); }
+:root { --paper: #f6f6f6; --paper-deep: #e6e6e6; --ink: #181818; --muted: #727272; --line: #d8d8d8; --white: #ffffff; --blue: #252525; --blue-deep: #111111; }
+.hero-card::after { display: none; }
+.hero-card { min-height: 360px; }
+.rail-item { min-height: 56px; }
+.rail-item span { font-size: 12px; }
+.favorite-button { width: auto; padding: 0 12px; border-radius: 3px; font-size: 12px; }
