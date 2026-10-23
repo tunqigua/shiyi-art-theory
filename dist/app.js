@@ -162,18 +162,15 @@
     var question = session.queue[session.index];
     if (!question) return;
     var chapter = BANK.chapters.find(function (item) { return item.id === question.chapter; });
-    var modeNames = { chapter: "UNIT PRACTICE", mix: "RAPID MIX", mistakes: "MISTAKE RETRY" };
-    byId("practiceModeLabel").textContent = modeNames[session.mode];
     byId("practiceTitle").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "mix" ? "疯狂混练" : "错题重练");
     byId("chapterTag").textContent = chapter.title;
-    byId("demoTag").textContent = question.demo ? "演示题" : "正式题";
     byId("questionText").textContent = question.stem;
     byId("questionPosition").textContent = (session.index + 1) + " / " + session.queue.length;
     byId("questionProgressBar").style.width = ((session.index + 1) / session.queue.length * 100) + "%";
     byId("answerPanel").hidden = true;
     byId("answerPanel").classList.remove("is-wrong");
     byId("nextButton").disabled = true;
-    byId("nextButton").innerHTML = session.index === session.queue.length - 1 ? "完成本组 <span>✓</span>" : "下一题 <span>→</span>";
+    byId("nextButton").innerHTML = session.index === session.queue.length - 1 ? "完成本组" : "下一题";
     renderFavorite(question.id);
 
     var options = byId("optionsList");
@@ -254,7 +251,7 @@
   function renderFavorite(questionId) {
     var active = state.favorites.indexOf(questionId) !== -1;
     byId("favoriteButton").classList.toggle("is-favorite", active);
-    byId("favoriteButton").textContent = active ? "★" : "☆";
+    byId("favoriteButton").textContent = active ? "已收藏" : "收藏";
   }
 
   function toggleFavorite() {
@@ -297,7 +294,7 @@
   }
 
   function renderRecords() {
-    var attempts = state.attempts;
+    var attempts = state.attempts.filter(function (attempt) { return Boolean(getQuestion(attempt.questionId)); });
     var correct = attempts.filter(function (a) { return a.correct; });
     var average = attempts.length ? attempts.reduce(function (sum, a) { return sum + a.durationMs; }, 0) / attempts.length : null;
     var fastest = attempts.length ? Math.min.apply(null, attempts.map(function (a) { return a.durationMs; })) : null;
@@ -338,7 +335,7 @@
 
   function refreshSummary() {
     var today = todayKey();
-    var todayAttempts = state.attempts.filter(function (attempt) { return todayKey(new Date(attempt.at)) === today; });
+    var todayAttempts = state.attempts.filter(function (attempt) { return Boolean(getQuestion(attempt.questionId)) && todayKey(new Date(attempt.at)) === today; });
     var correctToday = todayAttempts.filter(function (attempt) { return attempt.correct; });
     var average = todayAttempts.length ? todayAttempts.reduce(function (sum, a) { return sum + a.durationMs; }, 0) / todayAttempts.length : null;
     byId("todayDone").textContent = todayAttempts.length;
@@ -369,7 +366,7 @@
     byId("openUnitsButton").addEventListener("click", openUnitPanel);
     byId("closeUnitPanel").addEventListener("click", closeUnitPanel);
     byId("panelBackdrop").addEventListener("click", closeUnitPanel);
-    byId("continueButton").addEventListener("click", function () { startChapter(1); });
+    byId("continueButton").addEventListener("click", openUnitPanel);
     byId("nextButton").addEventListener("click", nextQuestion);
     byId("favoriteButton").addEventListener("click", toggleFavorite);
     byId("retryMistakesButton").addEventListener("click", function () { startMix(mistakeQuestions()); });
