@@ -11574,7 +11574,7 @@ window.SHIYI_QUESTION_BANK = {
       "reason": "答案页有第22题，但所提供题目页只到第21题。",
       "stem": null,
       "options": [],
-      "originalKey": null,
+      "originalKey": "ABCDEFG",
       "page": null
     },
     {
@@ -11584,7 +11584,7 @@ window.SHIYI_QUESTION_BANK = {
       "reason": "答案页有第18题，但所提供题目页只到第17题。",
       "stem": null,
       "options": [],
-      "originalKey": null,
+      "originalKey": "DE",
       "page": null
     },
     {
@@ -11767,7 +11767,7 @@ window.SHIYI_QUESTION_BANK = {
         "魂断蓝桥",
         "卡萨布兰卡"
       ],
-      "originalKey": "D",
+      "originalKey": null,
       "page": 32
     },
     {

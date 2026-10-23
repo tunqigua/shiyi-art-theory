@@ -438,10 +438,10 @@
           line.textContent = String.fromCharCode(65 + index) + " · " + option;
           item.appendChild(line);
         });
-        var key = document.createElement("p");
-        key.textContent = "原书参考答案（未采用）：" + q.originalKey;
-        item.appendChild(key);
       }
+      var key = document.createElement("p");
+      key.textContent = q.originalKey ? "原书参考答案（未采用）：" + q.originalKey : "未找到独立对应的参考答案";
+      item.appendChild(key);
       byId("pendingQuestions").appendChild(item);
     });
   }
