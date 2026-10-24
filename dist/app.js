@@ -469,7 +469,8 @@
       var counts = state.dailyAnswers[key];
       var recorded = Object.prototype.hasOwnProperty.call(state.dailyStudyMs, key) || Boolean(counts);
       var future = key > today;
-      box.className = "calendar-day" + (key === today ? " is-today" : "") + (future ? " is-future" : "");
+      var ms = state.dailyStudyMs[key] || 0;
+      box.className = "calendar-day" + (key === today ? " is-today" : "") + (future ? " is-future" : "") + (!future && ms < 60000 ? " is-under-minute" : "");
       box.dataset.date = key;
       var date = document.createElement("time");
       date.dateTime = key;
@@ -485,7 +486,6 @@
       var duration = document.createElement("span");
       duration.className = "calendar-duration";
       if (recorded || key === today) {
-        var ms = state.dailyStudyMs[key] || 0;
         duration.textContent = ms >= 3600000 ? (ms / 3600000).toFixed(1) + "小时" : (ms / 60000).toFixed(ms > 0 && ms < 60000 ? 1 : 0) + "分钟";
         var results = document.createElement("div");
         results.className = "calendar-results";
