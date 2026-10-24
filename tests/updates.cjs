@@ -19,8 +19,10 @@ const key = 'shiyi-art-theory-progress-v1';
   assert.equal(state.questionStats['c05-s25'].wrongCount,0);
   assert.deepEqual(state.favorites,['c05-s25']);
   assert.equal(state.dailyStudyMs['2026-10-22'],60000);
+  assert.deepEqual(state.dailyAnswers['2026-10-22'],{correct:1,wrong:0});
   await page.reload();
   assert.equal(await page.locator('#mistakeNavCount').textContent(),'0');
+  await page.clock.setSystemTime(new Date(2026,9,23,23,59,50));
   await page.evaluate(()=>{
    const q=window.SHIYI_QUESTION_BANK.questions.find(q=>q.id==='c05-s25');
    window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,q);
@@ -44,6 +46,7 @@ const key = 'shiyi-art-theory-progress-v1';
   state=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)),key);
   assert(Math.abs(state.dailyStudyMs['2026-10-23']-10000)<1000);
   assert(Math.abs(state.dailyStudyMs['2026-10-24']-10000)<1000);
+  assert.deepEqual(state.dailyAnswers['2026-10-24'],{correct:0,wrong:1});
   const beforePause=state.dailyStudyMs['2026-10-24'];
   await page.clock.runFor(60000);
   assert.equal(await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).dailyStudyMs['2026-10-24'],key),beforePause);

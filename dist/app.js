@@ -6,6 +6,8 @@
   var state = loadState();
   var session = { queue: [], index: 0, answered: false, startedAt: 0, timer: null, mode: "chapter", selected: null };
   var studyStartedAt = null;
+  var calendarMonth = null;
+  var beijingDate = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" });
   var views = {
     overview: document.getElementById("overviewView"),
     practice: document.getElementById("practiceView"),
@@ -36,8 +38,8 @@
   }
 
   function todayKey(date) {
-    var d = date || new Date();
-    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    var parts = beijingDate.formatToParts(date || new Date());
+    return ["year", "month", "day"].map(function (type) { return parts.find(function (p) { return p.type === type; }).value; }).join("-");
   }
 
   function getQuestion(id) {
@@ -61,12 +63,32 @@
         var selection = Array.isArray(attempt.selectedIndex) ? attempt.selectedIndex : [attempt.selectedIndex];
         if (!selection.every(Number.isInteger)) return;
         var correct = JSON.stringify(selection.slice().sort()) === JSON.stringify(q.answers.slice().sort());
-        if (stat && correct !== attempt.correct) stat.wrongCount = Math.max(0, stat.wrongCount + (correct ? -1 : 1));
+        if (correct !== attempt.correct) {
+          if (stat) stat.wrongCount = Math.max(0, stat.wrongCount + (correct ? -1 : 1));
+          var dayCounts = state.dailyAnswers && state.dailyAnswers[todayKey(new Date(attempt.at))];
+          if (dayCounts) {
+            dayCounts[attempt.correct ? "correct" : "wrong"] = Math.max(0, dayCounts[attempt.correct ? "correct" : "wrong"] - 1);
+            dayCounts[correct ? "correct" : "wrong"] += 1;
+          }
+        }
         attempt.correct = correct;
       });
       if (stat && rows.length) stat.lastCorrect = rows[0].correct;
     });
+    if (!state.dailyAnswers) {
+      state.dailyAnswers = {};
+      state.attempts.forEach(function (attempt) {
+        if (!getQuestion(attempt.questionId) || !Number.isFinite(Date.parse(attempt.at))) return;
+        addDailyAnswer(todayKey(new Date(attempt.at)), attempt.correct);
+      });
+      state.dailyAnswersEstimated = state.attempts.length > 0;
+    }
     saveState();
+  }
+
+  function addDailyAnswer(day, correct) {
+    if (!state.dailyAnswers[day]) state.dailyAnswers[day] = { correct: 0, wrong: 0 };
+    state.dailyAnswers[day][correct ? "correct" : "wrong"] += 1;
   }
 
   function flushStudyTime() {
@@ -77,10 +99,9 @@
     // 休眠或长时间无响应时，最多补计一个30秒采样周期。
     start = Math.max(start, end - 30000);
     while (start < end) {
-      var date = new Date(start);
-      var midnight = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1).getTime();
+      var key = todayKey(new Date(start));
+      var midnight = Date.parse(key + "T00:00:00+08:00") + 86400000;
       var until = Math.min(midnight, end);
-      var key = todayKey(date);
       state.dailyStudyMs[key] = (state.dailyStudyMs[key] || 0) + until - start;
       start = until;
     }
@@ -290,6 +311,7 @@
     current.bestMs = current.bestMs === null ? durationMs : Math.min(current.bestMs, durationMs);
     current.lastAt = new Date().toISOString();
     state.questionStats[question.id] = current;
+    addDailyAnswer(todayKey(), correct);
     state.attempts.unshift({ questionId: question.id, chapter: question.chapter, correct: correct, durationMs: durationMs, selectedIndex: selectedIndex, at: new Date().toISOString() });
     state.attempts = state.attempts.slice(0, 500);
     saveState();
@@ -411,35 +433,82 @@
       if (!q) return;
       var row = document.createElement("div");
       row.className = "attempt-row";
-      var date = new Date(attempt.at);
-      row.innerHTML = "<span>第" + attempt.chapter + "章</span><span>" + q.stem + "</span><span class=\"result-dot " + (attempt.correct ? "" : "wrong") + "\">" + (attempt.correct ? "正确" : "错误") + "</span><span>" + formatSeconds(attempt.durationMs) + " · " + (date.getMonth() + 1) + "/" + date.getDate() + "</span>";
+      var date = todayKey(new Date(attempt.at)).slice(5).replace("-", "/");
+      row.innerHTML = "<span>第" + attempt.chapter + "章</span><span>" + q.stem + "</span><span class=\"result-dot " + (attempt.correct ? "" : "wrong") + "\">" + (attempt.correct ? "正确" : "错误") + "</span><span>" + formatSeconds(attempt.durationMs) + " · " + date + "</span>";
       log.appendChild(row);
     });
   }
 
   function renderStudyDates() {
-    var now = new Date();
-    var today = todayKey(now);
-    byId("recordsToday").textContent = "今天是 " + now.getFullYear() + "年" + (now.getMonth() + 1) + "月" + now.getDate() + "日";
-    byId("studyTimeNote").textContent = "按本机日期累计练习页前台停留时间，切到后台暂停。" + (state.studyHistoryEstimated ? "更新前的日期仅按现存答题记录补算，可能不完整。" : "");
-    var days = Object.keys(state.dailyStudyMs);
-    // 补齐本月截至今天的日期，未学习的日子也显示0小时。
-    for (var d = 1; d <= now.getDate(); d += 1) days.push(todayKey(new Date(now.getFullYear(), now.getMonth(), d)));
-    var body = byId("studyDateRows");
-    body.innerHTML = "";
-    Array.from(new Set(days)).sort().reverse().forEach(function (day) {
-      var ms = state.dailyStudyMs[day] || 0;
-      var row = document.createElement("tr");
-      if (day === today) row.className = "is-today";
-      var date = document.createElement("td");
-      date.textContent = day.replace(/-/, "年").replace(/-/, "月") + "日" + (day === today ? "（今天）" : "");
-      var hours = document.createElement("td");
-      hours.textContent = (ms / 3600000).toFixed(2) + " 小时";
-      var minutes = document.createElement("td");
-      minutes.textContent = (ms / 60000).toFixed(1) + " 分钟";
-      row.append(date, hours, minutes);
-      body.appendChild(row);
-    });
+    var today = todayKey();
+    var current = today.split("-").map(Number);
+    if (!calendarMonth) calendarMonth = { year: current[0], month: current[1] - 1 };
+    var year = calendarMonth.year;
+    var month = calendarMonth.month;
+    var firstWeekday = new Date(Date.UTC(year, month, 1)).getUTCDay();
+    var dayCount = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
+    var weekdays = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+    byId("recordsToday").textContent = "今天是 " + current[0] + "年" + current[1] + "月" + current[2] + "日 · " + weekdays[new Date(today + "T00:00:00Z").getUTCDay()] + "（北京时间）";
+    byId("calendarMonth").textContent = year + "年" + (month + 1) + "月";
+    byId("calendarGrid").setAttribute("aria-label", year + "年" + (month + 1) + "月学习日历");
+    byId("studyTimeNote").hidden = !(state.studyHistoryEstimated || state.dailyAnswersEstimated);
+    byId("studyTimeNote").textContent = "更新前的统计由现存记录补算，可能不完整；未记录不代表没有学习。";
+    var grid = byId("calendarGrid");
+    grid.innerHTML = "";
+    var cellCount = Math.ceil((firstWeekday + dayCount) / 7) * 7;
+    for (var cell = 0; cell < cellCount; cell += 1) {
+      var day = cell - firstWeekday + 1;
+      var box = document.createElement("div");
+      if (day < 1 || day > dayCount) {
+        box.className = "calendar-blank";
+        box.setAttribute("aria-hidden", "true");
+        grid.appendChild(box);
+        continue;
+      }
+      var key = year + "-" + String(month + 1).padStart(2, "0") + "-" + String(day).padStart(2, "0");
+      var counts = state.dailyAnswers[key];
+      var recorded = Object.prototype.hasOwnProperty.call(state.dailyStudyMs, key) || Boolean(counts);
+      var future = key > today;
+      box.className = "calendar-day" + (key === today ? " is-today" : "") + (future ? " is-future" : "");
+      box.dataset.date = key;
+      var date = document.createElement("time");
+      date.dateTime = key;
+      date.textContent = day;
+      box.appendChild(date);
+      if (key === today) {
+        box.setAttribute("aria-current", "date");
+        var badge = document.createElement("span");
+        badge.className = "calendar-today";
+        badge.textContent = "今天";
+        box.appendChild(badge);
+      }
+      var duration = document.createElement("span");
+      duration.className = "calendar-duration";
+      if (recorded || key === today) {
+        var ms = state.dailyStudyMs[key] || 0;
+        duration.textContent = ms >= 3600000 ? (ms / 3600000).toFixed(1) + "小时" : (ms / 60000).toFixed(ms > 0 && ms < 60000 ? 1 : 0) + "分钟";
+        var results = document.createElement("div");
+        results.className = "calendar-results";
+        var right = document.createElement("span");
+        right.textContent = "✓ " + (counts ? counts.correct : 0);
+        right.setAttribute("aria-label", "答对" + (counts ? counts.correct : 0) + "次");
+        var wrong = document.createElement("span");
+        wrong.textContent = "✕ " + (counts ? counts.wrong : 0);
+        wrong.setAttribute("aria-label", "答错" + (counts ? counts.wrong : 0) + "次");
+        results.append(right, wrong);
+        box.append(duration, results);
+      } else {
+        duration.textContent = future ? "—" : "未记录";
+        box.appendChild(duration);
+      }
+      grid.appendChild(box);
+    }
+  }
+
+  function changeCalendarMonth(offset) {
+    var date = new Date(Date.UTC(calendarMonth.year, calendarMonth.month + offset, 1));
+    calendarMonth = { year: date.getUTCFullYear(), month: date.getUTCMonth() };
+    renderStudyDates();
   }
 
   function refreshSummary() {
@@ -463,6 +532,9 @@
   }
 
   function bindEvents() {
+    byId("previousMonth").addEventListener("click", function () { changeCalendarMonth(-1); });
+    byId("nextMonth").addEventListener("click", function () { changeCalendarMonth(1); });
+    byId("calendarToday").addEventListener("click", function () { calendarMonth = null; renderStudyDates(); });
     document.querySelectorAll("[data-view]").forEach(function (button) {
       button.addEventListener("click", function () { setView(button.dataset.view); });
     });
@@ -494,10 +566,11 @@
   }
 
   function initDate() {
-    var date = new Date();
+    var key = todayKey();
+    var date = key.split("-").map(Number);
     var days = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
-    byId("todayLabel").textContent = date.getFullYear() + "年" + (date.getMonth() + 1) + "月" + date.getDate() + "日";
-    byId("dateChip").textContent = String(date.getMonth() + 1).padStart(2, "0") + "." + String(date.getDate()).padStart(2, "0") + " / " + days[date.getDay()];
+    byId("todayLabel").textContent = date[0] + "年" + date[1] + "月" + date[2] + "日";
+    byId("dateChip").textContent = key.slice(5).replace("-", ".") + " / " + days[new Date(key + "T00:00:00Z").getUTCDay()];
   }
 
   function renderAudit() {

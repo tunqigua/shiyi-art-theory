@@ -64,7 +64,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
   assert.equal(await page.locator('#allAttempts').textContent(),'500');
   assert.equal(await page.locator('#mistakeNavCount').textContent(),String(bank.questions.length));
   assert((await page.locator('#recordsToday').textContent()).includes('月'));
-  assert(await page.locator('.study-date-table .is-today').count());
+  assert(await page.locator('.calendar-day.is-today').count());
   await page.locator('.rail-item[data-view="overview"]').click();
   await page.setViewportSize({width:390,height:844});
   await page.getByRole('button',{name:'选择章节',exact:true}).click();
