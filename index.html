@@ -9,7 +9,7 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?v=6" />
+    <link rel="stylesheet" href="./styles.css?v=7" />
   </head>
   <body>
     <div class="app-shell">
@@ -160,21 +160,26 @@
         </section>
 
         <section class="view" id="recordsView">
-          <div class="page-intro compact">
-            <h1>速度、正确率与练习轨迹。</h1>
-            <p>不只看做了多少，也看你是否答得更稳、更快。</p>
-          </div>
+          <section class="record-section study-calendar">
+            <div class="calendar-heading">
+              <div><h2>学习日历</h2><p id="recordsToday"></p></div>
+              <div class="calendar-controls">
+                <button id="previousMonth" aria-label="上个月">‹</button>
+                <strong id="calendarMonth" aria-live="polite"></strong>
+                <button id="nextMonth" aria-label="下个月">›</button>
+                <button id="calendarToday">今天</button>
+              </div>
+            </div>
+            <div class="calendar-weekdays" aria-hidden="true"><span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span></div>
+            <div class="calendar-grid" id="calendarGrid" role="group"></div>
+            <p class="panel-note" id="studyTimeNote" hidden></p>
+          </section>
           <div class="record-cards">
             <article><span>累计作答</span><strong id="allAttempts">0</strong><small>次</small></article>
             <article><span>累计正确率</span><strong id="allAccuracy">—</strong></article>
             <article><span>平均速度</span><strong id="allSpeed">—</strong></article>
             <article><span>最快作答</span><strong id="fastestSpeed">—</strong></article>
           </div>
-          <section class="record-section">
-            <div class="section-heading"><div><h2>每日学习日期表</h2><p id="recordsToday"></p></div></div>
-            <p class="panel-note" id="studyTimeNote"></p>
-            <table class="study-date-table"><thead><tr><th scope="col">日期</th><th scope="col">学习小时</th><th scope="col">累计分钟</th></tr></thead><tbody id="studyDateRows"></tbody></table>
-          </section>
           <section class="record-section">
             <div class="section-heading"><div><h2>各章记录</h2></div></div>
             <div class="unit-records" id="unitRecords"></div>
@@ -189,6 +194,6 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script src="./questions.js?v=5"></script>
-    <script src="./app.js?v=5"></script>
+    <script src="./app.js?v=7"></script>
   </body>
 </html>
