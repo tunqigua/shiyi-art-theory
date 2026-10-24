@@ -243,13 +243,14 @@ main { margin-left: var(--rail); min-height: 100vh; }
 .bank-audit { margin-top: 14px; font-size: 13px; color: var(--muted); line-height: 1.8; }
 .bank-audit summary { cursor: pointer; }
 .bank-audit article { padding: 18px 0; border-top: 1px solid var(--line); }
-.option-button.is-correct { border-color: var(--green); background: #edf4ef; }
+.option-button.is-correct { border-color: var(--green); background: #d9f2e2; color: #16512e; }
 .option-button.is-correct b { border-color: var(--green); background: var(--green); color: #fff; }
-.option-button.is-wrong { border-color: var(--red); background: #f8ece9; }
+.option-button.is-wrong { border-color: var(--red); background: #fbe0dc; color: #902b20; }
 .option-button.is-wrong b { border-color: var(--red); background: var(--red); color: #fff; }
 .answer-panel { margin-top: 22px; padding: 19px 20px; border-left: 3px solid var(--green); background: #eef3ef; }
 .answer-panel.is-wrong { border-color: var(--red); background: #f8edeb; }
-.answer-status { font-weight: 700; font-size: 13px; }
+.answer-status { font-weight: 700; font-size: 26px; color: var(--green); }
+.answer-panel.is-wrong .answer-status { color: var(--red); }
 .answer-panel p { margin: 9px 0 0; color: #5f665f; font-size: 12px; line-height: 1.7; }
 .practice-actions { display: flex; justify-content: space-between; align-items: center; margin-top: 15px; }
 .practice-actions > span { color: var(--muted); font-size: 10px; }
@@ -348,10 +349,15 @@ main { margin-left: var(--rail); min-height: 100vh; }
 }
 
 /* 简洁黑白界面。 */
-body { filter: grayscale(1); }
 :root { --paper: #f6f6f6; --paper-deep: #e6e6e6; --ink: #181818; --muted: #727272; --line: #d8d8d8; --white: #ffffff; --blue: #252525; --blue-deep: #111111; }
 .hero-card::after { display: none; }
 .hero-card { min-height: 360px; }
 .rail-item { min-height: 56px; }
 .rail-item span { font-size: 12px; }
 .favorite-button { width: auto; padding: 0 12px; border-radius: 3px; font-size: 12px; }
+.mistake-row .correct-answer { color: var(--green); }
+.study-date-table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+.study-date-table th, .study-date-table td { padding: 15px 8px; border-bottom: 1px solid var(--line); text-align: right; }
+.study-date-table th:first-child, .study-date-table td:first-child { text-align: left; }
+.study-date-table td:not(:first-child) { white-space: nowrap; }
+.study-date-table .is-today { background: var(--paper-deep); font-weight: 600; }

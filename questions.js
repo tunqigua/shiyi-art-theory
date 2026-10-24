@@ -1,8 +1,116 @@
 window.SHIYI_QUESTION_BANK = {
-  "version": "2026-10-23-book-v1",
+  "version": "2026-10-24-audit-v2",
   "sourceQuestionCount": 499,
-  "gradedSourceCount": 481,
-  "answerPolicy": "判分题按原书参考答案对应；已发现的缺答、重号及疑似勘误题保留在待核对清单，不参与判分。未宣称原书知识答案全部经过学术审定。多空题逐空拆分。",
+  "gradedSourceCount": 496,
+  "answerPolicy": "已对外部错答清单逐项复核，16道原题已更正并附依据。更正答案优先于原书答案；缺题、缺选项或仍有争议的题保留原文，不参与判分。未宣称全题库已完成独立学术审定。多空题逐空拆分。",
+  "corrections": [
+    {
+      "id": "c02-s05",
+      "key": "D",
+      "note": "巫术说是该教材所指的西方占优势的艺术起源理论。",
+      "url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/069738-01.pdf"
+    },
+    {
+      "id": "c04-s06",
+      "key": "C",
+      "note": "倡导自然、清真诗风的是李白，不是王维。",
+      "url": "https://www.rxgdyjy.sdu.edu.cn/info/1053/4140.htm"
+    },
+    {
+      "id": "c04-m03",
+      "key": "ABDE",
+      "note": "意识流作品包含《追忆似水年华》，不含《魂断蓝桥》。",
+      "url": "https://rkyfz.pku.edu.cn/article/info?aid=297984860",
+      "extraUrls": [
+        "https://press.lnu.edu.cn/info/13216/51892.htm",
+        "https://download.zikao365.com/shiti/18335.pdf"
+      ]
+    },
+    {
+      "id": "c05-s25",
+      "key": "C",
+      "note": "按现代建筑史分类采用现代主义建筑；澳大利亚国家博物馆及歌剧院官方介绍均强调其现代主义设计。",
+      "url": "https://www.nma.gov.au/exhibitions/defining-symbols-australia/sydney-opera-house",
+      "extraUrls": [
+        "https://www.sydneyoperahouse.com/our-story/jorn-utzon"
+      ]
+    },
+    {
+      "id": "c07-s32",
+      "key": "A",
+      "note": "教材对应的时期为16世纪末叶；外部清单建议保留18世纪末叶未采用。",
+      "url": "https://oss0.changxianggu.com/book/chapter/269_9787040607123.pdf"
+    },
+    {
+      "id": "c07-s33",
+      "key": "C",
+      "note": "印象主义音乐的代表为德彪西。",
+      "url": "https://music.shnu.edu.cn/4d/0b/c1883a85259/page.htm"
+    },
+    {
+      "id": "c07-s34",
+      "key": "B",
+      "note": "表现主义音乐的代表为勋伯格。",
+      "url": "https://music.shnu.edu.cn/4d/0b/c1883a85259/page.htm"
+    },
+    {
+      "id": "c07-s35",
+      "key": "D",
+      "note": "布梭尼倡导新古典性，是新古典主义音乐先驱；格里格属于民族乐派。",
+      "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22090FJU00248009%22.&searchmode=basic"
+    },
+    {
+      "id": "c07-m02",
+      "key": "ABDE",
+      "note": "教材列举抒情性与表现性、表演性与形象性、节奏性与韵律美；不把直观性作为此类艺术的共同特征。",
+      "url": "https://gk.jyc.edu.cn/__local/E/74/BD/7FB6E27F9F8E24AE89F58B3EA41_1772D57A_35363.pdf"
+    },
+    {
+      "id": "c08-s12",
+      "key": "(ACD)",
+      "note": "按教材分期：命运悲剧对应古希腊，性格悲剧对应文艺复兴，社会悲剧对应近现代。",
+      "url": "https://mooc1.chaoxing.com/mooc-ans/nodedetailcontroller/visitnodedetail?courseId=206515695&knowledgeId=525261686"
+    },
+    {
+      "id": "c08-s35-extra",
+      "key": "A",
+      "note": "爱森斯坦执导《战舰波将金号》。原书此处重复编号35，现使用独立练习编号，不与第一道35题混用。",
+      "url": "https://www.bfi.org.uk/bfi-film-releases/battleship-potemkin"
+    },
+    {
+      "id": "c08-m12",
+      "key": "ABCE",
+      "note": "《哈姆雷特》取材于丹麦王子复仇故事；教材归类为性格悲剧，而非近现代社会悲剧。",
+      "url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/096085-01.pdf",
+      "extraUrls": [
+        "https://journal.ecjtu.edu.cn/hdjtdx/article/abstract/20050621"
+      ]
+    },
+    {
+      "id": "c08-m15",
+      "key": "ABCD",
+      "note": "《龙须沟》作者是老舍，不是曹禺。",
+      "url": "https://www.beijing.gov.cn/renwen/whrl/rdtj/202103/t20210310_2303613.html"
+    },
+    {
+      "id": "c09-m05",
+      "key": "ABCDEFG",
+      "note": "《封建论》同样为柳宗元作品，应选入G。",
+      "url": "https://wxy.xtu.edu.cn/info/1058/2460.htm"
+    },
+    {
+      "id": "c10-m17",
+      "key": "DE",
+      "note": "此组选项中边塞诗派代表为岑参、高适。王维属山水田园诗派，贺知章、白居易不属边塞诗派。",
+      "url": "https://wxy.jzxy.edu.cn/uploads/zwx/file/20180424/3sgdsxfd3c.pdf"
+    },
+    {
+      "id": "c12-m03",
+      "key": "ABCD",
+      "note": "审美直觉获得感官层次的悦耳悦目，D应选入；中心环节指审美体验，不是审美直觉。",
+      "url": "https://www.cqcvc.edu.cn/zhuzhan/file/2024-11-26/1732591192573ff808081932099c23120193667b89fd15ce.pdf"
+    }
+  ],
   "chapters": [
     {
       "id": 1,
@@ -700,6 +808,29 @@ window.SHIYI_QUESTION_BANK = {
       }
     },
     {
+      "id": "c02-s05",
+      "chapter": 2,
+      "stem": "在西方学术界至今仍占据优势地位的理论是认为艺术起源于（　）。",
+      "options": [
+        "模仿",
+        "游戏",
+        "表现",
+        "巫术"
+      ],
+      "multiple": false,
+      "answers": [
+        3
+      ],
+      "explanation": "核对更正：D。巫术说是该教材所指的西方占优势的艺术起源理论。 原书答案：C。",
+      "source": {
+        "page": 4,
+        "number": 5,
+        "kind": "s",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
       "id": "c02-s06",
       "chapter": 2,
       "stem": "新中国成立以来，在我国文艺理论界占据主导地位的理论是认为艺术起源于（　）",
@@ -1212,6 +1343,29 @@ window.SHIYI_QUESTION_BANK = {
       }
     },
     {
+      "id": "c04-s06",
+      "chapter": 4,
+      "stem": "我国古代著名诗人（　）深受庄子美学推崇天然之美的思想影响，不但大力倡导“自然”、“清真”的风格，并且自觉地把这种美学境界融入诗篇创作之中。",
+      "options": [
+        "杜甫",
+        "白居易",
+        "李白",
+        "王维"
+      ],
+      "multiple": false,
+      "answers": [
+        2
+      ],
+      "explanation": "核对更正：C。倡导自然、清真诗风的是李白，不是王维。 原书答案：D。",
+      "source": {
+        "page": 7,
+        "number": 6,
+        "kind": "s",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
       "id": "c04-s07",
       "chapter": 4,
       "stem": "20世纪20年代，欧洲盛行“超现实主义”的艺术潮流，认为只有人的梦幻世界或直觉领域才能达到绝对真实。下列艺术作品中，（　）不属于超现实主义流派。",
@@ -1416,6 +1570,33 @@ window.SHIYI_QUESTION_BANK = {
         "kind": "m",
         "part": null
       }
+    },
+    {
+      "id": "c04-m03",
+      "chapter": 4,
+      "stem": "下列属于意识流手法创作的艺术作品有（　）。",
+      "options": [
+        "电影《广岛之恋》",
+        "乔伊斯小说《尤利西斯》",
+        "电影《魂断蓝桥》",
+        "普鲁斯特的小说《追忆似水年华》",
+        "电影《八部半》"
+      ],
+      "multiple": true,
+      "answers": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "explanation": "核对更正：A、B、D、E。意识流作品包含《追忆似水年华》，不含《魂断蓝桥》。 原书答案：ABCE。",
+      "source": {
+        "page": 8,
+        "number": 3,
+        "kind": "m",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
     },
     {
       "id": "c04-m04",
@@ -2361,15 +2542,16 @@ window.SHIYI_QUESTION_BANK = {
       ],
       "multiple": false,
       "answers": [
-        3
+        2
       ],
-      "explanation": "原书第13页 · 单选第25题。按书后参考答案：D。",
+      "explanation": "核对更正：C。按现代建筑史分类采用现代主义建筑；澳大利亚国家博物馆及歌剧院官方介绍均强调其现代主义设计。 原书答案：D。",
       "source": {
         "page": 13,
         "number": 25,
         "kind": "s",
         "part": null
-      }
+      },
+      "answerRevision": "2026-10-24"
     },
     {
       "id": "c05-s26",
@@ -5571,6 +5753,98 @@ window.SHIYI_QUESTION_BANK = {
       }
     },
     {
+      "id": "c07-s32",
+      "chapter": 7,
+      "stem": "从（　）起，世俗音乐逐渐占据主导地位。",
+      "options": [
+        "16 世纪末叶",
+        "十七世纪末叶",
+        "十八世纪末叶",
+        "十九世纪末叶"
+      ],
+      "multiple": false,
+      "answers": [
+        0
+      ],
+      "explanation": "核对更正：A。教材对应的时期为16世纪末叶；外部清单建议保留18世纪末叶未采用。 原书答案：C。",
+      "source": {
+        "page": 25,
+        "number": 32,
+        "kind": "s",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
+      "id": "c07-s33",
+      "chapter": 7,
+      "stem": "下列属于印象派音乐代表人的是（　）。",
+      "options": [
+        "格里格",
+        "勋伯格",
+        "德彪西",
+        "布梭尼"
+      ],
+      "multiple": false,
+      "answers": [
+        2
+      ],
+      "explanation": "核对更正：C。印象主义音乐的代表为德彪西。 原书答案：B。",
+      "source": {
+        "page": 25,
+        "number": 33,
+        "kind": "s",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
+      "id": "c07-s34",
+      "chapter": 7,
+      "stem": "下列属于表现派音乐代表人的是（　）。",
+      "options": [
+        "格里格",
+        "勋伯格",
+        "德彪西",
+        "布梭尼"
+      ],
+      "multiple": false,
+      "answers": [
+        1
+      ],
+      "explanation": "核对更正：B。表现主义音乐的代表为勋伯格。 原书答案：D。",
+      "source": {
+        "page": 25,
+        "number": 34,
+        "kind": "s",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
+      "id": "c07-s35",
+      "chapter": 7,
+      "stem": "下列属于新古典主义乐派代表人的是（　）。",
+      "options": [
+        "格里格",
+        "勋伯格",
+        "德彪西",
+        "布梭尼"
+      ],
+      "multiple": false,
+      "answers": [
+        3
+      ],
+      "explanation": "核对更正：D。布梭尼倡导新古典性，是新古典主义音乐先驱；格里格属于民族乐派。 原书答案：A。",
+      "source": {
+        "page": 25,
+        "number": 35,
+        "kind": "s",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
       "id": "c07-s36",
       "chapter": 7,
       "stem": "管弦乐组曲《培尔·金特》作者是（　）。",
@@ -6343,6 +6617,33 @@ window.SHIYI_QUESTION_BANK = {
       }
     },
     {
+      "id": "c07-m02",
+      "chapter": 7,
+      "stem": "表情艺术的美学特征包括（　）。",
+      "options": [
+        "表演性",
+        "节奏性和韵律美",
+        "直观性",
+        "抒情性",
+        "表现性"
+      ],
+      "multiple": true,
+      "answers": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "explanation": "核对更正：A、B、D、E。教材列举抒情性与表现性、表演性与形象性、节奏性与韵律美；不把直观性作为此类艺术的共同特征。 原书答案：ABCDE。",
+      "source": {
+        "page": 27,
+        "number": 2,
+        "kind": "m",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
       "id": "c07-m03",
       "chapter": 7,
       "stem": "下列属于我国先秦时期的音乐家是（　）。",
@@ -7049,6 +7350,75 @@ window.SHIYI_QUESTION_BANK = {
       }
     },
     {
+      "id": "c08-s12-1",
+      "chapter": 8,
+      "stem": "“命运悲剧”出现于【本空】时期；“性格悲剧”出现于（第2空）时期；“社会悲剧”出现于（第3空）时期。（本题填写第1空）",
+      "options": [
+        "古希腊",
+        "欧洲中世纪末",
+        "文艺复兴",
+        "近现代"
+      ],
+      "multiple": false,
+      "answers": [
+        0
+      ],
+      "explanation": "核对更正：A。按教材分期：命运悲剧对应古希腊，性格悲剧对应文艺复兴，社会悲剧对应近现代。 原书答案：(ABD)。",
+      "source": {
+        "page": 30,
+        "number": 12,
+        "kind": "s",
+        "part": 1
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
+      "id": "c08-s12-2",
+      "chapter": 8,
+      "stem": "“命运悲剧”出现于（第1空）时期；“性格悲剧”出现于【本空】时期；“社会悲剧”出现于（第3空）时期。（本题填写第2空）",
+      "options": [
+        "古希腊",
+        "欧洲中世纪末",
+        "文艺复兴",
+        "近现代"
+      ],
+      "multiple": false,
+      "answers": [
+        2
+      ],
+      "explanation": "核对更正：C。按教材分期：命运悲剧对应古希腊，性格悲剧对应文艺复兴，社会悲剧对应近现代。 原书答案：(ABD)。",
+      "source": {
+        "page": 30,
+        "number": 12,
+        "kind": "s",
+        "part": 2
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
+      "id": "c08-s12-3",
+      "chapter": 8,
+      "stem": "“命运悲剧”出现于（第1空）时期；“性格悲剧”出现于（第2空）时期；“社会悲剧”出现于【本空】时期。（本题填写第3空）",
+      "options": [
+        "古希腊",
+        "欧洲中世纪末",
+        "文艺复兴",
+        "近现代"
+      ],
+      "multiple": false,
+      "answers": [
+        3
+      ],
+      "explanation": "核对更正：D。按教材分期：命运悲剧对应古希腊，性格悲剧对应文艺复兴，社会悲剧对应近现代。 原书答案：(ABD)。",
+      "source": {
+        "page": 30,
+        "number": 12,
+        "kind": "s",
+        "part": 3
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
       "id": "c08-s13-1",
       "chapter": 8,
       "stem": "下列属于“命运悲剧” 的是【本空】；属于“性格悲剧”的是（第2空）。（本题填写第1空）",
@@ -7619,6 +7989,29 @@ window.SHIYI_QUESTION_BANK = {
         "kind": "s",
         "part": null
       }
+    },
+    {
+      "id": "c08-s35-extra",
+      "chapter": 8,
+      "stem": "由爱森斯坦导演的是（　）。",
+      "options": [
+        "战舰波将金号",
+        "母亲",
+        "魂断蓝桥",
+        "卡萨布兰卡"
+      ],
+      "multiple": false,
+      "answers": [
+        0
+      ],
+      "explanation": "核对更正：A。爱森斯坦执导《战舰波将金号》。原书此处重复编号35，现使用独立练习编号，不与第一道35题混用。 原书答案：缺失。",
+      "source": {
+        "page": 32,
+        "number": 35,
+        "kind": "s",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
     },
     {
       "id": "c08-s36",
@@ -8353,6 +8746,33 @@ window.SHIYI_QUESTION_BANK = {
       }
     },
     {
+      "id": "c08-m12",
+      "chapter": 8,
+      "stem": "下列关于著名戏剧作品《哈姆雷特》的描述正确的有（　）。",
+      "options": [
+        "作者为英国戏剧家莎士比亚，写于1601年",
+        "属于莎士比亚的四大悲剧之一",
+        "取材于一个丹麦王子复仇的故事",
+        "是著名的社会悲剧",
+        "作品渗透着文艺复兴时期的人文主义理想"
+      ],
+      "multiple": true,
+      "answers": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explanation": "核对更正：A、B、C、E。《哈姆雷特》取材于丹麦王子复仇故事；教材归类为性格悲剧，而非近现代社会悲剧。 原书答案：ABDE。",
+      "source": {
+        "page": 35,
+        "number": 12,
+        "kind": "m",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
       "id": "c08-m13",
       "chapter": 8,
       "stem": "苏联电影导演梁赞诺夫的“爱情三部曲”包括（　）。",
@@ -8403,6 +8823,33 @@ window.SHIYI_QUESTION_BANK = {
         "kind": "m",
         "part": null
       }
+    },
+    {
+      "id": "c08-m15",
+      "chapter": 8,
+      "stem": "下列属于曹禺戏剧的有（　）。",
+      "options": [
+        "《雷雨》",
+        "《日出》",
+        "《原野》",
+        "《胆剑篇》",
+        "《龙须沟》"
+      ],
+      "multiple": true,
+      "answers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "核对更正：A、B、C、D。《龙须沟》作者是老舍，不是曹禺。 原书答案：ABCDE。",
+      "source": {
+        "page": 36,
+        "number": 15,
+        "kind": "m",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
     },
     {
       "id": "c08-m16",
@@ -9097,6 +9544,38 @@ window.SHIYI_QUESTION_BANK = {
         "kind": "m",
         "part": null
       }
+    },
+    {
+      "id": "c09-m05",
+      "chapter": 9,
+      "stem": "下列作品的作者是柳宗元的是（　）。",
+      "options": [
+        "《小石潭记》",
+        "《捕蛇者说》",
+        "《钴鉧潭西小丘记》",
+        "《黔之驴》",
+        "《童区寄传》",
+        "《罴说》",
+        "《封建论》"
+      ],
+      "multiple": true,
+      "answers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "explanation": "核对更正：A、B、C、D、E、F、G。《封建论》同样为柳宗元作品，应选入G。 原书答案：ABCDEF。",
+      "source": {
+        "page": 39,
+        "number": 5,
+        "kind": "m",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
     },
     {
       "id": "c09-m06",
@@ -10109,6 +10588,31 @@ window.SHIYI_QUESTION_BANK = {
         "kind": "m",
         "part": null
       }
+    },
+    {
+      "id": "c10-m17",
+      "chapter": 10,
+      "stem": "以下属于唐代边塞诗派的诗人有（　）。",
+      "options": [
+        "贺知章",
+        "王维",
+        "白居易",
+        "岑参",
+        "高适"
+      ],
+      "multiple": true,
+      "answers": [
+        3,
+        4
+      ],
+      "explanation": "核对更正：D、E。此组选项中边塞诗派代表为岑参、高适。王维属山水田园诗派，贺知章、白居易不属边塞诗派。 原书答案：ACDE。",
+      "source": {
+        "page": 43,
+        "number": 17,
+        "kind": "m",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
     },
     {
       "id": "c11-s01",
@@ -11486,6 +11990,33 @@ window.SHIYI_QUESTION_BANK = {
       }
     },
     {
+      "id": "c12-m03",
+      "chapter": 12,
+      "stem": "以下对审美直觉的描述正确的有（　）。",
+      "options": [
+        "审美直觉是指在审美活动或艺术鉴赏中，对于审美对象或艺术形象具有一种不假思索而即刻把握与领悟的能力。",
+        "审美直觉具有直观性和直接性的特点",
+        "审美直觉能力可以后天培养",
+        "在艺术鉴赏中，审美直觉阶段主要是鉴赏主体作用于艺术作品，获得的是一种感官层次的悦耳悦目的审美愉快。",
+        "在艺术鉴赏中，审美直觉阶段处于整个审美活动的中心环节。"
+      ],
+      "multiple": true,
+      "answers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "核对更正：A、B、C、D。审美直觉获得感官层次的悦耳悦目，D应选入；中心环节指审美体验，不是审美直觉。 原书答案：ABC。",
+      "source": {
+        "page": 49,
+        "number": 3,
+        "kind": "m",
+        "part": null
+      },
+      "answerRevision": "2026-10-24"
+    },
+    {
       "id": "c12-m04",
       "chapter": 12,
       "stem": "以下对审美体验的描述正确的有（　）。",
@@ -11588,56 +12119,10 @@ window.SHIYI_QUESTION_BANK = {
       "page": null
     },
     {
-      "chapter": 2,
-      "kind": "s",
-      "number": 5,
-      "reason": "原答案C（表现）与该题通常所指的巫术起源说存在疑义，暂不判分。",
-      "stem": "在西方学术界至今仍占据优势地位的理论是认为艺术起源于（　）。",
-      "options": [
-        "模仿",
-        "游戏",
-        "表现",
-        "巫术"
-      ],
-      "originalKey": "C",
-      "page": 4
-    },
-    {
-      "chapter": 4,
-      "kind": "s",
-      "number": 6,
-      "reason": "原答案D（王维）与题干“自然、清真”所指诗人存在疑义，暂不判分。",
-      "stem": "我国古代著名诗人（　）深受庄子美学推崇天然之美的思想影响，不但大力倡导“自然”、“清真”的风格，并且自觉地把这种美学境界融入诗篇创作之中。",
-      "options": [
-        "杜甫",
-        "白居易",
-        "李白",
-        "王维"
-      ],
-      "originalKey": "D",
-      "page": 7
-    },
-    {
-      "chapter": 4,
-      "kind": "m",
-      "number": 3,
-      "reason": "原答案ABCE包含《魂断蓝桥》、漏选普鲁斯特作品，意识流分类需勘误。",
-      "stem": "下列属于意识流手法创作的艺术作品有（　）。",
-      "options": [
-        "电影《广岛之恋》",
-        "乔伊斯小说《尤利西斯》",
-        "电影《魂断蓝桥》",
-        "普鲁斯特的小说《追忆似水年华》",
-        "电影《八部半》"
-      ],
-      "originalKey": "ABCE",
-      "page": 8
-    },
-    {
       "chapter": 5,
       "kind": "s",
       "number": 19,
-      "reason": "原答案A（红山）与“彩陶王”的文化归属存在疑义。",
+      "reason": "彩陶王属于马家窑文化，原选项缺少该文化，不能用“最接近”的仰韶代替；保留原题，不判分。",
       "stem": "我国目前出土年代最早体积最大的“彩陶王”具有（　）文化特征。",
       "options": [
         "红山",
@@ -11650,85 +12135,9 @@ window.SHIYI_QUESTION_BANK = {
     },
     {
       "chapter": 7,
-      "kind": "s",
-      "number": 32,
-      "reason": "原答案C（十八世纪末）涉及世俗音乐占主导的断代，需核对教材表述。",
-      "stem": "从（　）起，世俗音乐逐渐占据主导地位。",
-      "options": [
-        "16 世纪末叶",
-        "十七世纪末叶",
-        "十八世纪末叶",
-        "十九世纪末叶"
-      ],
-      "originalKey": "C",
-      "page": 25
-    },
-    {
-      "chapter": 7,
-      "kind": "s",
-      "number": 33,
-      "reason": "原答案B为勋伯格，和“印象派音乐”分类存在疑义。",
-      "stem": "下列属于印象派音乐代表人的是（　）。",
-      "options": [
-        "格里格",
-        "勋伯格",
-        "德彪西",
-        "布梭尼"
-      ],
-      "originalKey": "B",
-      "page": 25
-    },
-    {
-      "chapter": 7,
-      "kind": "s",
-      "number": 34,
-      "reason": "原答案D为布梭尼，和“表现派音乐”分类存在疑义。",
-      "stem": "下列属于表现派音乐代表人的是（　）。",
-      "options": [
-        "格里格",
-        "勋伯格",
-        "德彪西",
-        "布梭尼"
-      ],
-      "originalKey": "D",
-      "page": 25
-    },
-    {
-      "chapter": 7,
-      "kind": "s",
-      "number": 35,
-      "reason": "原答案A为格里格，和“新古典主义乐派”分类存在疑义。",
-      "stem": "下列属于新古典主义乐派代表人的是（　）。",
-      "options": [
-        "格里格",
-        "勋伯格",
-        "德彪西",
-        "布梭尼"
-      ],
-      "originalKey": "A",
-      "page": 25
-    },
-    {
-      "chapter": 7,
-      "kind": "m",
-      "number": 2,
-      "reason": "原答案ABCDE包含“直观性”，表情艺术特征的范围需勘误。",
-      "stem": "表情艺术的美学特征包括（　）。",
-      "options": [
-        "表演性",
-        "节奏性和韵律美",
-        "直观性",
-        "抒情性",
-        "表现性"
-      ],
-      "originalKey": "ABCDE",
-      "page": 27
-    },
-    {
-      "chapter": 7,
       "kind": "m",
       "number": 17,
-      "reason": "原答案ABCDE包含A，A所述主观意志观点的哲学家归属需勘误。",
+      "reason": "清单建议BCDE，但尼采的权力意志与叔本华意志论的区别不能仅据A的简化表述定夺，仍不判分。",
       "stem": "下列属于尼采观点的有（　）。",
       "options": [
         "人的主观意志是万事万物的主宰",
@@ -11739,68 +12148,6 @@ window.SHIYI_QUESTION_BANK = {
       ],
       "originalKey": "ABCDE",
       "page": 29
-    },
-    {
-      "chapter": 8,
-      "kind": "s",
-      "number": 12,
-      "reason": "原答案ABD把“性格悲剧”对应中世纪末，与文艺复兴选项C的区分需勘误。",
-      "stem": "“命运悲剧”出现于（　）时期；“性格悲剧”出现于（　）时期；“社会悲剧”出现于（　）时期。",
-      "options": [
-        "古希腊",
-        "欧洲中世纪末",
-        "文艺复兴",
-        "近现代"
-      ],
-      "originalKey": "(ABD)",
-      "page": 30
-    },
-    {
-      "chapter": 8,
-      "kind": "s",
-      "number": 35,
-      "reason": "原书重复题号35，爱森斯坦导演这一题没有独立对应的参考答案。",
-      "stem": "由爱森斯坦导演的是（　）。",
-      "options": [
-        "战舰波将金号",
-        "母亲",
-        "魂断蓝桥",
-        "卡萨布兰卡"
-      ],
-      "originalKey": null,
-      "page": 32
-    },
-    {
-      "chapter": 8,
-      "kind": "m",
-      "number": 12,
-      "reason": "原答案ABDE选入“社会悲剧”、漏选丹麦王子复仇的故事，需勘误。",
-      "stem": "下列关于著名戏剧作品《哈姆雷特》的描述正确的有（　）。",
-      "options": [
-        "作者为英国戏剧家莎士比亚，写于1601年",
-        "属于莎士比亚的四大悲剧之一",
-        "取材于一个丹麦王子复仇的故事",
-        "是著名的社会悲剧",
-        "作品渗透着文艺复兴时期的人文主义理想"
-      ],
-      "originalKey": "ABDE",
-      "page": 35
-    },
-    {
-      "chapter": 8,
-      "kind": "m",
-      "number": 15,
-      "reason": "原答案ABCDE包含老舍的《龙须沟》，与题干“曹禺戏剧”冲突。",
-      "stem": "下列属于曹禺戏剧的有（　）。",
-      "options": [
-        "《雷雨》",
-        "《日出》",
-        "《原野》",
-        "《胆剑篇》",
-        "《龙须沟》"
-      ],
-      "originalKey": "ABCDE",
-      "page": 36
     },
     {
       "chapter": 9,
@@ -11816,56 +12163,6 @@ window.SHIYI_QUESTION_BANK = {
       ],
       "originalKey": "D",
       "page": 38
-    },
-    {
-      "chapter": 9,
-      "kind": "m",
-      "number": 5,
-      "reason": "原答案ABCDEF漏选柳宗元的《封建论》，需勘误。",
-      "stem": "下列作品的作者是柳宗元的是（　）。",
-      "options": [
-        "《小石潭记》",
-        "《捕蛇者说》",
-        "《钴鉧潭西小丘记》",
-        "《黔之驴》",
-        "《童区寄传》",
-        "《罴说》",
-        "《封建论》"
-      ],
-      "originalKey": "ABCDEF",
-      "page": 39
-    },
-    {
-      "chapter": 10,
-      "kind": "m",
-      "number": 17,
-      "reason": "原答案ACDE包含贺知章和白居易，边塞诗派的归属需勘误。",
-      "stem": "以下属于唐代边塞诗派的诗人有（　）。",
-      "options": [
-        "贺知章",
-        "王维",
-        "白居易",
-        "岑参",
-        "高适"
-      ],
-      "originalKey": "ACDE",
-      "page": 43
-    },
-    {
-      "chapter": 12,
-      "kind": "m",
-      "number": 3,
-      "reason": "原答案ABC漏选D；D关于审美直觉获得感官层次愉快的表述与相邻题目存在对应，需勘误。",
-      "stem": "以下对审美直觉的描述正确的有（　）。",
-      "options": [
-        "审美直觉是指在审美活动或艺术鉴赏中，对于审美对象或艺术形象具有一种不假思索而即刻把握与领悟的能力。",
-        "审美直觉具有直观性和直接性的特点",
-        "审美直觉能力可以后天培养",
-        "在艺术鉴赏中，审美直觉阶段主要是鉴赏主体作用于艺术作品，获得的是一种感官层次的悦耳悦目的审美愉快。",
-        "在艺术鉴赏中，审美直觉阶段处于整个审美活动的中心环节。"
-      ],
-      "originalKey": "ABC",
-      "page": 49
     }
   ]
 };
