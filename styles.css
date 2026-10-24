@@ -376,7 +376,9 @@ main { margin-left: var(--rail); min-height: 100vh; }
 .calendar-results { display: flex; flex-wrap: wrap; gap: 5px 14px; margin-top: 9px; font-size: 12px; color: #626b64; }
 .calendar-results span { white-space: nowrap; }
 .calendar-results span:last-child { color: #8f706b; }
-.calendar-day.is-today { background: #eef3ef; border-color: #75847a; }
+.calendar-day.is-today { border-color: #8a8e88; }
+.calendar-day.is-under-minute { background: #fff0ee; border-color: #edc6c0; }
+.calendar-day.is-under-minute time { color: #b13d31; }
 .calendar-today { position: absolute; top: 19px; right: 14px; color: #6b7b70; font-size: 11px; }
 .calendar-day.is-future { color: #8b8e88; }
 .study-calendar .panel-note { margin: 18px 0 0; font-size: 11px; }
