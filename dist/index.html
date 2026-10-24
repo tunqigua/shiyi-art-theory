@@ -9,7 +9,7 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?v=4" />
+    <link rel="stylesheet" href="./styles.css?v=5" />
   </head>
   <body>
     <div class="app-shell">
@@ -105,6 +105,9 @@
             <details class="bank-audit">
               <summary id="auditSummary">题库核对说明</summary>
               <p id="answerPolicy"></p>
+              <h3>已更正的错答名录</h3>
+              <div id="correctedQuestions"></div>
+              <h3>仍待核对（不判分）</h3>
               <div id="pendingQuestions"></div>
             </details>
           </section>
@@ -153,6 +156,7 @@
             <button class="primary-button small" id="retryMistakesButton" disabled>重练全部错题</button>
           </div>
           <div class="question-list" id="mistakeList"></div>
+          <p class="panel-note">题目与答案同步采用更正结果；现存作答已重新核算，未保留选择的早期记录无法重判。</p>
         </section>
 
         <section class="view" id="recordsView">
@@ -167,6 +171,11 @@
             <article><span>最快作答</span><strong id="fastestSpeed">—</strong></article>
           </div>
           <section class="record-section">
+            <div class="section-heading"><div><h2>每日学习日期表</h2><p id="recordsToday"></p></div></div>
+            <p class="panel-note" id="studyTimeNote"></p>
+            <table class="study-date-table"><thead><tr><th scope="col">日期</th><th scope="col">学习小时</th><th scope="col">累计分钟</th></tr></thead><tbody id="studyDateRows"></tbody></table>
+          </section>
+          <section class="record-section">
             <div class="section-heading"><div><h2>各章记录</h2></div></div>
             <div class="unit-records" id="unitRecords"></div>
           </section>
@@ -179,7 +188,7 @@
     </div>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="./questions.js?v=4"></script>
-    <script src="./app.js?v=4"></script>
+    <script src="./questions.js?v=5"></script>
+    <script src="./app.js?v=5"></script>
   </body>
 </html>

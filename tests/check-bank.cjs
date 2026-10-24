@@ -9,14 +9,15 @@ const bank = JSON.parse(JSON.stringify(ctx.window.SHIYI_QUESTION_BANK));
 const source = JSON.parse(fs.readFileSync(path.join(root,'data/source-questions.json'),'utf8'));
 const originals = [...source.questions,...source.pending.filter(q=>q.stem)];
 assert.equal(originals.length,499);
-assert.equal(bank.questions.length,498);
-assert.equal(source.questions.length,481);
-assert.equal(bank.pending.length,20);
+assert.equal(bank.questions.length,515);
+assert.equal(source.questions.length,496);
+assert.equal(bank.pending.length,5);
+assert.equal(bank.corrections.length,16);
 assert.deepEqual(Array.from({length:12},(_,i)=>originals.filter(q=>q.chapter===i+1).length),[24,9,13,32,38,91,89,74,35,34,25,35]);
 assert.equal(new Set(bank.questions.map(q=>q.id)).size,bank.questions.length);
 const seen = new Set();
 for (const q of bank.questions) {
-  const s = source.questions.find(s=>s.chapter===q.chapter && s.kind===q.source.kind && s.number===q.source.number);
+  const s = source.questions.find(s=>s.chapter===q.chapter && s.kind===q.source.kind && s.number===q.source.number && (s.code || `c${String(s.chapter).padStart(2,'0')}-${s.kind}${String(s.number).padStart(2,'0')}`) === q.id.replace(/-[1-9]$/, ''));
   assert(s,q.id);
   seen.add(s);
   const labels = Object.keys(s.opts).sort();
@@ -31,9 +32,14 @@ for (const q of bank.questions) {
   assert(!/https?:|金航|51020268|[a-z]/.test(q.stem+q.options.join('')),q.id);
   assert(q.options.every(x=>x.length>0),q.id);
 }
-assert.equal(seen.size,481);
+assert.equal(seen.size,496);
 for(const q of bank.pending.filter(q=>q.stem)) {
   const matching=bank.questions.filter(x=>x.chapter===q.chapter&&x.source.kind===q.kind&&x.source.number===q.number);
   assert(matching.length===0 || q.reason.includes('重复题号'),q.reason);
 }
-console.log('PASS: 499原题无遗漏，498练习项逐项答案与来源一致，20待核对项不误入判分。');
+for (const c of bank.corrections) {
+ const s=source.questions.find(q=>q.code===c.id);
+ assert(s && s.key===c.key && Object.hasOwn(s,'originalKey'),c.id);
+ assert(c.url.startsWith('https://'),c.id);
+}
+console.log('PASS: 499原题无遗漏，515练习项逐项答案与来源一致，16项更正保留原答案及依据，5待核对项不误入判分。');

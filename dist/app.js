@@ -5,6 +5,7 @@
   var STORAGE_KEY = "shiyi-art-theory-progress-v1";
   var state = loadState();
   var session = { queue: [], index: 0, answered: false, startedAt: 0, timer: null, mode: "chapter", selected: null };
+  var studyStartedAt = null;
   var views = {
     overview: document.getElementById("overviewView"),
     practice: document.getElementById("practiceView"),
@@ -43,6 +44,49 @@
     return BANK.questions.find(function (q) { return q.id === id; });
   }
 
+  function migrateRecords() {
+    if (!state.dailyStudyMs) {
+      state.dailyStudyMs = {};
+      state.attempts.forEach(function (attempt) {
+        if (!Number.isFinite(Date.parse(attempt.at))) return;
+        var day = todayKey(new Date(attempt.at));
+        state.dailyStudyMs[day] = (state.dailyStudyMs[day] || 0) + (Number(attempt.durationMs) || 0);
+      });
+      state.studyHistoryEstimated = state.attempts.length > 0;
+    }
+    BANK.questions.filter(function (q) { return q.answerRevision; }).forEach(function (q) {
+      var rows = state.attempts.filter(function (a) { return a.questionId === q.id; });
+      var stat = state.questionStats[q.id];
+      rows.forEach(function (attempt) {
+        var selection = Array.isArray(attempt.selectedIndex) ? attempt.selectedIndex : [attempt.selectedIndex];
+        if (!selection.every(Number.isInteger)) return;
+        var correct = JSON.stringify(selection.slice().sort()) === JSON.stringify(q.answers.slice().sort());
+        if (stat && correct !== attempt.correct) stat.wrongCount = Math.max(0, stat.wrongCount + (correct ? -1 : 1));
+        attempt.correct = correct;
+      });
+      if (stat && rows.length) stat.lastCorrect = rows[0].correct;
+    });
+    saveState();
+  }
+
+  function flushStudyTime() {
+    if (studyStartedAt === null) return;
+    var end = Date.now();
+    var start = studyStartedAt;
+    studyStartedAt = end;
+    // 休眠或长时间无响应时，最多补计一个30秒采样周期。
+    start = Math.max(start, end - 30000);
+    while (start < end) {
+      var date = new Date(start);
+      var midnight = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1).getTime();
+      var until = Math.min(midnight, end);
+      var key = todayKey(date);
+      state.dailyStudyMs[key] = (state.dailyStudyMs[key] || 0) + until - start;
+      start = until;
+    }
+    saveState();
+  }
+
   function getChapterQuestions(chapterId) {
     return BANK.questions.filter(function (q) { return q.chapter === chapterId; });
   }
@@ -67,6 +111,8 @@
   }
 
   function setView(name) {
+    flushStudyTime();
+    studyStartedAt = name === "practice" && !document.hidden ? Date.now() : null;
     Object.keys(views).forEach(function (key) {
       views[key].classList.toggle("is-visible", key === name);
     });
@@ -227,7 +273,8 @@
     var panel = byId("answerPanel");
     panel.hidden = false;
     panel.classList.toggle("is-wrong", !correct);
-    byId("answerStatus").textContent = correct ? "回答正确 · " + formatSeconds(durationMs) : "回答错误 · 正确答案为 " + expected.map(function (i) { return String.fromCharCode(65 + i); }).join("、");
+    byId("answerStatus").textContent = correct ? "✓" : "✕";
+    byId("answerStatus").setAttribute("aria-label", correct ? "正确" : "错误");
     byId("answerExplanation").textContent = question.explanation;
     byId("nextButton").disabled = false;
     recordAttempt(question, correct, durationMs, session.selected.slice());
@@ -314,12 +361,23 @@
       var row = document.createElement("article");
       row.className = "mistake-row";
       row.innerHTML = "<span class=\"unit-label\">第" + question.chapter + "章</span><div><h3>" + question.stem + "</h3><p>累计错 " + stat.wrongCount + " 次 · 最近用时 " + formatSeconds(stat.lastDurationMs) + "</p></div><button>单题重练</button>";
+      var answer = document.createElement("p");
+      answer.className = "correct-answer";
+      answer.textContent = "正确答案：" + question.answers.map(function (i) { return String.fromCharCode(65 + i) + " · " + question.options[i]; }).join("；");
+      row.querySelector("div").appendChild(answer);
+      if (question.answerRevision) {
+        var note = document.createElement("p");
+        note.textContent = question.explanation;
+        row.querySelector("div").appendChild(note);
+      }
       row.querySelector("button").addEventListener("click", function () { startMix([question]); });
       list.appendChild(row);
     });
   }
 
   function renderRecords() {
+    initDate();
+    renderStudyDates();
     var attempts = state.attempts.filter(function (attempt) { return Boolean(getQuestion(attempt.questionId)); });
     var correct = attempts.filter(function (a) { return a.correct; });
     var average = attempts.length ? attempts.reduce(function (sum, a) { return sum + a.durationMs; }, 0) / attempts.length : null;
@@ -356,6 +414,31 @@
       var date = new Date(attempt.at);
       row.innerHTML = "<span>第" + attempt.chapter + "章</span><span>" + q.stem + "</span><span class=\"result-dot " + (attempt.correct ? "" : "wrong") + "\">" + (attempt.correct ? "正确" : "错误") + "</span><span>" + formatSeconds(attempt.durationMs) + " · " + (date.getMonth() + 1) + "/" + date.getDate() + "</span>";
       log.appendChild(row);
+    });
+  }
+
+  function renderStudyDates() {
+    var now = new Date();
+    var today = todayKey(now);
+    byId("recordsToday").textContent = "今天是 " + now.getFullYear() + "年" + (now.getMonth() + 1) + "月" + now.getDate() + "日";
+    byId("studyTimeNote").textContent = "按本机日期累计练习页前台停留时间，切到后台暂停。" + (state.studyHistoryEstimated ? "更新前的日期仅按现存答题记录补算，可能不完整。" : "");
+    var days = Object.keys(state.dailyStudyMs);
+    // 补齐本月截至今天的日期，未学习的日子也显示0小时。
+    for (var d = 1; d <= now.getDate(); d += 1) days.push(todayKey(new Date(now.getFullYear(), now.getMonth(), d)));
+    var body = byId("studyDateRows");
+    body.innerHTML = "";
+    Array.from(new Set(days)).sort().reverse().forEach(function (day) {
+      var ms = state.dailyStudyMs[day] || 0;
+      var row = document.createElement("tr");
+      if (day === today) row.className = "is-today";
+      var date = document.createElement("td");
+      date.textContent = day.replace(/-/, "年").replace(/-/, "月") + "日" + (day === today ? "（今天）" : "");
+      var hours = document.createElement("td");
+      hours.textContent = (ms / 3600000).toFixed(2) + " 小时";
+      var minutes = document.createElement("td");
+      minutes.textContent = (ms / 60000).toFixed(1) + " 分钟";
+      row.append(date, hours, minutes);
+      body.appendChild(row);
     });
   }
 
@@ -422,6 +505,20 @@
     byId("bankSummary").textContent = "已保留 " + BANK.sourceQuestionCount + " 道原题 · " + BANK.gradedSourceCount + " 道进入判分 · 多空题逐空练习";
     byId("auditSummary").textContent = "题库核对说明 · " + BANK.pending.length + " 项待核对（不参与判分）";
     byId("answerPolicy").textContent = BANK.answerPolicy;
+    (BANK.corrections || []).forEach(function (q) {
+      var item = document.createElement("article");
+      var title = document.createElement("strong");
+      title.textContent = q.id + " · 更正答案 " + q.key;
+      var note = document.createElement("p");
+      note.textContent = q.note;
+      var link = document.createElement("a");
+      link.href = q.url;
+      link.textContent = "核对依据";
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      item.append(title, note, link);
+      byId("correctedQuestions").appendChild(item);
+    });
     BANK.pending.forEach(function (q) {
       var item = document.createElement("article");
       var title = document.createElement("strong");
@@ -446,6 +543,21 @@
     });
   }
 
+  migrateRecords();
+  document.addEventListener("visibilitychange", function () {
+    flushStudyTime();
+    studyStartedAt = !document.hidden && views.practice.classList.contains("is-visible") ? Date.now() : null;
+    if (!document.hidden) { initDate(); if (views.records.classList.contains("is-visible")) renderStudyDates(); }
+  });
+  window.addEventListener("pagehide", function () { flushStudyTime(); studyStartedAt = null; });
+  window.addEventListener("pageshow", function () {
+    if (!document.hidden && views.practice.classList.contains("is-visible")) studyStartedAt = Date.now();
+  });
+  setInterval(function () {
+    flushStudyTime();
+    initDate();
+    if (views.records.classList.contains("is-visible")) renderStudyDates();
+  }, 15000);
   initDate();
   renderAudit();
   bindEvents();
