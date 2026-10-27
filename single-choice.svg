@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580" role="img" aria-labelledby="title desc">
+  <title id="title">单选题</title>
+  <desc id="desc">选一个答案</desc>
+  <rect width="960" height="580" fill="#fffefb"/>
+  <path d="M0 0h960v18H0z" fill="#174e73"/>
+  <circle cx="865" cy="80" r="190" fill="#174e73" opacity=".04"/>
+  <g fill="none" stroke="#174e73" stroke-width="4"><circle cx="142" cy="164" r="31"/><circle cx="142" cy="248" r="31"/><circle cx="142" cy="332" r="31"/><circle cx="142" cy="164" r="13" fill="#174e73" stroke="none"/></g>
+  <g stroke="#174e73" stroke-width="4" opacity=".18" stroke-linecap="round"><path d="M197 164h70M197 248h70M197 332h70"/></g>
+  <g fill="#174e73" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="345" y="166" font-size="22" letter-spacing="7">识艺 · 题型提示</text>
+    <text x="335" y="292" font-size="100" font-weight="600" letter-spacing="10">单选题</text>
+    <text x="345" y="358" font-size="27" letter-spacing="4">选一个答案</text>
+  </g>
+  <path d="M100 438h760" stroke="#d8d3c9"/>
+  <text x="100" y="494" fill="#6f736f" font-size="20" letter-spacing="3" font-family="'PingFang SC','Microsoft YaHei',sans-serif">准备好，再开始这一组</text>
+  <text x="860" y="500" text-anchor="end" fill="#174e73" opacity=".4" font-size="44" font-family="Georgia,serif">01</text>
+</svg>
