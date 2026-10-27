@@ -53,9 +53,9 @@ const key='shiyi-art-theory-progress-v1';
   await page.evaluate(()=>{
    const q=window.SHIYI_QUESTION_BANK.questions.find(q=>q.id==='c01-s01');
    window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,q);
-   document.querySelector('[data-action="mix"]').click();
+   document.querySelector('[data-action="mix"]').click();document.querySelector('#enterStageButton').click();
    document.querySelectorAll('.option-button')[q.answers[0]].click();
-   document.querySelector('[data-action="mix"]').click();
+   document.querySelector('[data-action="mix"]').click();document.querySelector('#enterStageButton').click();
    document.querySelectorAll('.option-button')[(q.answers[0]+1)%q.options.length].click();
   });
   await page.locator('.rail-item[data-view="records"]').click();
@@ -77,3 +77,4 @@ const key='shiyi-art-theory-progress-v1';
   console.log('PASS: 不足1分钟标红/恰满1分钟恢复/未来不标红、北京日期、月历对齐、每日对错、统计保留、翻月跨年闰年、刷新及手机布局。');
  } finally {await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
+

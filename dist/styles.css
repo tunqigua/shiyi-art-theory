@@ -219,6 +219,12 @@ main { margin-left: var(--rail); min-height: 100vh; }
 
 #practiceView { padding: 24px; }
 .practice-wrap { width: 100%; min-height: calc(100dvh - 128px); margin: 0 auto; display: flex; flex-direction: column; }
+.type-intro { max-width: 800px; margin: 0 auto; padding-bottom: 32px; text-align: center; }
+.type-intro > .back-button { display: block; }
+.intro-context { margin: 24px 0 16px; color: var(--muted); font-size: 14px; }
+.type-intro img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; }
+.type-intro > p:last-of-type { margin: 22px 0; color: var(--muted); line-height: 1.8; }
+.type-intro > .primary-button { min-width: 200px; }
 .practice-head { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; }
 .practice-title { text-align: center; }
 .practice-title h2 { margin: 6px 0 0; font: 500 27px/1 "Songti SC", serif; }
@@ -403,3 +409,4 @@ main { margin-left: var(--rail); min-height: 100vh; }
   .calendar-day.is-today .calendar-duration { margin-top: 3px; }
   .calendar-results { gap: 3px; font-size: 10px; }
 }
+

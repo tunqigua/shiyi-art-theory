@@ -4,7 +4,7 @@
   var BANK = window.SHIYI_QUESTION_BANK;
   var STORAGE_KEY = "shiyi-art-theory-progress-v1";
   var state = loadState();
-  var session = { queue: [], index: 0, answered: false, startedAt: 0, timer: null, mode: "chapter", selected: null };
+  var session = { queue: [], index: 0, answered: false, startedAt: 0, timer: null, mode: "chapter", selected: null, intro: false, stageStart: 0 };
   var studyStartedAt = null;
   var calendarMonth = null;
   var beijingDate = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" });
@@ -131,6 +131,16 @@
     showToast.timeout = setTimeout(function () { toast.classList.remove("is-showing"); }, 2200);
   }
 
+  function orderQuestions(questions, batchSize) {
+    var singles = shuffle(questions.filter(function (q) { return !q.multiple; }));
+    var multiples = shuffle(questions.filter(function (q) { return q.multiple; }));
+    var queue = [];
+    while (singles.length || multiples.length) {
+      queue = queue.concat(singles.splice(0, batchSize), multiples.splice(0, batchSize));
+    }
+    return queue;
+  }
+
   function setView(name) {
     flushStudyTime();
     studyStartedAt = name === "practice" && !document.hidden ? Date.now() : null;
@@ -198,7 +208,7 @@
       showToast("第" + chapterId + "章等待你提供正式题库");
       return;
     }
-    session.queue = shuffle(questions);
+    session.queue = orderQuestions(questions, questions.length);
     session.index = 0;
     session.mode = "chapter";
     beginQuestion();
@@ -210,19 +220,41 @@
       showToast("题库加入后即可开始疯狂混练");
       return;
     }
-    session.queue = shuffle(source);
+    session.queue = orderQuestions(source, customQuestions ? source.length : 5);
     session.index = 0;
     session.mode = customQuestions ? "mistakes" : "mix";
     beginQuestion();
   }
 
-  function beginQuestion() {
+  function beginQuestion(enterStage) {
     session.answered = false;
     session.selected = [];
-    session.startedAt = Date.now();
+    stopTimer();
     setView("practice");
+    var question = session.queue[session.index];
+    var previous = session.queue[session.index - 1];
+    session.intro = !enterStage && (!previous || Boolean(previous.multiple) !== Boolean(question.multiple) || (session.mode === "mix" && session.index - session.stageStart === 5));
+    byId("typeIntro").hidden = !session.intro;
+    byId("questionStage").hidden = session.intro;
+    if (session.intro) {
+      session.stageStart = session.index;
+      var label = question.multiple ? "多选题" : "单选题";
+      var count = 0;
+      var limit = session.mode === "mix" ? 5 : session.queue.length;
+      while (count < limit && session.queue[session.index + count] && Boolean(session.queue[session.index + count].multiple) === Boolean(question.multiple)) count += 1;
+      var chapter = BANK.chapters.find(function (item) { return item.id === question.chapter; });
+      byId("introContext").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "mix" ? "疯狂混练 · 单选 / 多选轮换" : "错题重练");
+      byId("typeIntroImage").src = question.multiple ? "./multiple-choice.svg" : "./single-choice.svg";
+      byId("typeIntroImage").alt = label;
+      byId("introDescription").textContent = "接下来 " + count + " 道" + label + " · " + (question.multiple ? "可选择多个答案，选完后提交" : "每题选择一个答案");
+      byId("enterStageButton").textContent = "开始" + label;
+      byId("enterStageButton").focus();
+      return;
+    }
+    session.startedAt = Date.now();
     renderQuestion();
     startTimer();
+    if (enterStage) byId("questionText").focus();
   }
 
   function renderQuestion() {
@@ -260,7 +292,7 @@
   }
 
   function selectOption(index) {
-    if (session.answered) return;
+    if (session.intro || session.answered) return;
     var question = session.queue[session.index];
     if (index < 0 || index >= question.options.length) return;
     if (!question.multiple) return answerQuestion([index]);
@@ -274,7 +306,7 @@
   }
 
   function answerQuestion(selectedIndices) {
-    if (session.answered) return;
+    if (session.intro || session.answered) return;
     if (!selectedIndices.length) return;
     session.answered = true;
     session.selected = selectedIndices.slice().sort();
@@ -318,7 +350,7 @@
   }
 
   function nextQuestion() {
-    if (!session.answered) return;
+    if (session.intro || !session.answered) return;
     if (session.index >= session.queue.length - 1) {
       showToast("本组完成，记录已保存");
       setView("overview");
@@ -548,12 +580,14 @@
     byId("closeUnitPanel").addEventListener("click", closeUnitPanel);
     byId("panelBackdrop").addEventListener("click", closeUnitPanel);
     byId("continueButton").addEventListener("click", openUnitPanel);
+    byId("enterStageButton").addEventListener("click", function () { if (session.intro) beginQuestion(true); });
     byId("nextButton").addEventListener("click", nextQuestion);
     byId("submitButton").addEventListener("click", function () { answerQuestion(session.selected); });
     byId("favoriteButton").addEventListener("click", toggleFavorite);
     byId("retryMistakesButton").addEventListener("click", function () { startMix(mistakeQuestions()); });
     document.addEventListener("keydown", function (event) {
       if (!views.practice.classList.contains("is-visible")) return;
+      if (session.intro) return;
       if (event.repeat || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName)) return;
       if (event.key >= "1" && event.key <= "9" && !session.answered) selectOption(Number(event.key) - 1);
       if (event.key === "Enter") {
@@ -636,3 +670,4 @@
   bindEvents();
   refreshAll();
 })();
+

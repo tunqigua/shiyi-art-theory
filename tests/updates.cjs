@@ -26,7 +26,7 @@ const key = 'shiyi-art-theory-progress-v1';
   await page.evaluate(()=>{
    const q=window.SHIYI_QUESTION_BANK.questions.find(q=>q.id==='c05-s25');
    window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,q);
-   document.querySelector('[data-action="mix"]').click();
+   document.querySelector('[data-action="mix"]').click();document.querySelector('#enterStageButton').click();
   });
   await page.clock.runFor(20000);
   const layout=await page.locator('#questionCard').boundingBox();
@@ -55,6 +55,7 @@ const key = 'shiyi-art-theory-progress-v1';
   assert((await page.locator('.correct-answer').textContent()).includes('C · 现代主义建筑'));
   assert((await page.locator('#mistakeList').textContent()).includes('核对更正'));
   await page.locator('#mistakeList button').click();
+  await page.locator('#enterStageButton').click();
   await page.clock.runFor(5000);
   await page.evaluate(()=>{
    Object.defineProperty(document,'hidden',{configurable:true,value:true});
@@ -79,3 +80,4 @@ const key = 'shiyi-art-theory-progress-v1';
   console.log('PASS: 更正答案迁移及错题名录、收藏保留、红绿实色、每日小时、跨午夜分摊、后台与离开暂停、刷新持久化、手机日期表。');
  } finally {await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
+

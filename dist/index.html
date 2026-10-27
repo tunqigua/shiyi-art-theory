@@ -9,7 +9,7 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?v=8" />
+    <link rel="stylesheet" href="./styles.css?v=9" />
   </head>
   <body>
     <div class="app-shell">
@@ -49,7 +49,7 @@
           </div>
           <button class="icon-button" id="closeUnitPanel" aria-label="关闭章节选择">×</button>
         </div>
-        <p class="panel-note">点选章节开始练习。多选题选完后提交，多空题按空分别练习。</p>
+        <p class="panel-note">先练单选，再练多选，进入每种题型前都有图片提示。多空题按空分别练习。</p>
         <div class="chapter-grid" id="chapterGrid"></div>
       </section>
 
@@ -68,7 +68,7 @@
           <div class="hero-grid">
             <article class="hero-card">
               <h1>把艺术史论，<br />练成你的直觉。</h1>
-              <p>12 章拆开学，选择题逐道练。记住知识，也记住自己在哪些地方犹豫。</p>
+              <p>章节练习先单选、后多选；疯狂混练每轮 5 道单选、5 道多选交替，每次切换都有图片提示。</p>
               <div class="hero-actions">
                 <button class="primary-button" id="continueButton">选择章节</button>
                 <button class="secondary-button" data-action="mix">疯狂混练</button>
@@ -114,7 +114,14 @@
         </section>
 
         <section class="view" id="practiceView">
-          <div class="practice-wrap">
+          <section class="type-intro" id="typeIntro" aria-label="题型提示" hidden>
+            <button class="back-button" data-view="overview">返回总览</button>
+            <p class="intro-context" id="introContext"></p>
+            <img id="typeIntroImage" width="960" height="580" alt="" />
+            <p id="introDescription"></p>
+            <button class="primary-button" id="enterStageButton">开始答题</button>
+          </section>
+          <div class="practice-wrap" id="questionStage" hidden>
             <div class="practice-head">
               <button class="back-button" data-view="overview">返回总览</button>
               <div class="practice-title">
@@ -130,7 +137,7 @@
 
             <article class="question-card" id="questionCard">
               <div class="question-tags"><span id="chapterTag">第1章</span><span id="questionType"></span></div>
-              <h1 id="questionText"></h1>
+              <h1 id="questionText" tabindex="-1"></h1>
               <div class="options" id="optionsList"></div>
               <button class="primary-button" id="submitButton" hidden disabled>提交答案</button>
               <div class="answer-panel" id="answerPanel" hidden>
@@ -194,6 +201,7 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script src="./questions.js?v=5"></script>
-    <script src="./app.js?v=8"></script>
+    <script src="./app.js?v=9"></script>
   </body>
 </html>
+
