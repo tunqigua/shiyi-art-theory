@@ -238,16 +238,7 @@
     byId("questionStage").hidden = session.intro;
     if (session.intro) {
       session.stageStart = session.index;
-      var label = question.multiple ? "多选题" : "单选题";
-      var count = 0;
-      var limit = session.mode === "mix" ? 5 : session.queue.length;
-      while (count < limit && session.queue[session.index + count] && Boolean(session.queue[session.index + count].multiple) === Boolean(question.multiple)) count += 1;
-      var chapter = BANK.chapters.find(function (item) { return item.id === question.chapter; });
-      byId("introContext").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "mix" ? "疯狂混练 · 单选 / 多选轮换" : "错题重练");
-      byId("typeIntroImage").src = question.multiple ? "./multiple-choice.svg" : "./single-choice.svg";
-      byId("typeIntroImage").alt = label;
-      byId("introDescription").textContent = "接下来 " + count + " 道" + label + " · " + (question.multiple ? "可选择多个答案，选完后提交" : "每题选择一个答案");
-      byId("enterStageButton").textContent = "开始" + label;
+      byId("enterStageButton").textContent = question.multiple ? "多选题" : "单选题";
       byId("enterStageButton").focus();
       return;
     }
@@ -587,7 +578,10 @@
     byId("retryMistakesButton").addEventListener("click", function () { startMix(mistakeQuestions()); });
     document.addEventListener("keydown", function (event) {
       if (!views.practice.classList.contains("is-visible")) return;
-      if (session.intro) return;
+      if (session.intro) {
+        if (event.key === "Tab") event.preventDefault();
+        return;
+      }
       if (event.repeat || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName)) return;
       if (event.key >= "1" && event.key <= "9" && !session.answered) selectOption(Number(event.key) - 1);
       if (event.key === "Enter") {
