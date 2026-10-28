@@ -111,7 +111,7 @@
   }
 
   function getChapterQuestions(chapterId, kind) {
-    return BANK.questions.filter(function (q) { return q.chapter === chapterId && (!kind || (kind === "fill" ? q.type === "fill" : q.type !== "fill" && !q.multiple)); });
+    return BANK.questions.filter(function (q) { return q.chapter === chapterId && (!kind || (kind === "fill" ? q.type === "fill" : q.type !== "fill")); });
   }
 
   function shuffle(items) {
@@ -199,12 +199,12 @@
         var subtitle = document.createElement("span"); subtitle.textContent = chapter.subtitle;
         card.append(title, subtitle);
         var actions = document.createElement("div"); actions.className = "chapter-kinds";
-        ["single", "fill"].forEach(function (kind) {
+        ["choice", "fill"].forEach(function (kind) {
           var stats = chapterStats(chapter.id, kind);
           var button = document.createElement("button");
           button.type = "button"; button.dataset.chapter = chapter.id; button.dataset.kind = kind;
-          button.setAttribute("aria-label", chapter.title + (kind === "fill" ? "填空题" : "单选题"));
-          var label = document.createElement("b"); label.textContent = kind === "fill" ? "填" : "单";
+          button.setAttribute("aria-label", chapter.title + (kind === "fill" ? "填空题" : "选择题"));
+          var label = document.createElement("b"); label.textContent = kind === "fill" ? "填" : "选";
           var progress = document.createElement("small"); progress.textContent = stats.attempted + "/" + stats.total;
           button.append(label, progress); button.disabled = !stats.total;
           button.addEventListener("click", function () { startChapter(chapter.id, kind); });
@@ -216,7 +216,7 @@
   }
 
   function startChapter(chapterId, kind) {
-    var questions = getChapterQuestions(chapterId, kind || "single");
+    var questions = getChapterQuestions(chapterId, kind || "choice");
     if (!questions.length) {
       showToast("第" + chapterId + "章等待你提供正式题库");
       return;
@@ -802,7 +802,7 @@
   document.querySelectorAll("[data-export]").forEach(function (button) {
     button.addEventListener("click", function () {
       var kind = button.dataset.export;
-      downloadJSON({format:"shiyi-question-bank",version:1,kind:kind,chapters:BANK.chapters,questions:BANK.questions.filter(function(q){return (kind === "fill" ? q.type === "fill" : q.type !== "fill" && !q.multiple);}),pending:kind === "fill" ? window.SHIYI_FILL_BANK.pending : BANK.pending}, "识艺-" + (kind === "fill" ? "填空题库" : "单选题库"));
+      downloadJSON({format:"shiyi-question-bank",version:1,kind:kind,chapters:BANK.chapters,questions:BANK.questions.filter(function(q){return (kind === "fill" ? q.type === "fill" : q.type !== "fill");}),pending:kind === "fill" ? window.SHIYI_FILL_BANK.pending : BANK.pending}, "识艺-" + (kind === "fill" ? "填空题库" : "选择题库"));
     });
   });
   byId("restoreBackup").addEventListener("change", async function () {
