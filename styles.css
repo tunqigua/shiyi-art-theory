@@ -278,12 +278,21 @@ main { margin-left: var(--rail); min-height: 100vh; }
 .empty-state { min-height: 250px; display: grid; place-items: center; text-align: center; color: var(--muted); }
 .empty-state strong { display: block; color: var(--ink); font: 500 24px/1.2 "Songti SC", serif; }
 .empty-state span { display: block; margin-top: 9px; font-size: 12px; }
-.mistake-row { padding: 22px; display: grid; grid-template-columns: 70px 1fr auto; align-items: center; gap: 20px; border-bottom: 1px solid var(--line); }
+.mistake-row { padding: 22px; display: grid; grid-template-columns: 70px 1fr auto; align-items: start; gap: 20px; border-bottom: 1px solid var(--line); }
 .mistake-row:last-child { border-bottom: 0; }
 .mistake-row .unit-label { color: var(--blue); font: 600 10px/1.4 ui-monospace, monospace; }
 .mistake-row h3 { margin: 0; font: 500 17px/1.6 "Songti SC", serif; }
 .mistake-row p { margin: 5px 0 0; color: var(--muted); font-size: 11px; }
 .mistake-row button { border: 1px solid var(--line); background: var(--white); padding: 9px 12px; cursor: pointer; }
+.mistake-content { min-width: 0; }
+.mistake-row .mistake-toggle { display: flex; align-items: baseline; gap: 10px; width: 100%; padding: 0; border: 0; background: transparent; text-align: left; font: inherit; }
+.mistake-flag { color: var(--red); flex: 0 0 auto; }
+.mistake-stem { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.toggle-hint { flex: 0 0 auto; color: var(--muted); font: 12px/1.7 ui-sans-serif, sans-serif; }
+.mistake-toggle:focus-visible { outline: 2px solid var(--blue); outline-offset: 5px; }
+.mistake-row .mistake-explanation { grid-column: 1 / -1; margin-top: 0; }
+.mistake-row .mistake-explanation p { color: #364039; font-size: 14px; line-height: 1.85; }
+.mistake-row .mistake-explanation h3 { font-family: inherit; font-size: 14px; font-weight: 700; }
 
 .record-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
 .record-cards article { padding: 24px; min-height: 135px; }
@@ -370,7 +379,6 @@ main { margin-left: var(--rail); min-height: 100vh; }
 .rail-item { min-height: 56px; }
 .rail-item span { font-size: 12px; }
 .favorite-button { width: auto; padding: 0 12px; border-radius: 3px; font-size: 12px; }
-.mistake-row .correct-answer { color: var(--green); }
 .study-calendar { padding: clamp(18px, 2.8vw, 40px); border-radius: 12px; }
 .calendar-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 32px; }
 .calendar-heading h2 { margin: 0; font-size: 21px; font-weight: 600; }
