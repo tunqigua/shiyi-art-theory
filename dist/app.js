@@ -325,8 +325,8 @@
     refreshSummary();
   }
 
-  function renderExplanation(question) {
-    var container = byId("answerExplanation");
+  function renderExplanation(question, container) {
+    container = container || byId("answerExplanation");
     container.replaceChildren();
     var study = (window.SHIYI_EXPLANATIONS || {})[question.id.replace(/-[1-9]$/, "")];
     var chapter = BANK.chapters.find(function (item) { return item.id === question.chapter; });
@@ -467,17 +467,22 @@
       var stat = state.questionStats[question.id];
       var row = document.createElement("article");
       row.className = "mistake-row";
-      row.innerHTML = "<span class=\"unit-label\">第" + question.chapter + "章</span><div><h3>" + question.stem + "</h3><p>累计错 " + stat.wrongCount + " 次 · 最近用时 " + formatSeconds(stat.lastDurationMs) + "</p></div><button>单题重练</button>";
-      var answer = document.createElement("p");
-      answer.className = "correct-answer";
-      answer.textContent = "正确答案：" + question.answers.map(function (i) { return String.fromCharCode(65 + i) + " · " + question.options[i]; }).join("；");
-      row.querySelector("div").appendChild(answer);
-      if (question.answerRevision) {
-        var note = document.createElement("p");
-        note.textContent = question.explanation;
-        row.querySelector("div").appendChild(note);
-      }
-      row.querySelector("button").addEventListener("click", function () { startMix([question]); });
+      row.innerHTML = "<span class=\"unit-label\">第" + question.chapter + "章</span><div class=\"mistake-content\"><h3><button class=\"mistake-toggle\" type=\"button\" aria-expanded=\"false\"><span class=\"mistake-flag\" aria-hidden=\"true\">⚑</span><span class=\"mistake-stem\"></span><span class=\"toggle-hint\">查看解析</span></button></h3><p>累计错 " + stat.wrongCount + " 次 · 最近用时 " + formatSeconds(stat.lastDurationMs) + "</p></div><button class=\"retry-question\">单题重练</button>";
+      row.querySelector(".mistake-stem").textContent = question.stem;
+      var explanation = document.createElement("div");
+      explanation.id = "mistake-explanation-" + question.id;
+      explanation.className = "answer-panel is-wrong mistake-explanation";
+      explanation.hidden = true;
+      var toggle = row.querySelector(".mistake-toggle");
+      toggle.setAttribute("aria-controls", explanation.id);
+      toggle.addEventListener("click", function () {
+        if (!explanation.hasChildNodes()) renderExplanation(question, explanation);
+        explanation.hidden = !explanation.hidden;
+        toggle.setAttribute("aria-expanded", String(!explanation.hidden));
+        toggle.querySelector(".toggle-hint").textContent = explanation.hidden ? "查看解析" : "收起解析";
+      });
+      row.appendChild(explanation);
+      row.querySelector(".retry-question").addEventListener("click", function () { startMix([question]); });
       list.appendChild(row);
     });
   }

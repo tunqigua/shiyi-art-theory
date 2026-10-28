@@ -52,9 +52,10 @@ const key = 'shiyi-art-theory-progress-v1';
   assert.equal(await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).dailyStudyMs['2026-10-24'],key),beforePause);
   assert((await page.locator('#recordsToday').textContent()).includes('10月24日'));
   await page.locator('.rail-item[data-view="mistakes"]').click();
-  assert((await page.locator('.correct-answer').textContent()).includes('C · 现代主义建筑'));
+  await page.locator('#mistakeList .mistake-toggle').click();
+  assert((await page.locator('#mistakeList .answer-key').textContent()).includes('C · 现代主义建筑'));
   assert((await page.locator('#mistakeList').textContent()).includes('核对更正'));
-  await page.locator('#mistakeList button').click();
+  await page.locator('#mistakeList .retry-question').click();
   await page.locator('#enterStageButton').click();
   await page.clock.runFor(5000);
   await page.evaluate(()=>{
