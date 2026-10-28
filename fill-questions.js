@@ -1,0 +1,10454 @@
+window.SHIYI_FILL_BANK = {
+  "version": "2026-10-28-fill-v1",
+  "questions": [
+    {
+      "id": "c01-f001",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "五代南唐画家____的作品《韩熙载夜宴图》，以“听乐”、____、“休息”、____、“散宴”五个连续画面描绘家宴情况。",
+      "answers": [
+        "顾闳中",
+        "赏舞",
+        "清吹"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第1题；答案见PDF第46页文档后附第1章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f002",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "马克思明确提出了____的概念，将____与____联系起来考虑，从生产实践活动出发考察艺术问题。",
+      "answers": [
+        "艺术生产",
+        "艺术",
+        "生产"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第2题；答案见PDF第46页文档后附第1章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f003",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "东晋时期____提出绘画要“以形写神”。",
+      "answers": [
+        "顾恺之"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第3题；答案见PDF第46页文档后附第1章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f004",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "艺术形象的个性与共性的统一，最集中地体现为____。",
+      "answers": [
+        "艺术典型"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第4题；答案见PDF第46页文档后附第1章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f005",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "19世纪末叶，德国的____主张将美学与艺术学区分开来，标志着艺术学作为独立学科的正式形成，他也被称为____。",
+      "answers": [
+        "康拉德•费德勒",
+        "“艺术学之父”"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第5题；答案见PDF第46页文档后附第1章第5项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "费德勒",
+          "康拉德·费德勒"
+        ],
+        []
+      ]
+    },
+    {
+      "id": "c01-f006",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "刘勰《文心雕龙》的首篇是《____》，认为文是道的表现，道是文的本源。",
+      "answers": [
+        "原道"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第6题；答案见PDF第46页文档后附第1章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f007",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "对于艺术本质的认识，影响较大的主要有____、____、____或____。",
+      "answers": [
+        "客观精神说",
+        "主观精神说",
+        "模仿说",
+        "再现说"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第7题；答案见PDF第46页文档后附第1章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f008",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "古希腊的____在人类思想史上第一个以独立体系来阐明美学概念，他认为艺术是对现实的____。",
+      "answers": [
+        "亚里士多德",
+        "模仿"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第8题；答案见PDF第46页文档后附第1章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f009",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "尼采把____和____看做艺术的两种根源，把“梦”和“醉”看做审美的两种基本状态。",
+      "answers": [
+        "日神冲动",
+        "酒神冲动"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第9题；答案见PDF第46页文档后附第1章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f010",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "俄国著名作曲家____的钢琴套曲《图画展览会》。",
+      "answers": [
+        "穆索尔斯基"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第10题；答案见PDF第46页文档后附第1章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f011",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "《秋郊饮马图》的作者____。",
+      "answers": [
+        "赵孟頫"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第11题；答案见PDF第46页文档后附第1章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f012",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "《清明上河图》的作者是____。",
+      "answers": [
+        "张择端"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第12题；答案见PDF第46页文档后附第1章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f013",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "____的喜剧《威尼斯商人》中，贪婪无厌的高利贷者____是唯利是图、贪财如命的典型人物形象。",
+      "answers": [
+        "莎士比亚",
+        "夏洛克"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第13题；答案见PDF第46页文档后附第1章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f014",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "南齐画家谢赫在____中提出的“绘画六法”，是对我国古代绘画实践的系统总结，这就是：“一____是也，二骨法用笔是也，三应物象形是也，四____是也，五经营位置是也，六传移摹写是也。”",
+      "answers": [
+        "古画品录",
+        "气韵生动",
+        "随类赋彩"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第14题；答案见PDF第46页文档后附第1章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f015",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "宋代严羽的____和明代袁宏道的____，是把主观精神的表现和抒发，当作文学艺术的本质特征。",
+      "answers": [
+        "妙悟说",
+        "性灵说"
+      ],
+      "source": {
+        "pdfPage": 1,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第15题；答案见PDF第46页文档后附第1章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f017",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "所谓____，就是艺术家运用典型化的方法，创造出来的具有栩栩如生的鲜明个性并体现出普遍意义的典型形象。",
+      "answers": [
+        "艺术典型"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第17题；答案见PDF第46页文档后附第1章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f018",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "《照夜白图》的作者____。",
+      "answers": [
+        "韩干"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第18题；答案见PDF第46页文档后附第1章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f019",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "《历代名画记》的作者是唐代的____。",
+      "answers": [
+        "张彦远"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第19题；答案见PDF第46页文档后附第1章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f020",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "____的著名讽刺喜剧《吝啬鬼》，成功地塑造了____这一极端自私而贪婪的人物形象，深刻地揭露出资产阶级贪财如命的本质。",
+      "answers": [
+        "莫里哀",
+        "阿巴贡"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第20题；答案见PDF第46页文档后附第1章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f021",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "《第四交响曲》的作者是____。",
+      "answers": [
+        "柴可夫斯基"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第21题；答案见PDF第46页文档后附第1章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f022",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "____曾讲过，艺术“既表现人们的感情，也表现人们的思想，但是并非抽象地表现，而是用生动的形象来表现。这就是艺术的最主要的特点”。",
+      "answers": [
+        "普列汉诺夫"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第22题；答案见PDF第46页文档后附第1章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f023",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "《第五交响曲》（《命运交响曲》）的作者是____。",
+      "answers": [
+        "贝多芬"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第23题；答案见PDF第46页文档后附第1章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f024",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "俄国19世纪革命民主主义者____从他关于“美是生活”的论断出发，认为艺术是对生活的____。",
+      "answers": [
+        "车尔尼雪夫斯基",
+        "再现"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第24题；答案见PDF第46页文档后附第1章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f025",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "南齐谢赫论绘画六法时，其中第一条就是____，都强调绘画不但要形似，更重要的是要神似。",
+      "answers": [
+        "气韵生动"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 25,
+        "kind": "fill",
+        "answerNumber": 25,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第25题；答案见PDF第46页文档后附第1章第25项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f026",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "黑格尔美学思想的核心是：“美就是____的感性显现”。",
+      "answers": [
+        "理念"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 26,
+        "kind": "fill",
+        "answerNumber": 26,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第26题；答案见PDF第46页文档后附第1章第26项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f027",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "尼采的第一部著作____。",
+      "answers": [
+        "悲剧的诞生"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第27题；答案见PDF第46页文档后附第1章第27项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f028",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "____把自由看做艺术的精髓，他认为正是在这一点上，艺术与游戏是相通的。",
+      "answers": [
+        "康德"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 28,
+        "kind": "fill",
+        "answerNumber": 28,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第28题；答案见PDF第46页文档后附第1章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f029",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "____认为，艺术纯粹是作家、艺术家们的天才创造物。",
+      "answers": [
+        "康德"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 29,
+        "kind": "fill",
+        "answerNumber": 29,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第29题；答案见PDF第46页文档后附第1章第29项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f030",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "艺术具有____、____、____等基本特征。",
+      "answers": [
+        "形象性",
+        "主体性",
+        "审美性"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 30,
+        "kind": "fill",
+        "answerNumber": 30,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第2页 · 第1章填空第30题；答案见PDF第46页文档后附第1章第30项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f001",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "法国结构主义学者____，认为社会的发展不是一元决定的，而是多元决定的。",
+      "answers": [
+        "阿尔都塞"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第1题；答案见PDF第46页文档后附第2章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f002",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "英国人类学家弗雷泽在他的名著《____》一书中，认为原始部落的一切风俗、仪式和信仰，都起源于____。",
+      "answers": [
+        "金枝",
+        "交感巫术"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第2题；答案见PDF第46页文档后附第2章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f003",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "艺术史学家希尔恩在____一书中，详细介绍了原始舞蹈与交感巫术的联系。",
+      "answers": [
+        "艺术的起源"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第3题；答案见PDF第46页文档后附第2章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f004",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "____常被当作是文学最早的源头。",
+      "answers": [
+        "神话"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第4题；答案见PDF第46页文档后附第2章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f005",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "英国人类学家____在他的《____》一书中，最早提出艺术起源于“巫术”的理论主张。",
+      "answers": [
+        "爱德华泰勒",
+        "原始文化"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第5题；答案见PDF第46页文档后附第2章第5项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "泰勒",
+          "爱德华·泰勒"
+        ],
+        []
+      ]
+    },
+    {
+      "id": "c02-f006",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "艺术起源于____的理论，成为西方在艺术起源问题上影响最大的一种理论。",
+      "answers": [
+        "巫术"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第6题；答案见PDF第46页文档后附第2章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f007",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "美国当代美学家____从符号学美学出发，进一步认为艺术是人类情感的符号形式的创造。",
+      "answers": [
+        "苏珊•朗格"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第7题；答案见PDF第46页文档后附第2章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f008",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "汉代的《____》中就讲到“情动于中而形于言，言之不足故嗟叹之，嗟叹之不足故咏歌之，咏歌之不足，不知手之舞之，足之蹈之也”。",
+      "answers": [
+        "毛诗序"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第8题；答案见PDF第46页文档后附第2章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f009",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "关于艺术起源，影响较大的五种观点是____、____、____、____和____。",
+      "answers": [
+        "模仿说",
+        "游戏说",
+        "表现说",
+        "巫术说",
+        "劳动说"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第9题；答案见PDF第46页文档后附第2章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f010",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "____认为模仿是人的本能。指出：所有的文艺都是“模仿”，不管是何种样式和种类的艺术。",
+      "answers": [
+        "亚里士多德"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第10题；答案见PDF第46页文档后附第2章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f011",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "____中讲道：音乐是模仿动物的声音而来的。",
+      "answers": [
+        "管子"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第11题；答案见PDF第46页文档后附第2章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f012",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "席勒在《____》中指出，“感性冲动”和“理性冲动”必须通过____才能有机地协调起来。",
+      "answers": [
+        "美育书简",
+        "游戏冲动"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第12题；答案见PDF第46页文档后附第2章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f013",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "意大利美学家____的美学思想的核心是“直觉即表现”。",
+      "answers": [
+        "克罗齐"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第13题；答案见PDF第46页文档后附第2章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f014",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "艺术起源于游戏的观点由____和____提出，后被称为____。",
+      "answers": [
+        "席勒",
+        "斯宾塞",
+        "席勒-斯宾塞理论"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第14题；答案见PDF第46页文档后附第2章第14项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [],
+        [],
+        [
+          "席勒斯宾塞",
+          "席勒斯宾塞理论"
+        ]
+      ]
+    },
+    {
+      "id": "c02-f015",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "朱光潜一语中的地指出：亚里士多德的____，在欧洲“竟雄霸了两千余年”。",
+      "answers": [
+        "模仿论"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第15题；答案见PDF第46页文档后附第2章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f016",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "《美育书简》的作者是____。",
+      "answers": [
+        "席勒"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 16,
+        "kind": "fill",
+        "answerNumber": 16,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第16题；答案见PDF第46页文档后附第2章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f017",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "西方现代主义文艺思潮的主要理论基础，就是强调艺术应当____。",
+      "answers": [
+        "表现自我"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第17题；答案见PDF第46页文档后附第2章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f018",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "在关于艺术起源问题的理论探索中，____是最古老的一种说法。",
+      "answers": [
+        "模仿说"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第18题；答案见PDF第46页文档后附第2章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f019",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "____认为，“游戏”并不是完全没有实际的功利目的，而是在轻松愉快的游戏活动中，不知不觉地在为将来的实际生活做准备或做练习。",
+      "answers": [
+        "谷鲁斯"
+      ],
+      "source": {
+        "pdfPage": 3,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第19题；答案见PDF第46页文档后附第2章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f020",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "俄国著名作家____就认为艺术起源于传达感情的需要。",
+      "answers": [
+        "列夫•托尔斯泰"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第20题；答案见PDF第46页文档后附第2章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f021",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "《艺术原理》的作者____。",
+      "answers": [
+        "科林伍德"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第21题；答案见PDF第46页文档后附第2章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f022",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "普列汉诺夫在1900年完成了专著____。",
+      "answers": [
+        "没有地址的信"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第22题；答案见PDF第46页文档后附第2章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f023",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "艺术起源在我国占主导地位的理论是____。",
+      "answers": [
+        "劳动说"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第23题；答案见PDF第46页文档后附第2章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f024",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "模仿说的主要代表人是古希腊哲学家____和____。",
+      "answers": [
+        "德谟克利特",
+        "亚里士多德"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第24题；答案见PDF第46页文档后附第2章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f025",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "____认为，只有表现情感的艺术才是所谓“真正的艺术”，艺术就是艺术家的主观想象和情感的表现。",
+      "answers": [
+        "科林伍德"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 25,
+        "kind": "fill",
+        "answerNumber": 25,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第25题；答案见PDF第46页文档后附第2章第25项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f026",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "苏珊·朗格认为，艺术活动的实质在于创造表现人类情感的____。",
+      "answers": [
+        "符号形式"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 26,
+        "kind": "fill",
+        "answerNumber": 26,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第26题；答案见PDF第46页文档后附第2章第26项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f027",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "艺术起源于____的理论，成为西方在艺术起源问题上影响最大的一种理论。",
+      "answers": [
+        "巫术"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第27题；答案见PDF第46页文档后附第2章第27项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f028",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "原始人思维的最主要特点是____。",
+      "answers": [
+        "万物有灵"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 28,
+        "kind": "fill",
+        "answerNumber": 28,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第28题；答案见PDF第46页文档后附第2章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f029",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "原始人类从事的实践活动，可能既是____活动，又是____活动，同时也具有____的性质。",
+      "answers": [
+        "巫术",
+        "艺术",
+        "生产劳动"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 29,
+        "kind": "fill",
+        "answerNumber": 29,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第29题；答案见PDF第46页文档后附第2章第29项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f030",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "希尔恩在他的《艺术的起源》一书中认为，导致艺术产生的最基本的人类生活冲动大体上可以分为六类，即____、____、恋爱与性欲冲动、劳动、____、巫术等。",
+      "answers": [
+        "知识传达",
+        "记忆保存",
+        "战争"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 30,
+        "kind": "fill",
+        "answerNumber": 30,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第30题；答案见PDF第46页文档后附第2章第30项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f031",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "从艺术起源的多元决定论中，艺术的产生经历了一个由____到____、以____为中介、以____为前提的漫长历史发展过程，其中也渗透着人类____的需要、____的冲动和____的本能。",
+      "answers": [
+        "实用",
+        "审美",
+        "巫术",
+        "劳动",
+        "模仿",
+        "表现",
+        "游戏"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 31,
+        "kind": "fill",
+        "answerNumber": 31,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第31题；答案见PDF第46页文档后附第2章第31项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f032",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "艺术的产生虽然是多元决定的，但是，____与____更为重要。",
+      "answers": [
+        "巫术说",
+        "劳动说"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 32,
+        "kind": "fill",
+        "answerNumber": 32,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第32题；答案见PDF第46页文档后附第2章第32项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f033",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "从根本上讲，艺术的起源最终应归结为人类的____。",
+      "answers": [
+        "实践活动"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 33,
+        "kind": "fill",
+        "answerNumber": 33,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第33题；答案见PDF第46页文档后附第2章第33项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f034",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "事实上，巫术在原始社会中是人类的一种____。",
+      "answers": [
+        "实践活动"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 34,
+        "kind": "fill",
+        "answerNumber": 34,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第34题；答案见PDF第46页文档后附第2章第34项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c02-f035",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "许多艺术史学家认为，____是原始社会中最重要的艺术。",
+      "answers": [
+        "舞蹈"
+      ],
+      "source": {
+        "pdfPage": 4,
+        "number": 35,
+        "kind": "fill",
+        "answerNumber": 35,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第35题；答案见PDF第46页文档后附第2章第35项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f001",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术的社会功能主要是____作用、____作用和____作用。",
+      "answers": [
+        "审美认知",
+        "审美教育",
+        "审美娱乐"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第1题；答案见PDF第46页文档后附第3章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f002",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "列宁把____的小说看成是“俄国革命的镜子”。",
+      "answers": [
+        "列夫•托尔斯泰"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第2题；答案见PDF第46页文档后附第3章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f003",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "____讲过：“____，可以兴，可以观，可以群，可以怨；迩之事父，远之事君：多识于鸟兽草木之名。”",
+      "answers": [
+        "孔子",
+        "诗"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第3题；答案见PDF第46页文档后附第3章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f004",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术是一种特殊的社会意识形态，艺术生产是一种特殊的精神生产，艺术作品具有独特的____。",
+      "answers": [
+        "审美价值"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第4题；答案见PDF第46页文档后附第3章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f005",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术作为人类____的最高表现形式，它的多重社会功能始终是以____为基础的，各种功能在此基础上才能发挥作用。",
+      "answers": [
+        "审美意识",
+        "审美价值"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第5题；答案见PDF第46页文档后附第3章第5项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f006",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "亚里士多德认为，艺术应当具有三种功能：一是____，二是____，三是____。",
+      "answers": [
+        "教育",
+        "净化",
+        "快感"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第6题；答案见PDF第46页文档后附第3章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f007",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术审美教育作用最主要的三个特点是____、____和____。",
+      "answers": [
+        "以情感人",
+        "潜移默化",
+        "寓教于乐"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第7题；答案见PDF第46页文档后附第3章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f008",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "北朝民歌____中“万里赴戎机，关山度若飞”。",
+      "answers": [
+        "木兰诗"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第8题；答案见PDF第46页文档后附第3章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f009",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "古希腊的____认为，人的本能、情感和欲望有得到正当满足的权利，艺术应当使人得到快感。",
+      "answers": [
+        "亚里士多德"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第9题；答案见PDF第46页文档后附第3章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f010",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "美育的核心是____。",
+      "answers": [
+        "艺术教育"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第10题；答案见PDF第46页文档后附第3章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f011",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术教育的根本任务和目标，就是____。",
+      "answers": [
+        "培养全面发展的人"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第11题；答案见PDF第46页文档后附第3章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f012",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "我国近代最早公开将美育与德育、智育相提并论的是清末学者____。",
+      "answers": [
+        "王国维"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第12题；答案见PDF第46页文档后附第3章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f013",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "“美育”这个概念，由18世纪德国美学家____正式提出来。",
+      "answers": [
+        "席勒"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第13题；答案见PDF第46页文档后附第3章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f014",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术对社会生活有着多方面的作用和影响，艺术生产是通过创造具有____的艺术品来满足人的审美需要。",
+      "answers": [
+        "审美价值"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第14题；答案见PDF第46页文档后附第3章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f015",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "正是由于____渗透在艺术的其他各种功能之中，才使得艺术具有自己独立存在的价值和意义，才使得艺术具有与其他文化形态迥然不同的独特社会功能。",
+      "answers": [
+        "审美价值"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第15题；答案见PDF第46页文档后附第3章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f016",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "____是艺术最主要和最基本的特性。",
+      "answers": [
+        "审美价值"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 16,
+        "kind": "fill",
+        "answerNumber": 16,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第16题；答案见PDF第46页文档后附第3章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f017",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术始终把创造和实现____来满足人的审美需要，作为自己最主要和最基本的功能。",
+      "answers": [
+        "审美价值"
+      ],
+      "source": {
+        "pdfPage": 5,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第17题；答案见PDF第46页文档后附第3章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f018",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术的____作用，主要是指人们通过艺术鉴赏活动，可以更加深刻地认识自然、认识社会、认识历史、认识人生。",
+      "answers": [
+        "审美认知"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第18题；答案见PDF第46页文档后附第3章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f019",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "____认为，艺术应当具有三种功能：一是“教育”，二是“净化”，三是“快感”。",
+      "answers": [
+        "亚里士多德"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第19题；答案见PDF第46页文档后附第3章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f020",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术的教育功能是以____基础，具有美学的意义和艺术的魅力。",
+      "answers": [
+        "审美价值"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第20题；答案见PDF第46页文档后附第3章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f021",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "美国著名人本主义心理学家____认为，人生的最高境界是一种“高峰体验”，他进一步指出，____中的“高峰体验”实际上是通过自我证实而达到审美的最高境界。",
+      "answers": [
+        "马斯洛",
+        "审美活动"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第21题；答案见PDF第46页文档后附第3章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f022",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术教育是____的核心，它的根本目标是____。",
+      "answers": [
+        "美育",
+        "培养全面发展的人"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第22题；答案见PDF第46页文档后附第3章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f023",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "古希腊的____把审美教育视为道德教育的一种特殊方式或补充手段，认为审美教育从属于道德教育。",
+      "answers": [
+        "柏拉图"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第23题；答案见PDF第46页文档后附第3章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f024",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "席勒在____这一美学理论名著中，首次提出了“美育”这一概念。",
+      "answers": [
+        "美育书简"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第24题；答案见PDF第46页文档后附第3章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f025",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "____明确地把体、智、德、美四项教育并提，使美育具有了独立的地位和任务。",
+      "answers": [
+        "席勒"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 25,
+        "kind": "fill",
+        "answerNumber": 25,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第25题；答案见PDF第46页文档后附第3章第25项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f026",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "我国____提出了“以美育代宗教”的主张，认为这是人类文化发展的必然趋势。",
+      "answers": [
+        "蔡元培"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 26,
+        "kind": "fill",
+        "answerNumber": 26,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第26题；答案见PDF第46页文档后附第3章第26项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f027",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "____是实施美育的主要手段。",
+      "answers": [
+        "艺术教育"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第27题；答案见PDF第46页文档后附第3章第27项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c03-f028",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "《D大调弦乐四重奏》的作者是____。",
+      "answers": [
+        "柴可夫斯基"
+      ],
+      "source": {
+        "pdfPage": 6,
+        "number": 28,
+        "kind": "fill",
+        "answerNumber": 28,
+        "answerPdfPage": 46
+      },
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第28题；答案见PDF第46页文档后附第3章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f001",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "孔子提出了以____、____为中心的美学思想，并用“兴、观、群、怨”等范畴对诗的特点和功能作了概括。",
+      "answers": [
+        "礼",
+        "乐"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第1题；答案见PDF第47页文档后附第4章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f002",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "作为现代主义文艺重要流派之一的超现实主义，是以法国唯心主义哲学家____的直觉主义为理论基础的。",
+      "answers": [
+        "柏格森"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第2题；答案见PDF第47页文档后附第4章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f003",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "综观整个中国美学史，以孔子为代表的____美学和以庄子为代表的____美学，还有后来的____，对古代中国艺术的发展具有极其深远的影响。",
+      "answers": [
+        "儒家",
+        "道家",
+        "禅宗美学"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第3题；答案见PDF第47页文档后附第4章第3项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [],
+        [],
+        [
+          "禅宗佛学",
+          "禅宗"
+        ]
+      ]
+    },
+    {
+      "id": "c04-f004",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "一般认为，现代意义上的文化人类学确立于____年，其标志是英国人类学家____和____正式出版了他们的著作。",
+      "answers": [
+        "1922",
+        "马林诺夫斯基",
+        "拉·布朗"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第4题；答案见PDF第47页文档后附第4章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f005",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "从文化结构来看，____文化是基础，____文化是中介，____文化是核心。",
+      "answers": [
+        "物质",
+        "制度",
+        "精神"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第5题；答案见PDF第47页文档后附第4章第5项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f006",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "象征主义的理论基础就是____的主观唯心主义哲学，同时也吸收了尼采的思想和瑞典神秘主义哲学家史威登堡的____思想。",
+      "answers": [
+        "叔本华",
+        "对应论"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第6题；答案见PDF第47页文档后附第4章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f007",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "象征主义的代表人物和作品，在文学上有____的诗集《恶之花》，有____的长诗《荒原》等；在戏剧上有比利时剧作家____的《青鸟》、德国剧作家____的《沉钟》等。",
+      "answers": [
+        "波德菜尔",
+        "艾略特",
+        "梅特林克",
+        "霍普特曼"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第7题；答案见PDF第47页文档后附第4章第7项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "波德莱尔"
+        ],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "id": "c04-f008",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "中国四大石窟是____、____、____和____。",
+      "answers": [
+        "敦煌",
+        "云冈",
+        "龙门",
+        "麦积山"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第8题；答案见PDF第47页文档后附第4章第8项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "莫高窟",
+          "敦煌莫高窟"
+        ],
+        [
+          "云冈石窟"
+        ],
+        [
+          "龙门石窟"
+        ],
+        [
+          "麦积山石窟"
+        ]
+      ]
+    },
+    {
+      "id": "c04-f009",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "在黑格尔的客观唯心主义体系里，人类认识绝对真理有三种方式：最初级的方式是____，较高一级的方式是____，最高级的方式是____。",
+      "answers": [
+        "艺术",
+        "宗教",
+        "哲学"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第9题；答案见PDF第47页文档后附第4章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f010",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "____是戏曲的雏形。",
+      "answers": [
+        "杂剧"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第10题；答案见PDF第47页文档后附第4章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f011",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "《____》提出了“教以化之”的理论，认为艺术的目的，就是要“经夫妇，成孝敬，厚人伦，美教化，移风俗”。",
+      "answers": [
+        "毛诗序"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第11题；答案见PDF第47页文档后附第4章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f012",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "托尔斯泰著名的“三部曲”____、____、《____》几乎都深深触及伦理道德问题。",
+      "answers": [
+        "战争与和平",
+        "安娜•卡列尼娜",
+        "复活"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第12题；答案见PDF第47页文档后附第4章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f013",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "从评价标准来看，道德评价常常以____为唯一标准，审美评价往往以____的统一为标准。",
+      "answers": [
+        "善",
+        "真善美"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第13题；答案见PDF第47页文档后附第4章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f014",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "____文化包含着哲学、宗教、道德、科学、艺术等许多子系统。",
+      "answers": [
+        "精神"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第14题；答案见PDF第47页文档后附第4章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f015",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "黑格尔将美学称之为____，明确指出美学在艺术与哲学之间的桥梁作用。",
+      "answers": [
+        "艺术哲学"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第15题；答案见PDF第47页文档后附第4章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f016",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "从文化结构来看，物质文化是____，制度文化是____，精神文化是____。",
+      "answers": [
+        "基础",
+        "中介",
+        "核心"
+      ],
+      "source": {
+        "pdfPage": 7,
+        "number": 16,
+        "kind": "fill",
+        "answerNumber": 16,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第16题；答案见PDF第47页文档后附第4章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f017",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "柏格森把所谓____当作世界万物的主宰。",
+      "answers": [
+        "生命冲动"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第17题；答案见PDF第47页文档后附第4章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f018",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "存在主义哲学的代表人物____，他先后创作了《恶心》、《墙》等小说，和《可尊敬的妓女》、《肮脏的手》等一批存在主义戏剧的代表作品。",
+      "answers": [
+        "萨特"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第18题；答案见PDF第47页文档后附第4章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f019",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "被誉为“画圣”的唐代著名画家____，他的创作成就也首先表现在宗教绘画上。",
+      "answers": [
+        "吴道子"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第19题；答案见PDF第47页文档后附第4章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f020",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "北京雍和宫内著名的檀香木____佛像，高26米，体态雄伟，比例匀称，是我国最大的木刻佛像之一。",
+      "answers": [
+        "弥勒"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第20题；答案见PDF第47页文档后附第4章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f021",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "敦煌莫高窟，俗称____，是我国现存规模最大、内容最丰富的石窟艺术宝库。",
+      "answers": [
+        "千佛洞"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第21题；答案见PDF第47页文档后附第4章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f022",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "欧洲音乐史上有名的无伴奏齐唱乐____，可以称得上是欧洲音乐史上现存的有详细记录的最早的音乐作品。",
+      "answers": [
+        "格里高利圣咏"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第22题；答案见PDF第47页文档后附第4章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f023",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "____壁画中的《鹿王本生图》、《张议潮夫妇出行图》、《维摩诘像》等。",
+      "answers": [
+        "莫高窟"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第23题；答案见PDF第47页文档后附第4章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f024",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "欧洲中世纪的戏剧主要是____戏剧，取材多来自____或宗教故事，产生出宗教奇迹剧、宗教传奇剧、宗教神秘剧等戏剧体裁。",
+      "answers": [
+        "宗教",
+        "圣经"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第24题；答案见PDF第47页文档后附第4章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f025",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "伊斯兰教文学的成就主要表现在____、____和故事方面。",
+      "answers": [
+        "诗歌",
+        "散文"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 25,
+        "kind": "fill",
+        "answerNumber": 25,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第25题；答案见PDF第47页文档后附第4章第25项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f026",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "文化大系统主要包括____文化、____文化和____文化三大子系统。",
+      "answers": [
+        "物质",
+        "制度",
+        "精神"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 26,
+        "kind": "fill",
+        "answerNumber": 26,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第26题；答案见PDF第47页文档后附第4章第26项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f027",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "美学的研究对象既包括艺术美，又包括自然美和其他一切现实美，以及____关系和____等更具普遍性的一般规律。",
+      "answers": [
+        "审美主客体",
+        "审美意识"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第27题；答案见PDF第47页文档后附第4章第27项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f028",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "综观整个中国美学史，以____为代表的儒家美学和以____为代表的道家美学，还有后来的禅宗佛学，对古代中国艺术的发展具有极其深远的影响。",
+      "answers": [
+        "孔子",
+        "庄子"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 28,
+        "kind": "fill",
+        "answerNumber": 28,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第28题；答案见PDF第47页文档后附第4章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f029",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "卡夫卡的作品受____先驱克尔凯郭尔等的影响，成为影响西方现代主义文学的____、____、____的代表作品。",
+      "answers": [
+        "存在主义",
+        "表现主义",
+        "存在主义",
+        "荒诞派"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 29,
+        "kind": "fill",
+        "answerNumber": 29,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第29题；答案见PDF第47页文档后附第4章第29项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f030",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "米开朗基罗在西斯廷教堂的天顶画是《____》，壁画是《____》。",
+      "answers": [
+        "创世纪",
+        "最后的审判"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 30,
+        "kind": "fill",
+        "answerNumber": 30,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第30题；答案见PDF第47页文档后附第4章第30项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f031",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "西斯廷教堂中的祭坛画《西斯廷圣母》，作者是____。",
+      "answers": [
+        "拉斐尔"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 31,
+        "kind": "fill",
+        "answerNumber": 31,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第31题；答案见PDF第47页文档后附第4章第31项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f032",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "拉斐尔在梵蒂冈为教皇签字大厅绘制的三幅壁画____、____和____，分别代表哲学、艺术和神学。",
+      "answers": [
+        "雅典学院",
+        "巴纳斯山",
+        "圣典辩论"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 32,
+        "kind": "fill",
+        "answerNumber": 32,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第32题；答案见PDF第47页文档后附第4章第32项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f033",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "____哲学思想的影响，直接形成了存在主义小说和存在主义戏剧，以小说和戏剧等艺术的形式来直接宣传存在主义哲学。",
+      "answers": [
+        "存在主义"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 33,
+        "kind": "fill",
+        "answerNumber": 33,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第33题；答案见PDF第47页文档后附第4章第33项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f034",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "“意识流”这个概念，最早是由美国心理学家和实用主义哲学创始人____提出来的，并且后来由弗洛伊德进一步加以发展。",
+      "answers": [
+        "威廉•詹姆斯"
+      ],
+      "source": {
+        "pdfPage": 8,
+        "number": 34,
+        "kind": "fill",
+        "answerNumber": 34,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第34题；答案见PDF第47页文档后附第4章第34项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f035",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "早在公元前6世纪，古希腊的____学派就提出了“美是和谐”的思想。",
+      "answers": [
+        "毕达哥拉斯"
+      ],
+      "source": {
+        "pdfPage": 9,
+        "number": 35,
+        "kind": "fill",
+        "answerNumber": 35,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第9页 · 第4章填空第35题；答案见PDF第47页文档后附第4章第35项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f036",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "西方现代派艺术中出现最早、影响最大的流派是____。",
+      "answers": [
+        "象征主义"
+      ],
+      "source": {
+        "pdfPage": 9,
+        "number": 36,
+        "kind": "fill",
+        "answerNumber": 36,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第9页 · 第4章填空第36题；答案见PDF第47页文档后附第4章第36项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f037",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "人类文化史的三个辉煌时期是古希腊时期、文艺复兴时期与____。",
+      "answers": [
+        "当代社会"
+      ],
+      "source": {
+        "pdfPage": 9,
+        "number": 37,
+        "kind": "fill",
+        "answerNumber": 37,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第9页 · 第4章填空第37题；答案见PDF第47页文档后附第4章第37项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f038",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "____是存在主义哲学的代表人物，也是存在主义小说的代表作家。",
+      "answers": [
+        "萨特"
+      ],
+      "source": {
+        "pdfPage": 9,
+        "number": 38,
+        "kind": "fill",
+        "answerNumber": 38,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第9页 · 第4章填空第38题；答案见PDF第47页文档后附第4章第38项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f039",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "《圣经》分为____和____两大部分。",
+      "answers": [
+        "旧约",
+        "新约"
+      ],
+      "source": {
+        "pdfPage": 9,
+        "number": 39,
+        "kind": "fill",
+        "answerNumber": 39,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第9页 · 第4章填空第39题；答案见PDF第47页文档后附第4章第39项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f040",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "西方基督教文学的代表性著作就是____。",
+      "answers": [
+        "圣经"
+      ],
+      "source": {
+        "pdfPage": 9,
+        "number": 40,
+        "kind": "fill",
+        "answerNumber": 40,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第9页 · 第4章填空第40题；答案见PDF第47页文档后附第4章第40项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f041",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "哲学主要是通过____这一中介对艺术产生影响。",
+      "answers": [
+        "美学"
+      ],
+      "source": {
+        "pdfPage": 9,
+        "number": 41,
+        "kind": "fill",
+        "answerNumber": 41,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第9页 · 第4章填空第41题；答案见PDF第47页文档后附第4章第41项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f042",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "____提出了“黄金分割”的理论。",
+      "answers": [
+        "毕达哥拉斯学派"
+      ],
+      "source": {
+        "pdfPage": 9,
+        "number": 42,
+        "kind": "fill",
+        "answerNumber": 42,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第9页 · 第4章填空第42题；答案见PDF第47页文档后附第4章第42项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f043",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "超现实主义以法国哲学家柏格森的____主义为理论基础。",
+      "answers": [
+        "直觉"
+      ],
+      "source": {
+        "pdfPage": 9,
+        "number": 43,
+        "kind": "fill",
+        "answerNumber": 43,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第9页 · 第4章填空第43题；答案见PDF第47页文档后附第4章第43项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f050",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "英国著名美学家____的《艺术》一书，被做是现代派艺术理论的柱石。",
+      "answers": [
+        "克莱夫贝尔"
+      ],
+      "source": {
+        "pdfPage": 9,
+        "number": 50,
+        "kind": "fill",
+        "answerNumber": 50,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第9页 · 第4章填空第50题；答案见PDF第47页文档后附第4章第50项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c04-f059",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "冯梦龙的“三言”是《____》《____》《____》；凌濛初的“二拍”是《____》《____》。",
+      "answers": [
+        "喻世明言",
+        "警世通言",
+        "醒世恒言",
+        "初刻拍案惊奇",
+        "二刻拍案惊奇"
+      ],
+      "source": {
+        "pdfPage": 10,
+        "number": 59,
+        "kind": "fill",
+        "answerNumber": 59,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第10页 · 第4章填空第59题；答案见PDF第47页文档后附第4章第59项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f001",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "古罗马建筑师维特鲁威提出建筑三条基本原则：____、____、____。",
+      "answers": [
+        "实用",
+        "坚固",
+        "美观"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第1题；答案见PDF第47页文档后附第5章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f002",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "美国著名建筑家____，提倡“有机建筑”理论。",
+      "answers": [
+        "赖特"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第2题；答案见PDF第47页文档后附第5章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f003",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "包豪斯（Bauhaus）于____年在德国创办，其创始人是____。",
+      "answers": [
+        "1919",
+        "格罗比乌斯"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第3题；答案见PDF第47页文档后附第5章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f004",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "从广义来讲，园林艺术也是____艺术的一种类型。",
+      "answers": [
+        "建筑"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第4题；答案见PDF第47页文档后附第5章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f005",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "东方园林主要以____园林为代表、欧洲园林主要以____园林为代表。",
+      "answers": [
+        "中国",
+        "法国"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第5题；答案见PDF第47页文档后附第5章第5项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f006",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "中国园林真正的精华与核心是它的____。",
+      "answers": [
+        "文化美"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第6题；答案见PDF第47页文档后附第5章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f007",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "中国古代文论《____》，分析了诗、歌、舞三种不同艺术的联系和区别。",
+      "answers": [
+        "毛诗序"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第7题；答案见PDF第47页文档后附第5章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f008",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "____艺术是所有艺术种类中最普及、最常见的一大类别。它与人们的衣、食、住、用等日常生活关系最为密切。",
+      "answers": [
+        "实用"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第8题；答案见PDF第47页文档后附第5章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f009",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "建筑大师____认为，建筑是艺术，不是钢筋和水泥的简单堆砌。",
+      "answers": [
+        "贝聿铭"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第9题；答案见PDF第47页文档后附第5章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f010",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "在欧洲，人们甚至把建筑称作____，认为从中可以通览人类的文化史和文明史。",
+      "answers": [
+        "石头的史书"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第10题；答案见PDF第47页文档后附第5章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f011",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "在所有艺术门类中，____艺术与物质条件和技术条件的关系最为密切。",
+      "answers": [
+        "建筑"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第11题；答案见PDF第47页文档后附第5章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f012",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "美国著名建筑家赖特，提倡____理论，认为建筑应当从属于周围的自然环境，就像植物从它所在的环境中自然而然地生长出来一样。",
+      "answers": [
+        "有机建筑"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第12题；答案见PDF第47页文档后附第5章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f013",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "颐和园采用了____、____、____等多种艺术手法来创造空间美感。",
+      "answers": [
+        "借景",
+        "分景",
+        "隔景"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第13题；答案见PDF第47页文档后附第5章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f014",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "实用工艺美术品应当____、____、____。",
+      "answers": [
+        "适用",
+        "经济",
+        "美观"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第14题；答案见PDF第47页文档后附第5章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f015",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "现代设计大致包括____、____和____三个方面。",
+      "answers": [
+        "产品设计",
+        "环境设计",
+        "视觉设计"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第15题；答案见PDF第47页文档后附第5章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f016",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "中国园林特别重视人与自然的亲和，可称为____式；欧洲园林强调几何形图案，崇尚人工美，可称为____式。",
+      "answers": [
+        "自然",
+        "几何"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 16,
+        "kind": "fill",
+        "answerNumber": 16,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第16题；答案见PDF第47页文档后附第5章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f017",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "中国古典园林可以分为____园林和____园林两大类型。",
+      "answers": [
+        "北方大型皇家",
+        "江南小型私家"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第17题；答案见PDF第47页文档后附第5章第17项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "北方大型皇家园林",
+          "北方皇家",
+          "北方皇家园林"
+        ],
+        [
+          "江南小型私家园林",
+          "江南私家",
+          "江南私家园林"
+        ]
+      ]
+    },
+    {
+      "id": "c05-f018",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "艺术分类方法是以艺术形象的____为依据，将艺术区分为时间艺术、空间艺术和时空艺术。",
+      "answers": [
+        "存在方式"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第18题；答案见PDF第47页文档后附第5章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f019",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "实用艺术最基本的特征是____与____相结合，它是建筑艺术、园林艺术、工艺美术与现代设计等一大类表现性空间艺术的总称。",
+      "answers": [
+        "实用性",
+        "审美性"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第19题；答案见PDF第47页文档后附第5章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f020",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "古罗马建筑师____就提出了建筑的三条基本原则：“实用、坚固、美观”。",
+      "answers": [
+        "维特鲁威"
+      ],
+      "source": {
+        "pdfPage": 11,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第20题；答案见PDF第47页文档后附第5章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f021",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "____，是建筑的基本形式要素，建筑主要通过创造各种内外空间来满足人们的实际需要。",
+      "answers": [
+        "空间"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第21题；答案见PDF第47页文档后附第5章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f022",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "艺术分类方法是以艺术形象的____为依据，将艺术区分为听觉艺术、视觉艺术和视听艺术。",
+      "answers": [
+        "审美方式"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第22题；答案见PDF第47页文档后附第5章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f023",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "艺术分类方法是根据艺术的____将整个艺术区分为五大类别，即实用艺术、造型艺术、表情艺术、综合艺术和语言艺术等。",
+      "answers": [
+        "美学原则"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第23题；答案见PDF第47页文档后附第5章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f024",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "____，是指通过建筑物的墙、柱、门、窗等构成部分有规律的变化和排列，产生一种韵律美或节奏美。",
+      "answers": [
+        "节奏"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第24题；答案见PDF第47页文档后附第5章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f025",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "艺术分类方法以艺术作品的____为依据，将艺术区分为动态艺术和静态艺术。",
+      "answers": [
+        "物化形式"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 25,
+        "kind": "fill",
+        "answerNumber": 25,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第25题；答案见PDF第47页文档后附第5章第25项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f026",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "钢筋水泥建筑材料的出现，为高层建筑提供了物质技术条件，从而取代了欧洲建筑千余年来的____和____结构，1931年在纽约落成的____是第一座超过100层的摩天大楼。",
+      "answers": [
+        "柱式",
+        "拱式",
+        "帝国大厦"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 26,
+        "kind": "fill",
+        "answerNumber": 26,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第26题；答案见PDF第47页文档后附第5章第26项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f027",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "世界三大园林体系，包括____园林、____园林，以及____园林，都具有极高的艺术性和观赏性。",
+      "answers": [
+        "东方",
+        "欧洲",
+        "阿拉伯式"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第27题；答案见PDF第47页文档后附第5章第27项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f028",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "欣赏中国园林，不但要注意欣赏它的____美、____美，尤其要注意欣赏它的____美。",
+      "answers": [
+        "自然",
+        "建筑",
+        "文化"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 28,
+        "kind": "fill",
+        "answerNumber": 28,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第28题；答案见PDF第47页文档后附第5章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f029",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "阿拉伯式园林发源于____和____，以十字形道路交叉处的水池为中心。",
+      "answers": [
+        "古代巴比伦",
+        "波斯"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 29,
+        "kind": "fill",
+        "answerNumber": 29,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第29题；答案见PDF第47页文档后附第5章第29项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f030",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "中国古典园林最突出的特点，是追求一种____的审美境界。",
+      "answers": [
+        "诗情画意"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 30,
+        "kind": "fill",
+        "answerNumber": 30,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第30题；答案见PDF第47页文档后附第5章第30项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f031",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "____，主要是指建筑物的总体轮廓，通过线条和形体、空间和实体的不同组合方式，以及建筑与环境的和谐统一，突出建筑物独特的个性色彩和特有的艺术感染力。",
+      "answers": [
+        "形体"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 31,
+        "kind": "fill",
+        "answerNumber": 31,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第31题；答案见PDF第47页文档后附第5章第31项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f032",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "艺术分类方法以艺术作品的内容特征为依据，将艺术区分为____艺术和____艺术。",
+      "answers": [
+        "表现",
+        "再现"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 32,
+        "kind": "fill",
+        "answerNumber": 32,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第32题；答案见PDF第47页文档后附第5章第32项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f033",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "____，主要是指建筑在构图上的对称。",
+      "answers": [
+        "均衡"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 33,
+        "kind": "fill",
+        "answerNumber": 33,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第33题；答案见PDF第47页文档后附第5章第33项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f034",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "我国先秦古籍____，强调制作工艺品必须“材美工巧”，认为只有优质的材料结合精湛的工艺，才能创造出美的工艺品。",
+      "answers": [
+        "考工记"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 34,
+        "kind": "fill",
+        "answerNumber": 34,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第34题；答案见PDF第47页文档后附第5章第34项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f035",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "工艺美术品的审美特性与建筑艺术相仿，集中体现为____美。",
+      "answers": [
+        "造型"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 35,
+        "kind": "fill",
+        "answerNumber": 35,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第35题；答案见PDF第47页文档后附第5章第35项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f036",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "艺术分类方法是以艺术形象的审美方式为依据，将艺术区分为____艺术、____艺术和____艺术。",
+      "answers": [
+        "听觉",
+        "视觉",
+        "视听"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 36,
+        "kind": "fill",
+        "answerNumber": 36,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第36题；答案见PDF第47页文档后附第5章第36项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "听觉艺术"
+        ],
+        [
+          "视觉艺术"
+        ],
+        [
+          "视听艺术"
+        ]
+      ]
+    },
+    {
+      "id": "c05-f037",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "____是全世界规模最大、保存最完好的古代皇宫建筑群。",
+      "answers": [
+        "故宫"
+      ],
+      "source": {
+        "pdfPage": 12,
+        "number": 37,
+        "kind": "fill",
+        "answerNumber": 37,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第37题；答案见PDF第47页文档后附第5章第37项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c05-f038",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "悉尼歌剧院建成于____，设计师是____。",
+      "answers": [
+        "1973年",
+        "伍重"
+      ],
+      "source": {
+        "pdfPage": 13,
+        "number": 38,
+        "kind": "fill",
+        "answerNumber": 38,
+        "answerPdfPage": 47
+      },
+      "explanation": "用户提供扫描题集 · PDF第13页 · 第5章填空第38题；答案见PDF第47页文档后附第5章第38项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "1973"
+        ],
+        [
+          "约恩伍重",
+          "约恩乌松",
+          "乌松"
+        ]
+      ]
+    },
+    {
+      "id": "c05-f047",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "从狭义上讲，视觉设计又被称作____。",
+      "answers": [
+        "平面设计"
+      ],
+      "source": {
+        "pdfPage": 13,
+        "number": 47,
+        "kind": "fill",
+        "answerNumber": 47,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第13页 · 第5章填空第47题；答案见PDF第48页文档后附第5章第47项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f001",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "绘画从体系来划分，可分为____绘画和____绘画两大体系。",
+      "answers": [
+        "以中国画为代表的东方",
+        "以油画为代表的西方"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第1题；答案见PDF第48页文档后附第6章第1项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "东方",
+          "东方绘画",
+          "中国画"
+        ],
+        [
+          "西方",
+          "西方绘画",
+          "油画"
+        ]
+      ]
+    },
+    {
+      "id": "c06-f002",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "我国现已发现的最早的帛画，是湖南长沙出土的战国楚墓帛画____。",
+      "answers": [
+        "人物龙凤图"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第2题；答案见PDF第48页文档后附第6章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f003",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "书法最早也是一门____艺术。",
+      "answers": [
+        "实用"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第3题；答案见PDF第48页文档后附第6章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f004",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "中国画营造的空间主要有____、____和____三种。",
+      "answers": [
+        "全景式空间",
+        "分段式空间",
+        "分层式空间"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第4题；答案见PDF第48页文档后附第6章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f005",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "东晋顾恺之就提出____和____，就是要求抓住人物的典型特征来表现其内在精神。",
+      "answers": [
+        "以形写神",
+        "迁想妙得"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第5题；答案见PDF第48页文档后附第6章第5项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f006",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "“六朝三杰”是东晋的____、南朝宋的____和梁的____。",
+      "answers": [
+        "顾恺之",
+        "陆探微",
+        "张僧繇"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第6题；答案见PDF第48页文档后附第6章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f007",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "“元代四大家”是山水画家____、____、____、____。",
+      "answers": [
+        "黄公望",
+        "吴镇",
+        "王蒙",
+        "倪瓒"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第7题；答案见PDF第48页文档后附第6章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f008",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "“四大名僧”是明末清初的____、____、____、____。",
+      "answers": [
+        "石涛",
+        "石谿",
+        "八大山人",
+        "弘仁"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第8题；答案见PDF第48页文档后附第6章第8项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [],
+        [
+          "石溪"
+        ],
+        [
+          "朱耷"
+        ],
+        []
+      ]
+    },
+    {
+      "id": "c06-f009",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "版画可分为木刻和麻胶版画的____类、铜版画的____类、石版画的____类。",
+      "answers": [
+        "凸版",
+        "凹版",
+        "平板"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第9题；答案见PDF第48页文档后附第6章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f010",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "从表现手法和形式来区分，雕塑一般又可分为____、____和____三类。",
+      "answers": [
+        "圆雕",
+        "浮雕",
+        "透雕"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第10题；答案见PDF第48页文档后附第6章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f011",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____年法国人____发明摄影技术。",
+      "answers": [
+        "1839",
+        "达盖尔"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第11题；答案见PDF第48页文档后附第6章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f012",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "汉字书法总体可以分为____、____、____、____和____五种书体。",
+      "answers": [
+        "篆书",
+        "隶书",
+        "楷书",
+        "行书",
+        "草书"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第12题；答案见PDF第48页文档后附第6章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f013",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "广义的大篆指____、____、____，小篆又叫____。",
+      "answers": [
+        "甲骨文",
+        "金文",
+        "籀文",
+        "秦篆"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第13题；答案见PDF第48页文档后附第6章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f014",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "《清明上河图》这幅____画，大致分为____、____、____三部分。",
+      "answers": [
+        "社会风俗",
+        "城郊景色",
+        "汴河虹桥",
+        "市区街道"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第14题；答案见PDF第48页文档后附第6章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f015",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "《____》、《____》和《____》，并称为“卢浮宫三宝”。",
+      "answers": [
+        "蒙娜丽莎",
+        "维纳斯像",
+        "萨莫德拉克的胜利女神"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第15题；答案见PDF第48页文档后附第6章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f016",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "后印象派有三位代表大师____、____和____。",
+      "answers": [
+        "塞尚",
+        "梵高",
+        "高更"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 16,
+        "kind": "fill",
+        "answerNumber": 16,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第16题；答案见PDF第48页文档后附第6章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f017",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "摄影艺术独具的审美特征主要表现在____性与____性的统一上。",
+      "answers": [
+        "纪实",
+        "艺术"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第17题；答案见PDF第48页文档后附第6章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f018",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "中国画常讲的“墨分五彩”，指墨色的____、____、____、____、____这五种不同的色度。",
+      "answers": [
+        "焦",
+        "浓",
+        "重",
+        "淡",
+        "清"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第18题；答案见PDF第48页文档后附第6章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f019",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "“明代四大家”又称____，指明代在苏州活动的____、____、____、____。",
+      "answers": [
+        "吴门四家",
+        "沈周",
+        "文徵明",
+        "唐寅",
+        "仇英"
+      ],
+      "source": {
+        "pdfPage": 14,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第19题；答案见PDF第48页文档后附第6章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f020",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "意大利文艺复兴初期画家、雕塑家____被认为是欧洲绘画之父和____画派的鼻祖。",
+      "answers": [
+        "乔托",
+        "现实主义"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第20题；答案见PDF第48页文档后附第6章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f021",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "圆雕又称____，浮雕又称____。",
+      "answers": [
+        "浑雕",
+        "凸雕"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第21题；答案见PDF第48页文档后附第6章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f022",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "魏晋唐时期还出现了一批雕塑大师，如东晋时期的____父子被后世学者看做是中国佛像雕塑的奠基人，唐代雕塑大师____被称为“塑圣”。",
+      "answers": [
+        "戴逵",
+        "杨惠之"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第22题；答案见PDF第48页文档后附第6章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f023",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "加拿大著名摄影家____的《二次大战时的邱吉尔》，更是抓拍了邱吉尔大怒的瞬间，这张照片印制了上百万张，流传于世界各国。",
+      "answers": [
+        "卡希"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第23题；答案见PDF第48页文档后附第6章第23项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "卡什",
+          "优素福卡什"
+        ]
+      ]
+    },
+    {
+      "id": "c06-f024",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "我国摄影家____的代表作品《千里共婵娟》拍摄于太湖。",
+      "answers": [
+        "陈复礼"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第24题；答案见PDF第48页文档后附第6章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f025",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "绘画主义摄影，从19世纪中叶起源于____，很快传遍世界各国，成为摄影艺术史上形成最早、影响最广的一个流派。",
+      "answers": [
+        "英国"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 25,
+        "kind": "fill",
+        "answerNumber": 25,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第25题；答案见PDF第48页文档后附第6章第25项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f026",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "楷书，也叫____或____，特点是字形方正，笔画平直，风格古雅，整齐端庄。",
+      "answers": [
+        "正书",
+        "正楷"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 26,
+        "kind": "fill",
+        "answerNumber": 26,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第26题；答案见PDF第48页文档后附第6章第26项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f027",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "草书始于____，最早由____演变为章草，后来发展成____，唐代张旭、怀素又创造了____。",
+      "answers": [
+        "汉代",
+        "隶书",
+        "今草",
+        "狂草"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第27题；答案见PDF第48页文档后附第6章第27项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f028",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "人们常说的“颜筋柳骨”，就是对唐代著名书法家____、____书法作品不同风格的评价。",
+      "answers": [
+        "颜真卿",
+        "柳公权"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 28,
+        "kind": "fill",
+        "answerNumber": 28,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第28题；答案见PDF第48页文档后附第6章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f029",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "王羲之被称为“天下第一行书”的作品是《____》。",
+      "answers": [
+        "兰亭集序"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 29,
+        "kind": "fill",
+        "answerNumber": 29,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第29题；答案见PDF第48页文档后附第6章第29项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f030",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "造型艺术最基本的特征就是____。",
+      "answers": [
+        "造型性"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 30,
+        "kind": "fill",
+        "answerNumber": 30,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第30题；答案见PDF第48页文档后附第6章第30项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f031",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "英国18世纪油画家荷加斯的____就是由六幅画组成，讲述一个婚姻故事。",
+      "answers": [
+        "时髦婚姻"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 31,
+        "kind": "fill",
+        "answerNumber": 31,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第31题；答案见PDF第48页文档后附第6章第31项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f032",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "《____》被历代鉴赏家称为“中华第一神品”。",
+      "answers": [
+        "清明上河图"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 32,
+        "kind": "fill",
+        "answerNumber": 32,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第32题；答案见PDF第48页文档后附第6章第32项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f033",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "行书《祭侄文稿》作者是____。",
+      "answers": [
+        "颜真卿"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 33,
+        "kind": "fill",
+        "answerNumber": 33,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第33题；答案见PDF第48页文档后附第6章第33项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f034",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "宋著名人物画家____擅长于____的画风，他的代表作有《太白行吟图》和《泼墨仙人图》。",
+      "answers": [
+        "梁楷",
+        "减笔画"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 34,
+        "kind": "fill",
+        "answerNumber": 34,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第34题；答案见PDF第48页文档后附第6章第34项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f037",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "《匡庐图》作者是____，此画属于____构图。",
+      "answers": [
+        "荆浩",
+        "全景式"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 37,
+        "kind": "fill",
+        "answerNumber": 37,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第37题；答案见PDF第48页文档后附第6章第37项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f038",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "《韩熙载夜宴图》的作者是五代南唐画家____。",
+      "answers": [
+        "顾闳中"
+      ],
+      "source": {
+        "pdfPage": 15,
+        "number": 38,
+        "kind": "fill",
+        "answerNumber": 38,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第38题；答案见PDF第48页文档后附第6章第38项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f045",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "南宋的____、____追求以少胜多地画半边山或一角水。",
+      "answers": [
+        "马远",
+        "夏圭"
+      ],
+      "source": {
+        "pdfPage": 16,
+        "number": 45,
+        "kind": "fill",
+        "answerNumber": 45,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第45题；答案见PDF第48页文档后附第6章第45项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f046",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "从世界绘画的两大体系来看，以____为代表的东方绘画和以____为代表的西方绘画，各有自己的基本特征和历史传统，从而形成各自不同的表现形式与审美特点。",
+      "answers": [
+        "中国画",
+        "油画"
+      ],
+      "source": {
+        "pdfPage": 16,
+        "number": 46,
+        "kind": "fill",
+        "answerNumber": 46,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第46题；答案见PDF第48页文档后附第6章第46项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f047",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "中国画又称____或____，构图多采用____透视法。",
+      "answers": [
+        "水墨画",
+        "彩墨画",
+        "散点"
+      ],
+      "source": {
+        "pdfPage": 16,
+        "number": 47,
+        "kind": "fill",
+        "answerNumber": 47,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第47题；答案见PDF第48页文档后附第6章第47项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f048",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "以____美学、____美学、____美学为代表的中国传统美学，对中国传统艺术产生了巨大而深远的影响，从而形成了独具特色的中国艺术精神。",
+      "answers": [
+        "儒家",
+        "道家",
+        "禅宗"
+      ],
+      "source": {
+        "pdfPage": 16,
+        "number": 48,
+        "kind": "fill",
+        "answerNumber": 48,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第48题；答案见PDF第48页文档后附第6章第48项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f049",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "唐宋时期是中国绘画艺术达到高峰的时代，除原有的人物画外，____、____等都成为独立画科。",
+      "answers": [
+        "山水画",
+        "花鸟画"
+      ],
+      "source": {
+        "pdfPage": 16,
+        "number": 49,
+        "kind": "fill",
+        "answerNumber": 49,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第49题；答案见PDF第48页文档后附第6章第49项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f050",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____摄影以表现大自然的风景为主，一般分为____风景、____风景、____风景等。",
+      "answers": [
+        "风光",
+        "自然",
+        "都市",
+        "乡村"
+      ],
+      "source": {
+        "pdfPage": 16,
+        "number": 50,
+        "kind": "fill",
+        "answerNumber": 50,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第50题；答案见PDF第48页文档后附第6章第50项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f051",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "商周至战国时代的____脱胎于甲骨文，已渐趋齐整。",
+      "answers": [
+        "金文"
+      ],
+      "source": {
+        "pdfPage": 16,
+        "number": 51,
+        "kind": "fill",
+        "answerNumber": 51,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第51题；答案见PDF第48页文档后附第6章第51项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f052",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "宋代书法注重书家感情的发挥，追求自由的个性表现，故有____之说。",
+      "answers": [
+        "宋人尚意"
+      ],
+      "source": {
+        "pdfPage": 16,
+        "number": 52,
+        "kind": "fill",
+        "answerNumber": 52,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第52题；答案见PDF第48页文档后附第6章第52项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f053",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "法国新印象派代表人物____主张用纯色的点或块取得光色效果，因此又被称为____。",
+      "answers": [
+        "修拉",
+        "点彩派"
+      ],
+      "source": {
+        "pdfPage": 16,
+        "number": 53,
+        "kind": "fill",
+        "answerNumber": 53,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第53题；答案见PDF第48页文档后附第6章第53项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f054",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "唐代是书法艺术的鼎盛时期，各种书体都有了承先启后的发展，尤其是____的成就达到高峰。",
+      "answers": [
+        "楷书"
+      ],
+      "source": {
+        "pdfPage": 16,
+        "number": 54,
+        "kind": "fill",
+        "answerNumber": 54,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第54题；答案见PDF第48页文档后附第6章第54项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f055",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____由篆书简化演变而成，横笔首尾方中带圆，转角处多呈方折。绘画《我们从哪里来？我们是谁？我们向何处去？》的作者是____。",
+      "answers": [
+        "隶书",
+        "高更"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 55,
+        "kind": "fill",
+        "answerNumber": 55,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第55题；答案见PDF第48页文档后附第6章第55项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f056",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "《日出·印象》的作者是____，该作品被视为____的开端。擅长女性和儿童人物画、代表作有《包厢》的印象派画家是____。",
+      "answers": [
+        "莫奈",
+        "印象派",
+        "雷诺阿"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 56,
+        "kind": "fill",
+        "answerNumber": 56,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第56题；答案见PDF第48页文档后附第6章第56项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f057",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "印象派中著名画家____，善于运用光线和色彩的强烈对比来塑造人物形象，代表作品有《舞蹈课》等。",
+      "answers": [
+        "德加"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 57,
+        "kind": "fill",
+        "answerNumber": 57,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第57题；答案见PDF第48页文档后附第6章第57项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f058",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "印象派画家中，____曾被公认为一代宗师，起到了承前启后的作用，他的代表作品有《奥林匹亚》》、《草地上的午餐》、《吹短笛的男孩》等。",
+      "answers": [
+        "马奈"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 58,
+        "kind": "fill",
+        "answerNumber": 58,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第58题；答案见PDF第48页文档后附第6章第58项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f059",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____是书法艺术中的杰作，素有“天下第一行书”的盛誉。",
+      "answers": [
+        "兰亭集序"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 59,
+        "kind": "fill",
+        "answerNumber": 59,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第59题；答案见PDF第48页文档后附第6章第59项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f060",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "《二次大战时的邱吉尔》，加拿大摄影大师____最著名的摄影作品，拍摄于1941年12月30日。",
+      "answers": [
+        "卡希"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 60,
+        "kind": "fill",
+        "answerNumber": 60,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第60题；答案见PDF第48页文档后附第6章第60项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "卡什",
+          "优素福卡什"
+        ]
+      ]
+    },
+    {
+      "id": "c06-f061",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "《清明上河图》采用长卷形式，运用了中国画特有的____透视技法。也是一幅著名的____长卷。",
+      "answers": [
+        "散点",
+        "风俗画"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 61,
+        "kind": "fill",
+        "answerNumber": 61,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第61题；答案见PDF第48页文档后附第6章第61项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f062",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "《韩熙载夜宴图》长卷分为____、____、____、____、____五段。",
+      "answers": [
+        "听乐",
+        "赏舞",
+        "休息",
+        "清吹",
+        "散宴"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 62,
+        "kind": "fill",
+        "answerNumber": 62,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第62题；答案见PDF第48页文档后附第6章第62项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f063",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "晋代“书圣”____的代表作品《兰亭集序》堪称一篇流传千古的名迹。",
+      "answers": [
+        "王羲之"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 63,
+        "kind": "fill",
+        "answerNumber": 63,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第63题；答案见PDF第48页文档后附第6章第63项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f064",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "唐代画家____精练而深刻地概括了绘画创作中的主客体关系，就是“外师造化，中得心源”。",
+      "answers": [
+        "张璪"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 64,
+        "kind": "fill",
+        "answerNumber": 64,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第64题；答案见PDF第48页文档后附第6章第64项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f065",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____摄影，至今仍是摄影艺术中最重要的一个流派。",
+      "answers": [
+        "纪实主义"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 65,
+        "kind": "fill",
+        "answerNumber": 65,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第65题；答案见PDF第48页文档后附第6章第65项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f066",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____，又称人物摄影，是以表现人物形象为主的摄影，包括特写镜头、头像、半身像、全身像和群像等。",
+      "answers": [
+        "肖像摄影"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 66,
+        "kind": "fill",
+        "answerNumber": 66,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第66题；答案见PDF第48页文档后附第6章第66项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f068",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "法国雕塑浪漫主义流派的代表人物____，为巴黎凯旋门创作了巨形浮雕《马赛曲》。",
+      "answers": [
+        "吕德"
+      ],
+      "source": {
+        "pdfPage": 17,
+        "number": 68,
+        "kind": "fill",
+        "answerNumber": 68,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第68题；答案见PDF第48页文档后附第6章第68项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f072",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "雕像《掷铁饼者》的作者是____。",
+      "answers": [
+        "米隆"
+      ],
+      "source": {
+        "pdfPage": 18,
+        "number": 72,
+        "kind": "fill",
+        "answerNumber": 72,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第18页 · 第6章填空第72题；答案见PDF第48页文档后附第6章第72项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f073",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "雕像《命运三女神》的作者是____。",
+      "answers": [
+        "菲狄亚斯"
+      ],
+      "source": {
+        "pdfPage": 18,
+        "number": 73,
+        "kind": "fill",
+        "answerNumber": 73,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第18页 · 第6章填空第73题；答案见PDF第48页文档后附第6章第73项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f075",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____时期，我国古代雕塑艺术达到高峰时代。",
+      "answers": [
+        "秦汉"
+      ],
+      "source": {
+        "pdfPage": 18,
+        "number": 75,
+        "kind": "fill",
+        "answerNumber": 75,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第18页 · 第6章填空第75题；答案见PDF第48页文档后附第6章第75项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f076",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "魏晋南北朝和唐宋时期，____雕塑发展迅速。",
+      "answers": [
+        "宗教"
+      ],
+      "source": {
+        "pdfPage": 18,
+        "number": 76,
+        "kind": "fill",
+        "answerNumber": 76,
+        "answerPdfPage": 48
+      },
+      "explanation": "用户提供扫描题集 · PDF第18页 · 第6章填空第76题；答案见PDF第48页文档后附第6章第76项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f078",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "从制作工艺来看，它可以分为____和____两大类。",
+      "answers": [
+        "雕",
+        "塑"
+      ],
+      "source": {
+        "pdfPage": 18,
+        "number": 78,
+        "kind": "fill",
+        "answerNumber": 78,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第18页 · 第6章填空第78题；答案见PDF第49页文档后附第6章第78项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f079",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "绘画《马拉之死》的作者是新古典主义美术的代表人物____。",
+      "answers": [
+        "雅克•路易•大卫"
+      ],
+      "source": {
+        "pdfPage": 18,
+        "number": 79,
+        "kind": "fill",
+        "answerNumber": 79,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第18页 · 第6章填空第79题；答案见PDF第49页文档后附第6章第79项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f086",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "新印象主义代表人物____的代表作是《大碗岛上的星期天》。",
+      "answers": [
+        "修拉"
+      ],
+      "source": {
+        "pdfPage": 18,
+        "number": 86,
+        "kind": "fill",
+        "answerNumber": 86,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第18页 · 第6章填空第86题；答案见PDF第49页文档后附第6章第86项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f089",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "被称为“世界第八大奇观”的是____。",
+      "answers": [
+        "秦始皇兵马俑"
+      ],
+      "source": {
+        "pdfPage": 19,
+        "number": 89,
+        "kind": "fill",
+        "answerNumber": 89,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第19页 · 第6章填空第89题；答案见PDF第49页文档后附第6章第89项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f090",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "造型艺术中最主要的一种艺术形式是____。",
+      "answers": [
+        "绘画"
+      ],
+      "source": {
+        "pdfPage": 19,
+        "number": 90,
+        "kind": "fill",
+        "answerNumber": 90,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第19页 · 第6章填空第90题；答案见PDF第49页文档后附第6章第90项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f091",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "西方雕塑史上的四个高峰时期分别是____、____、____、____。",
+      "answers": [
+        "古希腊罗马时期",
+        "欧洲文艺复兴时期",
+        "19世纪法国雕塑",
+        "20世纪以来"
+      ],
+      "source": {
+        "pdfPage": 19,
+        "number": 91,
+        "kind": "fill",
+        "answerNumber": 91,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第19页 · 第6章填空第91题；答案见PDF第49页文档后附第6章第91项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f092",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "“颜筋柳骨”指唐代书法家颜真卿和____。",
+      "answers": [
+        "柳公权"
+      ],
+      "source": {
+        "pdfPage": 19,
+        "number": 92,
+        "kind": "fill",
+        "answerNumber": 92,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第19页 · 第6章填空第92题；答案见PDF第49页文档后附第6章第92项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c06-f099",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "全世界规模最大、保存最完好的古代皇宫建筑群是____。",
+      "answers": [
+        "故宫"
+      ],
+      "source": {
+        "pdfPage": 20,
+        "number": 99,
+        "kind": "fill",
+        "answerNumber": 99,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第20页 · 第6章填空第99题；答案见PDF第49页文档后附第6章第99项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f001",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "人们常将音乐划分为____和____两大类。",
+      "answers": [
+        "声乐",
+        "器乐"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第1题；答案见PDF第49页文档后附第7章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f002",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "我国声乐一般又被划分为____、____和____三大类。",
+      "answers": [
+        "民族唱法",
+        "美声唱法",
+        "通俗唱法"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第2题；答案见PDF第49页文档后附第7章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f003",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "根据器乐的不同种类和演奏方法，可以分为____、____、____和____四大类。",
+      "answers": [
+        "弦乐",
+        "管乐",
+        "弹拨乐",
+        "打击乐"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第3题；答案见PDF第49页文档后附第7章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f004",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "以____、____、____三位音乐巨匠为首的维也纳古典乐派，使得交响乐真正进入了黄金时代。",
+      "answers": [
+        "海顿",
+        "莫扎特",
+        "贝多芬"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第4题；答案见PDF第49页文档后附第7章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f005",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "所谓____，就是用管弦乐队演奏的奏鸣曲。",
+      "answers": [
+        "交响乐"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第5题；答案见PDF第49页文档后附第7章第5项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f006",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "孔子对音乐的评价：“子谓《____》：’尽美矣，又尽善也。’谓《____》：’尽美矣，未尽也。'”",
+      "answers": [
+        "韶",
+        "武"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第6题；答案见PDF第49页文档后附第7章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f007",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "西周专门设立了掌管音乐和音乐教育的乐官，出现了由周王朝制定的____和流行于民间的俗乐____。",
+      "answers": [
+        "雅乐",
+        "郑卫之音"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第7题；答案见PDF第49页文档后附第7章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f008",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "毕达哥拉斯学派从音乐与____的关系出发，强调音乐是和谐的表现。",
+      "answers": [
+        "数学"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第8题；答案见PDF第49页文档后附第7章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f009",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "____也认为音乐是一种最令人愉快的艺术，他认为音乐具有教育作用、净化作用。",
+      "answers": [
+        "亚里士多德"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第9题；答案见PDF第49页文档后附第7章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f010",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "《C大调玛祖卡舞曲》的作者是____。",
+      "answers": [
+        "肖邦"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第10题；答案见PDF第49页文档后附第7章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f011",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "《悲怆交响曲》的作者是____。",
+      "answers": [
+        "柴可夫斯基"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第11题；答案见PDF第49页文档后附第7章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f012",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "声乐按人们歌唱的特点可分为____、____和____三类。",
+      "answers": [
+        "男声",
+        "女声",
+        "童声"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第12题；答案见PDF第49页文档后附第7章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f013",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "____是欧洲音乐史上有详细记录的最早的作品。",
+      "answers": [
+        "格里高利圣咏"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第13题；答案见PDF第49页文档后附第7章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f014",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "近现代欧洲音乐史上最重要的音乐流派有____、____和____。",
+      "answers": [
+        "古典乐派",
+        "浪漫乐派",
+        "民族乐派"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第14题；答案见PDF第49页文档后附第7章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f015",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "第一部真正的芭蕾舞作品是《____》。",
+      "answers": [
+        "王后戏剧芭蕾"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第15题；答案见PDF第49页文档后附第7章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f016",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "____被称为“现代舞蹈之母”。",
+      "answers": [
+        "邓肯"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 16,
+        "kind": "fill",
+        "answerNumber": 16,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第16题；答案见PDF第49页文档后附第7章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f017",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "华尔兹俗称____。",
+      "answers": [
+        "慢三步"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第17题；答案见PDF第49页文档后附第7章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f018",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "歌剧《费加罗的婚礼》取材于法国著名戏剧家____的同名喜剧，由德国著名音乐家____作曲。",
+      "answers": [
+        "博马舍",
+        "莫扎特"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第18题；答案见PDF第49页文档后附第7章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f019",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "在音乐中，____是最基本和最重要的表现手段。",
+      "answers": [
+        "节奏"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第19题；答案见PDF第49页文档后附第7章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f020",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "表情艺术最基本的美学特征就是____和____。",
+      "answers": [
+        "抒情性",
+        "表现性"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第20题；答案见PDF第49页文档后附第7章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f022",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "____可以看做是贝多芬音乐风格成熟的标志。",
+      "answers": [
+        "《第三交响曲》（《英雄交响曲》）"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第22题；答案见PDF第49页文档后附第7章第22项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "第三交响曲",
+          "英雄交响曲"
+        ]
+      ]
+    },
+    {
+      "id": "c07-f023",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "人们普遍认为贝多芬的音乐有两个主要特征，即____和____。",
+      "answers": [
+        "哲理性",
+        "戏剧性"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第23题；答案见PDF第49页文档后附第7章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f024",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "《如歌的行板》的作者是____。",
+      "answers": [
+        "柴可夫斯基"
+      ],
+      "source": {
+        "pdfPage": 23,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第23页 · 第7章填空第24题；答案见PDF第49页文档后附第7章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f027",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "被称之为“最能代表美国精神的交响曲”的是____。",
+      "answers": [
+        "《自新大陆交响曲》"
+      ],
+      "source": {
+        "pdfPage": 23,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第23页 · 第7章填空第27题；答案见PDF第49页文档后附第7章第27项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "新世界交响曲"
+        ]
+      ]
+    },
+    {
+      "id": "c07-f039",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "从总体上讲，舞蹈可以分为____与____两大类别。",
+      "answers": [
+        "生活舞蹈",
+        "艺术舞蹈"
+      ],
+      "source": {
+        "pdfPage": 24,
+        "number": 39,
+        "kind": "fill",
+        "answerNumber": 39,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第24页 · 第7章填空第39题；答案见PDF第49页文档后附第7章第39项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f042",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "舞蹈中最引人注目的是我国各民族的____和西方的____。",
+      "answers": [
+        "民间舞",
+        "芭蕾舞"
+      ],
+      "source": {
+        "pdfPage": 24,
+        "number": 42,
+        "kind": "fill",
+        "answerNumber": 42,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第24页 · 第7章填空第42题；答案见PDF第49页文档后附第7章第42项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f048",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "____在西方被称为“舞蹈艺术皇冠之珠”。",
+      "answers": [
+        "芭蕾"
+      ],
+      "source": {
+        "pdfPage": 24,
+        "number": 48,
+        "kind": "fill",
+        "answerNumber": 48,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第24页 · 第7章填空第48题；答案见PDF第49页文档后附第7章第48项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "芭蕾舞"
+        ]
+      ]
+    },
+    {
+      "id": "c07-f049",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "芭蕾舞起源于____，形成于____。",
+      "answers": [
+        "意大利",
+        "法国"
+      ],
+      "source": {
+        "pdfPage": 24,
+        "number": 49,
+        "kind": "fill",
+        "answerNumber": 49,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第24页 · 第7章填空第49题；答案见PDF第49页文档后附第7章第49项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f050",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "19世纪是芭蕾舞艺术的黄金时代，____国首演了大型古典芭蕾舞剧《吉赛尔》、《海盗》等，____国首演了大型古典芭蕾舞剧《天鹅湖》、《睡美人》等。",
+      "answers": [
+        "法",
+        "俄"
+      ],
+      "source": {
+        "pdfPage": 24,
+        "number": 50,
+        "kind": "fill",
+        "answerNumber": 50,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第24页 · 第7章填空第50题；答案见PDF第49页文档后附第7章第50项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "法国"
+        ],
+        [
+          "俄国",
+          "俄罗斯"
+        ]
+      ]
+    },
+    {
+      "id": "c07-f051",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "芭蕾舞剧____，被人们称之为古典芭蕾舞剧的光辉顶峰。",
+      "answers": [
+        "《天鹅湖》"
+      ],
+      "source": {
+        "pdfPage": 24,
+        "number": 51,
+        "kind": "fill",
+        "answerNumber": 51,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第24页 · 第7章填空第51题；答案见PDF第49页文档后附第7章第51项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c07-f058",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "我国著名的唢呐独奏曲____，以唢呐模仿布谷鸟、斑鸠、猫头鹰等各种鸟类的叫声，賦予浓郁的生活气息，来表现欢快的生活情趣和情感。",
+      "answers": [
+        "百鸟朝凤"
+      ],
+      "source": {
+        "pdfPage": 25,
+        "number": 58,
+        "kind": "fill",
+        "answerNumber": 58,
+        "answerPdfPage": 49
+      },
+      "explanation": "用户提供扫描题集 · PDF第25页 · 第7章填空第58题；答案见PDF第49页文档后附第7章第58项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f002",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "____是中国传统的戏剧形式的总称。",
+      "answers": [
+        "戏曲"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第2题；答案见PDF第50页文档后附第8章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f003",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "在世界上，____、____和____，被称为三种古老的戏剧艺术。",
+      "answers": [
+        "古希腊戏剧",
+        "印度梵剧",
+        "中国戏曲"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第3题；答案见PDF第50页文档后附第8章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f005",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "京剧最著名的“谭派”____、“麒派”____、“盖派”____；“四大名旦”____、____、____、____；“四大须生”____、____、____、____。",
+      "answers": [
+        "谭新培",
+        "周信芳",
+        "盖叫天",
+        "梅兰芳",
+        "程砚秋",
+        "尚小云",
+        "荀慧生",
+        "杨宝森",
+        "奚啸伯",
+        "马连良",
+        "谭富英"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第5题；答案见PDF第50页文档后附第8章第5项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "谭鑫培"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "id": "c08-f006",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "豫剧，又称____。",
+      "answers": [
+        "河南梆子"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第6题；答案见PDF第50页文档后附第8章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f007",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "中国戏曲具有自身的审美特征，尤其是表现在____、____、____这三个方面。",
+      "answers": [
+        "综合性",
+        "程式化",
+        "虚拟性"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第7题；答案见PDF第50页文档后附第8章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f008",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "戏曲根据角色的性别、年龄、身份、性格等，划分为____、____、____、____四种基本类型。",
+      "answers": [
+        "生",
+        "旦",
+        "净",
+        "丑"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第8题；答案见PDF第50页文档后附第8章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f009",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "综合艺术是____、____、____、____等一类艺术的总称。",
+      "answers": [
+        "戏剧",
+        "戏曲",
+        "电影",
+        "电视"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第9题；答案见PDF第50页文档后附第8章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f010",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "综合艺术最基本的审美特征是____。",
+      "answers": [
+        "综合性"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第10题；答案见PDF第50页文档后附第8章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f011",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "____又是综合艺术的中心环节。",
+      "answers": [
+        "演员的表演"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第11题；答案见PDF第50页文档后附第8章第11项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "表演艺术",
+          "演员表演"
+        ]
+      ]
+    },
+    {
+      "id": "c08-f012",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "从狭义上讲，戏剧主要是指____。",
+      "answers": [
+        "话剧"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第12题；答案见PDF第50页文档后附第8章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f013",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "古希腊著名悲剧家____的《俄狄浦斯王》。",
+      "answers": [
+        "索福克勒斯"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第13题；答案见PDF第50页文档后附第8章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f014",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "法国思想家狄德罗和剧作家____称正剧为____。",
+      "answers": [
+        "博马舍",
+        "严肃剧"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第14题；答案见PDF第50页文档后附第8章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f017",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "戏剧是在舞台上由演员以____和____为主要表现手段，为观众当场表演的一门综合艺术。",
+      "answers": [
+        "对话",
+        "动作"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第17题；答案见PDF第50页文档后附第8章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f018",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "戏剧艺术作为二度创作的艺术，包括两个重要组成部分，也就是作为舞台演出基础的____和演员创造舞台形象的____。",
+      "answers": [
+        "戏剧文学",
+        "表演艺术"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第18题；答案见PDF第50页文档后附第8章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f019",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "西方戏剧史上，不管是命运悲剧、性格悲剧、社会悲剧，可以说都是人在与命运、性格、环境冲突中的挣扎，可以称之为____。",
+      "answers": [
+        "挣扎剧"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第19题；答案见PDF第50页文档后附第8章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f020",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "构成戏剧性的中心环节是____和____，或者说是行动中的人物的冲突。",
+      "answers": [
+        "戏剧动作",
+        "戏剧冲突"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第20题；答案见PDF第50页文档后附第8章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f021",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "电影诞生在音乐、舞蹈、绘画、雕塑、戏剧、建筑之后，常被称为____。",
+      "answers": [
+        "第七艺术"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第21题；答案见PDF第50页文档后附第8章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f022",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "电影是现代科学技术与____相结合的产物。",
+      "answers": [
+        "艺术"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第22题；答案见PDF第50页文档后附第8章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f023",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "电影艺术通过____、____、____等电影语言创造感性直观的形象。",
+      "answers": [
+        "画面",
+        "声音",
+        "蒙太奇"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第23题；答案见PDF第50页文档后附第8章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f024",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "古典主义戏剧“三一律”的原则是____一律、____一律、____一律。",
+      "answers": [
+        "时间",
+        "地点",
+        "情节"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第24题；答案见PDF第50页文档后附第8章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f025",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "戏剧按照作品容量大小，可以分为____和____。",
+      "answers": [
+        "多幕剧",
+        "独幕剧"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 25,
+        "kind": "fill",
+        "answerNumber": 25,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第25题；答案见PDF第50页文档后附第8章第25项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f027",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "戏剧按样式类型分为____、____、____三大类型。",
+      "answers": [
+        "悲剧",
+        "喜剧",
+        "正剧"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第27题；答案见PDF第50页文档后附第8章第27项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f028",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "戏剧理论家们都十分重视对戏剧表演艺术的研究，其中，影响最大的是斯坦尼斯拉夫斯基体系和布莱希特戏剧体系，这两种体系分别被称之为____和____两大类型。",
+      "answers": [
+        "体验派表演艺术",
+        "表现派表演艺术"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 28,
+        "kind": "fill",
+        "answerNumber": 28,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第28题；答案见PDF第50页文档后附第8章第28项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "体验派"
+        ],
+        [
+          "表现派"
+        ]
+      ]
+    },
+    {
+      "id": "c08-f029",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "____年12月28日，卢米埃尔兄弟放映《____》《____》等短片，这一天标志着电影正式诞生。",
+      "answers": [
+        "1895",
+        "火车进站",
+        "水浇园丁"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 29,
+        "kind": "fill",
+        "answerNumber": 29,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第29题；答案见PDF第50页文档后附第8章第29项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f030",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "中国电影诞生于____年，第一部国产片是由谭鑫培主演的《____》。",
+      "answers": [
+        "1905",
+        "定军山"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 30,
+        "kind": "fill",
+        "answerNumber": 30,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第30题；答案见PDF第50页文档后附第8章第30项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f033",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "电影的样式总体分为____、____、____、____四大部类。",
+      "answers": [
+        "故事片",
+        "纪录片",
+        "科教片",
+        "美术片"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 33,
+        "kind": "fill",
+        "answerNumber": 33,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第33题；答案见PDF第50页文档后附第8章第33项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f035",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "20世纪20年代，电影主要向____学习，____电影成为主流。",
+      "answers": [
+        "诗歌",
+        "蒙太奇诗"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 35,
+        "kind": "fill",
+        "answerNumber": 35,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第35题；答案见PDF第50页文档后附第8章第35项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f036",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "最初的电影都是无声电影，被称为____。",
+      "answers": [
+        "默片"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 36,
+        "kind": "fill",
+        "answerNumber": 36,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第36题；答案见PDF第50页文档后附第8章第36项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f037",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "一般认为，有声电影诞生的标志，是____年美国的《爵士歌王》。",
+      "answers": [
+        "1927"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 37,
+        "kind": "fill",
+        "answerNumber": 37,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第37题；答案见PDF第50页文档后附第8章第37项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f038",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "____曾被称为“盛在铁盒子里的大使”。",
+      "answers": [
+        "电影"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 38,
+        "kind": "fill",
+        "answerNumber": 38,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第38题；答案见PDF第50页文档后附第8章第38项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f039",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "表演艺术的关键，是掌握好____和____这一对矛盾。",
+      "answers": [
+        "“体验角色”",
+        "“体现角色”"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 39,
+        "kind": "fill",
+        "answerNumber": 39,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第39题；答案见PDF第50页文档后附第8章第39项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f040",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "莎士比亚最具有代表性的“四大悲剧”，即____、____、____、____。",
+      "answers": [
+        "哈姆雷特",
+        "李尔王",
+        "麦克白",
+        "奥赛罗"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 40,
+        "kind": "fill",
+        "answerNumber": 40,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第40题；答案见PDF第50页文档后附第8章第40项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f041",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "在莎士比亚的“四大悲剧”中，____是最早创作并且影响最大的一部作品。",
+      "answers": [
+        "哈姆雷特"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 41,
+        "kind": "fill",
+        "answerNumber": 41,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第41题；答案见PDF第50页文档后附第8章第41项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f042",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "人们普遍认为，____是莎士比亚悲剧创作最高成就的标志。",
+      "answers": [
+        "《哈姆雷特》"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 42,
+        "kind": "fill",
+        "answerNumber": 42,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第42题；答案见PDF第50页文档后附第8章第42项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f044",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "《窦娥冤》的全名为《____》，又名《____》，是____的悲剧代表作。",
+      "answers": [
+        "感天动地窦娥冤",
+        "六月雪",
+        "关汉卿"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 44,
+        "kind": "fill",
+        "answerNumber": 44,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第44题；答案见PDF第50页文档后附第8章第44项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f045",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "____是中国现代第一部真正意义上的悲剧。",
+      "answers": [
+        "《雷雨》"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 45,
+        "kind": "fill",
+        "answerNumber": 45,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第45题；答案见PDF第50页文档后附第8章第45项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f046",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "瑞士剧作家____于1956年创作《老妇还乡》，是悲喜剧的代表性作品。",
+      "answers": [
+        "迪伦马特"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 46,
+        "kind": "fill",
+        "answerNumber": 46,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第46题；答案见PDF第50页文档后附第8章第46项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f048",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "所谓戏剧性，主要是指____和____。",
+      "answers": [
+        "戏剧动作",
+        "戏剧冲突"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 48,
+        "kind": "fill",
+        "answerNumber": 48,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第48题；答案见PDF第50页文档后附第8章第48项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f049",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "马克思曾经赞誉____是“人类最伟大的戏剧天才”。",
+      "answers": [
+        "莎士比亚"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 49,
+        "kind": "fill",
+        "answerNumber": 49,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第49题；答案见PDF第50页文档后附第8章第49项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f051",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "被称为“英国戏剧之父”的是____。",
+      "answers": [
+        "莎士比亚"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 51,
+        "kind": "fill",
+        "answerNumber": 51,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第51题；答案见PDF第50页文档后附第8章第51项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f052",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "1935年，世界上第一部彩色影片是美国的《____》。",
+      "answers": [
+        "《浮华世界》"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 52,
+        "kind": "fill",
+        "answerNumber": 52,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第52题；答案见PDF第50页文档后附第8章第52项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f053",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "中国第一部有声片，是1931年的____。",
+      "answers": [
+        "《歌女红牡丹》"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 53,
+        "kind": "fill",
+        "answerNumber": 53,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第53题；答案见PDF第50页文档后附第8章第53项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f054",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "中国第一部彩色故事片____（1948年），是一部戏曲艺术片，由____主演，费穆担任导演。",
+      "answers": [
+        "《生死恨》",
+        "梅兰芳"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 54,
+        "kind": "fill",
+        "answerNumber": 54,
+        "answerPdfPage": 50
+      },
+      "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第54题；答案见PDF第50页文档后附第8章第54项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f001",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "语言艺术通常指____，包括____、____、____、____等体裁。",
+      "answers": [
+        "文学",
+        "诗歌",
+        "散文",
+        "小说",
+        "剧本"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第1题；答案见PDF第51页文档后附第9章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f002",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "散文的种类丰富多样，一般将其分为____散文、____散文和____散文三大类。",
+      "answers": [
+        "抒情",
+        "叙事",
+        "议论"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第2题；答案见PDF第51页文档后附第9章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f003",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "哥伦比亚作家____的长篇小说《百年孤独》采用魔幻现实主义的手法。",
+      "answers": [
+        "马尔克斯"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第3题；答案见PDF第51页文档后附第9章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f004",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "《荷马史诗》，古希腊两部著名史诗____和____的总称，传为荷马编订，故得此名。",
+      "answers": [
+        "伊利亚特",
+        "奥德赛"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第4题；答案见PDF第51页文档后附第9章第4项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "伊利亚德"
+        ],
+        []
+      ]
+    },
+    {
+      "id": "c09-f005",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "____是欧洲文学的开端。",
+      "answers": [
+        "《荷马史诗》"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第5题；答案见PDF第51页文档后附第9章第5项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f006",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "《红与黑》的作者是____。",
+      "answers": [
+        "司汤达"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第6题；答案见PDF第51页文档后附第9章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f007",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "____是屈原的代表作，也是楚辞的代表作。",
+      "answers": [
+        "《离骚》"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第7题；答案见PDF第51页文档后附第9章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f008",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "文学采用____作为媒介和手段。",
+      "answers": [
+        "语言"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第8题；答案见PDF第51页文档后附第9章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f009",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "诗歌按照作品的性质和塑造形象的方式不同，可分为____诗和____诗。",
+      "answers": [
+        "抒情",
+        "叙事"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第9题；答案见PDF第51页文档后附第9章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f010",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "____、____和____是小说不可缺少的三个基本要素。",
+      "answers": [
+        "人物",
+        "情节",
+        "环境"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第10题；答案见PDF第51页文档后附第9章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f012",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "文学的第一要素是____。",
+      "answers": [
+        "语言"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第12题；答案见PDF第51页文档后附第9章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f013",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "小说《一个女人一生中的二十四小时》的作者是____。",
+      "answers": [
+        "茨威格"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第13题；答案见PDF第51页文档后附第9章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f014",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "按照诗歌的历史发展和语言有无格律，可分为____诗和____诗。",
+      "answers": [
+        "格律",
+        "自由"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第14题；答案见PDF第51页文档后附第9章第14项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "格律诗"
+        ],
+        [
+          "自由诗"
+        ]
+      ]
+    },
+    {
+      "id": "c09-f015",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "美国19世纪诗人____是自由诗的创始者，他的代表作是诗集《草叶集》。",
+      "answers": [
+        "惠特曼"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第15题；答案见PDF第51页文档后附第9章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f016",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "我国古代的散文范围很广泛，主要是指一种与____、____相对立的文体，包括经、史、传等各种散体文章。",
+      "answers": [
+        "韵文",
+        "骈文"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 16,
+        "kind": "fill",
+        "answerNumber": 16,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第16题；答案见PDF第51页文档后附第9章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f017",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "我国古代最早一篇抒情长诗____。",
+      "answers": [
+        "《离骚》"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第17题；答案见PDF第51页文档后附第9章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f018",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "根据小说容量大小和篇幅长短，可分为____、____和____这样三大类。",
+      "answers": [
+        "长篇",
+        "中篇",
+        "短篇"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第18题；答案见PDF第51页文档后附第9章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f019",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "开创我国浪漫主义诗歌的作品是____。",
+      "answers": [
+        "《离骚》"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第19题；答案见PDF第51页文档后附第9章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f020",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "古希腊《荷马史诗》诞生于____。",
+      "answers": [
+        "公元前8世纪"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第20题；答案见PDF第51页文档后附第9章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f021",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "中篇小说《老人与海》作者是美国的____。",
+      "answers": [
+        "海明威"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第21题；答案见PDF第51页文档后附第9章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f022",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "《人间喜剧》的作者是____。",
+      "answers": [
+        "巴尔扎克"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第22题；答案见PDF第51页文档后附第9章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f023",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "《家》《春》《秋》的作者是____。",
+      "answers": [
+        "巴金"
+      ],
+      "source": {
+        "pdfPage": 31,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 51
+      },
+      "explanation": "用户提供扫描题集 · PDF第31页 · 第9章填空第23题；答案见PDF第51页文档后附第9章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f001",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "被鲁迅誉为“史家之绝唱，无韵之《离骚》”的是____。",
+      "answers": [
+        "《史记》"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第1题；答案见PDF第52页文档后附第10章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f002",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "“后印象主义”三位大师是____、____、____。",
+      "answers": [
+        "梵高",
+        "塞尚",
+        "高更"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第2题；答案见PDF第52页文档后附第10章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f003",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "唐代画家____有一句名言“外师造化，中得心源”。",
+      "answers": [
+        "张璪"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第3题；答案见PDF第52页文档后附第10章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f004",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "高尔基的自传体小说三部曲是《____》《____》《____》。",
+      "answers": [
+        "童年",
+        "在人间",
+        "我的大学"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第4题；答案见PDF第52页文档后附第10章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f005",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "____，是指艺术家创造艺术形象的能力，它是先天禀賦和后天训练培养相融合而形成的艺术创造力。",
+      "answers": [
+        "艺术才能"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第5题；答案见PDF第52页文档后附第10章第5项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f006",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "“曹衣出水，吴带当风”，讲的是____和____两位人物画家。",
+      "answers": [
+        "曹仲达",
+        "吴道子"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第6题；答案见PDF第52页文档后附第10章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f007",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "所谓____，就是指中国古代人物画中衣服褶纹的各种描法。",
+      "answers": [
+        "十八描"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第7题；答案见PDF第52页文档后附第10章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f008",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "印象派音乐的创始人是法国作曲家____。",
+      "answers": [
+        "德彪西"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第8题；答案见PDF第52页文档后附第10章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f009",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "郑板桥把画竹过程分为____、____、____三个阶段。",
+      "answers": [
+        "眼中之竹",
+        "胸中之竹",
+        "手中之竹"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第9题；答案见PDF第52页文档后附第10章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f010",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "在艺术生产中，____是艺术品的生产者和创造者。",
+      "answers": [
+        "艺术家"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第10题；答案见PDF第52页文档后附第10章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f011",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "在艺术生产中存在着____艺术生产和____艺术生产的区分。",
+      "answers": [
+        "个体性",
+        "集体性"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第11题；答案见PDF第52页文档后附第10章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f012",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "____被尊为“西方现代美术之父”。",
+      "answers": [
+        "塞尚"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第12题；答案见PDF第52页文档后附第10章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f013",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "清代绘画大师____有一句名言，叫做“搜尽奇峰打草稿”。",
+      "answers": [
+        "石涛"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第13题；答案见PDF第52页文档后附第10章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f014",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "巴金“激流三部曲”____、____、____。",
+      "answers": [
+        "家",
+        "春",
+        "秋"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第14题；答案见PDF第52页文档后附第10章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f015",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "在艺术构思过程中，____思维贯穿始终，____思维和____思维也起很大的作用。",
+      "answers": [
+        "形象",
+        "抽象",
+        "灵感"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第15题；答案见PDF第52页文档后附第10章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f016",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "一般来讲，想象又分为____想象和____想象两种形式。",
+      "answers": [
+        "创造",
+        "再造"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 16,
+        "kind": "fill",
+        "answerNumber": 16,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第16题；答案见PDF第52页文档后附第10章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f017",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "____根据唐玄宗的描述，通过____想象画出了《钟馗捉鬼图》中的钟馗这一人物形象。",
+      "answers": [
+        "吴道子",
+        "再造"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第17题；答案见PDF第52页文档后附第10章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f018",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "《____》、____、____、____并称为欧洲文学史上的四大名著。",
+      "answers": [
+        "浮士德",
+        "荷马史诗",
+        "神曲",
+        "哈姆雷特"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第18题；答案见PDF第52页文档后附第10章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f019",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "书法界至今仍把____作为学习书法的代称。",
+      "answers": [
+        "临池学书"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第19题；答案见PDF第52页文档后附第10章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f020",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "____创造出一种笔简意全、圆转多变、超凡脱俗的“疏体”，只需几笔就能突现人物的形象。",
+      "answers": [
+        "吴道子"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第20题；答案见PDF第52页文档后附第10章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f021",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "____是艺术创作的主要思维方式。",
+      "answers": [
+        "形象思维"
+      ],
+      "source": {
+        "pdfPage": 32,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第32页 · 第10章填空第21题；答案见PDF第52页文档后附第10章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f022",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "萨特、加缪等为代表的____小说，直接以文艺形式宣传____的哲学思想。",
+      "answers": [
+        "存在主义",
+        "存在主义"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第22题；答案见PDF第52页文档后附第10章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f023",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "比利时剧作家____的《青鸟》为代表的象征主义戏剧，也是以富有象征意义的剧情来揭示和宣传哲理。",
+      "answers": [
+        "梅特林克"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第23题；答案见PDF第52页文档后附第10章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f024",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "《c小调练习曲》（《革命练习曲》）的作者是____。",
+      "answers": [
+        "肖邦"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第24题；答案见PDF第52页文档后附第10章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f025",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "弗洛伊德把人的心理分为____、____和____三个部分。",
+      "answers": [
+        "意识",
+        "潜意识",
+        "无意识"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 25,
+        "kind": "fill",
+        "answerNumber": 25,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第25题；答案见PDF第52页文档后附第10章第25项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f026",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "弗洛伊德的三重人格理论把心理结构分为____、____、____三个部分。",
+      "answers": [
+        "本我",
+        "自我",
+        "超我"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 26,
+        "kind": "fill",
+        "answerNumber": 26,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第26题；答案见PDF第52页文档后附第10章第26项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f027",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "____指艺术家的创作总体表现出的独特创作个性与鲜明艺术特色。",
+      "answers": [
+        "艺术风格"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第27题；答案见PDF第52页文档后附第10章第27项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f028",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "《第二交响曲》的作者是____。",
+      "answers": [
+        "勃拉姆斯"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 28,
+        "kind": "fill",
+        "answerNumber": 28,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第28题；答案见PDF第52页文档后附第10章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f029",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "19世纪法国著名艺术史学家____在____一书中认为，种族、环境、时代这三个原则决定着艺术的发展。",
+      "answers": [
+        "丹纳",
+        "艺术哲学"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 29,
+        "kind": "fill",
+        "answerNumber": 29,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第29题；答案见PDF第52页文档后附第10章第29项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f030",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "佛罗伦萨画派____的代表作品《春》、《维纳斯的诞生》。",
+      "answers": [
+        "波提切利"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 30,
+        "kind": "fill",
+        "answerNumber": 30,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第30题；答案见PDF第52页文档后附第10章第30项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f031",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "中国____时期的青铜器出现了狩猎、采桑、宴乐、攻占等生活气息浓郁的纹饰图案。",
+      "answers": [
+        "春秋战国"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 31,
+        "kind": "fill",
+        "answerNumber": 31,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第31题；答案见PDF第52页文档后附第10章第31项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f032",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "西方现代主义的萌芽始于19世纪中叶____的出现，标志是法国诗人____的《恶之花》问世。",
+      "answers": [
+        "象征主义",
+        "波德菜尔"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 32,
+        "kind": "fill",
+        "answerNumber": 32,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第32题；答案见PDF第52页文档后附第10章第32项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [],
+        [
+          "波德莱尔"
+        ]
+      ]
+    },
+    {
+      "id": "c10-f033",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "现代主义更倾向于尼采哲学的____，后现代主义更倾向于尼采哲学的____，具有更加彻底的悲剧色彩。",
+      "answers": [
+        "日神",
+        "酒神"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 33,
+        "kind": "fill",
+        "answerNumber": 33,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第33题；答案见PDF第52页文档后附第10章第33项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f034",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "盛唐时期逐渐形成了以____、____为代表的盛唐边塞诗派。",
+      "answers": [
+        "岑参",
+        "高适"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 34,
+        "kind": "fill",
+        "answerNumber": 34,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第34题；答案见PDF第52页文档后附第10章第34项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f035",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "威尼斯画派____的代表作品《熟睡的维纳斯》，《田园的合奏》。",
+      "answers": [
+        "乔尔乔涅"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 35,
+        "kind": "fill",
+        "answerNumber": 35,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第35题；答案见PDF第52页文档后附第10章第35项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f036",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "威尼斯画派著名画家____的作品《圣爱与俗爱》、《花神》。",
+      "answers": [
+        "提香"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 36,
+        "kind": "fill",
+        "answerNumber": 36,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第36题；答案见PDF第52页文档后附第10章第36项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f037",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "文艺复兴时期德国画家____的作品《四使徒》和《画家的母亲》。",
+      "answers": [
+        "丢勒"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 37,
+        "kind": "fill",
+        "answerNumber": 37,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第37题；答案见PDF第52页文档后附第10章第37项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f038",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "丹麦作家____创作的《皇帝的新装》、《卖火柴的小女孩》。",
+      "answers": [
+        "安徒生"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 38,
+        "kind": "fill",
+        "answerNumber": 38,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第38题；答案见PDF第52页文档后附第10章第38项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f039",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "法国文艺理论家____讲“风格即人”，实质上都是强调艺术风格体现出艺术家的精神特性。",
+      "answers": [
+        "布封"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 39,
+        "kind": "fill",
+        "answerNumber": 39,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第39题；答案见PDF第52页文档后附第10章第39项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f040",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "德国的____创作的《灰姑娘》、《白雪公主》。",
+      "answers": [
+        "格林兄弟"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 40,
+        "kind": "fill",
+        "answerNumber": 40,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第40题；答案见PDF第52页文档后附第10章第40项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f041",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "法国音乐家____是在酒后产生灵感，创作出闻名世界的《马赛曲》。",
+      "answers": [
+        "里尔"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 41,
+        "kind": "fill",
+        "answerNumber": 41,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第41题；答案见PDF第52页文档后附第10章第41项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f042",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "____是艺术创作基本的和主要的思维方式。",
+      "answers": [
+        "形象思维"
+      ],
+      "source": {
+        "pdfPage": 33,
+        "number": 42,
+        "kind": "fill",
+        "answerNumber": 42,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第33页 · 第10章填空第42题；答案见PDF第52页文档后附第10章第42项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f043",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "____是专门从事艺术生产的创造者的总称。",
+      "answers": [
+        "艺术家"
+      ],
+      "source": {
+        "pdfPage": 34,
+        "number": 43,
+        "kind": "fill",
+        "answerNumber": 43,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第34页 · 第10章填空第43题；答案见PDF第52页文档后附第10章第43项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f044",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "绘画《塔希提岛的妇女》、《我们从哪里来？我们是谁？我们向何处去？》的作者是____。",
+      "answers": [
+        "高更"
+      ],
+      "source": {
+        "pdfPage": 34,
+        "number": 44,
+        "kind": "fill",
+        "answerNumber": 44,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第34页 · 第10章填空第44题；答案见PDF第52页文档后附第10章第44项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f045",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "文学作品《巴黎圣母院》、《悲惨世界》的作者是____。",
+      "answers": [
+        "雨果"
+      ],
+      "source": {
+        "pdfPage": 34,
+        "number": 45,
+        "kind": "fill",
+        "answerNumber": 45,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第34页 · 第10章填空第45题；答案见PDF第52页文档后附第10章第45项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f046",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "____是艺术构思的核心，____是艺术构思的动力。",
+      "answers": [
+        "想象",
+        "情感"
+      ],
+      "source": {
+        "pdfPage": 34,
+        "number": 46,
+        "kind": "fill",
+        "answerNumber": 46,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第34页 · 第10章填空第46题；答案见PDF第52页文档后附第10章第46项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f047",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "艺术风格最鲜明的一个特点，就是它的____。",
+      "answers": [
+        "多样性"
+      ],
+      "source": {
+        "pdfPage": 34,
+        "number": 47,
+        "kind": "fill",
+        "answerNumber": 47,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第34页 · 第10章填空第47题；答案见PDF第52页文档后附第10章第47项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f058",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "《补梦溪笔谈》的作者是____。",
+      "answers": [
+        "沈括"
+      ],
+      "source": {
+        "pdfPage": 34,
+        "number": 58,
+        "kind": "fill",
+        "answerNumber": 58,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第34页 · 第10章填空第58题；答案见PDF第52页文档后附第10章第58项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f062",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "艺术风格的多样性，首先来自艺术家独特的____。",
+      "answers": [
+        "创作个性"
+      ],
+      "source": {
+        "pdfPage": 35,
+        "number": 62,
+        "kind": "fill",
+        "answerNumber": 62,
+        "answerPdfPage": 52
+      },
+      "explanation": "用户提供扫描题集 · PDF第35页 · 第10章填空第62题；答案见PDF第52页文档后附第10章第62项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f001",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "在整个艺术生产活动中，____处于中心的地位与中心的环节。",
+      "answers": [
+        "艺术作品"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第1题；答案见PDF第53页文档后附第11章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f002",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "艺术作品的三个层次依次是____、____、____。",
+      "answers": [
+        "艺术语言",
+        "艺术形象",
+        "艺术意蕴"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第2题；答案见PDF第53页文档后附第11章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f003",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____更重要的作用还是创造艺术形象。",
+      "answers": [
+        "艺术语言"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第3题；答案见PDF第53页文档后附第11章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f004",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____，是美国著名导演科波拉执导的一部反思越南战争的巨片。",
+      "answers": [
+        "现代启示录"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第4题；答案见PDF第53页文档后附第11章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f005",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "被称为结构主义语言学之父的瑞士著名语言学家____，他在《普通语言学教程》提出了语言的结构主义模式，提出应当将____和____区分开来。",
+      "answers": [
+        "索绪尔",
+        "语言",
+        "言语"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第5题；答案见PDF第53页文档后附第11章第5项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f006",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "电影符号学诞生于____，其标志是____的《电影：语言还是言语》。",
+      "answers": [
+        "法国",
+        "克里斯蒂安•麦茨"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第6题；答案见PDF第53页文档后附第11章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f007",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "电影符号学的诞生具有分水岭式的重要意义，在此之前的传统理论均被称作____理论，在此之后的电影理论则被称为____理论。",
+      "answers": [
+        "经典电影",
+        "现代电影"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第7题；答案见PDF第53页文档后附第11章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f008",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____，作为艺术学的一个分支，旨在揭示艺术符号的特征、构成方式、意义传达等方面的特殊规律。",
+      "answers": [
+        "艺术符号学"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第8题；答案见PDF第53页文档后附第11章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f009",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "电影符号学研究电影的____、____和____。",
+      "answers": [
+        "声音",
+        "画面",
+        "蒙太奇"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第9题；答案见PDF第53页文档后附第11章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f010",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____构成了艺术作品的第二个层次。",
+      "answers": [
+        "艺术形象"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第10题；答案见PDF第53页文档后附第11章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f011",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "从艺术作品角度看，艺术形象分为____、____、____、____。",
+      "answers": [
+        "视觉形象",
+        "听觉形象",
+        "综合形象",
+        "文学形象"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第11题；答案见PDF第53页文档后附第11章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f012",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____，是指由人的眼睛直接感受到的艺术形象。",
+      "answers": [
+        "视觉形象"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第12题；答案见PDF第53页文档后附第11章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f013",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "视觉形象的构成材料都是____的。",
+      "answers": [
+        "空间性"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第13题；答案见PDF第53页文档后附第11章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f014",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "艺术中的视觉形象直接作用于欣赏者的视觉感官，因而特别富有____和____。",
+      "answers": [
+        "直观性",
+        "生动性"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第14题；答案见PDF第53页文档后附第11章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f015",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____，是指由人的耳朵直接感受到的艺术形象。",
+      "answers": [
+        "听觉形象"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第15题；答案见PDF第53页文档后附第11章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f016",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "听觉形象的构成材料是____的。",
+      "answers": [
+        "时间性"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 16,
+        "kind": "fill",
+        "answerNumber": 16,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第16题；答案见PDF第53页文档后附第11章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f017",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "艺术中的听觉形象主要是指____的形象。",
+      "answers": [
+        "音乐作品"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第17题；答案见PDF第53页文档后附第11章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f018",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "听觉形象具有____和____的特点。",
+      "answers": [
+        "空灵性",
+        "抽象性"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第18题；答案见PDF第53页文档后附第11章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f019",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____，是指诗歌、散文、小说、报告文学等，依靠语言作为媒介来塑造的形象。",
+      "answers": [
+        "文学形象"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第19题；答案见PDF第53页文档后附第11章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f020",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "文学形象最鲜明的特征是____。",
+      "answers": [
+        "间接性"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第20题；答案见PDF第53页文档后附第11章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f021",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "有的学者称____是“想象的艺术”。",
+      "answers": [
+        "语言艺术"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第21题；答案见PDF第53页文档后附第11章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f022",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____，是指话剧、戏曲、电影、电视等综合艺术中的艺术形象，既有视觉形象、听觉形象，还有文学形象。",
+      "answers": [
+        "综合形象"
+      ],
+      "source": {
+        "pdfPage": 36,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第36页 · 第11章填空第22题；答案见PDF第53页文档后附第11章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f023",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "综合形象有一个与众不同的特点，就是它往往是通过____在舞台、银幕或荧屏上同观众见面来完成，因此，____在综合形象的塑造中具有十分重要的地位。",
+      "answers": [
+        "演员",
+        "表演艺术"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第23题；答案见PDF第53页文档后附第11章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f024",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "艺术作品的第一层次是艺术语言构成的____，第二层次是艺术形象构成的____。",
+      "answers": [
+        "形式美",
+        "内容美"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第24题；答案见PDF第53页文档后附第11章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f025",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "所谓艺术意蕴，是指深藏在艺术作品中内在的含义或意味，常常具有____、____和____，体现为一种哲理、诗情或神韵，经常是只可意会，不可言传，需要欣赏者反复领会、细心感悟，用全部心灵去探究和领悟，它也是文艺作品具有不朽的艺术魅力的根本原因。",
+      "answers": [
+        "多义性",
+        "模糊性",
+        "朦胧性"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 25,
+        "kind": "fill",
+        "answerNumber": 25,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第25题；答案见PDF第53页文档后附第11章第25项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f026",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "杜夫海纳认为，艺术作品的基本结构分为____、____和____三层。",
+      "answers": [
+        "感性",
+        "主题",
+        "表现"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 26,
+        "kind": "fill",
+        "answerNumber": 26,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第26题；答案见PDF第53页文档后附第11章第26项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f027",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____认为艺术作品的第一层是感性，第二层是主题，第三层是表现。",
+      "answers": [
+        "杜夫海纳"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第27题；答案见PDF第53页文档后附第11章第27项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f028",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "英国著名艺术理论家____在《艺术》（1914）一书中，提出了“艺术乃是有意味的形式”的论点。",
+      "answers": [
+        "克莱夫贝尔"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 28,
+        "kind": "fill",
+        "answerNumber": 28,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第28题；答案见PDF第53页文档后附第11章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f029",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "中国传统艺术由于深受____美学、____美学和____美学的影响，形成了自己独特的中国传统艺术精神。",
+      "answers": [
+        "儒家",
+        "道家",
+        "禅宗"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 29,
+        "kind": "fill",
+        "answerNumber": 29,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第29题；答案见PDF第53页文档后附第11章第29项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f030",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "唐代书法家张怀瓘把书法艺术分为____、____、____三品，认为“风骨神气者居上”。",
+      "answers": [
+        "神",
+        "妙",
+        "能"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 30,
+        "kind": "fill",
+        "answerNumber": 30,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第30题；答案见PDF第53页文档后附第11章第30项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f031",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "王僧虔提出“书之妙道，____为上，____次之”。",
+      "answers": [
+        "神采",
+        "形质"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 31,
+        "kind": "fill",
+        "answerNumber": 31,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第31题；答案见PDF第53页文档后附第11章第31项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f032",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "东晋顾恺之绘画思想的核心就是____。",
+      "answers": [
+        "以形写神"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 32,
+        "kind": "fill",
+        "answerNumber": 32,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第32题；答案见PDF第53页文档后附第11章第32项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f033",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "唐代诗论家____提出诗歌应当具有“象外之象”、“景外之景”、“韵外之致”、“味外之旨”，对以后诗歌的发展产生了很大的影响。",
+      "answers": [
+        "司空图"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 33,
+        "kind": "fill",
+        "answerNumber": 33,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第33题；答案见PDF第53页文档后附第11章第33项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f034",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "宋代____的“妙悟说”，清代____的“神韵说”。",
+      "answers": [
+        "严羽",
+        "王士祯"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 34,
+        "kind": "fill",
+        "answerNumber": 34,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第34题；答案见PDF第53页文档后附第11章第34项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c11-f035",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "艺术意蕴从一定意义上讲，就是作品蕴藏的____和____。",
+      "answers": [
+        "文化涵义",
+        "人文精神"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 35,
+        "kind": "fill",
+        "answerNumber": 36,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第35题；答案见PDF第53页文档后附第11章第36项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f036",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "原籍德国的美国艺术史学家、著名图像学家____坚持认为，对艺术作品的图像阐释具有极其重要的地位与意义。",
+      "answers": [
+        "潘洛夫斯基"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 36,
+        "kind": "fill",
+        "answerNumber": 37,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第36题；答案见PDF第53页文档后附第11章第37项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f037",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "从图像学观念来看，可以从以下三个方面来把握图像的意义：首先是____，其次是____，再次是____。",
+      "answers": [
+        "自然的意义",
+        "习俗的意义",
+        "内在的意义"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 37,
+        "kind": "fill",
+        "answerNumber": 38,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第37题；答案见PDF第53页文档后附第11章第38项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f038",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "徐悲鸿在抗日战争期间创作的重要作品____，从《诗经•风雨篇》中“风雨如晦，鸡鸣不已”的诗句受到启发。",
+      "answers": [
+        "风雨鸡鸣"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 38,
+        "kind": "fill",
+        "answerNumber": 39,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第38题；答案见PDF第53页文档后附第11章第39项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f039",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "获得诺贝尔文学奖的英国现代诗人____，于1922年发表的长诗____，描写了西方现代社会的极度精神危机，被视为象征主义诗歌的里程碑。",
+      "answers": [
+        "艾略特",
+        "荒原"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 39,
+        "kind": "fill",
+        "answerNumber": 40,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第39题；答案见PDF第53页文档后附第11章第40项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f040",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "歌德的诗剧____是德国文学最杰出的作品，作者花费近60年时间才将其最终完成。",
+      "answers": [
+        "浮士德"
+      ],
+      "source": {
+        "pdfPage": 37,
+        "number": 40,
+        "kind": "fill",
+        "answerNumber": 41,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第37页 · 第11章填空第40题；答案见PDF第53页文档后附第11章第41项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f041",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "具有艺术意蕴的作品，常常达到了____的高度，因为人类的情感是共同的。",
+      "answers": [
+        "终极关怀"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 41,
+        "kind": "fill",
+        "answerNumber": 42,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第41题；答案见PDF第53页文档后附第11章第42项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f042",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "艺术作品的层次构成中，任何作品都必须具有____和____。",
+      "answers": [
+        "艺术语言",
+        "艺术形象"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 42,
+        "kind": "fill",
+        "answerNumber": 43,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第42题；答案见PDF第53页文档后附第11章第43项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f043",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "以____为主的各门艺术，常常更侧重于在作品中塑造典型；以____为主的各门艺术，常常更侧重于在作品中创造意境。",
+      "answers": [
+        "再现",
+        "表现"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 43,
+        "kind": "fill",
+        "answerNumber": 44,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第43题；答案见PDF第53页文档后附第11章第44项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f044",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "典型，又称____、____或____，是指艺术作品中塑造得成功的人物形象。",
+      "answers": [
+        "典型人物",
+        "典型性格",
+        "典型形象"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 44,
+        "kind": "fill",
+        "answerNumber": 45,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第44题；答案见PDF第53页文档后附第11章第45项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f045",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____的核心是塑造鲜明生动的人物形象。",
+      "answers": [
+        "典型"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 45,
+        "kind": "fill",
+        "answerNumber": 46,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第45题；答案见PDF第53页文档后附第11章第46项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f046",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "别林斯基举他认为奥赛罗就是____的典型人物，哈姆雷特就是____的典型人物等。",
+      "answers": [
+        "嫉妒褊狭",
+        "优柔寡断"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 46,
+        "kind": "fill",
+        "answerNumber": 47,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第46题；答案见PDF第53页文档后附第11章第47项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f047",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "真正阐明典型问题的，是____、____关于典型的论述。",
+      "answers": [
+        "马克思",
+        "恩格斯"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 47,
+        "kind": "fill",
+        "answerNumber": 48,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第47题；答案见PDF第53页文档后附第11章第48项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f048",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____，是指作品中人物形象非常独特，不仅有独特的外表、独特的行为、独特的生活习惯，而且有独特的性格、独特的感情、独特的内心世界，也就是说，这个人物形象应当是独一无二，不可重复的。",
+      "answers": [
+        "艺术典型的个性"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 48,
+        "kind": "fill",
+        "answerNumber": 49,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第48题；答案见PDF第53页文档后附第11章第49项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f049",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____这个人物，这个人物是俄国19世纪批判现实主义作家们所塑造的“多余人”形象的一个典型。",
+      "answers": [
+        "奥勃洛摩夫"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 49,
+        "kind": "fill",
+        "answerNumber": 50,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第49题；答案见PDF第53页文档后附第11章第50项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f050",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "西方文艺理论中，曾经把文艺作品中性格单一化的人物称之为____，而把具有复杂性格的人物称之为____。",
+      "answers": [
+        "扁形人物",
+        "圆形人物"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 50,
+        "kind": "fill",
+        "answerNumber": 51,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第50题；答案见PDF第53页文档后附第11章第51项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f051",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "意境就是艺术中一种____的境界，是艺术中主客观因素的有机统一。",
+      "answers": [
+        "情景交融"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 51,
+        "kind": "fill",
+        "answerNumber": 52,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第51题；答案见PDF第53页文档后附第11章第52项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f052",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "作为美学范畴的意境，孕育于先秦至____时期，诞生于____。",
+      "answers": [
+        "魏晋南北朝",
+        "唐代"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 52,
+        "kind": "fill",
+        "answerNumber": 53,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第52题；答案见PDF第53页文档后附第11章第53项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f053",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "意境作为中国古典美学的重要范畴，直接受到____的影响。",
+      "answers": [
+        "佛教"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 53,
+        "kind": "fill",
+        "answerNumber": 54,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第53题；答案见PDF第53页文档后附第11章第54项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f054",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "从一定意义上讲，中国禅宗对于意境范畴的形成产生了直接的重大影响，然而意境范畴的思想源头却可以追溯到先秦的____与____。",
+      "answers": [
+        "老庄哲学",
+        "魏晋玄学"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 54,
+        "kind": "fill",
+        "answerNumber": 55,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第54题；答案见PDF第53页文档后附第11章第55项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f055",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "奥勃洛摩夫是俄国19世纪批判现实主义作家塑造的____形象的一个典型。",
+      "answers": [
+        "“多余人”"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 55,
+        "kind": "fill",
+        "answerNumber": 56,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第55题；答案见PDF第53页文档后附第11章第56项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f056",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "从中国古典诗论来看，唐代诗人王昌龄所作的____中，就把诗分为三境：物境、情境、意境。",
+      "answers": [
+        "诗格"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 56,
+        "kind": "fill",
+        "answerNumber": 57,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第56题；答案见PDF第53页文档后附第11章第57项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f057",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "近代____的“境界说”。",
+      "answers": [
+        "王国维"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 57,
+        "kind": "fill",
+        "answerNumber": 58,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第57题；答案见PDF第53页文档后附第11章第58项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f058",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____认为境界应当包括情感与景物两方面。",
+      "answers": [
+        "王国维"
+      ],
+      "source": {
+        "pdfPage": 38,
+        "number": 58,
+        "kind": "fill",
+        "answerNumber": 59,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第38页 · 第11章填空第58题；答案见PDF第53页文档后附第11章第59项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f059",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "西晋____在《文赋》中强调情随景迁，南朝____在《文心雕龙》中提出“情以物迁，辞以情发”，南朝画家____在《画山水序》中认为应“应目会心”。",
+      "answers": [
+        "陆机",
+        "刘勰",
+        "宗炳"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 59,
+        "kind": "fill",
+        "answerNumber": 60,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第59题；答案见PDF第53页文档后附第11章第60项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f060",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "意境首先是作为____艺术中一种空灵境界出现的。",
+      "answers": [
+        "文学"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 60,
+        "kind": "fill",
+        "answerNumber": 61,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第60题；答案见PDF第53页文档后附第11章第61项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f061",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____与____可以说是中国传统美学对构成审美对象的两大要素的区分。",
+      "answers": [
+        "虚",
+        "实"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 61,
+        "kind": "fill",
+        "answerNumber": 62,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第61题；答案见PDF第53页文档后附第11章第62项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f062",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "中国传统艺术的最高范畴____，即是人通过艺术对世界本体的体悟。",
+      "answers": [
+        "意境"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 62,
+        "kind": "fill",
+        "answerNumber": 63,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第62题；答案见PDF第53页文档后附第11章第63项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f063",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "中国传统艺术十分讲究____结合。",
+      "answers": [
+        "虚实"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 63,
+        "kind": "fill",
+        "answerNumber": 64,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第63题；答案见PDF第53页文档后附第11章第64项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f065",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "南宋画家____的画中总是留出一角空白，因此被人戏称为“马一角”，他的《寒江独钓图》，更是用大片空白突出了“寒”与“独”的意境。",
+      "answers": [
+        "马远"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 65,
+        "kind": "fill",
+        "answerNumber": 66,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第65题；答案见PDF第53页文档后附第11章第66项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f066",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "正如清代画论家笪重光在____中所说：“虚实相生，无画处皆成妙境。”",
+      "answers": [
+        "画筌"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 66,
+        "kind": "fill",
+        "answerNumber": 67,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第66题；答案见PDF第53页文档后附第11章第67项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f067",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "中国书法讲究布白，强调____，甚至把书法中字的结构就称之为“布白”。",
+      "answers": [
+        "计白当黑"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 67,
+        "kind": "fill",
+        "answerNumber": 68,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第67题；答案见PDF第53页文档后附第11章第68项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f068",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "中国园林建筑也很重视空间的处理，利用____、____、____等美学手法，把实景和虚景结合起来，充分利用虚景，从而扩大和丰富建筑的空间和意境。",
+      "answers": [
+        "借景",
+        "分景",
+        "隔景"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 68,
+        "kind": "fill",
+        "answerNumber": 69,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第68题；答案见PDF第53页文档后附第11章第69项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f069",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "正如清代画论家____在《画筌》中所说：“虚实相生，无画处皆成妙境。”",
+      "answers": [
+        "笪重光"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 69,
+        "kind": "fill",
+        "answerNumber": 70,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第69题；答案见PDF第53页文档后附第11章第70项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f070",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "魏晋时期____就提出了“得象忘言，得意忘象”。",
+      "answers": [
+        "王弼"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 70,
+        "kind": "fill",
+        "answerNumber": 71,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第70题；答案见PDF第53页文档后附第11章第71项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f072",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "在中国古代____中，有“言志”和“缘情”两大流派。",
+      "answers": [
+        "诗论"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 72,
+        "kind": "fill",
+        "answerNumber": 73,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第72题；答案见PDF第53页文档后附第11章第73项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f073",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "气韵，指的是审美对象的内在生命力显现出来的具有____的形态。",
+      "answers": [
+        "韵律美"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 73,
+        "kind": "fill",
+        "answerNumber": 74,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第73题；答案见PDF第53页文档后附第11章第74项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f074",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "中国传统艺术的最高范畴”意境’即是人通过艺术对____的体悟。",
+      "answers": [
+        "世界本体"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 74,
+        "kind": "fill",
+        "answerNumber": 75,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第74题；答案见PDF第53页文档后附第11章第75项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f075",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "唐代____《二十四诗品•雄浑篇》中更是提出了“超以象外，得其环中”",
+      "answers": [
+        "司空图"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 75,
+        "kind": "fill",
+        "answerNumber": 76,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第75题；答案见PDF第53页文档后附第11章第76项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f076",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "中国美学史上，历来有两种不同的美的理想，一种是“____，____”的美，另一种是“____，____”的美。",
+      "answers": [
+        "错彩镂金",
+        "雕缋满眼",
+        "出水芙蓉",
+        "自然可爱"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 76,
+        "kind": "fill",
+        "answerNumber": 77,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第76题；答案见PDF第53页文档后附第11章第77项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f077",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "中国书法讲究布白，强调“计白当黑”，甚至把书法中字的结构就称之为____。",
+      "answers": [
+        "布白"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 77,
+        "kind": "fill",
+        "answerNumber": 78,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第77题；答案见PDF第53页文档后附第11章第78项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f078",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "清初著名画家____，别号“八大山人”，《荷花水鸟图》就是他的一幅代表性作品。",
+      "answers": [
+        "朱耷"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 78,
+        "kind": "fill",
+        "answerNumber": 79,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第78题；答案见PDF第53页文档后附第11章第79项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f079",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "南宋画家马远的画中总是留出一角空白，因此被人戏称为____，他的《寒江独钓图》，更是用大片空白突出了“寒”与“独”的意境。",
+      "answers": [
+        "马一角"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 79,
+        "kind": "fill",
+        "answerNumber": 80,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第79题；答案见PDF第53页文档后附第11章第80项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f080",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "对中国传统艺术影响最为巨大的主要是____美学、____美学和____美学。",
+      "answers": [
+        "儒家",
+        "道家",
+        "禅宗"
+      ],
+      "source": {
+        "pdfPage": 40,
+        "number": 80,
+        "kind": "fill",
+        "answerNumber": 81,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第40页 · 第11章填空第80题；答案见PDF第53页文档后附第11章第81项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f081",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "杜甫著名的“三吏”、“三别”，历来被公认为中国文学史上的现实主义杰作，被后世称为____，他本人亦被尊为____。",
+      "answers": [
+        "诗史",
+        "诗圣"
+      ],
+      "source": {
+        "pdfPage": 40,
+        "number": 81,
+        "kind": "fill",
+        "answerNumber": 82,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第40页 · 第11章填空第81题；答案见PDF第53页文档后附第11章第82项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f082",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "《中国艺术学》把中国传统艺术精神提炼为____、____、____、____、____、____六个字。",
+      "answers": [
+        "道",
+        "气",
+        "心",
+        "舞",
+        "悟",
+        "和"
+      ],
+      "source": {
+        "pdfPage": 40,
+        "number": 82,
+        "kind": "fill",
+        "answerNumber": 83,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第40页 · 第11章填空第82题；答案见PDF第53页文档后附第11章第83项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f083",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "从某种意义上讲，中国文化与西方文化最根本的区别之一，就在于前者强调____，而后者强调____。",
+      "answers": [
+        "天人合一",
+        "主客分立"
+      ],
+      "source": {
+        "pdfPage": 40,
+        "number": 83,
+        "kind": "fill",
+        "answerNumber": 84,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第40页 · 第11章填空第83题；答案见PDF第53页文档后附第11章第84项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f084",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "____，指的是审美对象的内在生命力显现出来的具有韵律美的形态。",
+      "answers": [
+        "气韵"
+      ],
+      "source": {
+        "pdfPage": 40,
+        "number": 84,
+        "kind": "fill",
+        "answerNumber": 85,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第40页 · 第11章填空第84题；答案见PDF第53页文档后附第11章第85项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f085",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "在中国古代诗论中，有____和____两大流派。",
+      "answers": [
+        "言志",
+        "缘情"
+      ],
+      "source": {
+        "pdfPage": 40,
+        "number": 85,
+        "kind": "fill",
+        "answerNumber": 86,
+        "answerPdfPage": 53
+      },
+      "explanation": "用户提供扫描题集 · PDF第40页 · 第11章填空第85题；答案见PDF第53页文档后附第11章第86项。按文档参考答案录入；未作全题库独立学术审定。",
+      "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c12-f001",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "所谓____，是指读者、观众、听众凭借艺术作品而展开的一种积极的、主动的审美再创造活动。",
+      "answers": [
+        "艺术鉴赏"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 1,
+        "kind": "fill",
+        "answerNumber": 1,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第1题；答案见PDF第54页文档后附第12章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f002",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "接受美学的诞生在____，其代表人物主要是两位文艺理论家____和____。",
+      "answers": [
+        "联邦德国南部康士坦茨",
+        "姚斯",
+        "伊塞尔"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 2,
+        "kind": "fill",
+        "answerNumber": 2,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第2题；答案见PDF第54页文档后附第12章第2项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "康士坦茨",
+          "康斯坦茨",
+          "德国康斯坦茨",
+          "德国康士坦茨",
+          "联邦德国南部康斯坦茨"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": "c12-f003",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "接受美学首先确立了____的中心地位。",
+      "answers": [
+        "读者"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 3,
+        "kind": "fill",
+        "answerNumber": 3,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第3题；答案见PDF第54页文档后附第12章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f004",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "接受美学强调了____的中心地位。",
+      "answers": [
+        "审美经验"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 4,
+        "kind": "fill",
+        "answerNumber": 4,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第4题；答案见PDF第54页文档后附第12章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f005",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "姚斯从____、____和____三个维度全面阐释审美经验的内在结构，将接受方式分为____与____等。",
+      "answers": [
+        "艺术创作",
+        "艺术接受",
+        "艺术交流",
+        "垂直接受",
+        "水平接受"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 5,
+        "kind": "fill",
+        "answerNumber": 5,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第5题；答案见PDF第54页文档后附第12章第5项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f006",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____指出，应当从作家、作品和读者“三位一体”的全方位角度研究文学史，研究不同时代的读者对同一部作品有不同意见的原因，将文学史变成____的历史。",
+      "answers": [
+        "姚斯",
+        "文学效果"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 6,
+        "kind": "fill",
+        "answerNumber": 6,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第6题；答案见PDF第54页文档后附第12章第6项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f007",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "接受美学的内容十分丰富，但其中影响最大的，要数____提出的“期待视野”和____提出的“空白”这两个概念。",
+      "answers": [
+        "姚斯",
+        "伊塞尔"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 7,
+        "kind": "fill",
+        "answerNumber": 7,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第7题；答案见PDF第54页文档后附第12章第7项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f008",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "伊塞尔则用____和____来说明本文（text）与读者接受的关系。",
+      "answers": [
+        "空白",
+        "不确定性"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 8,
+        "kind": "fill",
+        "answerNumber": 8,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第8题；答案见PDF第54页文档后附第12章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f009",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "所谓____就是指本文中未写出来的部分，只是本文向读者所暗示或提示的东西，需要读者运用自己的想象去填补。",
+      "answers": [
+        "空白"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 9,
+        "kind": "fill",
+        "answerNumber": 9,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第9题；答案见PDF第54页文档后附第12章第9项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f010",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "伊塞尔认为，任何文学本文都具有未定性，它的存在本身就是一个____。",
+      "answers": [
+        "召唤结构"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 10,
+        "kind": "fill",
+        "answerNumber": 10,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第10题；答案见PDF第54页文档后附第12章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f011",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "民主德国以瑙曼为代表的一批学者从马克思主义的____理论出发，认为在艺术生产一一艺术作品一一艺术消费中，接受美学的主要任务是研究____。",
+      "answers": [
+        "艺术生产",
+        "艺术消费"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 11,
+        "kind": "fill",
+        "answerNumber": 11,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第11题；答案见PDF第54页文档后附第12章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f012",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "接受美学传入美国，以____为代表的一批美国学者，形成了____这个新的学派。",
+      "answers": [
+        "费希",
+        "读者反应批评"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 12,
+        "kind": "fill",
+        "answerNumber": 12,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第12题；答案见PDF第54页文档后附第12章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f013",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "接受美学把文艺研究的重心从____和____转移到____和____的研究上。",
+      "answers": [
+        "艺术家",
+        "艺术作品",
+        "艺术接受",
+        "审美心理"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 13,
+        "kind": "fill",
+        "answerNumber": 13,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第13题；答案见PDF第54页文档后附第12章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f014",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "随着后现代主义与解构主义的兴起，接受美学以____美学和____美学为理论基础，迅速在世界各国和许多艺术领域流传开来，并产生了巨大而深远的影响。",
+      "answers": [
+        "现象学",
+        "解释学"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 14,
+        "kind": "fill",
+        "answerNumber": 14,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第14题；答案见PDF第54页文档后附第12章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f015",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "艺术作品的多样性，正是为了满足____的多样性需要。",
+      "answers": [
+        "艺术鉴赏"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 15,
+        "kind": "fill",
+        "answerNumber": 15,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第15题；答案见PDF第54页文档后附第12章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f016",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "著名瑞士心理学家让•皮亚杰在20世纪60年代提出的____。",
+      "answers": [
+        "“发生认识论”"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 16,
+        "kind": "fill",
+        "answerNumber": 16,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第16题；答案见PDF第54页文档后附第12章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f017",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "有学者认为，____和____共同构成了当今西方心理学的主流。",
+      "answers": [
+        "发生认识论",
+        "信息加工认知心理学"
+      ],
+      "source": {
+        "pdfPage": 41,
+        "number": 17,
+        "kind": "fill",
+        "answerNumber": 17,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第41页 · 第12章填空第17题；答案见PDF第54页文档后附第12章第17项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f018",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "皮亚杰的____认为，认识活动是主体已有的认知结构与客体刺激之间交互作用的结果。",
+      "answers": [
+        "发生认识论"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 18,
+        "kind": "fill",
+        "answerNumber": 18,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第18题；答案见PDF第54页文档后附第12章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f019",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "所谓艺术鉴赏，是指读者、观众、听众凭借艺术作品而展开的一种积极的、主动的____活动。",
+      "answers": [
+        "审美再创造"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 19,
+        "kind": "fill",
+        "answerNumber": 19,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第19题；答案见PDF第54页文档后附第12章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f020",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "艺术鉴赏作为一种审美再创造活动，其中包含着极其复杂的审美心理因素和心理机制。审美心理中包含着____、____、____、____、____、____等基本要素。",
+      "answers": [
+        "注意",
+        "感知",
+        "联想",
+        "想象",
+        "情感",
+        "理解"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 20,
+        "kind": "fill",
+        "answerNumber": 20,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第20题；答案见PDF第54页文档后附第12章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f021",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____就是心理活动对一定对象的指向和集中。指向性和集中性是注意的两个特点。",
+      "answers": [
+        "注意"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 21,
+        "kind": "fill",
+        "answerNumber": 21,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第21题；答案见PDF第54页文档后附第12章第21项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f022",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "注意的指向性，其实就是一种____，把需要感知和认识的事物从众多事物中挑选出来。",
+      "answers": [
+        "选择性"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 22,
+        "kind": "fill",
+        "answerNumber": 22,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第22题；答案见PDF第54页文档后附第12章第22项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f023",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "注意的____，是指把主体的全部心理要素集中到所选择的事物之上。",
+      "answers": [
+        "集中性"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 23,
+        "kind": "fill",
+        "answerNumber": 23,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第23题；答案见PDF第54页文档后附第12章第23项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f024",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "20世纪初，英国心理学家布洛曾经提出过著名的____，认为审美感受形成的原因，在于主体对客体保持了适度的____。",
+      "answers": [
+        "距离说",
+        "心理距离"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 24,
+        "kind": "fill",
+        "answerNumber": 24,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第24题；答案见PDF第54页文档后附第12章第24项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f026",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "知觉具有____、____、____和____等基本特征，它是一种更加积极主动的心理活动。",
+      "answers": [
+        "整体性",
+        "选择性",
+        "理解性",
+        "恒常性"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 26,
+        "kind": "fill",
+        "answerNumber": 26,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第26题；答案见PDF第54页文档后附第12章第26项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f027",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "格式塔心理学认为，任何事物的____一旦被人所感知，都是被知觉进行了积极的组织或建构的结果。",
+      "answers": [
+        "形状"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 27,
+        "kind": "fill",
+        "answerNumber": 27,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第27题；答案见PDF第54页文档后附第12章第27项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f028",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____认为，任何文学本文都具有未定性，它的存在本身就是一个“召唤结构”",
+      "answers": [
+        "伊塞尔"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 28,
+        "kind": "fill",
+        "answerNumber": 28,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第28题；答案见PDF第54页文档后附第12章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f029",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "格式塔心理学认为，形状可通过____、____、____、____等方式产生特殊审美经验，达到审美的____。",
+      "answers": [
+        "变形",
+        "变位",
+        "对称",
+        "平衡",
+        "高峰体验"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 29,
+        "kind": "fill",
+        "answerNumber": 29,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第29题；答案见PDF第54页文档后附第12章第29项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f030",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "格式塔心理学家____对视觉艺术进行了详细的研究，突出强调艺术欣赏中审美知觉完整性的特点，他认为艺术作品就是通过物质材料造成的完整结构来唤醒鉴赏者整个身心结构的反应。",
+      "answers": [
+        "鲁道夫•阿恩海姆"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 30,
+        "kind": "fill",
+        "answerNumber": 30,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第30题；答案见PDF第54页文档后附第12章第30项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "阿恩海姆"
+        ]
+      ]
+    },
+    {
+      "id": "c12-f031",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____则用“空白”和“不确定性”来说明本文（text）与读者接受的关系。",
+      "answers": [
+        "伊塞尔"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 31,
+        "kind": "fill",
+        "answerNumber": 31,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第31题；答案见PDF第54页文档后附第12章第31项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f032",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "联想可以分为____、____、____、____、____、____等。",
+      "answers": [
+        "接近联想",
+        "相似联想",
+        "对比联想",
+        "因果联想",
+        "自由联想",
+        "控制联想"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 32,
+        "kind": "fill",
+        "answerNumber": 32,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第32题；答案见PDF第54页文档后附第12章第32项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f033",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "德国心理学家____最先运用实验方法来研究人的高级心理活动，他研究了联想形成的过程及其在心理活动中的作用，创立了____心理学。",
+      "answers": [
+        "艾宾浩斯",
+        "现代联想主义"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 33,
+        "kind": "fill",
+        "answerNumber": 33,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第33题；答案见PDF第54页文档后附第12章第33项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f034",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "法国最有代表性的浪漫派作曲家____的《幻想交响曲》。",
+      "answers": [
+        "柏辽兹"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 34,
+        "kind": "fill",
+        "answerNumber": 34,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第34题；答案见PDF第54页文档后附第12章第34项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f035",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "法国著名印象派音乐家____的交响素描《大海》。",
+      "answers": [
+        "德彪西"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 35,
+        "kind": "fill",
+        "answerNumber": 35,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第35题；答案见PDF第54页文档后附第12章第35项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f036",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "中国古代诗歌常用的____、____手法，以联想为心理基础。",
+      "answers": [
+        "比",
+        "兴"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 36,
+        "kind": "fill",
+        "answerNumber": 36,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第36题；答案见PDF第54页文档后附第12章第36项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f037",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "“江作青罗带，山如碧玉簪”（韩愈《送桂州严大夫》）此句用的是____联想。",
+      "answers": [
+        "相似"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 37,
+        "kind": "fill",
+        "answerNumber": 37,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第37题；答案见PDF第54页文档后附第12章第37项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f038",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "孟浩然《春晓》“春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少”用的是____联想。",
+      "answers": [
+        "对比"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 38,
+        "kind": "fill",
+        "answerNumber": 38,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第38题；答案见PDF第54页文档后附第12章第38项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f039",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "蒙太奇的心理基础就是____。",
+      "answers": [
+        "联想"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 39,
+        "kind": "fill",
+        "answerNumber": 39,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第39题；答案见PDF第54页文档后附第12章第39项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f040",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "著名瑞士心理学家____在20世纪60年代提出的“发生认识论”。",
+      "answers": [
+        "让•皮亚杰"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 40,
+        "kind": "fill",
+        "answerNumber": 40,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第40题；答案见PDF第54页文档后附第12章第40项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "皮亚杰"
+        ]
+      ]
+    },
+    {
+      "id": "c12-f041",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "所谓蒙太奇就是通过____与____、____与____的剪辑和组接，来形成完整的电影形象。",
+      "answers": [
+        "镜头",
+        "镜头",
+        "场面",
+        "场面"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 41,
+        "kind": "fill",
+        "answerNumber": 41,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第41题；答案见PDF第54页文档后附第12章第41项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f042",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "“平行蒙太奇”的心理根据____联想，就是由一件事物的感受来引起和该事物在性质上或形态上相似的事物的联想，如普多夫金著名影片《母亲》。",
+      "answers": [
+        "相似"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 42,
+        "kind": "fill",
+        "answerNumber": 42,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第42题；答案见PDF第54页文档后附第12章第42项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f043",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "“对比蒙太奇”的心理根据则是____联想，通过不同形象的对立或反衬来强化影片的心理冲击力，如影片《一江春水向东流》。",
+      "answers": [
+        "对比"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 43,
+        "kind": "fill",
+        "answerNumber": 43,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第43题；答案见PDF第54页文档后附第12章第43项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f044",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____是指人脑对已有表象进行加工改造而创造新形象的过程。",
+      "answers": [
+        "想象"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 44,
+        "kind": "fill",
+        "answerNumber": 44,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第44题；答案见PDF第54页文档后附第12章第44项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f045",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "想象的基本材料是____。",
+      "answers": [
+        "表象"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 45,
+        "kind": "fill",
+        "answerNumber": 45,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第45题；答案见PDF第54页文档后附第12章第45项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f046",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____表象是过去感知过的形象重现，而____表象是头脑中新创造的形象。",
+      "answers": [
+        "记忆",
+        "想象"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 46,
+        "kind": "fill",
+        "answerNumber": 46,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第46题；答案见PDF第54页文档后附第12章第46项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f047",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____认为最杰出的艺术本领就是想象。",
+      "answers": [
+        "黑格尔"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 47,
+        "kind": "fill",
+        "answerNumber": 47,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第47题；答案见PDF第54页文档后附第12章第47项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f048",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "20世纪初，英国心理学家____曾经提出过著名的“距离说”，认为审美感受形成的原因，在于主体对客体保持了适度的“心理距离”",
+      "answers": [
+        "布洛"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 48,
+        "kind": "fill",
+        "answerNumber": 48,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第48题；答案见PDF第54页文档后附第12章第48项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f049",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "心理学将想象分为____想象和____想象两种。",
+      "answers": [
+        "再造",
+        "创造"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 49,
+        "kind": "fill",
+        "answerNumber": 49,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第49题；答案见PDF第54页文档后附第12章第49项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f050",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____想象是根据语言的描述或图形、音响的示意，在头脑中再造出相应的新形象的过程。",
+      "answers": [
+        "再造"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 50,
+        "kind": "fill",
+        "answerNumber": 50,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第50题；答案见PDF第54页文档后附第12章第50项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f051",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____想象则是不依据现成的描述而独立地创造出新形象的过程。",
+      "answers": [
+        "创造"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 51,
+        "kind": "fill",
+        "answerNumber": 51,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第51题；答案见PDF第54页文档后附第12章第51项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f052",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "艺术鉴赏活动以____想象为主，同时也包含有一定的____想象。",
+      "answers": [
+        "再造",
+        "创造"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 52,
+        "kind": "fill",
+        "answerNumber": 52,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第52题；答案见PDF第54页文档后附第12章第52项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f053",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "绘画和雕塑等造型艺术，常需观众运用____的想象力，使静止的视觉形象转化为活动的视觉形象。",
+      "answers": [
+        "化静为动"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 53,
+        "kind": "fill",
+        "answerNumber": 53,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第53题；答案见PDF第54页文档后附第12章第53项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f054",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "中国古代诗歌中常用的比、兴手法，就是以____为心理基础的。",
+      "answers": [
+        "联想"
+      ],
+      "source": {
+        "pdfPage": 43,
+        "number": 54,
+        "kind": "fill",
+        "answerNumber": 54,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第43页 · 第12章填空第54题；答案见PDF第54页文档后附第12章第54项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f055",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "戏剧艺术，则需要观众调动____想象。",
+      "answers": [
+        "虚拟"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 55,
+        "kind": "fill",
+        "answerNumber": 55,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第55题；答案见PDF第54页文档后附第12章第55项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f056",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "德国音乐家____的钢琴套曲《童年情景》。",
+      "answers": [
+        "舒曼"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 56,
+        "kind": "fill",
+        "answerNumber": 56,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第56题；答案见PDF第54页文档后附第12章第56项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f057",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "心理学家把人所特有的复杂的社会性情感称为高级情感，并划分为____、____、____三种。",
+      "answers": [
+        "道德感",
+        "美感",
+        "理智感"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 57,
+        "kind": "fill",
+        "answerNumber": 57,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第57题；答案见PDF第54页文档后附第12章第57项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f058",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "艺术鉴赏活动中，情感总是以____和____来作为基础。",
+      "answers": [
+        "注意",
+        "感知"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 58,
+        "kind": "fill",
+        "answerNumber": 58,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第58题；答案见PDF第54页文档后附第12章第58项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f059",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "南齐刘勰在____中所讲：“登山则情满于山，观海则意溢于海。”",
+      "answers": [
+        "文心雕龙"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 59,
+        "kind": "fill",
+        "answerNumber": 59,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第59题；答案见PDF第54页文档后附第12章第59项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f060",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "荣获法国凯撒奖最佳影片的《苔丝》，是根据英国著名小说家____的小说改编而成的。",
+      "answers": [
+        "托马斯·哈代"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 60,
+        "kind": "fill",
+        "answerNumber": 60,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第60题；答案见PDF第54页文档后附第12章第60项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "哈代",
+          "托马斯哈代"
+        ]
+      ]
+    },
+    {
+      "id": "c12-f061",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "理解包括____理解和____理解。",
+      "answers": [
+        "直接",
+        "间接"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 61,
+        "kind": "fill",
+        "answerNumber": 61,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第61题；答案见PDF第54页文档后附第12章第61项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f062",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "艺术鉴赏的审美过程，包括艺术鉴赏中的____、____和____。",
+      "answers": [
+        "审美直觉",
+        "审美体验",
+        "审美升华"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 62,
+        "kind": "fill",
+        "answerNumber": 62,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第62题；答案见PDF第54页文档后附第12章第62项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f064",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "心理学上，有时把人的认识分为三种方式，即____、____和____。",
+      "answers": [
+        "直觉",
+        "知觉",
+        "概念"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 64,
+        "kind": "fill",
+        "answerNumber": 64,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第64题；答案见PDF第54页文档后附第12章第64项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f065",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "审美直觉的特点就是____和____。",
+      "answers": [
+        "直观性",
+        "直接性"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 65,
+        "kind": "fill",
+        "answerNumber": 65,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第65题；答案见PDF第54页文档后附第12章第65项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f066",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____的诗歌作品有《锦瑟》、《碧城》、《燕台》。",
+      "answers": [
+        "李商隐"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 66,
+        "kind": "fill",
+        "answerNumber": 66,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第66题；答案见PDF第54页文档后附第12章第66项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f067",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "在审美直觉中，还存在着一种特殊的现象一一____。",
+      "answers": [
+        "通感"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 67,
+        "kind": "fill",
+        "answerNumber": 67,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第67题；答案见PDF第54页文档后附第12章第67项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f068",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "所谓____，是指在艺术创作与鉴赏活动中，各种感觉相互渗透或挪移，从而大大丰富和扩展了审美感受。",
+      "answers": [
+        "通感"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 68,
+        "kind": "fill",
+        "answerNumber": 68,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第68题；答案见PDF第54页文档后附第12章第68项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f069",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "审美经验的期待视野。这种期待视野又分为____和____。",
+      "answers": [
+        "定向",
+        "创新"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 69,
+        "kind": "fill",
+        "answerNumber": 69,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第69题；答案见PDF第54页文档后附第12章第69项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f070",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____中就记载着悦耳的歌声好像是一串又圆满又光润的珠子，使人们产生了视觉的形象和触觉的感受。",
+      "answers": [
+        "礼记•乐记"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 70,
+        "kind": "fill",
+        "answerNumber": 70,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第70题；答案见PDF第54页文档后附第12章第70项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f071",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "审美体验中，____和____最为活跃。",
+      "answers": [
+        "想象",
+        "联想"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 71,
+        "kind": "fill",
+        "answerNumber": 71,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第71题；答案见PDF第54页文档后附第12章第71项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f072",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____认为想象力“它有本领，能从真正的自然界所呈供的素材里创造出另一个想象的自然界”",
+      "answers": [
+        "康德"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 72,
+        "kind": "fill",
+        "answerNumber": 72,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第72题；答案见PDF第54页文档后附第12章第72项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f073",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "接受美学提出作品结构的____问题，任何作品必然存在____或____，有待读者参与意义创造。",
+      "answers": [
+        "召唤性",
+        "空白",
+        "不确定"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 73,
+        "kind": "fill",
+        "answerNumber": 73,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第73题；答案见PDF第54页文档后附第12章第73项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [],
+        [],
+        [
+          "不确定性"
+        ]
+      ]
+    },
+    {
+      "id": "c12-f074",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "在艺术鉴赏的审美升华阶段中，同样存在着多种心理因素的积极活动，存在着感知、联想、想象、情感等各种心理要素的复杂作用，但其中的____因素最为活跃。",
+      "answers": [
+        "理解"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 74,
+        "kind": "fill",
+        "answerNumber": 74,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第74题；答案见PDF第54页文档后附第12章第74项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f076",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "心理学家把人所特有的复杂的社会性情感称为____，并划分为道德感、美感、理智感三种。",
+      "answers": [
+        "高级情感"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 76,
+        "kind": "fill",
+        "answerNumber": 76,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第76题；答案见PDF第54页文档后附第12章第76项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f077",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "莎士比亚的“四大悲剧”是《____》《____》《____》《____》。",
+      "answers": [
+        "哈姆雷特",
+        "李尔王",
+        "麦克白",
+        "奥赛罗"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 77,
+        "kind": "fill",
+        "answerNumber": 77,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第77题；答案见PDF第54页文档后附第12章第77项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f078",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "贝多芬的《第九交响曲》____。",
+      "answers": [
+        "合唱交响曲"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 78,
+        "kind": "fill",
+        "answerNumber": 78,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第78题；答案见PDF第54页文档后附第12章第78项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f079",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____不仅具有艺术鉴赏审美心理的各种特征，而且也是艺术鉴赏活动的高峰和极致。",
+      "answers": [
+        "共鸣"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 79,
+        "kind": "fill",
+        "answerNumber": 79,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第79题；答案见PDF第54页文档后附第12章第79项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f080",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "白居易的《____》刻画了沦落天涯的琵琶女，发出“同是天涯沦落人，相逢何必曾相识”的感慨。",
+      "answers": [
+        "琵琶行"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 80,
+        "kind": "fill",
+        "answerNumber": 80,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第80题；答案见PDF第54页文档后附第12章第80项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f081",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "艺术鉴赏活动是一个完整的审美过程，也是一个动态的审美过程，可以区分为____、____和____三个阶段。",
+      "answers": [
+        "审美直觉",
+        "审美体验",
+        "审美升华"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 81,
+        "kind": "fill",
+        "answerNumber": 81,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第81题；答案见PDF第54页文档后附第12章第81项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f082",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "艺术批评只能在____的基础上才能进行。",
+      "answers": [
+        "艺术鉴赏"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 82,
+        "kind": "fill",
+        "answerNumber": 82,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第82题；答案见PDF第54页文档后附第12章第82项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f083",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____是艺术创作与艺术鉴赏之间的一座桥梁，对二者都具有直接的指导作用。",
+      "answers": [
+        "艺术批评"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 83,
+        "kind": "fill",
+        "answerNumber": 83,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第83题；答案见PDF第54页文档后附第12章第83项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f084",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "曹丕的《____》分析评价“建安七子”，钟嵘的《____》品评一百多位诗人及其作品。",
+      "answers": [
+        "典论·论文",
+        "诗品"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 84,
+        "kind": "fill",
+        "answerNumber": 84,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第84题；答案见PDF第54页文档后附第12章第84项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f085",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "有人把20世纪称为____时代。",
+      "answers": [
+        "艺术批评的自觉"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 85,
+        "kind": "fill",
+        "answerNumber": 85,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第85题；答案见PDF第54页文档后附第12章第85项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f086",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "俄国著名诗人____曾指出：“批评是揭示文学艺术作品的美和缺点的科学。”",
+      "answers": [
+        "普希金"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 86,
+        "kind": "fill",
+        "answerNumber": 86,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第86题；答案见PDF第54页文档后附第12章第86项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f087",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "苏联著名作家____认为：“批评家应该是广大读者群众在艺术上的成长、要求和创造热情的一个最理想的表达者。”",
+      "answers": [
+        "阿·托尔斯泰"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 87,
+        "kind": "fill",
+        "answerNumber": 87,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第87题；答案见PDF第54页文档后附第12章第87项。按文档参考答案录入；未作全题库独立学术审定。",
+      "aliases": [
+        [
+          "阿托尔斯泰",
+          "阿列克谢托尔斯泰"
+        ]
+      ]
+    },
+    {
+      "id": "c12-f088",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "现实主义杰作《钦差大臣》、《死魂灵》的作者是____。",
+      "answers": [
+        "果戈里"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 88,
+        "kind": "fill",
+        "answerNumber": 88,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第88题；答案见PDF第54页文档后附第12章第88项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f089",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____认为“批评也是天才的创作”。",
+      "answers": [
+        "郭沫若"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 89,
+        "kind": "fill",
+        "answerNumber": 89,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第89题；答案见PDF第54页文档后附第12章第89项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f090",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "有些艺术批评文章，本身就是一篇优秀的散文，如西晋____的《文赋》就是一篇用赋体形式写成的文论，其中的“观古今于须臾，抚四海于一瞬”等名句，流传千古，至今不衰。",
+      "answers": [
+        "陆机"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 90,
+        "kind": "fill",
+        "answerNumber": 90,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第90题；答案见PDF第54页文档后附第12章第90项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f091",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "____从艺术创作、艺术接受和艺术交流三个维度全面阐释____的内在结构，将接受方式分为垂直接受与水平接受等。",
+      "answers": [
+        "姚斯",
+        "审美经验"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 91,
+        "kind": "fill",
+        "answerNumber": 91,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第91题；答案见PDF第54页文档后附第12章第91项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f092",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "姚斯指出，应当从____、____和____“三位一体”的全方位角度研究文学史，研究不同时代的读者对同一部作品有不同意见的原因，将文学史变成文学效果的历史。",
+      "answers": [
+        "作家",
+        "作品",
+        "读者"
+      ],
+      "source": {
+        "pdfPage": 45,
+        "number": 92,
+        "kind": "fill",
+        "answerNumber": 92,
+        "answerPdfPage": 54
+      },
+      "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第92题；答案见PDF第54页文档后附第12章第92项。按文档参考答案录入；未作全题库独立学术审定。"
+    }
+  ],
+  "pending": [
+    {
+      "chapter": 1,
+      "number": 16,
+      "page": 2,
+      "stem": "____讲过：“没有一件艺术作品，单靠线条或色调的匀称，仅仅为了视觉满足的作品，能够打动人的。”也因此说明了艺术形象是____和____的统一。",
+      "originalKey": "罗丹",
+      "reason": "题干有三空，后附答案仅给“罗丹”，后两空缺答案。"
+    },
+    {
+      "chapter": 6,
+      "number": 80,
+      "page": 18,
+      "stem": "《梅杜萨之筏》的作者是浪漫主义美术的代表人物____。",
+      "originalKey": "德拉克罗瓦",
+      "reason": "《梅杜萨之筏》题干与后附作者答案不对应，待复核。"
+    },
+    {
+      "chapter": 6,
+      "number": 81,
+      "page": 18,
+      "stem": "绘画作品《自由女神领导人民》的作者是____。",
+      "originalKey": "ABC",
+      "reason": "题干为作者填空，后附答案却为 ABC，不能直接配对。"
+    },
+    {
+      "chapter": 7,
+      "number": 21,
+      "page": 22,
+      "stem": "交响乐可以说是音乐艺术的精髓，是音乐创作的最高形式，是人类文明的积淀。",
+      "originalKey": "交响乐",
+      "reason": "原文为陈述句，无填空位置，后附却列答案“交响乐”。"
+    },
+    {
+      "chapter": 8,
+      "number": 1,
+      "page": 26,
+      "stem": "人们常把____、____和____称作戏剧艺术的三要素，其中最本质的要素具____。戏剧的中心应当是____。",
+      "originalKey": "剧本、演员、观众",
+      "reason": "题干五空，后附答案只覆盖戏剧三要素，缺后两空。"
+    },
+    {
+      "chapter": 8,
+      "number": 15,
+      "page": 26,
+      "stem": "西方戏剧史上，最早出现的古希腊悲剧，题材大多来自____与____，代表与希腊悲剧艺术最高成就的是____、____和____，他们并称为i希腊三大悲剧家。",
+      "originalKey": "神话传说、英雄史诗",
+      "reason": "题干五空，后附只提供前两空，三大悲剧家缺答案。"
+    },
+    {
+      "chapter": 8,
+      "number": 16,
+      "page": 26,
+      "stem": "从广义上讲，戏剧包括____、____、____、____，乃至目前欧美各国影响广泛的____等。",
+      "originalKey": "话剧、戏曲、歌剧、音乐剧",
+      "reason": "题干五空，后附只有四项，缺一项答案。"
+    },
+    {
+      "chapter": 8,
+      "number": 26,
+      "page": 27,
+      "stem": "戏剧按照作品题材不同，以分为____、____等。",
+      "originalKey": "历史剧、现代剧、儿童剧",
+      "reason": "题干两空，后附给历史剧、现代剧、儿童剧三项，需核对排版。"
+    },
+    {
+      "chapter": 8,
+      "number": 34,
+      "page": 28,
+      "stem": "作为电影艺术最主要样式的故事片，又可作各种具体的划分。电影包括____、____和____等体裁。",
+      "originalKey": "诗歌、散文、小说、戏剧剧本",
+      "reason": "题干三空，后附四种体裁，空数不一致。"
+    },
+    {
+      "chapter": 8,
+      "number": 43,
+      "page": 28,
+      "stem": "西方悲剧之所以一贯遵循____的悲剧结局原则。中国戏曲悲剧的结局往往是____。",
+      "originalKey": "“一悲到底”",
+      "reason": "中西悲剧结局两空，后附只给“一悲到底”。"
+    },
+    {
+      "chapter": 8,
+      "number": 47,
+      "page": 28,
+      "stem": "欧洲悲剧分为命运悲剧、性格悲剧、社会悲剧，或者将以上三种悲剧称作____悲剧、____悲剧、____。",
+      "originalKey": "古典主义、浪漫主义、现实主义",
+      "reason": "题干命运/性格/社会悲剧与后附古典主义/浪漫主义/现实主义分类对应存疑。"
+    },
+    {
+      "chapter": 8,
+      "number": 56,
+      "page": 29,
+      "stem": "苏联电影导演梁赞诺夫著名的“爱情三部曲”，包括________和____都是典型的____电影。",
+      "originalKey": "《命运的嘲弄》、《两个人的车站》、《办公室的故事》",
+      "reason": "题干四空，后附只列三部作品，缺电影风格答案。"
+    },
+    {
+      "chapter": 9,
+      "number": 11,
+      "page": 30,
+      "stem": "俄国作家列夫托尔斯泰“三部曲”包括____、____和____。其中，）是托尔斯泰篇幅最长的一部小说。",
+      "originalKey": "《战争与和平》、《复活》、《安娜•卡列尼娜》",
+      "reason": "题干四空，后附只列三部小说，缺最长篇作品答案。"
+    },
+    {
+      "chapter": 10,
+      "number": 67,
+      "page": 35,
+      "stem": "现代主义艺术思潮的正式形成，是在20世纪初叶，这一时期的代表作品有德国____电影《卡里加里博士》，法国____作家布勒东的文学作品《可溶解的鱼》，爱尔兰作家乔伊斯的____小说《尤利西斯》，意大利诗人、剧作家____编选的《未来主义诗集》等。",
+      "originalKey": "表现主义、超现实主义",
+      "reason": "题干四空，后附只给表现主义、超现实主义两项。"
+    },
+    {
+      "chapter": 11,
+      "number": 64,
+      "page": 39,
+      "stem": "意境的实的部分存在于画面、文字、乐曲及想象的____之中；而虚的部分，即意境之重要或本质的部分存在于____和____之中。",
+      "originalKey": "一箱、想象、感悟",
+      "reason": "原书首空答案印作“一箱”，与题意不符，待核对。"
+    },
+    {
+      "chapter": 11,
+      "number": 71,
+      "page": 39,
+      "stem": "王昌龄《诗格》中把诗分为三境：____、____、____。",
+      "originalKey": "物境、情境",
+      "reason": "题干问物境、情境、意境三境，后附只给物境、情境两项，缺第三空。"
+    },
+    {
+      "chapter": 12,
+      "number": 25,
+      "page": 42,
+      "stem": "心理学上把注意分为____和____两种，艺术鉴赏活动中多采用____。",
+      "originalKey": "有意注意、无意注意",
+      "reason": "题干三空，后附只给有意注意、无意注意，缺末空。"
+    },
+    {
+      "chapter": 12,
+      "number": 63,
+      "page": 44,
+      "stem": "被称为美学之父的18世纪德国哲学家、美学家____，在____年第一次使用“美学”这个术语，标志着美学作为一门独立学科的诞生。",
+      "originalKey": "鲍姆嘉通、1950",
+      "reason": "题干为18世纪美学家，原书答案年份1950与题干世纪矛盾，暂不判分。"
+    },
+    {
+      "chapter": 12,
+      "number": 75,
+      "page": 44,
+      "stem": "在艺术鉴赏时，审美直觉阶段和审美体验阶段常常集中在欣赏作品的艺术语言和艺术形象，只有到了审美升华阶段，才更加集中于欣赏作品内在的艺术意蕴，使艺术鉴赏的感性直观达到理性升华。",
+      "originalKey": "艺术意蕴、升华",
+      "reason": "题干没有挖空，答案列艺术意蕴、升华，保留待核对。"
+    },
+    {
+      "chapter": 12,
+      "number": 93,
+      "page": 45,
+      "stem": "接受美学的内容十分丰富，但其中影响最大的，要数姚斯提出的____和伊塞尔提。",
+      "originalKey": "期待视野、空白",
+      "reason": "扫描件在“伊塞尔提”处截断，缺后续题干，不自动补造。"
+    }
+  ],
+  "excludedChoiceCount": 99,
+  "sourceFile": "掃描全能王 2026-10-28 14.40 2.pdf",
+  "policy": "只录入填空，排除名词解释、简答和文档中的选择题。按题填写全部空格；题干文字作排版整理，保留题号及PDF页码。缺漏或矛盾项单列待核对，不参与判分。"
+};

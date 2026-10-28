@@ -2,6 +2,7 @@
   "use strict";
 
   var BANK = window.SHIYI_QUESTION_BANK;
+  BANK.questions = BANK.questions.concat(window.SHIYI_FILL_BANK.questions);
   var STORAGE_KEY = "shiyi-art-theory-progress-v1";
   var state = loadState();
   var session = { queue: [], index: 0, answered: false, startedAt: 0, timer: null, mode: "chapter", selected: null, intro: false, stageStart: 0 };
@@ -12,7 +13,8 @@
     overview: document.getElementById("overviewView"),
     practice: document.getElementById("practiceView"),
     mistakes: document.getElementById("mistakesView"),
-    records: document.getElementById("recordsView")
+    records: document.getElementById("recordsView"),
+    backup: document.getElementById("backupView")
   };
 
   function loadState() {
@@ -108,8 +110,8 @@
     saveState();
   }
 
-  function getChapterQuestions(chapterId) {
-    return BANK.questions.filter(function (q) { return q.chapter === chapterId; });
+  function getChapterQuestions(chapterId, kind) {
+    return BANK.questions.filter(function (q) { return q.chapter === chapterId && (!kind || (kind === "fill" ? q.type === "fill" : q.type !== "fill" && !q.multiple)); });
   }
 
   function shuffle(items) {
@@ -132,13 +134,14 @@
   }
 
   function orderQuestions(questions, batchSize) {
-    var singles = shuffle(questions.filter(function (q) { return !q.multiple; }));
+    var fills = shuffle(questions.filter(function (q) { return q.type === "fill"; }));
+    var singles = shuffle(questions.filter(function (q) { return !q.multiple && q.type !== "fill"; }));
     var multiples = shuffle(questions.filter(function (q) { return q.multiple; }));
     var queue = [];
     while (singles.length || multiples.length) {
       queue = queue.concat(singles.splice(0, batchSize), multiples.splice(0, batchSize));
     }
-    return queue;
+    return queue.concat(fills);
   }
 
   function setView(name) {
@@ -150,12 +153,14 @@
     document.querySelectorAll(".rail-item[data-view]").forEach(function (button) {
       button.classList.toggle("is-active", button.dataset.view === name || (name === "practice" && button.dataset.view === "overview"));
     });
-    var titles = { overview: "学习总览", practice: "正在练习", mistakes: "错题本", records: "学习记录" };
+    var titles = { overview: "学习总览", practice: "正在练习", mistakes: "错题本", records: "学习记录", backup: "计划与备份" };
     byId("pageTitle").textContent = titles[name];
     closeUnitPanel();
     if (name !== "practice") stopTimer();
+    if (name === "overview") { renderChapters(); refreshSummary(); }
     if (name === "mistakes") renderMistakes();
     if (name === "records") renderRecords();
+    if (name === "backup") renderPlan();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -173,8 +178,8 @@
     byId("panelBackdrop").hidden = true;
   }
 
-  function chapterStats(chapterId) {
-    var ids = getChapterQuestions(chapterId).map(function (q) { return q.id; });
+  function chapterStats(chapterId, kind) {
+    var ids = getChapterQuestions(chapterId, kind).map(function (q) { return q.id; });
     var attempted = ids.filter(function (id) { return Boolean(state.questionStats[id]); });
     var correct = attempted.filter(function (id) { return state.questionStats[id].lastCorrect; });
     return { total: ids.length, attempted: attempted.length, correct: correct.length };
@@ -186,24 +191,32 @@
     grid.innerHTML = "";
     map.innerHTML = "";
     BANK.chapters.forEach(function (chapter) {
-      var stats = chapterStats(chapter.id);
-      var button = document.createElement("button");
-      button.className = "chapter-button" + (stats.total ? "" : " is-empty");
-      button.innerHTML = "<strong>" + chapter.title + "</strong><span>" + chapter.subtitle + "</span><em>" + (stats.total ? stats.attempted + " / " + stats.total + " 已练" : "题库待录入") + "</em>";
-      button.addEventListener("click", function () { startChapter(chapter.id); });
-      grid.appendChild(button);
-
-      var node = document.createElement("button");
-      node.className = "map-node" + (stats.total ? " has-content" : "");
-      var percent = stats.total ? Math.round((stats.attempted / stats.total) * 100) : 0;
-      node.innerHTML = "<strong>" + String(chapter.id).padStart(2, "0") + "</strong><span>" + (stats.total ? stats.attempted + "/" + stats.total : "待录入") + "</span><i style=\"width:" + percent + "%\"></i>";
-      node.addEventListener("click", function () { startChapter(chapter.id); });
-      map.appendChild(node);
+      [grid, map].forEach(function (parent) {
+        var card = document.createElement("article");
+        card.className = parent === grid ? "chapter-button" : "map-node has-content";
+        var title = document.createElement("strong");
+        title.textContent = parent === grid ? chapter.title : String(chapter.id).padStart(2, "0");
+        var subtitle = document.createElement("span"); subtitle.textContent = chapter.subtitle;
+        card.append(title, subtitle);
+        var actions = document.createElement("div"); actions.className = "chapter-kinds";
+        ["single", "fill"].forEach(function (kind) {
+          var stats = chapterStats(chapter.id, kind);
+          var button = document.createElement("button");
+          button.type = "button"; button.dataset.chapter = chapter.id; button.dataset.kind = kind;
+          button.setAttribute("aria-label", chapter.title + (kind === "fill" ? "填空题" : "单选题"));
+          var label = document.createElement("b"); label.textContent = kind === "fill" ? "填" : "单";
+          var progress = document.createElement("small"); progress.textContent = stats.attempted + "/" + stats.total;
+          button.append(label, progress); button.disabled = !stats.total;
+          button.addEventListener("click", function () { startChapter(chapter.id, kind); });
+          actions.appendChild(button);
+        });
+        card.appendChild(actions); parent.appendChild(card);
+      });
     });
   }
 
-  function startChapter(chapterId) {
-    var questions = getChapterQuestions(chapterId);
+  function startChapter(chapterId, kind) {
+    var questions = getChapterQuestions(chapterId, kind || "single");
     if (!questions.length) {
       showToast("第" + chapterId + "章等待你提供正式题库");
       return;
@@ -215,7 +228,7 @@
   }
 
   function startMix(customQuestions) {
-    var source = customQuestions || BANK.questions;
+    var source = customQuestions || BANK.questions.filter(function (q) { return q.type !== "fill"; });
     if (!source.length) {
       showToast("题库加入后即可开始疯狂混练");
       return;
@@ -233,12 +246,12 @@
     setView("practice");
     var question = session.queue[session.index];
     var previous = session.queue[session.index - 1];
-    session.intro = !enterStage && (!previous || Boolean(previous.multiple) !== Boolean(question.multiple) || (session.mode === "mix" && session.index - session.stageStart === 5));
+    session.intro = !enterStage && (!previous || (previous.type === "fill") !== (question.type === "fill") || Boolean(previous.multiple) !== Boolean(question.multiple) || (session.mode === "mix" && session.index - session.stageStart === 5));
     byId("typeIntro").hidden = !session.intro;
     byId("questionStage").hidden = session.intro;
     if (session.intro) {
       session.stageStart = session.index;
-      byId("enterStageButton").textContent = question.multiple ? "多选题" : "单选题";
+      byId("enterStageButton").textContent = question.type === "fill" ? "填空题" : (question.multiple ? "多选题" : "单选题");
       byId("enterStageButton").focus();
       return;
     }
@@ -252,11 +265,12 @@
     var question = session.queue[session.index];
     if (!question) return;
     var chapter = BANK.chapters.find(function (item) { return item.id === question.chapter; });
-    byId("practiceTitle").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "mix" ? "疯狂混练" : "错题重练");
+    byId("practiceTitle").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "mix" ? "疯狂混练" : (session.mode === "fillMix" ? "填空混练" : "错题重练"));
     byId("chapterTag").textContent = chapter.title;
-    byId("questionText").textContent = question.stem;
-    byId("questionType").textContent = question.multiple ? "多选题 · 选完提交" : "单选题";
-    byId("submitButton").hidden = !question.multiple;
+    var blankNumber = 0;
+    byId("questionText").textContent = question.type === "fill" ? question.stem.replace(/____/g, function () { blankNumber += 1; return "（" + blankNumber + "）____"; }) : question.stem;
+    byId("questionType").textContent = question.type === "fill" ? "填空题 · 逐空打字后提交" : (question.multiple ? "多选题 · 选完提交" : "单选题");
+    byId("submitButton").hidden = !question.multiple && question.type !== "fill";
     byId("submitButton").disabled = true;
     byId("questionPosition").textContent = (session.index + 1) + " / " + session.queue.length;
     byId("questionProgressBar").style.width = ((session.index + 1) / session.queue.length * 100) + "%";
@@ -268,6 +282,25 @@
 
     var options = byId("optionsList");
     options.innerHTML = "";
+    if (question.type === "fill") {
+      question.answers.forEach(function (_, index) {
+        var label = document.createElement("label"); label.className = "fill-label";
+        label.textContent = "第 " + (index + 1) + " 空";
+        var input = document.createElement("input"); input.type = "text"; input.className = "fill-input";
+        input.autocomplete = "off"; input.spellcheck = false;
+        input.placeholder = "输入答案";
+        input.addEventListener("input", function () { byId("submitButton").disabled = !Array.from(options.querySelectorAll("input")).every(function (x) { return x.value.trim(); }); });
+        input.addEventListener("keydown", function (event) {
+          if (event.key !== "Enter" || event.isComposing) return;
+          event.preventDefault();
+          if (session.answered) nextQuestion();
+          else if (!byId("submitButton").disabled) submitCurrent();
+          else { var next = options.querySelectorAll("input")[index + 1]; if (next) next.focus(); }
+        });
+        label.appendChild(input); options.appendChild(label);
+      });
+      return;
+    }
     question.options.forEach(function (text, index) {
       var button = document.createElement("button");
       button.className = "option-button";
@@ -285,7 +318,7 @@
   function selectOption(index) {
     if (session.intro || session.answered) return;
     var question = session.queue[session.index];
-    if (index < 0 || index >= question.options.length) return;
+    if (question.type === "fill" || index < 0 || index >= question.options.length) return;
     if (!question.multiple) return answerQuestion([index]);
     var position = session.selected.indexOf(index);
     if (position < 0) session.selected.push(index);
@@ -296,15 +329,30 @@
     byId("submitButton").disabled = !session.selected.length;
   }
 
+  function submitCurrent() {
+    var question = session.queue[session.index];
+    var values = question.type === "fill" ? Array.from(byId("optionsList").querySelectorAll("input")).map(function (x) { return x.value.trim(); }) : session.selected;
+    if (question.type === "fill" && !values.every(Boolean)) return;
+    answerQuestion(values);
+  }
+
   function answerQuestion(selectedIndices) {
     if (session.intro || session.answered) return;
     if (!selectedIndices.length) return;
     session.answered = true;
-    session.selected = selectedIndices.slice().sort();
+    session.selected = selectedIndices.slice();
+    if (session.queue[session.index].type !== "fill") session.selected.sort();
     stopTimer();
     var question = session.queue[session.index];
     var expected = question.answers || [question.answer];
-    var correct = JSON.stringify(session.selected) === JSON.stringify(expected.slice().sort());
+    var correct = question.type === "fill" ? window.SHIYI_FILL_UTILS.grade(question, session.selected).every(Boolean) : JSON.stringify(session.selected) === JSON.stringify(expected.slice().sort());
+    if (question.type === "fill") {
+      var results = window.SHIYI_FILL_UTILS.grade(question, session.selected);
+      Array.from(byId("optionsList").querySelectorAll("input")).forEach(function (input, i) {
+        input.readOnly = true; input.classList.add(results[i] ? "is-correct" : "is-wrong");
+        input.setAttribute("aria-invalid", String(!results[i]));
+      });
+    }
     byId("submitButton").hidden = true;
     var durationMs = Math.max(300, Date.now() - session.startedAt);
     var buttons = Array.from(document.querySelectorAll(".option-button"));
@@ -340,6 +388,13 @@
       var element = document.createElement("h2");
       element.textContent = text;
       container.appendChild(element);
+    }
+    if (question.type === "fill") {
+      heading("参考答案");
+      question.answers.forEach(function (answer, index) { paragraph(container, "answer-key", "第 " + (index + 1) + " 空：" + answer); });
+      paragraph(container, "question-source", question.explanation);
+      if (question.note) paragraph(container, "revision-source", question.note);
+      return;
     }
     if (!study) {
       paragraph(container, "question-source", question.explanation);
@@ -611,7 +666,7 @@
     byId("todaySpeed").textContent = formatSeconds(average);
     byId("todayMistakes").textContent = mistakeQuestions().length;
     byId("mistakeNavCount").textContent = mistakeQuestions().length;
-    byId("progressRing").style.setProperty("--percent", Math.min(100, todayAttempts.length / 20 * 100));
+    byId("progressRing").style.setProperty("--percent", Math.min(100, todayAttempts.length / (state.dailyGoal || 20) * 100));
   }
 
   function refreshAll() {
@@ -640,7 +695,7 @@
     byId("continueButton").addEventListener("click", openUnitPanel);
     byId("enterStageButton").addEventListener("click", function () { if (session.intro) beginQuestion(true); });
     byId("nextButton").addEventListener("click", nextQuestion);
-    byId("submitButton").addEventListener("click", function () { answerQuestion(session.selected); });
+    byId("submitButton").addEventListener("click", submitCurrent);
     byId("favoriteButton").addEventListener("click", toggleFavorite);
     byId("retryMistakesButton").addEventListener("click", function () { startMix(mistakeQuestions()); });
     document.addEventListener("keydown", function (event) {
@@ -655,7 +710,7 @@
         if (!session.answered && event.target.classList.contains("option-button")) return;
         event.preventDefault();
         if (session.answered) nextQuestion();
-        else if (session.queue[session.index].multiple) answerQuestion(session.selected);
+        else if (session.queue[session.index].multiple || session.queue[session.index].type === "fill") submitCurrent();
       }
     });
   }
@@ -670,8 +725,8 @@
 
   function renderAudit() {
     byId("bankStatus").textContent = BANK.questions.length + " 个练习项";
-    byId("bankSummary").textContent = "已保留 " + BANK.sourceQuestionCount + " 道原题 · " + BANK.gradedSourceCount + " 道进入判分 · 多空题逐空练习";
-    byId("auditSummary").textContent = "题库核对说明 · " + BANK.pending.length + " 项待核对（不参与判分）";
+    byId("bankSummary").textContent = "填空题 " + window.SHIYI_FILL_BANK.questions.length + " 道（按题逐空填写） · 另有 " + window.SHIYI_FILL_BANK.pending.length + " 项待核对；选择题已保留 " + BANK.sourceQuestionCount + " 道原题 · " + BANK.gradedSourceCount + " 道进入判分 · 多空题逐空练习";
+    byId("auditSummary").textContent = "题库核对说明 · " + (BANK.pending.length + window.SHIYI_FILL_BANK.pending.length) + " 项待核对（不参与判分）";
     byId("answerPolicy").textContent = BANK.answerPolicy;
     (BANK.corrections || []).forEach(function (q) {
       var item = document.createElement("article");
@@ -686,6 +741,14 @@
       link.rel = "noopener noreferrer";
       item.append(title, note, link);
       byId("correctedQuestions").appendChild(item);
+    });
+    window.SHIYI_FILL_BANK.pending.forEach(function (q) {
+      var item = document.createElement("article");
+      var title = document.createElement("strong"); title.textContent = "第" + q.chapter + "章 · 填空第" + q.number + "题 · PDF第" + q.page + "页";
+      var stem = document.createElement("p"); stem.textContent = q.stem;
+      var reason = document.createElement("p"); reason.textContent = q.reason;
+      var key = document.createElement("p"); key.textContent = "后附参考答案（未采用）：" + q.originalKey;
+      item.append(title, stem, reason, key); byId("pendingQuestions").appendChild(item);
     });
     BANK.pending.forEach(function (q) {
       var item = document.createElement("article");
@@ -710,6 +773,51 @@
       byId("pendingQuestions").appendChild(item);
     });
   }
+
+  function renderPlan() {
+    byId("dailyGoal").value = state.dailyGoal || 20;
+    var done = (state.dailyAnswers[todayKey()] || {correct:0, wrong:0});
+    byId("planStatus").textContent = "今日已答 " + (done.correct + done.wrong) + " / " + (state.dailyGoal || 20) + " 题；计划保存在本机。";
+  }
+
+  function downloadJSON(value, name) {
+    var blob = new Blob([JSON.stringify(value, null, 2)], {type:"application/json;charset=utf-8"});
+    var url = URL.createObjectURL(blob); var link = document.createElement("a");
+    link.href = url; link.download = name + "-" + todayKey() + ".json"; link.click();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+  }
+
+  byId("fillMixButton").addEventListener("click", function () {
+    startMix(BANK.questions.filter(function (q) { return q.type === "fill"; }));
+    session.mode = "fillMix";
+  });
+  byId("savePlan").addEventListener("click", function () {
+    var goal = Number(byId("dailyGoal").value);
+    if (!Number.isInteger(goal) || goal < 1 || goal > 10000) return showToast("请输入 1–10000 的整数");
+    state.dailyGoal = goal; saveState(); renderPlan(); refreshSummary(); showToast("计划已保存");
+  });
+  byId("backupAll").addEventListener("click", function () {
+    flushStudyTime(); downloadJSON({format:"shiyi-backup",version:1,exportedAt:new Date().toISOString(),state:state,banks:{choice:BANK.questions.filter(function(q){return q.type!=="fill";}),fill:window.SHIYI_FILL_BANK}}, "识艺-完整备份");
+  });
+  document.querySelectorAll("[data-export]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      var kind = button.dataset.export;
+      downloadJSON({format:"shiyi-question-bank",version:1,kind:kind,chapters:BANK.chapters,questions:BANK.questions.filter(function(q){return (kind === "fill" ? q.type === "fill" : q.type !== "fill" && !q.multiple);}),pending:kind === "fill" ? window.SHIYI_FILL_BANK.pending : BANK.pending}, "识艺-" + (kind === "fill" ? "填空题库" : "单选题库"));
+    });
+  });
+  byId("restoreBackup").addEventListener("change", async function () {
+    var file = this.files[0]; if (!file) return;
+    try {
+      if (file.size > 30 * 1024 * 1024) throw new Error("备份文件过大");
+      var data = JSON.parse(await file.text());
+      window.SHIYI_FILL_UTILS.validateBackup(data, BANK.questions);
+      if (!window.confirm("恢复备份会替换本机学习记录、收藏和计划。继续前会自动下载一份当前记录备份。是否继续？")) return;
+      flushStudyTime(); downloadJSON({format:"shiyi-backup",version:1,state:state}, "识艺-恢复前备份");
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data.state));
+      window.location.reload();
+    } catch (error) { showToast("无法恢复：" + error.message); }
+    finally { this.value = ""; }
+  });
 
   migrateRecords();
   document.addEventListener("visibilitychange", function () {
