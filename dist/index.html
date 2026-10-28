@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f4f1ea" />
-    <meta name="description" content="识艺：12章艺术概论选择题学习站，支持单元练、疯狂混练、错题本与答题速度记录。" />
+    <meta name="description" content="识艺：12章艺术概论选择与填空题学习站，支持单元练、疯狂混练、错题本与答题速度记录。" />
     <title>识艺 · 艺术概论刷题</title>
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?v=12" />
+    <link rel="stylesheet" href="./styles.css?v=13" />
   </head>
   <body>
     <div class="app-shell">
@@ -38,6 +38,7 @@
           </button>
         </nav>
 
+        <button class="rail-item backup-trigger" data-view="backup"><span>计划与备份</span></button>
         <div class="local-state"><i></i><span>本机保存</span></div>
       </aside>
 
@@ -49,7 +50,7 @@
           </div>
           <button class="icon-button" id="closeUnitPanel" aria-label="关闭章节选择">×</button>
         </div>
-        <p class="panel-note">先练单选，再练多选，进入每种题型前都有文字提示。多空题按空分别练习。</p>
+        <p class="panel-note">每章点击“单”练单选题，点击“填”打字答填空题；两类进度分别记录。</p>
         <div class="chapter-grid" id="chapterGrid"></div>
       </section>
 
@@ -68,10 +69,10 @@
           <div class="hero-grid">
             <article class="hero-card">
               <h1>把艺术史论，<br />练成你的直觉。</h1>
-              <p>章节练习先单选、后多选；疯狂混练每轮 5 道单选、5 道多选交替，每次切换都有文字提示。</p>
+              <p>每章分“单”和“填”两类：单选题点选作答，填空题逐空打字作答，学习进度分别保存。</p>
               <div class="hero-actions">
                 <button class="primary-button" id="continueButton">选择章节</button>
-                <button class="secondary-button" data-action="mix">疯狂混练</button>
+                <button class="secondary-button" data-action="mix">选择混练</button><button class="secondary-button" id="fillMixButton">填空混练</button>
               </div>
             </article>
 
@@ -140,7 +141,7 @@
             </article>
 
             <div class="practice-actions">
-              <span>数字键选择 · 多选需提交 · Enter 确认 / 下一题</span>
+              <span>选择题用数字键 · 填空逐空打字 · Enter 提交 / 下一题</span>
               <button class="primary-button" id="nextButton" disabled>下一题</button>
             </div>
           </div>
@@ -159,6 +160,12 @@
           <p class="panel-note">题目与答案同步采用更正结果；现存作答已重新核算，未保留选择的早期记录无法重判。</p>
         </section>
 
+        <section class="view" id="backupView">
+          <div class="page-intro"><h1>计划与备份</h1><p>设置每日目标，将题库与学习记录保存到自己的设备。</p></div>
+          <section class="record-section"><h2>每日计划</h2><label for="dailyGoal">每日答题目标（题）</label><div class="backup-actions"><input id="dailyGoal" type="number" min="1" max="10000" value="20"><button class="primary-button" id="savePlan">保存计划</button></div><p id="planStatus" role="status"></p></section>
+          <section class="record-section"><h2>题库导出</h2><p>按章节保留题干、答案与来源，JSON 格式。单选题和填空题可以分别导出；完整备份另保留原有多选题。</p><div class="backup-actions"><button class="secondary-button" data-export="single">导出单选题库</button><button class="secondary-button" data-export="fill">导出填空题库</button></div></section>
+          <section class="record-section"><h2>学习备份与恢复</h2><p>完整备份包含两类题库、答题记录、错题、收藏及计划。恢复只替换学习数据，题库随网站更新。</p><div class="backup-actions"><button class="primary-button" id="backupAll">下载完整备份</button><label class="secondary-button restore-label">恢复学习备份<input id="restoreBackup" type="file" accept=".json,application/json"></label></div></section>
+        </section>
         <section class="view" id="recordsView">
           <section class="record-section study-calendar">
             <div class="calendar-heading">
@@ -198,7 +205,9 @@
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script src="./questions.js?v=5"></script>
     <script src="./explanations.js?v=1"></script>
-    <script src="./app.js?v=12"></script>
+    <script src="./fill-questions.js?v=1"></script>
+    <script src="./fill-utils.js?v=1"></script>
+    <script src="./app.js?v=13"></script>
   </body>
 </html>
 
