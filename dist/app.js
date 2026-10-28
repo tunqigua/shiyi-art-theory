@@ -319,10 +319,72 @@
     panel.classList.toggle("is-wrong", !correct);
     byId("answerStatus").textContent = correct ? "✓" : "✕";
     byId("answerStatus").setAttribute("aria-label", correct ? "正确" : "错误");
-    byId("answerExplanation").textContent = question.explanation;
+    renderExplanation(question);
     byId("nextButton").disabled = false;
     recordAttempt(question, correct, durationMs, session.selected.slice());
     refreshSummary();
+  }
+
+  function renderExplanation(question) {
+    var container = byId("answerExplanation");
+    container.replaceChildren();
+    var study = (window.SHIYI_EXPLANATIONS || {})[question.id.replace(/-[1-9]$/, "")];
+    var chapter = BANK.chapters.find(function (item) { return item.id === question.chapter; });
+    function paragraph(parent, className, text) {
+      var element = document.createElement("p");
+      element.className = className;
+      element.textContent = text;
+      parent.appendChild(element);
+    }
+    function heading(text) {
+      var element = document.createElement("h2");
+      element.textContent = text;
+      container.appendChild(element);
+    }
+    if (!study) {
+      paragraph(container, "question-source", question.explanation);
+      return;
+    }
+    paragraph(container, "answer-key", "本题应选：" + question.answers.map(function (i) {
+      return String.fromCharCode(65 + i) + " · " + question.options[i];
+    }).join("；"));
+    heading("本题考点与解题依据");
+    paragraph(container, "knowledge-location", chapter.title + " · " + chapter.subtitle + (question.source.part ? " · 当前填写第" + question.source.part + "空" : ""));
+    paragraph(container, "knowledge-point", study.point);
+    heading("逐项辨析 · 答对也要看易混项");
+    question.options.forEach(function (text, index) {
+      var letter = String.fromCharCode(65 + index);
+      var included = question.answers.indexOf(index) !== -1;
+      var item = document.createElement("article");
+      item.className = "option-analysis" + (included ? " is-answer" : "");
+      var title = document.createElement("h3");
+      title.textContent = letter + " · " + text + "（" + (included ? "应选" : "不应选") + "）";
+      item.appendChild(title);
+      if (!included) paragraph(item, "option-reason", "知识归属与排除理由：" + study.options[letter]);
+      else paragraph(item, "option-reason", "属于本题应选范围，依据见上方考点。" + (question.stem.indexOf("不属于") !== -1 || question.stem.indexOf("不包括") !== -1 || question.stem.indexOf("不正确") !== -1 ? "注意这是反向设问，应选不符合条件的项。" : ""));
+      container.appendChild(item);
+    });
+    heading("出处与复习定位");
+    paragraph(container, "question-source", "原题出处：用户提供题集第" + question.source.page + "页 · " + (question.source.kind === "m" ? "多选" : "单选") + "第" + question.source.number + "题。");
+    if (question.answerRevision) paragraph(container, "revision-source", question.explanation);
+    paragraph(container, "reading-source", "考点查阅：彭吉象《艺术学概论》“" + chapter.subtitle + "”章；这是复习章节定位，并非对所用原题书名或版本的认定。");
+    study.sources.forEach(function (source) {
+      var row = document.createElement("p");
+      var link = document.createElement("a");
+      link.textContent = source.title;
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      row.appendChild(link);
+      row.appendChild(document.createTextNode("：" + source.scope));
+      container.appendChild(row);
+    });
+    var details = document.createElement("details");
+    var summary = document.createElement("summary");
+    summary.textContent = "出处说明";
+    details.appendChild(summary);
+    paragraph(details, "source-note", "选项辨析为复习归纳。原题页码只定位题目，不作为新增解析的独立文献证明；文中作品、作者和理论名称提供出处线索，外部资料仅支持链接后标明的内容。未逐项核定的原典版本、页码不编造引用。原题存在简化或歧义时，已在考点中说明。");
+    container.appendChild(details);
   }
 
   function recordAttempt(question, correct, durationMs, selectedIndex) {
