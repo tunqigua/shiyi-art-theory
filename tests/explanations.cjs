@@ -8,7 +8,7 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     page.on('pageerror', error => errors.push(error.message));
     await page.goto(process.env.TEST_URL || 'http://127.0.0.1:8765');
     const result = await page.evaluate(() => {
-      const questions = window.SHIYI_QUESTION_BANK.questions.slice();
+      const questions = window.SHIYI_QUESTION_BANK.questions.filter(q => q.type !== "fill");
       const failures = [];
       let excluded = 0;
       for (const q of questions) {
@@ -33,7 +33,7 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
           }
         });
         if (!panel.querySelector('.knowledge-point')?.textContent) failures.push(q.id + ':缺考点');
-        if (!panel.querySelector('.question-source')?.textContent.includes('题集第' + q.source.page + '页')) failures.push(q.id + ':缺原题出处');
+        if (!panel.querySelector('.question-source')?.textContent.includes((q.source.document ? 'PDF第' : '题集第') + q.source.page + '页')) failures.push(q.id + ':缺原题出处');
         if (q.source.part && !panel.querySelector('.knowledge-location').textContent.includes('第' + q.source.part + '空')) failures.push(q.id + ':拆空提示');
         const correctText = panel.querySelector('#answerExplanation').textContent;
         const wrong = q.multiple && q.answers.length > 1 ? [q.answers[0]] : [(q.answers[0] + 1) % q.options.length];
@@ -45,8 +45,8 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
       return {failures, questions:questions.length, excluded};
     });
     assert.deepEqual(result.failures, []);
-    assert.equal(result.questions, 515);
-    assert.equal(result.excluded, 1293);
+    assert.equal(result.questions, 588);
+    assert.equal(result.excluded, 1476);
     async function show(id, correct) {
       await page.evaluate(({id, correct}) => {
         const q = window.SHIYI_QUESTION_BANK.questions.find(q => q.id === id);
@@ -73,6 +73,6 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     await page.locator('#nextButton').click();
     assert(await page.locator('#overviewView').isVisible());
     assert.deepEqual(errors, []);
-    console.log('PASS: 515题答对/答错均显示完整解析，1293个非应选项有辨析，拆空、出处链接、红绿框、手机布局和下一题正常。');
+    console.log('PASS: 588题答对/答错均显示完整解析，1476个非应选项有辨析，拆空、出处链接、红绿框、手机布局和下一题正常。');
   } finally { await browser.close(); }
 })().catch(error => {console.error(error); process.exitCode=1;});
