@@ -1,5 +1,5 @@
 window.SHIYI_FILL_BANK = {
-  "version": "2026-10-28-fill-v1",
+  "version": "2026-11-03-weekly-v1",
   "questions": [
     {
       "id": "c01-f001",
@@ -534,7 +534,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 1,
         "answerPdfPage": 46
       },
-      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第1题；答案见PDF第46页文档后附第2章第1项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第1题；答案见PDF第46页文档后附第2章第1项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第二章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 9,
+          "kind": "fill",
+          "importId": "w26-c02-f09",
+          "answerDocument": "艺术概论第二章周测答案",
+          "referenceAnswers": [
+            "阿尔都塞"
+          ]
+        }
+      ],
+      "study": {
+        "point": "阿尔都塞的多元决定论强调社会矛盾与历史过程具有多种条件。艺术学教材借此提醒艺术起源不宜简单归为单一因素；他不是直接考古证明艺术起源的学者。",
+        "sources": []
+      }
     },
     {
       "id": "c02-f002",
@@ -552,7 +570,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 2,
         "answerPdfPage": 46
       },
-      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第2题；答案见PDF第46页文档后附第2章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第2题；答案见PDF第46页文档后附第2章第2项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第二章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 8,
+          "kind": "fill",
+          "importId": "w26-c02-f08",
+          "answerDocument": "艺术概论第二章周测答案",
+          "referenceAnswers": [
+            "交感巫术"
+          ]
+        }
+      ],
+      "study": {
+        "point": "弗雷泽《金枝》把相似律与接触律相关的巫术概括为交感巫术。题目分别要求书名和巫术概念，不能互换。",
+        "sources": []
+      }
     },
     {
       "id": "c02-f003",
@@ -611,7 +647,25 @@ window.SHIYI_FILL_BANK = {
           "爱德华·泰勒"
         ],
         []
-      ]
+      ],
+      "additionalSources": [
+        {
+          "document": "艺术概论第二章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 7,
+          "kind": "fill",
+          "importId": "w26-c02-f07",
+          "answerDocument": "艺术概论第二章周测答案",
+          "referenceAnswers": [
+            "爱德华·泰勒"
+          ]
+        }
+      ],
+      "study": {
+        "point": "爱德华·泰勒的《原始文化》讨论原始信仰与文化，本题按教材把其列为艺术起源巫术说的重要代表。泰勒与写作《金枝》的弗雷泽不要混淆。",
+        "sources": []
+      }
     },
     {
       "id": "c02-f006",
@@ -735,7 +789,26 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 12,
         "answerPdfPage": 46
       },
-      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第12题；答案见PDF第46页文档后附第2章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第12题；答案见PDF第46页文档后附第2章第12项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第二章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 4,
+          "kind": "fill",
+          "importId": "w26-c02-f04",
+          "answerDocument": "艺术概论第二章周测答案",
+          "referenceAnswers": [
+            "席勒",
+            "游戏冲动"
+          ]
+        }
+      ],
+      "study": {
+        "point": "席勒《美育书简》以游戏冲动协调感性冲动与理性冲动，追求完整的人格。此题分别填写书名与协调机制。",
+        "sources": []
+      }
     },
     {
       "id": "c02-f013",
@@ -752,7 +825,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 13,
         "answerPdfPage": 46
       },
-      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第13题；答案见PDF第46页文档后附第2章第13项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第13题；答案见PDF第46页文档后附第2章第13项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第二章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 6,
+          "kind": "fill",
+          "importId": "w26-c02-f06",
+          "answerDocument": "艺术概论第二章周测答案",
+          "referenceAnswers": [
+            "克罗齐"
+          ]
+        }
+      ],
+      "study": {
+        "point": "克罗齐以直觉即表现说明艺术的精神活动性质，归入表现论传统；与席勒的游戏冲动、柏格森的生命冲动区分。",
+        "sources": []
+      }
     },
     {
       "id": "c02-f014",
@@ -813,7 +904,26 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 16,
         "answerPdfPage": 46
       },
-      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第16题；答案见PDF第46页文档后附第2章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第16题；答案见PDF第46页文档后附第2章第16项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第二章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 4,
+          "kind": "fill",
+          "importId": "w26-c02-f04",
+          "answerDocument": "艺术概论第二章周测答案",
+          "referenceAnswers": [
+            "席勒",
+            "游戏冲动"
+          ]
+        }
+      ],
+      "study": {
+        "point": "《美育书简》作者为德国诗人、美学家席勒。这部著作把美育与人的自由和完整发展联系起来。",
+        "sources": []
+      }
     },
     {
       "id": "c02-f017",
@@ -847,7 +957,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 18,
         "answerPdfPage": 46
       },
-      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第18题；答案见PDF第46页文档后附第2章第18项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第3页 · 第2章填空第18题；答案见PDF第46页文档后附第2章第18项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第二章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 2,
+          "kind": "fill",
+          "importId": "w26-c02-f02",
+          "answerDocument": "艺术概论第二章周测答案",
+          "referenceAnswers": [
+            "模仿"
+          ]
+        }
+      ],
+      "study": {
+        "point": "模仿说是最古老的艺术起源学说之一，认为艺术来自对自然、社会生活或动物活动的模仿；代表人物有德谟克利特、亚里士多德。",
+        "sources": []
+      }
     },
     {
       "id": "c02-f019",
@@ -1292,7 +1420,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 8,
         "answerPdfPage": 46
       },
-      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第8题；答案见PDF第46页文档后附第3章第8项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第8题；答案见PDF第46页文档后附第3章第8项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第三章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 7,
+          "kind": "fill",
+          "importId": "w26-c03-f07",
+          "answerDocument": "艺术概论第三章周测答案",
+          "referenceAnswers": [
+            "木兰诗"
+          ]
+        }
+      ],
+      "study": {
+        "point": "“万里赴戎机，关山度若飞”出自北朝民歌《木兰诗》，描写木兰奔赴战场的情景；本空问篇名。",
+        "sources": []
+      }
     },
     {
       "id": "c03-f009",
@@ -1360,7 +1506,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 12,
         "answerPdfPage": 46
       },
-      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第12题；答案见PDF第46页文档后附第3章第12项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第5页 · 第3章填空第12题；答案见PDF第46页文档后附第3章第12项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第三章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 5,
+          "kind": "fill",
+          "importId": "w26-c03-f05",
+          "answerDocument": "艺术概论第三章周测答案",
+          "referenceAnswers": [
+            "王国维"
+          ]
+        }
+      ],
+      "study": {
+        "point": "王国维在近代中国倡导把美育与德育、智育相提并论；蔡元培则以“以美育代宗教”主张著称，二者的具体命题要区分。",
+        "sources": []
+      }
     },
     {
       "id": "c03-f013",
@@ -1600,7 +1764,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 26,
         "answerPdfPage": 46
       },
-      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第26题；答案见PDF第46页文档后附第3章第26项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第26题；答案见PDF第46页文档后附第3章第26项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第三章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 6,
+          "kind": "fill",
+          "importId": "w26-c03-f06",
+          "answerDocument": "艺术概论第三章周测答案",
+          "referenceAnswers": [
+            "蔡元培"
+          ]
+        }
+      ],
+      "study": {
+        "point": "蔡元培提出以美育代宗教，强调以审美陶冶感情和培养人格。不要与席勒在德国美学中系统提出美育、王国维在中国倡导美育混淆。",
+        "sources": []
+      }
     },
     {
       "id": "c03-f027",
@@ -1868,7 +2050,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 11,
         "answerPdfPage": 47
       },
-      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第11题；答案见PDF第47页文档后附第4章第11项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第7页 · 第4章填空第11题；答案见PDF第47页文档后附第4章第11项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "金航艺术概论第四章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 4,
+          "kind": "fill",
+          "importId": "w26-c04-f04",
+          "answerDocument": "金航艺术概论第四章综合测试答案",
+          "referenceAnswers": [
+            "毛诗序"
+          ]
+        }
+      ],
+      "study": {
+        "point": "《毛诗序》把诗与人伦教化、移风易俗联系起来，体现中国古代文艺的教化观。书名与人物作者不是同一类答案。",
+        "sources": []
+      }
     },
     {
       "id": "c04-f012",
@@ -2009,7 +2209,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 19,
         "answerPdfPage": 47
       },
-      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第19题；答案见PDF第47页文档后附第4章第19项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第19题；答案见PDF第47页文档后附第4章第19项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "金航艺术概论第四章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 2,
+          "kind": "fill",
+          "importId": "w26-c04-f02",
+          "answerDocument": "金航艺术概论第四章综合测试答案",
+          "referenceAnswers": [
+            "吴道子"
+          ]
+        }
+      ],
+      "study": {
+        "point": "吴道子为唐代著名画家，被誉为画圣，其宗教人物画影响很大。唐代被称为塑圣的则是杨惠之。",
+        "sources": []
+      }
     },
     {
       "id": "c04-f020",
@@ -2026,7 +2244,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 20,
         "answerPdfPage": 47
       },
-      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第20题；答案见PDF第47页文档后附第4章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第20题；答案见PDF第47页文档后附第4章第20项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "金航艺术概论第四章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 9,
+          "kind": "fill",
+          "importId": "w26-c04-f09",
+          "answerDocument": "金航艺术概论第四章综合测试答案",
+          "referenceAnswers": [
+            "檀香木弥勒佛像"
+          ]
+        }
+      ],
+      "study": {
+        "point": "雍和宫万福阁的檀香木弥勒佛像为大型木雕。此题空位后已写“佛像”，填写佛的名称“弥勒”，不必把整段材质说明重复填入。",
+        "sources": []
+      }
     },
     {
       "id": "c04-f021",
@@ -2212,7 +2448,7 @@ window.SHIYI_FILL_BANK = {
       "id": "c04-f031",
       "type": "fill",
       "chapter": 4,
-      "stem": "西斯廷教堂中的祭坛画《西斯廷圣母》，作者是____。",
+      "stem": "祭坛画《西斯廷圣母》的作者是____。",
       "answers": [
         "拉斐尔"
       ],
@@ -2223,7 +2459,33 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 31,
         "answerPdfPage": 47
       },
-      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第31题；答案见PDF第47页文档后附第4章第31项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第8页 · 第4章填空第31题；答案见PDF第47页文档后附第4章第31项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "金航艺术概论第四章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 1,
+          "kind": "fill",
+          "importId": "w26-c04-f01",
+          "answerDocument": "金航艺术概论第四章综合测试答案",
+          "referenceAnswers": [
+            "拉斐尔"
+          ]
+        }
+      ],
+      "study": {
+        "point": "《西斯廷圣母》作者拉斐尔。不要与米开朗基罗在梵蒂冈西斯廷教堂绘制的天顶画《创世纪》和祭坛墙画《最后的审判》混淆。",
+        "sources": [
+          {
+            "title": "意大利国家旅游局：圣西斯托教堂",
+            "url": "https://www.italia.it/en/emilia-romagna/piacenza/church-of-st-sixtus",
+            "scope": "《西斯廷圣母》原为皮亚琴察教堂所绘，现藏德累斯顿"
+          }
+        ]
+      },
+      "originalStem": "西斯廷教堂中的祭坛画《西斯廷圣母》，作者是____。",
+      "note": "旧题误称作品位于西斯廷教堂；原为意大利皮亚琴察圣西斯托教堂所绘，现藏德累斯顿。"
     },
     {
       "id": "c04-f032",
@@ -2539,7 +2801,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 4,
         "answerPdfPage": 47
       },
-      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第4题；答案见PDF第47页文档后附第5章第4项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第4题；答案见PDF第47页文档后附第5章第4项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第五章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 10,
+          "kind": "fill",
+          "importId": "w26-c05-f10",
+          "answerDocument": "艺术概论第五章综合测试答案",
+          "referenceAnswers": [
+            "建筑"
+          ]
+        }
+      ],
+      "study": {
+        "point": "从广义建筑艺术分类看，园林可列为一个门类；园林更加侧重游赏与审美，通过自然要素和人工营造共同构成空间。",
+        "sources": []
+      }
     },
     {
       "id": "c05-f005",
@@ -2714,7 +2994,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 14,
         "answerPdfPage": 47
       },
-      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第14题；答案见PDF第47页文档后附第5章第14项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第14题；答案见PDF第47页文档后附第5章第14项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第五章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 3,
+          "kind": "fill",
+          "importId": "w26-c05-f03",
+          "answerDocument": "艺术概论第五章综合测试答案",
+          "referenceAnswers": [
+            "适用"
+          ]
+        }
+      ],
+      "study": {
+        "point": "实用工艺美术品兼具使用功能和审美价值，教材把设计要求概括为适用、经济、美观。各空按原题次序填写。",
+        "sources": []
+      }
     },
     {
       "id": "c05-f015",
@@ -2751,7 +3049,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 16,
         "answerPdfPage": 47
       },
-      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第16题；答案见PDF第47页文档后附第5章第16项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第11页 · 第5章填空第16题；答案见PDF第47页文档后附第5章第16项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第五章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 1,
+          "kind": "fill",
+          "importId": "w26-c05-f01",
+          "answerDocument": "艺术概论第五章综合测试答案",
+          "referenceAnswers": [
+            "自然式"
+          ]
+        }
+      ],
+      "study": {
+        "point": "中国传统园林重视人与自然的亲和，常概括为自然式；法国古典园林强调几何布局与人工秩序，常概括为几何式。这里是总体风格比较，并非排斥彼此吸收。",
+        "sources": []
+      }
     },
     {
       "id": "c05-f017",
@@ -3010,7 +3326,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 30,
         "answerPdfPage": 47
       },
-      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第30题；答案见PDF第47页文档后附第5章第30项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第30题；答案见PDF第47页文档后附第5章第30项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第五章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 2,
+          "kind": "fill",
+          "importId": "w26-c05-f02",
+          "answerDocument": "艺术概论第五章综合测试答案",
+          "referenceAnswers": [
+            "诗情画意"
+          ]
+        }
+      ],
+      "study": {
+        "point": "中国古典园林常通过山水、建筑、植物、题咏等的组织追求诗情画意，审美体验不只依靠单个景物的外观。",
+        "sources": []
+      }
     },
     {
       "id": "c05-f031",
@@ -3079,7 +3413,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 34,
         "answerPdfPage": 47
       },
-      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第34题；答案见PDF第47页文档后附第5章第34项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第12页 · 第5章填空第34题；答案见PDF第47页文档后附第5章第34项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第五章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 4,
+          "kind": "fill",
+          "importId": "w26-c05-f04",
+          "answerDocument": "艺术概论第五章综合测试答案",
+          "referenceAnswers": [
+            "考工记"
+          ]
+        }
+      ],
+      "study": {
+        "point": "《考工记》重视材料与工艺的配合，“材美工巧”说明美的器物既依赖优质材料，也依赖精良制作。",
+        "sources": []
+      }
     },
     {
       "id": "c05-f035",
@@ -3169,9 +3521,42 @@ window.SHIYI_FILL_BANK = {
         [
           "约恩伍重",
           "约恩乌松",
-          "乌松"
+          "约恩·伍重",
+          "约恩·乌赞",
+          "乌松",
+          "约恩·乌松"
         ]
-      ]
+      ],
+      "additionalSources": [
+        {
+          "document": "艺术概论第二章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 5,
+          "kind": "fill",
+          "importId": "w26-c02-f05",
+          "answerDocument": "艺术概论第二章周测答案",
+          "referenceAnswers": [
+            "伍重"
+          ]
+        },
+        {
+          "document": "艺术概论第三章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 1,
+          "kind": "fill",
+          "importId": "w26-c03-f01",
+          "answerDocument": "艺术概论第三章周测答案",
+          "referenceAnswers": [
+            "伍重"
+          ]
+        }
+      ],
+      "study": {
+        "point": "悉尼歌剧院于1973年正式开放，设计者为丹麦建筑家约恩·伍重。常见译名“乌松”也指同一人。",
+        "sources": []
+      }
     },
     {
       "id": "c05-f047",
@@ -3235,7 +3620,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 2,
         "answerPdfPage": 48
       },
-      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第2题；答案见PDF第48页文档后附第6章第2项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第2题；答案见PDF第48页文档后附第6章第2项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 1,
+          "kind": "fill",
+          "importId": "w26-c06-f01",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "人物龙凤图"
+          ]
+        }
+      ],
+      "study": {
+        "point": "《人物龙凤图》为长沙战国楚墓出土帛画，是早期中国绘画的重要遗存。本题按教材所指实物填写名称，不将马王堆汉墓帛画与之混同。",
+        "sources": []
+      }
     },
     {
       "id": "c06-f003",
@@ -3252,7 +3655,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 3,
         "answerPdfPage": 48
       },
-      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第3题；答案见PDF第48页文档后附第6章第3项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第14页 · 第6章填空第3题；答案见PDF第48页文档后附第6章第3项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 9,
+          "kind": "fill",
+          "importId": "w26-c06-f09",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "实用"
+          ]
+        }
+      ],
+      "study": {
+        "point": "书法最早与文字的记录和交流功能相连，具有实用性质；随着用笔、结体、章法及个性表达的发展，形成独立的审美价值。",
+        "sources": []
+      }
     },
     {
       "id": "c06-f004",
@@ -3591,7 +4012,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 20,
         "answerPdfPage": 48
       },
-      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第20题；答案见PDF第48页文档后附第6章第20项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第20题；答案见PDF第48页文档后附第6章第20项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 4,
+          "kind": "fill",
+          "importId": "w26-c06-f04",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "乔托"
+          ]
+        }
+      ],
+      "study": {
+        "point": "乔托是文艺复兴的先驱，因其绘画对体积、空间与现实人物情感的探索，被教材誉为欧洲绘画之父、现实主义画派鼻祖。此称谓是艺术史评价。",
+        "sources": []
+      }
     },
     {
       "id": "c06-f021",
@@ -3740,7 +4179,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 28,
         "answerPdfPage": 48
       },
-      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第28题；答案见PDF第48页文档后附第6章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第15页 · 第6章填空第28题；答案见PDF第48页文档后附第6章第28项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 3,
+          "page": 3,
+          "number": 15,
+          "kind": "fill",
+          "importId": "w26-c06-f15",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "柳公权"
+          ]
+        }
+      ],
+      "study": {
+        "point": "颜筋柳骨概括颜真卿与柳公权的不同书风，前者常强调丰厚雄健，后者强调骨力劲挺。二者均为唐代书法名家。",
+        "sources": []
+      }
     },
     {
       "id": "c06-f029",
@@ -3990,7 +4447,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 50,
         "answerPdfPage": 48
       },
-      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第50题；答案见PDF第48页文档后附第6章第50项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第50题；答案见PDF第48页文档后附第6章第50项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 7,
+          "kind": "fill",
+          "importId": "w26-c06-f07",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "乡村"
+          ]
+        }
+      ],
+      "study": {
+        "point": "风光摄影以自然和生活环境的景观为对象，可再分自然风景、都市风景、乡村风景等；乡村是其中一个分支，不能代替整个风光摄影。",
+        "sources": []
+      }
     },
     {
       "id": "c06-f051",
@@ -4024,7 +4499,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 52,
         "answerPdfPage": 48
       },
-      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第52题；答案见PDF第48页文档后附第6章第52项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第52题；答案见PDF第48页文档后附第6章第52项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 3,
+          "page": 3,
+          "number": 11,
+          "kind": "fill",
+          "importId": "w26-c06-f11",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "宋人尚意"
+          ]
+        }
+      ],
+      "study": {
+        "point": "宋代书法强调抒情与个性，常概括为宋人尚意；教材也常以晋人尚韵、唐人尚法作比较，这些都是总体风格的归纳。",
+        "sources": []
+      }
     },
     {
       "id": "c06-f053",
@@ -4042,7 +4535,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 53,
         "answerPdfPage": 48
       },
-      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第53题；答案见PDF第48页文档后附第6章第53项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第16页 · 第6章填空第53题；答案见PDF第48页文档后附第6章第53项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 3,
+          "page": 3,
+          "number": 19,
+          "kind": "fill",
+          "importId": "w26-c06-f19",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "点彩派"
+          ]
+        }
+      ],
+      "study": {
+        "point": "修拉是新印象主义代表，研究色彩并置的视觉效果，常以细小色点组织画面，故与点彩派相联系；此题分别填写画家与流派。",
+        "sources": []
+      }
     },
     {
       "id": "c06-f054",
@@ -4130,7 +4641,25 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 58,
         "answerPdfPage": 48
       },
-      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第58题；答案见PDF第48页文档后附第6章第58项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第58题；答案见PDF第48页文档后附第6章第58项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 3,
+          "page": 3,
+          "number": 18,
+          "kind": "fill",
+          "importId": "w26-c06-f18",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "马奈"
+          ]
+        }
+      ],
+      "study": {
+        "point": "马奈在传统绘画与印象主义之间起到承前启后的作用，常被教材称为一代宗师；不要与以《日出·印象》闻名的莫奈混淆。",
+        "sources": []
+      }
     },
     {
       "id": "c06-f059",
@@ -4147,7 +4676,30 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 59,
         "answerPdfPage": 48
       },
-      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第59题；答案见PDF第48页文档后附第6章第59项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第59题；答案见PDF第48页文档后附第6章第59项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 3,
+          "page": 3,
+          "number": 20,
+          "kind": "fill",
+          "importId": "w26-c06-f20",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "兰亭序"
+          ]
+        }
+      ],
+      "study": {
+        "point": "王羲之《兰亭集序》又称《兰亭序》，素有天下第一行书之誉。篇名、作者与行书这一书体应分别记忆。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "兰亭序"
+        ]
+      ]
     },
     {
       "id": "c06-f060",
@@ -4167,10 +4719,31 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第60题；答案见PDF第48页文档后附第6章第60项。按文档参考答案录入；未作全题库独立学术审定。",
       "aliases": [
         [
+          "尤瑟夫·卡什",
+          "尤素福·卡什",
+          "优素福卡什",
           "卡什",
-          "优素福卡什"
+          "尤素福卡希"
         ]
-      ]
+      ],
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 6,
+          "kind": "fill",
+          "importId": "w26-c06-f06",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "卡希"
+          ]
+        }
+      ],
+      "study": {
+        "point": "《二次大战时的邱吉尔》通常也称《愤怒的丘吉尔》，由加拿大摄影家尤素福·卡什拍摄。“卡希”是本题教材采用的译名。",
+        "sources": []
+      }
     },
     {
       "id": "c06-f061",
@@ -4243,7 +4816,31 @@ window.SHIYI_FILL_BANK = {
         "answerNumber": 64,
         "answerPdfPage": 48
       },
-      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第64题；答案见PDF第48页文档后附第6章第64项。按文档参考答案录入；未作全题库独立学术审定。"
+      "explanation": "用户提供扫描题集 · PDF第17页 · 第6章填空第64题；答案见PDF第48页文档后附第6章第64项。按文档参考答案录入；未作全题库独立学术审定。",
+      "additionalSources": [
+        {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 3,
+          "page": 3,
+          "number": 16,
+          "kind": "fill",
+          "importId": "w26-c06-f16",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "张造"
+          ]
+        }
+      ],
+      "study": {
+        "point": "“外师造化，中得心源”归唐代画家张璪，强调学习自然并经主体心灵创造。本次答案图的“张造”不是规范姓名，沿用旧题已正确的张璪。",
+        "sources": [
+          {
+            "title": "北京画院：造化天工研讨会",
+            "url": "https://www.bjaa.com.cn/news.html?clg=203&hcs=11&news=384",
+            "scope": "张璪与外师造化、中得心源"
+          }
+        ]
+      }
     },
     {
       "id": "c06-f065",
@@ -10284,6 +10881,707 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 54
       },
       "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第92题；答案见PDF第54页文档后附第12章第92项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "w26-c02-f03",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "____的“模仿论”，在欧洲“竟雄霸了两千余年”。",
+      "answers": [
+        "亚里士多德"
+      ],
+      "source": {
+        "document": "艺术概论第二章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 3,
+        "kind": "fill",
+        "importId": "w26-c02-f03",
+        "answerDocument": "艺术概论第二章周测答案",
+        "referenceAnswers": [
+          "亚里士多德"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第二章周测》PDF第2页 · 填空第3题。参考答案已按题意复核。",
+      "study": {
+        "point": "亚里士多德《诗学》系统讨论模仿，朱光潜以“两千余年”概括其欧洲影响。应填写理论家，不能把“模仿论”再填入作者位置。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f02",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "孔子以____的思想，创立了我国古代最早的教育体系。",
+      "answers": [
+        "礼乐相济"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 2,
+        "kind": "fill",
+        "importId": "w26-c03-f02",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "礼乐相济"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第2题。参考答案已按题意复核。",
+      "study": {
+        "point": "孔子重视礼与乐的配合：礼以规范行为，乐以陶冶情感，教材概括为礼乐相济。题面“最早的教育体系”属简化史论表述，并不否认孔子以前已有教育制度。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f03",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术家采用化____为“美”的方法，使艺术教育作用不同于普通的道德教育。",
+      "answers": [
+        "善"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 3,
+        "kind": "fill",
+        "importId": "w26-c03-f03",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "善"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第3题。参考答案已按题意复核。",
+      "study": {
+        "point": "艺术教育通过审美形象和情感感染，将伦理上的善转化为可感的美，区别于直接讲授道德规范；“化善为美”不是把丑恶行为美化。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f04",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "古罗马美学家____明确提出艺术应当“寓教于乐”。",
+      "answers": [
+        "贺拉斯"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 4,
+        "kind": "fill",
+        "importId": "w26-c03-f04",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "贺拉斯"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第4题。参考答案已按题意复核。",
+      "study": {
+        "point": "贺拉斯《诗艺》把有益与愉悦联系起来，通常概括为寓教于乐；注意与亚里士多德的教育、净化、快感三功能区分。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f08",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "柴可夫斯基《D大调弦乐四重奏》第二乐章____。",
+      "answers": [
+        "如歌的行板"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 8,
+        "kind": "fill",
+        "importId": "w26-c03-f08",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "如歌的行板"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第8题。参考答案已按题意复核。",
+      "study": {
+        "point": "《如歌的行板》是柴可夫斯基《D大调第一弦乐四重奏》第二乐章的常用曲名。本题填写乐章名称，而不是作曲家或整部四重奏的名称。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f09",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "唐代诗人____《燕歌行》“汉家烟尘在东北，汉将辞家破残贼”。",
+      "answers": [
+        "高适"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 9,
+        "kind": "fill",
+        "importId": "w26-c03-f09",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "高适"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第9题。参考答案已按题意复核。",
+      "study": {
+        "point": "“汉家烟尘在东北，汉将辞家破残贼”出自唐代高适《燕歌行》。同名乐府题可有多位作者，此处以所引诗句确定为高适。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f10",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "杜甫____“国破山河在，城春草木深”。",
+      "answers": [
+        "春望"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 10,
+        "kind": "fill",
+        "importId": "w26-c03-f10",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "春望"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第10题。参考答案已按题意复核。",
+      "study": {
+        "point": "“国破山河在，城春草木深”是杜甫《春望》的开篇。本题填写篇名，不能填诗人姓名。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c04-f05",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "《离骚》、《九歌》的作者是____。",
+      "answers": [
+        "屈原"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 5,
+        "kind": "fill",
+        "importId": "w26-c04-f05",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "屈原"
+        ]
+      },
+      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第5题。参考答案已按题意复核。",
+      "study": {
+        "point": "《离骚》《九歌》均与屈原及楚辞传统相联系。本题问作者，填屈原；不要填总集名《楚辞》。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c04-f06",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "《洛神赋图》的作者传为东晋____。",
+      "answers": [
+        "顾恺之"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 6,
+        "kind": "fill",
+        "importId": "w26-c04-f06",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "顾恺之"
+        ]
+      },
+      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第6题。参考答案已按题意复核。",
+      "study": {
+        "point": "《洛神赋图》传统归于东晋顾恺之，取材于曹植《洛神赋》。现存传本与摹本的问题应与作品传统归属区分，因此题面保留“传为”。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c04-f07",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "被称为存在主义先驱的是丹麦哲学家____。",
+      "answers": [
+        "克尔凯郭尔"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 7,
+        "kind": "fill",
+        "importId": "w26-c04-f07",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "克尔凯郭尔"
+        ]
+      },
+      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第7题。参考答案已按题意复核。",
+      "study": {
+        "point": "丹麦哲学家克尔凯郭尔强调个体存在、选择和信仰，被视为存在主义的先驱。萨特属于20世纪存在主义代表，而不是此处问的丹麦先驱。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "克尔恺郭尔",
+          "克尔凯戈尔",
+          "祁克果",
+          "基尔凯郭尔",
+          "克尔凯郭耳"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c04-f08",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "英国著名美学家克莱夫·贝尔的（____）一书，被不少人看做是现代派艺术理论的基石。",
+      "answers": [
+        "艺术"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 8,
+        "kind": "fill",
+        "importId": "w26-c04-f08",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "艺术"
+        ]
+      },
+      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第8题。参考答案已按题意复核。",
+      "study": {
+        "point": "克莱夫·贝尔在《艺术》中提出“有意味的形式”，对现代形式主义艺术理论有重要影响。本题填书名，与旧题问作者不同。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c04-f10",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "《喻世明言》《警世通言》《醒世恒言》的作者是____。",
+      "answers": [
+        "冯梦龙"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 10,
+        "kind": "fill",
+        "importId": "w26-c04-f10",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "冯梦龙"
+        ]
+      },
+      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第10题。参考答案已按题意复核。",
+      "study": {
+        "point": "“三言”由冯梦龙编纂：《喻世明言》《警世通言》《醒世恒言》。原试卷把“明言”写成“名言”，规范题面已修正；“二拍”则与凌濛初相关。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c05-f05",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "我国现存最精致的金银错工艺品，是河北定州出土的____，它是汉武帝时代的作品。",
+      "answers": [
+        "狩猎纹车饰"
+      ],
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 5,
+        "kind": "fill",
+        "importId": "w26-c05-f05",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceAnswers": [
+          "狩猎纹车饰"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第5题。参考答案已按题意复核。",
+      "study": {
+        "point": "河北定州三盘山汉墓出土的金错狩猎纹铜车饰，是汉代金银错工艺的例证，常简称狩猎纹车饰。题面“最精致”是教材评价性用语，不代表可量化的唯一排名。",
+        "sources": [
+          {
+            "title": "中央美术学院：西汉金错铜管学术讲座",
+            "url": "https://www.cafa.com.cn/cn/news/details/216555",
+            "scope": "定州三盘山出土金错狩猎纹铜管及相关研究"
+          }
+        ]
+      },
+      "aliases": [
+        [
+          "金银错狩猎纹车饰",
+          "狩猎纹铜车饰",
+          "金错狩猎纹铜管"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c05-f06",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "太和殿，位于故宫的中心部位，俗称____。",
+      "answers": [
+        "金銮殿"
+      ],
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 6,
+        "kind": "fill",
+        "importId": "w26-c05-f06",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceAnswers": [
+          "金銮殿"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第6题。参考答案已按题意复核。",
+      "study": {
+        "point": "太和殿俗称金銮殿，是紫禁城等级最高、规模最大的殿宇。金銮殿为俗称，不能与中和殿、保和殿的正式名称混用。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "金銮宝殿"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c05-f07",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "秦汉时期的____已经有了很大的规模，成为统一大帝国的艺术象征，并且逐渐形成了中国园林的传统样式，为以后历朝历代皇家园林的发展奠定了基础。",
+      "answers": [
+        "帝王宫苑"
+      ],
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 7,
+        "kind": "fill",
+        "importId": "w26-c05-f07",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceAnswers": [
+          "帝王宫苑"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第7题。参考答案已按题意复核。",
+      "study": {
+        "point": "秦汉帝王宫苑把宫殿、游赏山水及政治象征结合起来，逐渐形成皇家园林传统。本题的关键词是帝王宫苑，而非后来发展的江南私家园林。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c05-f08",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "明代园林家计成在____一书中提出“虽由人作，宛自天开”的造园境界。",
+      "answers": [
+        "园冶"
+      ],
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 8,
+        "kind": "fill",
+        "importId": "w26-c05-f08",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceAnswers": [
+          "园冶"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第8题。参考答案已按题意复核。",
+      "study": {
+        "point": "计成是明代造园家，《园冶》是其造园专著。试卷把书名误写“园治”，引文也有讹字；规范题面按常见原文“虽由人作，宛自天开”整理。",
+        "sources": [
+          {
+            "title": "上海市绿化市容管理局：园林与中国造园观",
+            "url": "https://lhsr.sh.gov.cn/jnylwh/20200615/ae44208f-09bb-4449-a507-8d2d145eae77.html",
+            "scope": "计成《园冶》及虽由人作、宛自天开的表述"
+          }
+        ]
+      },
+      "note": "答案图写“园治”，应为《园冶》；引文按通行原文修订。"
+    },
+    {
+      "id": "w26-c05-f09",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "北京的颐和园属于____园林。",
+      "answers": [
+        "北方大型皇家"
+      ],
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 9,
+        "kind": "fill",
+        "importId": "w26-c05-f09",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceAnswers": [
+          "北方大型皇家"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第9题。参考答案已按题意复核。",
+      "study": {
+        "point": "颐和园位于北京，是北方大型皇家园林代表；与拙政园、网师园等江南小型私家园林区分。本题空位后已有“园林”，可填写北方大型皇家。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "北方皇家",
+          "皇家",
+          "北方大型皇家园林"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c06-f03",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "由于采用特制的毛笔来作画，使得“____”成为中国画技法和理论中的重要术语。",
+      "answers": [
+        "笔墨"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 3,
+        "kind": "fill",
+        "importId": "w26-c06-f03",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "笔墨"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第2页 · 填空第3题。参考答案已按题意复核。",
+      "study": {
+        "point": "笔墨既指毛笔与墨这两类材料工具，也指笔法、墨法及其审美表现。题面仅以特制毛笔解释“笔墨”不够完整，应把用笔与用墨合起来理解。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f05",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "肖像摄影又称____摄影。",
+      "answers": [
+        "人物"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 5,
+        "kind": "fill",
+        "importId": "w26-c06-f05",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "人物"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第2页 · 填空第5题。参考答案已按题意复核。",
+      "study": {
+        "point": "肖像摄影又称人物摄影，以人物形象为主要表现对象。人物摄影可包括头像、半身、全身及群像等，不仅限于证件照片。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f08",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____是以表现各种体育运动或竞赛中运动员的技术水平、健美姿态和优异成绩为内容的摄影艺术形式。",
+      "answers": [
+        "体育摄影"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 8,
+        "kind": "fill",
+        "importId": "w26-c06-f08",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "体育摄影"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第2页 · 填空第8题。参考答案已按题意复核。",
+      "study": {
+        "point": "体育摄影以体育运动与竞赛为内容，通过拍摄技术捕捉动作、力量、姿态和赛事瞬间；常用抓拍，但不能把抓拍本身当作题材名称。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f10",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____是书法艺术的鼎盛时期。",
+      "answers": [
+        "唐代"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 3,
+        "page": 3,
+        "number": 10,
+        "kind": "fill",
+        "importId": "w26-c06-f10",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "唐代"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第10题。参考答案已按题意复核。",
+      "study": {
+        "point": "本章教材把唐代概括为书法鼎盛期，尤其强调楷书成就；这是阶段概括，不否认晋人行书、宋人尚意等各有高峰。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f12",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "秦代统一了文字，由大篆变为____。",
+      "answers": [
+        "小篆"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 3,
+        "page": 3,
+        "number": 12,
+        "kind": "fill",
+        "importId": "w26-c06-f12",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "小篆"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第12题。参考答案已按题意复核。",
+      "study": {
+        "point": "秦统一文字，以小篆为规范书体。小篆又称秦篆，与笔画更繁复、形体较多样的大篆相区分。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "秦篆"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c06-f13",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "书法的用笔是指行笔的方式、方法及其所产生的效果，宋代米芾称他自己是“____”字。",
+      "answers": [
+        "刷"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 3,
+        "page": 3,
+        "number": 13,
+        "kind": "fill",
+        "importId": "w26-c06-f13",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "刷"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第13题。参考答案已按题意复核。",
+      "study": {
+        "point": "米芾自称“刷字”，突出其用笔迅疾、痛快的特点。此处问自评的动词，不是书体名称，也不意味着写字没有法度。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f14",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "书法的____是指作品的总体布局，即整幅字在行次布局中应当错综变化，疏密相宜，具有节奏和气势，从而体现出整幅作品内在的神韵。",
+      "answers": [
+        "章法"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 3,
+        "page": 3,
+        "number": 14,
+        "kind": "fill",
+        "importId": "w26-c06-f14",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "章法"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第14题。参考答案已按题意复核。",
+      "study": {
+        "point": "章法是书法作品整体的组织布局，包括行列、字距、行距、疏密、虚实与节奏；用笔指笔画运行，结体指单字结构，三者层次不同。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f17",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "顾闳中的《韩熙载夜宴图》采用的是____的方式绘画出来的。",
+      "answers": [
+        "心识默记"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 3,
+        "page": 3,
+        "number": 17,
+        "kind": "fill",
+        "importId": "w26-c06-f17",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "心识默记"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第17题。参考答案已按题意复核。",
+      "study": {
+        "point": "顾闳中作《韩熙载夜宴图》的传统叙述常用“心识默记”概括，指先观察记忆再组织成画。这是传述的创作方式，不能把现藏宋摹本当作亲历夜宴的原作。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "心识默记法"
+        ]
+      ]
     }
   ],
   "pending": [
@@ -10446,6 +11744,75 @@ window.SHIYI_FILL_BANK = {
       "stem": "接受美学的内容十分丰富，但其中影响最大的，要数姚斯提出的____和伊塞尔提。",
       "originalKey": "期待视野、空白",
       "reason": "扫描件在“伊塞尔提”处截断，缺后续题干，不自动补造。"
+    },
+    {
+      "chapter": 2,
+      "kind": "fill",
+      "number": 1,
+      "reason": "答案写2万年；西班牙文化部给多彩野牛约14500 BP，不同图像及校正年代不同，原题未说明口径，暂不作唯一数值判分。",
+      "stem": "西班牙阿尔塔米拉洞穴的野牛画，距今约有____年的历史。",
+      "page": 2,
+      "source": {
+        "document": "艺术概论第二章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 1,
+        "kind": "fill",
+        "importId": "w26-c02-f01",
+        "answerDocument": "艺术概论第二章周测答案",
+        "referenceAnswers": [
+          "2万"
+        ]
+      },
+      "originalAnswer": "2万",
+      "pdfPage": 2,
+      "originalKey": "2万"
+    },
+    {
+      "chapter": 4,
+      "kind": "fill",
+      "number": 3,
+      "reason": "佛教寺庙与早期演出关系密切，但“中国古代最早的正式剧场”范围、断代未明，不能仅凭参考答案认定唯一结论。",
+      "stem": "中国古代最早的正式剧场就是____。",
+      "page": 2,
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 3,
+        "kind": "fill",
+        "importId": "w26-c04-f03",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "佛教的寺庙"
+        ]
+      },
+      "originalAnswer": "佛教的寺庙",
+      "pdfPage": 2,
+      "originalKey": "佛教的寺庙"
+    },
+    {
+      "chapter": 6,
+      "kind": "fill",
+      "number": 2,
+      "reason": "洞穴壁画跨越约36000至13000年前，原题笼统问壁画年代，2万多年不是全部壁画的统一年代，待明确具体图像。",
+      "stem": "西班牙阿尔塔米拉洞穴壁画，属于旧石器时代的作品，距今____多年的历史。",
+      "page": 2,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 2,
+        "kind": "fill",
+        "importId": "w26-c06-f02",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "2万"
+        ]
+      },
+      "originalAnswer": "2万",
+      "pdfPage": 2,
+      "originalKey": "2万"
     }
   ],
   "excludedChoiceCount": 99,

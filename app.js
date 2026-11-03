@@ -392,8 +392,28 @@
     if (question.type === "fill") {
       heading("参考答案");
       question.answers.forEach(function (answer, index) { paragraph(container, "answer-key", "第 " + (index + 1) + " 空：" + answer); });
+      if (question.study) {
+        heading("本题考点与解题依据");
+        paragraph(container, "knowledge-location", chapter.title + " · " + chapter.subtitle);
+        paragraph(container, "knowledge-point", question.study.point);
+        heading("逐空填写与易混点");
+        question.answers.forEach(function (answer, index) {
+          paragraph(container, "option-reason", "第 " + (index + 1) + " 空填写“" + answer + "”。" + ((question.aliases || [])[index] ? "也接受：" + question.aliases[index].join("、") + "。" : "") + "注意题干问的是人物、作品、概念还是年代，依据见上方考点。");
+        });
+      }
+      heading("出处与复习定位");
       paragraph(container, "question-source", question.explanation);
       if (question.note) paragraph(container, "revision-source", question.note);
+      ((question.study || {}).sources || []).forEach(function (source) {
+        var row = document.createElement("p");
+        var link = document.createElement("a");
+        link.textContent = source.title;
+        link.href = source.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        row.append(link, document.createTextNode("：" + source.scope));
+        container.appendChild(row);
+      });
       return;
     }
     if (!study) {
@@ -420,7 +440,7 @@
       container.appendChild(item);
     });
     heading("出处与复习定位");
-    paragraph(container, "question-source", "原题出处：用户提供题集第" + question.source.page + "页 · " + (question.source.kind === "m" ? "多选" : "单选") + "第" + question.source.number + "题。");
+    paragraph(container, "question-source", "原题出处：用户提供" + (question.source.document ? "《" + question.source.document + "》PDF第" : "题集第") + question.source.page + "页 · " + (question.source.kind === "m" ? "多选" : "单选") + "第" + question.source.number + "题。");
     if (question.answerRevision) paragraph(container, "revision-source", question.explanation);
     paragraph(container, "reading-source", "考点查阅：彭吉象《艺术学概论》“" + chapter.subtitle + "”章；这是复习章节定位，并非对所用原题书名或版本的认定。");
     study.sources.forEach(function (source) {
