@@ -16,17 +16,17 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
           window.SHIYI_QUESTION_BANK.questions.splice(0, window.SHIYI_QUESTION_BANK.questions.length, q);
           document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();
           document.querySelector('#enterStageButton').click();
-          const buttons = document.querySelectorAll('.option-button');
+          const buttons = [...document.querySelectorAll('.option-button')].sort((a,b)=>Number(a.dataset.optionIndex)-Number(b.dataset.optionIndex));
           for (const i of indices) buttons[i].click();
           if (q.multiple) document.querySelector('#submitButton').click();
         }
         answer(q.answers);
         const panel = document.querySelector('#answerPanel');
         if (panel.hidden || panel.classList.contains('is-wrong')) failures.push(q.id + ':正确状态');
-        const rows = [...panel.querySelectorAll('.option-analysis')];
+        const rows = [...panel.querySelectorAll('.option-analysis')].sort((a,b)=>Number(a.dataset.optionIndex)-Number(b.dataset.optionIndex));
         if (rows.length !== q.options.length) failures.push(q.id + ':缺选项');
         rows.forEach((row, i) => {
-          if (!row.querySelector('h3').textContent.includes(q.options[i])) failures.push(q.id + ':选项错位');
+          if (!row.querySelector('h3').textContent.includes(q.options[i].replace("以上三个都不是","其他三个选项都不是"))) failures.push(q.id + ':选项错位');
           if (!q.answers.includes(i)) {
             excluded++;
             if (!row.querySelector('.option-reason').textContent.includes('知识归属与排除理由：')) failures.push(q.id + ':缺辨析');
@@ -35,11 +35,10 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
         if (!panel.querySelector('.knowledge-point')?.textContent) failures.push(q.id + ':缺考点');
         if (!panel.querySelector('.question-source')?.textContent.includes((q.source.document ? 'PDF第' : '题集第') + q.source.page + '页')) failures.push(q.id + ':缺原题出处');
         if (q.source.part && !panel.querySelector('.knowledge-location').textContent.includes('第' + q.source.part + '空')) failures.push(q.id + ':拆空提示');
-        const correctText = panel.querySelector('#answerExplanation').textContent;
         const wrong = q.multiple && q.answers.length > 1 ? [q.answers[0]] : [(q.answers[0] + 1) % q.options.length];
         answer(wrong);
         if (!panel.classList.contains('is-wrong')) failures.push(q.id + ':错误状态');
-        if (panel.querySelector('#answerExplanation').textContent !== correctText) failures.push(q.id + ':答错后解析不完整');
+        if (panel.querySelectorAll('.option-analysis').length !== q.options.length) failures.push(q.id + ':答错后解析不完整');
       }
       window.SHIYI_QUESTION_BANK.questions.splice(0, window.SHIYI_QUESTION_BANK.questions.length, ...questions);
       return {failures, questions:questions.length, excluded};
@@ -53,7 +52,7 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
         window.SHIYI_QUESTION_BANK.questions.splice(0, window.SHIYI_QUESTION_BANK.questions.length, q);
         document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();
         document.querySelector('#enterStageButton').click();
-        for (const i of correct ? q.answers : [(q.answers[0] + 1) % q.options.length]) document.querySelectorAll('.option-button')[i].click();
+        for (const i of correct ? q.answers : [(q.answers[0] + 1) % q.options.length]) document.querySelector('.option-button[data-option-index="'+i+'"]').click();
         if (q.multiple) document.querySelector('#submitButton').click();
       }, {id, correct});
     }

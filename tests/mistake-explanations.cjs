@@ -49,7 +49,7 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     assert(await page.locator('#typeIntro').isHidden());
     assert.equal(await page.locator('.option-button').count(), 4);
     assert(await page.locator('#answerPanel').isHidden());
-    await page.locator('.option-button').nth(2).click();
+    await page.locator('.option-button[data-option-index="2"]').click();
     assert.equal(await page.locator('#answerStatus').textContent(), '✓');
     assert.deepEqual(errors, []);
     console.log('PASS: 错题答案默认隐藏，题目点击及键盘展开收起，逐题独立、重进重置、完整解析、历史不变、手机布局及单题重练正常。');

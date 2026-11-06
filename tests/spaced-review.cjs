@@ -25,7 +25,7 @@ const key = 'shiyi-art-theory-progress-v1';
     document.querySelector('#submitButton').click();
    } else {
     const values=correct?q.answers:(!q.multiple?[(q.answers[0]+1)%q.options.length]:[q.answers[0]]);
-    values.forEach(i=>document.querySelectorAll('.option-button')[i].click());
+    values.forEach(i=>document.querySelector('.option-button[data-option-index="'+i+'"]').click());
     if(q.multiple)document.querySelector('#submitButton').click();
    }
   },{id,correct});

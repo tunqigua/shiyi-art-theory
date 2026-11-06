@@ -22,9 +22,9 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
    for(const q of bank.questions) {
     window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,q);
     document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();document.querySelector('#enterStageButton').click();
-    const options=[...document.querySelectorAll('.option-button')];
+    const options=[...document.querySelectorAll('.option-button')].sort((a,b)=>Number(a.dataset.optionIndex)-Number(b.dataset.optionIndex));
     if(options.length!==q.options.length) failures.push(q.id+':选项数量');
-    for(let i=0;i<options.length;i++)if(options[i].querySelector('span').textContent!==q.options[i])failures.push(q.id+':选项文字');
+    for(let i=0;i<options.length;i++)if(options[i].querySelector('span').textContent!==q.options[i].replace("以上三个都不是","其他三个选项都不是"))failures.push(q.id+':选项文字');
     const before=store()?.questionStats[q.id]?.attempts||0;
     for(const i of [...q.answers].reverse())options[i].click();
     if(q.multiple) {
@@ -38,10 +38,10 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();document.querySelector('#enterStageButton').click();
     const wrong=q.multiple ? [q.answers[0]] : [(q.answers[0]+1)%q.options.length];
     if(q.multiple && q.answers.length===1)wrong.push((q.answers[0]+1)%q.options.length);
-    for(const i of wrong)document.querySelectorAll('.option-button')[i].click();
+    for(const i of wrong)document.querySelector('.option-button[data-option-index="'+i+'"]').click();
     if(q.multiple)document.querySelector('#submitButton').click();
     if(document.querySelector('#answerStatus').textContent!=='✕')failures.push(q.id+':错误答案判对');
-    const correct=[...document.querySelectorAll('.option-button')].flatMap((b,i)=>b.classList.contains('is-correct')?[i]:[]);
+    const correct=[...document.querySelectorAll('.option-button')].flatMap((b,i)=>b.classList.contains('is-correct')?[Number(b.dataset.optionIndex)]:[]).sort((a,b)=>a-b);
     if(JSON.stringify(correct)!==JSON.stringify(q.answers))failures.push(q.id+':正确高亮错位');
     if(document.querySelector('#nextButton').disabled)failures.push(q.id+':下一题被锁');
    }
@@ -53,7 +53,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
   const multi=bank.questions.find(q=>q.options.length===7);
   await page.evaluate(q=>{window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,q);document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();document.querySelector('#enterStageButton').click();},multi);
   assert(await page.locator('#submitButton').isDisabled());
-  for(const i of multi.answers)await page.keyboard.press(String(i+1));
+  for(const i of multi.answers){const order=await page.locator('.option-button').evaluateAll(bs=>bs.map(b=>Number(b.dataset.optionIndex)));await page.keyboard.press(String(order.indexOf(i)+1));}
   assert(await page.locator('#answerPanel').isHidden());
   await page.keyboard.press('Enter');
   assert.equal(await page.locator('#answerStatus').textContent(),'✓');

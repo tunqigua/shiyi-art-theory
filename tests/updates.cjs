@@ -32,7 +32,7 @@ const key = 'shiyi-art-theory-progress-v1';
   const layout=await page.locator('#questionCard').boundingBox();
   assert(layout.width>1000,'答题区应填满桌面宽度');
   assert(layout.height>600,'答题区应利用可用高度');
-  await page.locator('.option-button').nth(3).click();
+  await page.locator('.option-button[data-option-index="3"]').click();
   assert.equal(await page.locator('#answerStatus').textContent(),'✕');
   assert.equal(await page.locator('.option-button.is-correct').count(),1);
   assert.equal(await page.locator('.option-button.is-wrong').count(),1);

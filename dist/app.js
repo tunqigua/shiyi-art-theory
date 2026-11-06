@@ -8,6 +8,7 @@
   var REVIEW_DAYS = [1, 3, 7, 14, 30, 60, 90];
   var state = loadState();
   var session = { queue: [], index: 0, answered: false, startedAt: 0, timer: null, mode: "chapter", selected: null, intro: false };
+  var lastOptionOrders = {};
   var studyStartedAt = null;
   var calendarMonth = null;
   var mistakeBrowse = { kind: "choice", chapter: "all", subtype: "all", status: "all", wrong: 0, sort: "wrong", query: "", page: 1 };
@@ -320,13 +321,19 @@
       });
       return;
     }
-    question.options.forEach(function (text, index) {
+    var originalOrder = question.options.map(function (_, index) { return index; });
+    session.optionOrder = shuffle(originalOrder);
+    var previousOrder = lastOptionOrders[question.id] || originalOrder;
+    if (session.optionOrder.length > 1 && session.optionOrder.every(function (value, index) { return value === previousOrder[index]; })) session.optionOrder.push(session.optionOrder.shift());
+    lastOptionOrders[question.id] = session.optionOrder.slice();
+    session.optionOrder.forEach(function (sourceIndex, index) {
       var button = document.createElement("button");
       button.className = "option-button";
+      button.dataset.optionIndex = sourceIndex;
       var label = document.createElement("b");
       label.textContent = String.fromCharCode(65 + index);
       var content = document.createElement("span");
-      content.textContent = text;
+      content.textContent = optionText(question, sourceIndex);
       button.append(label, content);
       button.setAttribute("aria-pressed", "false");
       button.addEventListener("click", function () { selectOption(index); });
@@ -338,9 +345,10 @@
     if (session.intro || session.answered) return;
     var question = session.queue[session.index];
     if (question.type === "fill" || index < 0 || index >= question.options.length) return;
-    if (!question.multiple) return answerQuestion([index]);
-    var position = session.selected.indexOf(index);
-    if (position < 0) session.selected.push(index);
+    var sourceIndex = session.optionOrder[index];
+    if (!question.multiple) return answerQuestion([sourceIndex]);
+    var position = session.selected.indexOf(sourceIndex);
+    if (position < 0) session.selected.push(sourceIndex);
     else session.selected.splice(position, 1);
     var button = byId("optionsList").children[index];
     button.classList.toggle("is-selected", position < 0);
@@ -375,7 +383,8 @@
     byId("submitButton").hidden = true;
     var durationMs = Math.max(300, Date.now() - session.startedAt);
     var buttons = Array.from(document.querySelectorAll(".option-button"));
-    buttons.forEach(function (button, index) {
+    buttons.forEach(function (button, displayIndex) {
+      var index = session.optionOrder[displayIndex];
       button.disabled = true;
       button.classList.remove("is-selected");
       if (expected.indexOf(index) !== -1) button.classList.add("is-correct");
@@ -386,13 +395,17 @@
     panel.classList.toggle("is-wrong", !correct);
     byId("answerStatus").textContent = correct ? "✓" : "✕";
     byId("answerStatus").setAttribute("aria-label", correct ? "正确" : "错误");
-    renderExplanation(question, null, session.selected);
+    renderExplanation(question, null, session.selected, session.optionOrder);
     byId("nextButton").disabled = false;
     recordAttempt(question, correct, durationMs, session.selected.slice());
     refreshSummary();
   }
 
-  function renderExplanation(question, container, selectedValues) {
+  function optionText(question, index) {
+    return question.options[index].replace("以上三个都不是", "其他三个选项都不是");
+  }
+
+  function renderExplanation(question, container, selectedValues, optionOrder) {
     container = container || byId("answerExplanation");
     container.replaceChildren();
     var study = (window.SHIYI_EXPLANATIONS || {})[question.id.replace(/-[1-9]$/, "")];
@@ -472,22 +485,27 @@
       paragraph(container, "question-source", question.explanation);
       return;
     }
-    paragraph(container, "answer-key", "本题应选：" + question.answers.map(function (i) {
-      return String.fromCharCode(65 + i) + " · " + question.options[i];
+    var order = optionOrder || question.options.map(function (_, index) { return index; });
+    function currentLetters(text) {
+      return String(text).replace(/[A-Za-z]+/g, function (token) { var position = /^[A-G]$/.test(token) ? order.indexOf(token.charCodeAt(0) - 65) : -1; return position >= 0 ? String.fromCharCode(65 + position) : token; });
+    }
+    paragraph(container, "answer-key", "本题应选：" + question.answers.slice().sort(function (a, b) { return order.indexOf(a) - order.indexOf(b); }).map(function (i) {
+      return String.fromCharCode(65 + order.indexOf(i)) + " · " + optionText(question, i);
     }).join("；"));
     heading("本题考点与解题依据");
     paragraph(container, "knowledge-location", chapter.title + " · " + chapter.subtitle + (question.source.part ? " · 当前填写第" + question.source.part + "空" : ""));
-    paragraph(container, "knowledge-point", study.point);
+    paragraph(container, "knowledge-point", currentLetters(study.point));
     heading("逐项辨析 · 答对也要看易混项");
-    question.options.forEach(function (text, index) {
-      var letter = String.fromCharCode(65 + index);
+    order.forEach(function (index, displayIndex) {
+      var letter = String.fromCharCode(65 + displayIndex);
       var included = question.answers.indexOf(index) !== -1;
       var item = document.createElement("article");
       item.className = "option-analysis" + (included ? " is-answer" : "");
+      item.dataset.optionIndex = index;
       var title = document.createElement("h3");
-      title.textContent = letter + " · " + text + "（" + (included ? "应选" : "不应选") + "）";
+      title.textContent = letter + " · " + optionText(question, index) + "（" + (included ? "应选" : "不应选") + "）";
       item.appendChild(title);
-      if (!included) paragraph(item, "option-reason", "知识归属与排除理由：" + study.options[letter]);
+      if (!included) paragraph(item, "option-reason", "知识归属与排除理由：" + currentLetters(study.options[String.fromCharCode(65 + index)]));
       else paragraph(item, "option-reason", "属于本题应选范围，依据见上方考点。" + (question.stem.indexOf("不属于") !== -1 || question.stem.indexOf("不包括") !== -1 || question.stem.indexOf("不正确") !== -1 ? "注意这是反向设问，应选不符合条件的项。" : ""));
       container.appendChild(item);
     });

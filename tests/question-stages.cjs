@@ -30,7 +30,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
     if(previous&&previous.multiple&&!q.multiple)failures.push('章节顺序错误');
     if(previous&&Boolean(previous.multiple)!==Boolean(q.multiple)&&!intro)failures.push('缺少题型切换提示');
     if(intro&&document.querySelector('#enterStageButton').textContent!==(q.multiple?'多选题':'单选题'))failures.push('提示题型错误');
-    q.answers.forEach(i=>document.querySelectorAll('.option-button')[i].click());
+    q.answers.forEach(i=>document.querySelector('.option-button[data-option-index="'+i+'"]').click());
     if(q.multiple)document.querySelector('#submitButton').click();
     if(document.querySelector('#answerStatus').textContent!=='✓')failures.push('判分错误');
     seen.push(q.id);previous=q;document.querySelector('#nextButton').click();
