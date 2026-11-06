@@ -7,6 +7,8 @@ for(const q of b.questions){
  assert.equal(q.type,'fill');assert.equal((q.stem.match(/____/g)||[]).length,q.answers.length,q.id);
  assert(q.answers.every(a=>typeof a==='string'&&a.length&&!/简答|名词解释|^[A-G]+$/.test(a)),q.id);
  assert(u.grade(q,q.answers).every(Boolean),q.id);
+ assert(u.grade(q,q.answers.slice().reverse()).every(Boolean),q.id+':逆序');
+ assert(u.grade(q,q.answers.slice(1).concat(q.answers[0])).every(Boolean),q.id+':轮换');
  assert(u.grade(q,q.answers.map(a=>'错误测试答案')).every(x=>!x),q.id);
  assert(u.grade(q,q.answers.map(a=>' 《'+a+'》 ')).every(Boolean),q.id);
  if(q.answers.length>1){const values=q.answers.slice();values[0]='错误测试答案';assert(!u.grade(q,values)[0]);assert(u.grade(q,values).slice(1).every(Boolean));}
@@ -19,3 +21,8 @@ const qs=[...ctx.window.SHIYI_QUESTION_BANK.questions,...b.questions];const back
 assert(u.validateBackup(backup,qs));assert.throws(()=>u.validateBackup({format:'shiyi-backup',version:1,state:{attempts:[],questionStats:{},favorites:['invalid']}},qs));
 for(const invalid of [null,{}, {format:'shiyi-question-bank'}, {...backup,state:{...backup.state,dailyGoal:-1}}, {...backup,state:{...backup.state,dailyStudyMs:{'bad-date':2}}}, {...backup,state:{...backup.state,attempts:[{questionId:qs[0].id,correct:'false'}]}}])assert.throws(()=>u.validateBackup(invalid,qs));
 console.log(`PASS: ${b.questions.length}填空题逐空正确/错误/标点判分，12章覆盖、错位答案对应、${b.pending.length}项隔离与备份校验。`);
+
+assert.deepEqual(Array.from(u.grade({answers:['甲','乙']},['甲','甲'])),[true,false]);
+assert(u.grade({answers:['甲','甲']},['甲','甲']).every(Boolean));
+assert(u.grade({answers:['甲','乙'],aliases:[['乙'],[]]},['乙','甲']).every(Boolean),'别名交叉时应找到完整匹配');
+assert.deepEqual(Array.from(u.grade({answers:['甲','乙']},['','乙'])),[false,true]);

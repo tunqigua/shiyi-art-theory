@@ -88,6 +88,19 @@
       state.dailyAnswersEstimated = state.attempts.length > 0;
     }
     BANK.questions.forEach(function (q) {
+      if (q.type === "fill") {
+        var rows = state.attempts.filter(function (a) { return a.questionId === q.id; });
+        var stat = state.questionStats[q.id];
+        rows.forEach(function (attempt) {
+          if (attempt.correct || !Array.isArray(attempt.selectedIndex) || attempt.selectedIndex.length !== q.answers.length || !attempt.selectedIndex.every(function (x) { return typeof x === "string"; }) || !window.SHIYI_FILL_UTILS.grade(q, attempt.selectedIndex).every(Boolean)) return;
+          attempt.correct = true;
+          if (stat) stat.wrongCount = Math.max(0, stat.wrongCount - 1);
+          var counts = state.dailyAnswers[todayKey(new Date(attempt.at))];
+          if (counts) { counts.wrong = Math.max(0, counts.wrong - 1); counts.correct += 1; }
+        });
+        if (stat && rows.length) stat.lastCorrect = rows[0].correct;
+        if (stat && stat.wrongCount === 0) delete stat.review;
+      }
       var stat = state.questionStats[q.id];
       if (stat && stat.wrongCount > 0 && !stat.review) stat.review = { step: 0, due: todayKey(), passedDay: null };
     });
@@ -276,7 +289,7 @@
     byId("chapterTag").textContent = chapter.title;
     var blankNumber = 0;
     byId("questionText").textContent = question.type === "fill" ? question.stem.replace(/____/g, function () { blankNumber += 1; return "（" + blankNumber + "）____"; }) : question.stem;
-    byId("questionType").textContent = question.type === "fill" ? "填空题 · 逐空打字后提交" : (question.multiple ? "多选题 · 选完提交" : "单选题");
+    byId("questionType").textContent = question.type === "fill" ? "填空题 · 答案顺序不限" : (question.multiple ? "多选题 · 选完提交" : "单选题");
     byId("submitButton").hidden = !question.multiple && question.type !== "fill";
     byId("submitButton").disabled = true;
     byId("questionPosition").textContent = (session.index + 1) + " / " + session.queue.length;
@@ -295,7 +308,7 @@
         label.textContent = "第 " + (index + 1) + " 空";
         var input = document.createElement("input"); input.type = "text"; input.className = "fill-input";
         input.autocomplete = "off"; input.spellcheck = false;
-        input.placeholder = "输入答案";
+        input.placeholder = "输入答案，顺序不限";
         input.addEventListener("input", function () { byId("submitButton").disabled = !Array.from(options.querySelectorAll("input")).every(function (x) { return x.value.trim(); }); });
         input.addEventListener("keydown", function (event) {
           if (event.key !== "Enter" || event.isComposing) return;
@@ -402,9 +415,10 @@
         fillFeedback(question, selectedValues).forEach(function (feedback) {
           var item = document.createElement("article");
           item.className = "fill-answer-feedback" + (feedback.correct ? " is-correct" : " is-wrong");
-          paragraph(item, "fill-feedback-title", "第 " + feedback.blank + " 空：你填写“" + feedback.typed + "” · " + (feedback.correct ? "正确" : "本空不匹配"));
+          paragraph(item, "fill-feedback-title", "第 " + feedback.blank + " 格：你填写“" + feedback.typed + "” · " + (feedback.correct ? "正确，已识别" : "未匹配到剩余答案"));
+          if (feedback.correct && feedback.matchedBlank !== feedback.blank) paragraph(item, "fill-feedback-location", "对应参考答案第 " + feedback.matchedBlank + " 空；本题不要求填写顺序，已计为正确。");
           if (!feedback.correct) {
-            if (feedback.misplaced.length) paragraph(item, "fill-feedback-location", "这个答案对应本题第 " + feedback.misplaced.join("、") + " 空，注意填写顺序。");
+            if (feedback.duplicate) paragraph(item, "fill-feedback-location", "这个答案已匹配到其他填写内容，重复填写不能代替缺少的答案。");
             if (feedback.matches.length) {
               paragraph(item, "fill-feedback-location", "你写的答案在题库中对应以下考点（同一名称可能出现在多个语境）：");
               feedback.matches.forEach(function (match) {
@@ -413,10 +427,10 @@
                 if (match.point) paragraph(item, "fill-feedback-point", match.point);
                 paragraph(item, "question-source", "题库定位：第 " + match.chapter + " 章 · " + match.id);
               });
-            } else if (!feedback.misplaced.length) {
+            } else if (!feedback.duplicate) {
               paragraph(item, "fill-feedback-unknown", "题库中暂未找到这个填写内容的可靠对应，不能确定它属于哪个概念。可先检查错别字、简称或名字是否写全。");
             }
-            paragraph(item, "answer-key", "本空应填：“" + feedback.answer + "”。结合下方完整句理解它与题干的对应关系。");
+            paragraph(item, "answer-key", "还缺少的答案：“" + feedback.answer + "”。结合下方完整句理解它与题干的对应关系。");
             if (feedback.answerContext) {
               paragraph(item, "fill-correct-point", "正确答案的相关考点：" + feedback.answerContext.point);
               paragraph(item, "question-source", "关联题号：" + feedback.answerContext.id);

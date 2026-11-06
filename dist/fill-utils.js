@@ -3,11 +3,24 @@
   function normalize(value) {
     return String(value).normalize("NFKC").toLowerCase().replace(/[\s《》〈〉“”‘’"'·•．。，、：:；;！!？?（）()\-—]/g, "");
   }
+  function match(question, values) {
+    var accepted = question.answers.map(function (answer, index) { return [answer].concat((question.aliases || [])[index] || []).map(normalize); });
+    var owners = question.answers.map(function () { return -1; });
+    var keys = question.answers.map(function (_, input) { return normalize(values[input] || ""); });
+    function assign(input, visited) {
+      var order = [input].concat(question.answers.map(function (_, i) { return i; }).filter(function (i) { return i !== input; }));
+      return order.some(function (answer) {
+        if (visited[answer] || !keys[input] || accepted[answer].indexOf(keys[input]) === -1) return false;
+        visited[answer] = true;
+        if (owners[answer] === -1 || assign(owners[answer], visited)) { owners[answer] = input; return true; }
+        return false;
+      });
+    }
+    keys.forEach(function (_, input) { assign(input, []); });
+    return keys.map(function (_, input) { return owners.indexOf(input); });
+  }
   function grade(question, values) {
-    return question.answers.map(function (answer, index) {
-      var accepted = [answer].concat((question.aliases || [])[index] || []);
-      return accepted.some(function (text) { return normalize(text) === normalize(values[index] || ""); });
-    });
+    return match(question, values).map(function (answer) { return answer !== -1; });
   }
   function validateBackup(data, questions) {
     function fail() { throw new Error("文件不是有效的识艺学习备份"); }
@@ -42,5 +55,5 @@
     if (state.dailyGoal !== undefined && (!Number.isInteger(state.dailyGoal) || state.dailyGoal < 1 || state.dailyGoal > 10000)) fail();
     return true;
   }
-  root.SHIYI_FILL_UTILS = {normalize:normalize, grade:grade, validateBackup:validateBackup};
+  root.SHIYI_FILL_UTILS = {normalize:normalize, match:match, grade:grade, validateBackup:validateBackup};
 })(typeof window === "undefined" ? globalThis : window);
