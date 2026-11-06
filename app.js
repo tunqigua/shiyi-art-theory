@@ -893,10 +893,10 @@
     byId("progressRing").style.setProperty("--percent", Math.min(100, total / (state.dailyGoal || 20) * 100));
     var learned = new Set(state.attempts.map(function (attempt) { return attempt.questionId; }));
     Object.keys(state.questionStats).forEach(function (id) { if (state.questionStats[id].attempts > 0) learned.add(id); });
-    var remaining = BANK.questions.filter(function (q) { return !learned.has(q.id); }).length;
-    byId("bankStatus").textContent = remaining + " / " + BANK.questions.length;
-    byId("bankStatus").title = "未学 / 总题量（提交过答案即计为已学）";
-    byId("bankStatus").setAttribute("aria-label", "未学 " + remaining + " 题 / 共 " + BANK.questions.length + " 题");
+    var learnedCount = BANK.questions.filter(function (q) { return learned.has(q.id); }).length;
+    byId("bankStatus").textContent = learnedCount + " / " + BANK.questions.length;
+    byId("bankStatus").title = "已学 / 总题量（提交过答案即计为已学，重复作答不重复计数）";
+    byId("bankStatus").setAttribute("aria-label", "已学 " + learnedCount + " 题 / 共 " + BANK.questions.length + " 题");
   }
 
   function refreshAll() {
