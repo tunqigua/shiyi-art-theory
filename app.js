@@ -10,6 +10,9 @@
   var session = { queue: [], index: 0, answered: false, startedAt: 0, timer: null, mode: "chapter", selected: null, intro: false, stageStart: 0 };
   var studyStartedAt = null;
   var calendarMonth = null;
+  var mistakeBrowse = { kind: "choice", chapter: "all", subtype: "all", status: "all", wrong: 0, sort: "wrong", query: "", page: 1 };
+  var filteredMistakes = [];
+  var mistakeScrollTop = 0;
   var beijingDate = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" });
   var views = {
     overview: document.getElementById("overviewView"),
@@ -164,13 +167,14 @@
   }
 
   function setView(name) {
+    if (views.mistakes.classList.contains("is-visible") && name !== "mistakes") mistakeScrollTop = window.scrollY;
     flushStudyTime();
     studyStartedAt = name === "practice" && !document.hidden ? Date.now() : null;
     Object.keys(views).forEach(function (key) {
       views[key].classList.toggle("is-visible", key === name);
     });
     document.querySelectorAll(".rail-item[data-view]").forEach(function (button) {
-      button.classList.toggle("is-active", button.dataset.view === name || (name === "practice" && button.dataset.view === "overview"));
+      button.classList.toggle("is-active", button.dataset.view === name || (name === "practice" && button.dataset.view === (session.mode === "review" ? "mistakes" : "overview")));
     });
     var titles = { overview: "学习总览", practice: "正在练习", mistakes: "错题本", records: "学习记录", backup: "计划与备份" };
     byId("pageTitle").textContent = titles[name];
@@ -180,7 +184,7 @@
     if (name === "mistakes") renderMistakes();
     if (name === "records") renderRecords();
     if (name === "backup") renderPlan();
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: name === "mistakes" ? mistakeScrollTop : 0, behavior: name === "mistakes" ? "instant" : "smooth" });
   }
 
   function openUnitPanel() {
@@ -286,6 +290,9 @@
     var chapter = BANK.chapters.find(function (item) { return item.id === question.chapter; });
     byId("practiceTitle").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "mix" ? "疯狂混练" : (session.mode === "fillMix" ? "填空混练" : "错题重练"));
     if (session.mode === "review") byId("practiceTitle").textContent = "错题轮回 · " + ({single:"单选", multiple:"多选", fill:"填空"})[questionKind(question)];
+    var backButton = document.querySelector("#questionStage .back-button");
+    backButton.dataset.view = session.mode === "review" ? "mistakes" : "overview";
+    backButton.textContent = session.mode === "review" ? "返回错题本" : "返回总览";
     byId("chapterTag").textContent = chapter.title;
     var blankNumber = 0;
     byId("questionText").textContent = question.type === "fill" ? question.stem.replace(/____/g, function () { blankNumber += 1; return "（" + blankNumber + "）____"; }) : question.stem;
@@ -599,7 +606,7 @@
     var all = customQuestions || mistakeQuestions(kind);
     var due = all.filter(function (q) { return state.questionStats[q.id].review.due <= todayKey(); });
     if (!all.length) return showToast("这一类还没有错题");
-    session.queue = (due.length ? due : all).slice();
+    session.queue = (customQuestions || (due.length ? due : all)).slice();
     session.index = 0;
     session.mode = "review";
     beginQuestion();
@@ -615,7 +622,6 @@
 
   function renderMistakes() {
     var questions = mistakeQuestions();
-    var list = byId("mistakeList");
     var dueCount = questions.filter(function (q) { return state.questionStats[q.id].review.due <= todayKey(); }).length;
     byId("mistakeSummary").textContent = "今日待复习 " + dueCount + " 题 · 累计错题 " + questions.length + " 题";
     document.querySelectorAll("[data-review-kind]").forEach(function (button) {
@@ -627,16 +633,64 @@
       var next = rows.filter(function (q) { return state.questionStats[q.id].review.due > todayKey(); })[0];
       button.querySelector(".review-next").textContent = next ? "下次到期 " + state.questionStats[next.id].review.due.replace(/-/g, "/") : "";
     });
+    document.querySelectorAll("[data-mistake-kind]").forEach(function (button) {
+      button.querySelector("span").textContent = questions.filter(function (q) { return (q.type === "fill") === (button.dataset.mistakeKind === "fill"); }).length;
+    });
+    renderMistakeList();
+  }
+
+  function renderMistakeList() {
+    var list = byId("mistakeList");
+    var tokens = mistakeBrowse.query.trim().split(/\s+/).map(window.SHIYI_FILL_UTILS.normalize).filter(Boolean);
+    var questions = mistakeQuestions().filter(function (q) {
+      var stat = state.questionStats[q.id];
+      var study = q.type === "fill" ? q.study : (window.SHIYI_EXPLANATIONS || {})[q.id.replace(/-[1-9]$/, "")];
+      var text = window.SHIYI_FILL_UTILS.normalize([q.id, q.stem, (q.options || []).join(" "), q.type === "fill" ? q.answers.join(" ") : "", JSON.stringify(study || {})].join(" "));
+      return (q.type === "fill") === (mistakeBrowse.kind === "fill") &&
+        (mistakeBrowse.chapter === "all" || q.chapter === Number(mistakeBrowse.chapter)) &&
+        (mistakeBrowse.kind === "fill" || mistakeBrowse.subtype === "all" || questionKind(q) === mistakeBrowse.subtype) &&
+        (mistakeBrowse.status === "all" || (stat.review.due <= todayKey()) === (mistakeBrowse.status === "due")) &&
+        stat.wrongCount >= mistakeBrowse.wrong && tokens.every(function (token) { return text.indexOf(token) !== -1; });
+    });
+    questions.sort(function (a, b) {
+      var sa = state.questionStats[a.id], sb = state.questionStats[b.id];
+      if (mistakeBrowse.sort === "chapter") return a.chapter - b.chapter || a.id.localeCompare(b.id, undefined, { numeric: true });
+      if (mistakeBrowse.sort === "recent") return (sb.lastAt || "").localeCompare(sa.lastAt || "") || sb.wrongCount - sa.wrongCount;
+      if (mistakeBrowse.sort === "due") return sa.review.due.localeCompare(sb.review.due) || sb.wrongCount - sa.wrongCount;
+      return sb.wrongCount - sa.wrongCount || a.chapter - b.chapter;
+    });
+    filteredMistakes = questions;
+    var pageCount = Math.max(1, Math.ceil(questions.length / 20));
+    mistakeBrowse.page = Math.min(mistakeBrowse.page, pageCount);
+    var start = (mistakeBrowse.page - 1) * 20;
+    byId("mistakeResultCount").textContent = questions.length ? "找到 " + questions.length + " 道 · 显示 " + (start + 1) + "–" + Math.min(start + 20, questions.length) + " 道" : "没有符合条件的错题";
+    byId("mistakePage").textContent = mistakeBrowse.page + " / " + pageCount;
+    byId("mistakePrevious").disabled = mistakeBrowse.page === 1;
+    byId("mistakeNext").disabled = mistakeBrowse.page === pageCount;
+    document.querySelector(".mistake-pagination").hidden = questions.length <= 20;
+    byId("reviewFiltered").disabled = !questions.length;
+    byId("mistakeSubtypeLabel").hidden = mistakeBrowse.kind === "fill";
+    document.querySelectorAll("[data-mistake-kind]").forEach(function (button) { button.setAttribute("aria-pressed", String(button.dataset.mistakeKind === mistakeBrowse.kind)); });
     if (!questions.length) {
-      list.innerHTML = "<div class=\"empty-state\"><div><strong>这里还很干净</strong><span>答错的题会自动出现在这里。</span></div></div>";
+      list.innerHTML = "<div class=\"empty-state\"><div><strong>这里没有符合条件的错题</strong><span>试试其他分类、单元或关键词，也可以重置筛选。</span></div></div>";
       return;
     }
     list.innerHTML = "";
-    questions.forEach(function (question) {
+    var lastChapter = null;
+    questions.slice(start, start + 20).forEach(function (question) {
       var stat = state.questionStats[question.id];
+      var chapter = BANK.chapters.find(function (c) { return c.id === question.chapter; });
+      if (mistakeBrowse.sort === "chapter" && lastChapter !== question.chapter) {
+        var heading = document.createElement("h2"); heading.className = "mistake-unit-heading";
+        heading.textContent = chapter.title + " · " + chapter.subtitle; list.appendChild(heading); lastChapter = question.chapter;
+      }
       var row = document.createElement("article");
       row.className = "mistake-row";
-      row.innerHTML = "<span class=\"unit-label\">第" + question.chapter + "章</span><div class=\"mistake-content\"><h3><button class=\"mistake-toggle\" type=\"button\" aria-expanded=\"false\"><span class=\"mistake-flag\" aria-hidden=\"true\">⚑</span><span class=\"mistake-stem\"></span><span class=\"toggle-hint\">查看解析</span></button></h3><p>累计错 " + stat.wrongCount + " 次 · 复习日期 " + stat.review.due + "</p></div><button class=\"retry-question\">单题重练</button>";
+      row.innerHTML = "<div class=\"mistake-meta\"><span class=\"unit-label\"></span><span class=\"mistake-kind\"></span><strong>累计错 " + stat.wrongCount + " 次</strong></div><div class=\"mistake-content\"><h3><button class=\"mistake-toggle\" type=\"button\" aria-expanded=\"false\"><span class=\"mistake-stem\"></span><span class=\"toggle-hint\">查看解析</span></button></h3></div><div class=\"mistake-row-footer\"><span class=\"mistake-due\"></span><button class=\"retry-question\">重练本题</button></div>";
+      row.dataset.questionId = question.id;
+      row.querySelector(".unit-label").textContent = chapter.title + " · " + chapter.subtitle;
+      row.querySelector(".mistake-kind").textContent = ({single:"单选题", multiple:"多选题", fill:"填空题"})[questionKind(question)];
+      row.querySelector(".mistake-due").textContent = (stat.review.due <= todayKey() ? "待复习 · " : "下次复习 · ") + stat.review.due.replace(/-/g, "/");
       row.querySelector(".mistake-stem").textContent = question.stem;
       var explanation = document.createElement("div");
       explanation.id = "mistake-explanation-" + question.id;
@@ -813,6 +867,33 @@
     byId("favoriteButton").addEventListener("click", toggleFavorite);
     document.querySelectorAll("[data-review-kind]").forEach(function (button) {
       button.addEventListener("click", function () { startReview(button.dataset.reviewKind); });
+    });
+    BANK.chapters.forEach(function (chapter) {
+      var option = document.createElement("option"); option.value = chapter.id;
+      option.textContent = chapter.title + " · " + chapter.subtitle; byId("mistakeChapter").appendChild(option);
+    });
+    document.querySelectorAll("[data-mistake-view]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        var browse = button.dataset.mistakeView === "browse";
+        byId("mistakeLibrary").hidden = !browse; byId("reviewDashboard").hidden = browse;
+        document.querySelectorAll("[data-mistake-view]").forEach(function (item) { item.setAttribute("aria-pressed", String(item === button)); });
+      });
+    });
+    document.querySelectorAll("[data-mistake-kind]").forEach(function (button) {
+      button.addEventListener("click", function () { mistakeBrowse.kind = button.dataset.mistakeKind; mistakeBrowse.page = 1; renderMistakeList(); });
+    });
+    byId("mistakeFilters").addEventListener("submit", function (event) { event.preventDefault(); });
+    byId("mistakeSearch").addEventListener("input", function () { mistakeBrowse.query = this.value; mistakeBrowse.page = 1; renderMistakeList(); });
+    [["mistakeChapter", "chapter"], ["mistakeSubtype", "subtype"], ["mistakeStatus", "status"], ["mistakeWrong", "wrong"], ["mistakeSort", "sort"]].forEach(function (pair) {
+      byId(pair[0]).addEventListener("change", function () { mistakeBrowse[pair[1]] = pair[1] === "wrong" ? Number(this.value) : this.value; mistakeBrowse.page = 1; renderMistakeList(); });
+    });
+    byId("clearMistakeFilters").addEventListener("click", function () {
+      var kind = mistakeBrowse.kind; byId("mistakeFilters").reset();
+      mistakeBrowse = { kind: kind, chapter: "all", subtype: "all", status: "all", wrong: 0, sort: "wrong", query: "", page: 1 }; renderMistakeList();
+    });
+    byId("reviewFiltered").addEventListener("click", function () { startReview(null, filteredMistakes); });
+    [["mistakePrevious", -1], ["mistakeNext", 1]].forEach(function (pair) {
+      byId(pair[0]).addEventListener("click", function () { mistakeBrowse.page += pair[1]; renderMistakeList(); byId("mistakeResultCount").scrollIntoView({ block: "nearest" }); });
     });
     document.addEventListener("keydown", function (event) {
       if (!views.practice.classList.contains("is-visible")) return;
