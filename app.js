@@ -4,6 +4,7 @@
   var BANK = window.SHIYI_QUESTION_BANK;
   BANK.questions = BANK.questions.concat(window.SHIYI_FILL_BANK.questions);
   var STORAGE_KEY = "shiyi-art-theory-progress-v1";
+  var REVIEW_DAYS = [1, 3, 7, 14, 30, 60, 90];
   var state = loadState();
   var session = { queue: [], index: 0, answered: false, startedAt: 0, timer: null, mode: "chapter", selected: null, intro: false, stageStart: 0 };
   var studyStartedAt = null;
@@ -85,6 +86,10 @@
       });
       state.dailyAnswersEstimated = state.attempts.length > 0;
     }
+    BANK.questions.forEach(function (q) {
+      var stat = state.questionStats[q.id];
+      if (stat && stat.wrongCount > 0 && !stat.review) stat.review = { step: 0, due: todayKey(), passedDay: null };
+    });
     saveState();
   }
 
@@ -246,7 +251,7 @@
     setView("practice");
     var question = session.queue[session.index];
     var previous = session.queue[session.index - 1];
-    session.intro = !enterStage && (!previous || (previous.type === "fill") !== (question.type === "fill") || Boolean(previous.multiple) !== Boolean(question.multiple) || (session.mode === "mix" && session.index - session.stageStart === 5));
+    session.intro = session.mode !== "review" && !enterStage && (!previous || (previous.type === "fill") !== (question.type === "fill") || Boolean(previous.multiple) !== Boolean(question.multiple) || (session.mode === "mix" && session.index - session.stageStart === 5));
     byId("typeIntro").hidden = !session.intro;
     byId("questionStage").hidden = session.intro;
     if (session.intro) {
@@ -258,7 +263,7 @@
     session.startedAt = Date.now();
     renderQuestion();
     startTimer();
-    if (enterStage) byId("questionText").focus();
+    if (enterStage || session.mode === "review") byId("questionText").focus();
   }
 
   function renderQuestion() {
@@ -266,6 +271,7 @@
     if (!question) return;
     var chapter = BANK.chapters.find(function (item) { return item.id === question.chapter; });
     byId("practiceTitle").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "mix" ? "疯狂混练" : (session.mode === "fillMix" ? "填空混练" : "错题重练"));
+    if (session.mode === "review") byId("practiceTitle").textContent = "错题轮回 · " + ({single:"单选", multiple:"多选", fill:"填空"})[questionKind(question)];
     byId("chapterTag").textContent = chapter.title;
     var blankNumber = 0;
     byId("questionText").textContent = question.type === "fill" ? question.stem.replace(/____/g, function () { blankNumber += 1; return "（" + blankNumber + "）____"; }) : question.stem;
@@ -470,6 +476,24 @@
     current.lastDurationMs = durationMs;
     current.bestMs = current.bestMs === null ? durationMs : Math.min(current.bestMs, durationMs);
     current.lastAt = new Date().toISOString();
+    if (!correct) {
+      current.review = { step: 0, due: todayKey(), passedDay: null };
+      if (session.mode === "review" && !session.queue.slice(session.index + 1).some(function (q) { return q.id === question.id; })) {
+        session.queue.splice(Math.min(session.index + 4, session.queue.length), 0, question);
+        byId("nextButton").textContent = "稍后再练 · 下一题";
+      }
+    } else if (session.mode === "review" && current.review && current.review.due <= todayKey() && current.review.passedDay !== todayKey()) {
+      var days = REVIEW_DAYS[Math.min(current.review.step, REVIEW_DAYS.length - 1)];
+      current.review.step = Math.min(current.review.step + 1, REVIEW_DAYS.length);
+      current.review.due = todayKey(new Date(Date.parse(todayKey() + "T12:00:00+08:00") + days * 86400000));
+      current.review.passedDay = todayKey();
+    }
+    if (session.mode === "review") {
+      var reviewNote = document.createElement("p");
+      reviewNote.className = "review-feedback";
+      reviewNote.textContent = correct ? "本轮已答对 · 下次复习 " + current.review.due.replace(/-/g, "/") : "本题稍后再次出现，答对后进入间隔复习。";
+      byId("answerExplanation").appendChild(reviewNote);
+    }
     state.questionStats[question.id] = current;
     addDailyAnswer(todayKey(), correct);
     state.attempts.unshift({ questionId: question.id, chapter: question.chapter, correct: correct, durationMs: durationMs, selectedIndex: selectedIndex, at: new Date().toISOString() });
@@ -480,8 +504,8 @@
   function nextQuestion() {
     if (session.intro || !session.answered) return;
     if (session.index >= session.queue.length - 1) {
-      showToast("本组完成，记录已保存");
-      setView("overview");
+      showToast(session.mode === "review" ? "本轮错题已全部答对，下次到期再见" : "本组完成，记录已保存");
+      setView(session.mode === "review" ? "mistakes" : "overview");
       refreshAll();
       return;
     }
@@ -520,19 +544,42 @@
     showToast(index === -1 ? "已收藏本题" : "已取消收藏");
   }
 
-  function mistakeQuestions() {
+  function questionKind(question) {
+    return question.type === "fill" ? "fill" : (question.multiple ? "multiple" : "single");
+  }
+
+  function startReview(kind, customQuestions) {
+    var all = customQuestions || mistakeQuestions(kind);
+    var due = all.filter(function (q) { return state.questionStats[q.id].review.due <= todayKey(); });
+    if (!all.length) return showToast("这一类还没有错题");
+    session.queue = (due.length ? due : all).slice();
+    session.index = 0;
+    session.mode = "review";
+    beginQuestion();
+  }
+
+  function mistakeQuestions(kind) {
     return BANK.questions.filter(function (question) {
-      return state.questionStats[question.id] && state.questionStats[question.id].wrongCount > 0;
+      return (!kind || questionKind(question) === kind) && state.questionStats[question.id] && state.questionStats[question.id].wrongCount > 0;
     }).sort(function (a, b) {
-      return state.questionStats[b.id].wrongCount - state.questionStats[a.id].wrongCount;
+      return state.questionStats[a.id].review.due.localeCompare(state.questionStats[b.id].review.due) || state.questionStats[b.id].wrongCount - state.questionStats[a.id].wrongCount;
     });
   }
 
   function renderMistakes() {
     var questions = mistakeQuestions();
     var list = byId("mistakeList");
-    byId("mistakeSummary").textContent = questions.length ? questions.length + " 道错题等待巩固" : "暂无错题";
-    byId("retryMistakesButton").disabled = !questions.length;
+    var dueCount = questions.filter(function (q) { return state.questionStats[q.id].review.due <= todayKey(); }).length;
+    byId("mistakeSummary").textContent = "今日待复习 " + dueCount + " 题 · 累计错题 " + questions.length + " 题";
+    document.querySelectorAll("[data-review-kind]").forEach(function (button) {
+      var rows = mistakeQuestions(button.dataset.reviewKind);
+      var due = rows.filter(function (q) { return state.questionStats[q.id].review.due <= todayKey(); }).length;
+      button.querySelector("strong").textContent = due;
+      button.querySelector("small").textContent = rows.length ? "累计 " + rows.length + " 题 · " + (due ? "点击开始复习" : "今日已完成，可自由巩固") : "还没有错题";
+      button.disabled = !rows.length;
+      var next = rows.filter(function (q) { return state.questionStats[q.id].review.due > todayKey(); })[0];
+      button.querySelector(".review-next").textContent = next ? "下次到期 " + state.questionStats[next.id].review.due.replace(/-/g, "/") : "";
+    });
     if (!questions.length) {
       list.innerHTML = "<div class=\"empty-state\"><div><strong>这里还很干净</strong><span>答错的题会自动出现在这里。</span></div></div>";
       return;
@@ -542,7 +589,7 @@
       var stat = state.questionStats[question.id];
       var row = document.createElement("article");
       row.className = "mistake-row";
-      row.innerHTML = "<span class=\"unit-label\">第" + question.chapter + "章</span><div class=\"mistake-content\"><h3><button class=\"mistake-toggle\" type=\"button\" aria-expanded=\"false\"><span class=\"mistake-flag\" aria-hidden=\"true\">⚑</span><span class=\"mistake-stem\"></span><span class=\"toggle-hint\">查看解析</span></button></h3><p>累计错 " + stat.wrongCount + " 次 · 最近用时 " + formatSeconds(stat.lastDurationMs) + "</p></div><button class=\"retry-question\">单题重练</button>";
+      row.innerHTML = "<span class=\"unit-label\">第" + question.chapter + "章</span><div class=\"mistake-content\"><h3><button class=\"mistake-toggle\" type=\"button\" aria-expanded=\"false\"><span class=\"mistake-flag\" aria-hidden=\"true\">⚑</span><span class=\"mistake-stem\"></span><span class=\"toggle-hint\">查看解析</span></button></h3><p>累计错 " + stat.wrongCount + " 次 · 复习日期 " + stat.review.due + "</p></div><button class=\"retry-question\">单题重练</button>";
       row.querySelector(".mistake-stem").textContent = question.stem;
       var explanation = document.createElement("div");
       explanation.id = "mistake-explanation-" + question.id;
@@ -557,7 +604,7 @@
         toggle.querySelector(".toggle-hint").textContent = explanation.hidden ? "查看解析" : "收起解析";
       });
       row.appendChild(explanation);
-      row.querySelector(".retry-question").addEventListener("click", function () { startMix([question]); });
+      row.querySelector(".retry-question").addEventListener("click", function () { startReview(questionKind(question), [question]); });
       list.appendChild(row);
     });
   }
@@ -717,7 +764,9 @@
     byId("nextButton").addEventListener("click", nextQuestion);
     byId("submitButton").addEventListener("click", submitCurrent);
     byId("favoriteButton").addEventListener("click", toggleFavorite);
-    byId("retryMistakesButton").addEventListener("click", function () { startMix(mistakeQuestions()); });
+    document.querySelectorAll("[data-review-kind]").forEach(function (button) {
+      button.addEventListener("click", function () { startReview(button.dataset.reviewKind); });
+    });
     document.addEventListener("keydown", function (event) {
       if (!views.practice.classList.contains("is-visible")) return;
       if (session.intro) {

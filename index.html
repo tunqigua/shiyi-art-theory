@@ -9,7 +9,7 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?v=13" />
+    <link rel="stylesheet" href="./styles.css?v=20261106" />
   </head>
   <body>
     <div class="app-shell">
@@ -149,15 +149,19 @@
 
         <section class="view" id="mistakesView">
           <div class="page-intro">
-            <h1>错题不是失败，<br />是复习的路线图。</h1>
-            <p>这里按错题累计次数排列。点击题目或左侧小旗查看解析，再点一次收起。</p>
+            <h1>错题轮回</h1>
+            <p>先练到期错题，答错的稍后再来，答对后逐步拉长复习间隔。</p>
           </div>
           <div class="list-toolbar">
             <span id="mistakeSummary">暂无错题</span>
-            <button class="primary-button small" id="retryMistakesButton" disabled>重练全部错题</button>
           </div>
-          <div class="question-list" id="mistakeList"></div>
-          <p class="panel-note">题目与答案同步采用更正结果；现存作答已重新核算，未保留选择的早期记录无法重判。</p>
+          <div class="review-modules">
+            <button class="review-module" data-review-kind="single"><span>单选</span><strong>0</strong><span class="review-count-label">今日待复习</span><small></small><span class="review-next"></span></button>
+            <button class="review-module" data-review-kind="multiple"><span>多选</span><strong>0</strong><span class="review-count-label">今日待复习</span><small></small><span class="review-next"></span></button>
+            <button class="review-module" data-review-kind="fill"><span>填空</span><strong>0</strong><span class="review-count-label">今日待复习</span><small></small><span class="review-next"></span></button>
+          </div>
+          <p class="panel-note">答对后依次间隔 1、3、7、14、30、60、90 天复习，之后每 90 天循环；再次答错则从头开始。按北京时间到期，提前巩固答对不改期。</p>
+          <details class="mistake-archive"><summary>查看全部错题与解析</summary><div class="question-list" id="mistakeList"></div></details>
         </section>
 
         <section class="view" id="backupView">
@@ -206,8 +210,8 @@
     <script src="./questions.js?v=20261103"></script>
     <script src="./explanations.js?v=20261103"></script>
     <script src="./fill-questions.js?v=20261103"></script>
-    <script src="./fill-utils.js?v=1"></script>
-    <script src="./app.js?v=20261103"></script>
+    <script src="./fill-utils.js?v=20261106"></script>
+    <script src="./app.js?v=20261106"></script>
   </body>
 </html>
 
