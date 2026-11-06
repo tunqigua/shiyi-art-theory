@@ -677,7 +677,7 @@
     }
     list.innerHTML = "";
     var lastChapter = null;
-    questions.slice(start, start + 20).forEach(function (question) {
+    questions.slice(start, start + 20).forEach(function (question, index) {
       var stat = state.questionStats[question.id];
       var chapter = BANK.chapters.find(function (c) { return c.id === question.chapter; });
       if (mistakeBrowse.sort === "chapter" && lastChapter !== question.chapter) {
@@ -691,7 +691,7 @@
       row.querySelector(".unit-label").textContent = chapter.title + " · " + chapter.subtitle;
       row.querySelector(".mistake-kind").textContent = ({single:"单选题", multiple:"多选题", fill:"填空题"})[questionKind(question)];
       row.querySelector(".mistake-due").textContent = (stat.review.due <= todayKey() ? "待复习 · " : "下次复习 · ") + stat.review.due.replace(/-/g, "/");
-      row.querySelector(".mistake-stem").textContent = question.stem;
+      row.querySelector(".mistake-stem").textContent = (start + index + 1) + ". " + question.stem;
       var explanation = document.createElement("div");
       explanation.id = "mistake-explanation-" + question.id;
       explanation.className = "answer-panel is-wrong mistake-explanation";
