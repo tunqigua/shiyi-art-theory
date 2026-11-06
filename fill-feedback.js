@@ -32,8 +32,11 @@
       }
     });
     return function (question, values) {
-      var results = root.SHIYI_FILL_UTILS.grade(question, values);
-      return question.answers.map(function (answer, blank) {
+      var matched = root.SHIYI_FILL_UTILS.match(question, values);
+      var missing = question.answers.map(function (_, i) { return i; }).filter(function (i) { return matched.indexOf(i) === -1; });
+      return question.answers.map(function (_, blank) {
+        var correct = matched[blank] !== -1;
+        var answer = question.answers[correct ? matched[blank] : missing.shift()];
         var typed = values[blank] || "";
         var misplaced = question.answers.map(function (_, i) {
           return i !== blank && [question.answers[i]].concat((question.aliases || [])[i] || []).some(function (a) { return normalize(a) === normalize(typed); }) ? i + 1 : null;
@@ -48,7 +51,8 @@
           return row.point && row.point.indexOf(answer) !== -1 && /口诀|配对记忆/.test(row.point);
         });
         var answerContext = (index.get(normalize(answer)) || []).find(function (row) { return row.id !== question.id && row.point; });
-        return { blank: blank + 1, typed: typed, correct: results[blank], answer: answer, misplaced: misplaced, matches: matches, answerContext: answerContext, memory: memory ? memory.point : "" };
+        var duplicate = !correct && question.answers.some(function (a, i) { return [a].concat((question.aliases || [])[i] || []).some(function (text) { return normalize(text) === normalize(typed); }); });
+        return { blank: blank + 1, typed: typed, correct: correct, matchedBlank: matched[blank] + 1, answer: answer, duplicate: duplicate, misplaced: misplaced, matches: matches, answerContext: answerContext, memory: memory ? memory.point : "" };
       });
     };
   }
