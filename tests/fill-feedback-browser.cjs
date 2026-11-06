@@ -1,0 +1,25 @@
+const assert=require('node:assert/strict');
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+(async()=>{const browser=await chromium.launch({headless:true});try{
+ const page=await browser.newPage({viewport:{width:1280,height:900}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(process.env.TEST_URL||'http://127.0.0.1:18767');
+ await page.evaluate(()=>{const qs=window.SHIYI_QUESTION_BANK.questions,q=qs.find(q=>q.id==='c01-f001');qs.splice(0,qs.length,q);document.querySelector('#fillMixButton').click();document.querySelector('#enterStageButton').click();});
+ assert.equal(await page.locator('.fill-answer-feedback').count(),0);
+ for(const [i,value]of ['顾恺之','清吹','<img src=x onerror=alert(1)>'].entries())await page.locator('.fill-input').nth(i).fill(value);
+ await page.locator('#submitButton').click();
+ assert.equal(await page.locator('.fill-answer-feedback').count(),3);
+ const text=await page.locator('#answerExplanation').innerText();assert(text.includes('以形写神'));assert(text.includes('顾闳中'));assert(text.includes('对应本题第 3 空'));assert(text.includes('暂未找到'));assert(text.includes('串句理解与记忆'));
+ assert.equal(await page.locator('.fill-answer-feedback img').count(),0,'输入只作为文字显示');
+ assert.equal(await page.locator('#answerStatus').textContent(),'✕');
+ assert.equal(await page.locator('.fill-input.is-wrong').count(),3);
+ const attempts=await page.evaluate(()=>JSON.parse(localStorage.getItem('shiyi-art-theory-progress-v1')).attempts.length);
+ await page.locator('#submitButton').evaluate(b=>b.click());assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('shiyi-art-theory-progress-v1')).attempts.length),attempts);
+ await page.screenshot({path:'outputs/fill-feedback-desktop.png',fullPage:true,animations:'disabled'});
+ await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.screenshot({path:'outputs/fill-feedback-mobile.png',fullPage:true,animations:'disabled'});
+ await page.locator('.rail-item[data-view="mistakes"]').click();await page.locator('[data-review-kind="fill"]').click();
+ assert(await page.locator('#typeIntro').isHidden());assert.equal(await page.locator('.fill-answer-feedback').count(),3,'上次解析在新题隐藏容器中保留');assert(await page.locator('#answerPanel').isHidden());
+ for(const [i,value]of ['顾闳中','赏舞','清吹'].entries())await page.locator('.fill-input').nth(i).fill(value);
+ await page.locator('#submitButton').click();assert.equal(await page.locator('.fill-answer-feedback.is-correct').count(),3);assert.equal(await page.locator('#answerStatus').textContent(),'✓');
+ assert.deepEqual(errors,[]);console.log('PASS: 真实填空错答归属、错位空、未知输入、安全文字、手机布局、重复提交、错题轮回中的正确反馈。');
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

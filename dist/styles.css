@@ -463,3 +463,8 @@ main { margin-left: var(--rail); min-height: 100vh; }
   .review-modules { grid-template-columns: 1fr; gap: 12px; }
   .review-module { padding: 22px; gap: 8px; }
 }
+.fill-answer-feedback { margin: 16px 0; padding: 16px; border: 1px solid var(--line); border-left: 3px solid var(--green); border-radius: 4px; overflow-wrap: anywhere; }
+.fill-answer-feedback.is-wrong { border-left-color: var(--red); }
+.fill-feedback-title { font-weight: 600; }
+.fill-feedback-context { margin-top: 16px; }
+.fill-memory, .fill-complete-sentence { line-height: 1.9; }

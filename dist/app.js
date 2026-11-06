@@ -3,6 +3,7 @@
 
   var BANK = window.SHIYI_QUESTION_BANK;
   BANK.questions = BANK.questions.concat(window.SHIYI_FILL_BANK.questions);
+  var fillFeedback = window.SHIYI_FILL_FEEDBACK.create(BANK.questions, window.SHIYI_EXPLANATIONS || {});
   var STORAGE_KEY = "shiyi-art-theory-progress-v1";
   var REVIEW_DAYS = [1, 3, 7, 14, 30, 60, 90];
   var state = loadState();
@@ -373,13 +374,13 @@
     panel.classList.toggle("is-wrong", !correct);
     byId("answerStatus").textContent = correct ? "✓" : "✕";
     byId("answerStatus").setAttribute("aria-label", correct ? "正确" : "错误");
-    renderExplanation(question);
+    renderExplanation(question, null, session.selected);
     byId("nextButton").disabled = false;
     recordAttempt(question, correct, durationMs, session.selected.slice());
     refreshSummary();
   }
 
-  function renderExplanation(question, container) {
+  function renderExplanation(question, container, selectedValues) {
     container = container || byId("answerExplanation");
     container.replaceChildren();
     var study = (window.SHIYI_EXPLANATIONS || {})[question.id.replace(/-[1-9]$/, "")];
@@ -396,8 +397,40 @@
       container.appendChild(element);
     }
     if (question.type === "fill") {
+      if (selectedValues) {
+        heading("你的填写与易混辨析");
+        fillFeedback(question, selectedValues).forEach(function (feedback) {
+          var item = document.createElement("article");
+          item.className = "fill-answer-feedback" + (feedback.correct ? " is-correct" : " is-wrong");
+          paragraph(item, "fill-feedback-title", "第 " + feedback.blank + " 空：你填写“" + feedback.typed + "” · " + (feedback.correct ? "正确" : "本空不匹配"));
+          if (!feedback.correct) {
+            if (feedback.misplaced.length) paragraph(item, "fill-feedback-location", "这个答案对应本题第 " + feedback.misplaced.join("、") + " 空，注意填写顺序。");
+            if (feedback.matches.length) {
+              paragraph(item, "fill-feedback-location", "你写的答案在题库中对应以下考点（同一名称可能出现在多个语境）：");
+              feedback.matches.forEach(function (match) {
+                var location = BANK.chapters.find(function (c) { return c.id === match.chapter; });
+                paragraph(item, "fill-feedback-context", location.title + " · " + match.kind + "：" + match.context);
+                if (match.point) paragraph(item, "fill-feedback-point", match.point);
+                paragraph(item, "question-source", "题库定位：第 " + match.chapter + " 章 · " + match.id);
+              });
+            } else if (!feedback.misplaced.length) {
+              paragraph(item, "fill-feedback-unknown", "题库中暂未找到这个填写内容的可靠对应，不能确定它属于哪个概念。可先检查错别字、简称或名字是否写全。");
+            }
+            paragraph(item, "answer-key", "本空应填：“" + feedback.answer + "”。结合下方完整句理解它与题干的对应关系。");
+            if (feedback.answerContext) {
+              paragraph(item, "fill-correct-point", "正确答案的相关考点：" + feedback.answerContext.point);
+              paragraph(item, "question-source", "关联题号：" + feedback.answerContext.id);
+            }
+          }
+          if (feedback.memory) paragraph(item, "fill-memory", "相关记忆提示：" + feedback.memory);
+          container.appendChild(item);
+        });
+      }
       heading("参考答案");
       question.answers.forEach(function (answer, index) { paragraph(container, "answer-key", "第 " + (index + 1) + " 空：" + answer); });
+      heading("串句理解与记忆");
+      paragraph(container, "fill-complete-sentence", window.SHIYI_FILL_FEEDBACK.complete(question));
+      paragraph(container, "fill-memory", question.answers.length > 1 ? "按空顺序回忆：" + question.answers.join(" → ") + "。先读完整句，再遮住答案，逐空回想；不要只记答案列表。" : "把题干中的人物、作品或观点与【" + question.answers[0] + "】成对记忆；遮住答案，用自己的话复述这句话。");
       if (question.study) {
         heading("本题考点与解题依据");
         paragraph(container, "knowledge-location", chapter.title + " · " + chapter.subtitle);
