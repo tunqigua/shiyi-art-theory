@@ -525,3 +525,7 @@ main { margin-left: var(--rail); min-height: 100vh; }
   .today-stats div:nth-child(even) { border-left: 1px solid var(--line); }
   .today-stats div:nth-child(n+3) { border-top: 1px solid var(--line); }
 }
+.answer-panel .review-notice { border-left: 3px solid #ab3028; padding: 0 0 0 16px; margin: 18px 0 26px; }
+.answer-panel .review-notice p, .answer-panel .review-notice a { color: #ab3028; }
+.answer-panel .review-notice-title { font-weight: 600; }
+.answer-panel .review-notice a { display: block; margin-top: 10px; font-size: 16px; line-height: 1.8; }
