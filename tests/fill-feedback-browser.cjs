@@ -17,7 +17,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
  await page.screenshot({path:'outputs/fill-feedback-desktop.png',fullPage:true,animations:'disabled'});
  await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  await page.screenshot({path:'outputs/fill-feedback-mobile.png',fullPage:true,animations:'disabled'});
- await page.locator('.rail-item[data-view="mistakes"]').click();await page.locator('[data-review-kind="fill"]').click();
+ await page.locator('.rail-item[data-view="mistakes"]').click();await page.locator('[data-mistake-view="review"]').click();await page.locator('[data-review-kind="fill"]').click();
  assert(await page.locator('#typeIntro').isHidden());assert.equal(await page.locator('.fill-answer-feedback').count(),3,'上次解析在新题隐藏容器中保留');assert(await page.locator('#answerPanel').isHidden());
  for(const [i,value]of ['顾闳中','赏舞','清吹'].entries())await page.locator('.fill-input').nth(i).fill(value);
  await page.locator('#submitButton').click();assert.equal(await page.locator('.fill-answer-feedback.is-correct').count(),3);assert.equal(await page.locator('#answerStatus').textContent(),'✓');

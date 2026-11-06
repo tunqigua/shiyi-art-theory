@@ -16,7 +16,7 @@ const key = 'shiyi-art-theory-progress-v1';
   },key);
   await page.reload();
   const stats=()=>page.evaluate(key=>JSON.parse(localStorage.getItem(key)),key);
-  const nav=()=>page.locator('.rail-item[data-view="mistakes"]').click();
+  const nav=async()=>{await page.locator('.rail-item[data-view="mistakes"]').click();await page.locator('[data-mistake-view="review"]').click();};
   const start=kind=>page.locator(`[data-review-kind="${kind}"]`).click();
   const answer=async(id,correct=true)=>page.evaluate(({id,correct})=>{
    const q=window.SHIYI_QUESTION_BANK.questions.find(q=>q.id===id);
