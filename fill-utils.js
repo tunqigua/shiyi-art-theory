@@ -53,6 +53,15 @@
       });
     });
     if (state.dailyGoal !== undefined && (!Number.isInteger(state.dailyGoal) || state.dailyGoal < 1 || state.dailyGoal > 10000)) fail();
+    function dayKey(day) { return typeof day === "string" && /^\d{4}-\d{2}-\d{2}$/.test(day) && Number.isFinite(Date.parse(day)) && new Date(day).toISOString().slice(0, 10) === day; }
+    if (state.dailyQuestionIds !== undefined) {
+      if (!object(state.dailyQuestionIds)) fail();
+      Object.keys(state.dailyQuestionIds).forEach(function (day) {
+        var rows = state.dailyQuestionIds[day];
+        if (!dayKey(day) || !Array.isArray(rows) || new Set(rows).size !== rows.length || !rows.every(function (id) { return typeof id === "string" && ids.has(id); })) fail();
+      });
+    }
+    if (state.dailyQuestionIdsEstimated !== undefined && (!Array.isArray(state.dailyQuestionIdsEstimated) || !state.dailyQuestionIdsEstimated.every(dayKey))) fail();
     return true;
   }
   root.SHIYI_FILL_UTILS = {normalize:normalize, match:match, grade:grade, validateBackup:validateBackup};

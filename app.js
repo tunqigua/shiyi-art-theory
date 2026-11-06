@@ -11,6 +11,7 @@
   var lastOptionOrders = {};
   var studyStartedAt = null;
   var calendarMonth = null;
+  var summaryDay = null;
   var mistakeBrowse = { kind: "choice", chapter: "all", subtype: "all", status: "all", wrong: 0, sort: "wrong", query: "", page: 1 };
   var filteredMistakes = [];
   var mistakeScrollTop = 0;
@@ -91,6 +92,25 @@
       });
       state.dailyAnswersEstimated = state.attempts.length > 0;
     }
+    if (!state.dailyQuestionIds) {
+      state.dailyQuestionIds = {};
+      state.dailyQuestionIdsEstimated = [];
+      var retainedCounts = {};
+      state.attempts.forEach(function (attempt) {
+        if (!getQuestion(attempt.questionId) || !Number.isFinite(Date.parse(attempt.at))) return;
+        var day = todayKey(new Date(attempt.at));
+        addDailyQuestion(day, attempt.questionId);
+        retainedCounts[day] = (retainedCounts[day] || 0) + 1;
+      });
+      Object.keys(state.questionStats).forEach(function (id) {
+        var stat = state.questionStats[id];
+        if (getQuestion(id) && Number.isFinite(Date.parse(stat.lastAt))) addDailyQuestion(todayKey(new Date(stat.lastAt)), id);
+      });
+      Object.keys(state.dailyAnswers).forEach(function (day) {
+        var counts = state.dailyAnswers[day];
+        if (counts.correct + counts.wrong > (retainedCounts[day] || 0)) state.dailyQuestionIdsEstimated.push(day);
+      });
+    }
     BANK.questions.forEach(function (q) {
       if (q.type === "fill") {
         var rows = state.attempts.filter(function (a) { return a.questionId === q.id; });
@@ -114,6 +134,11 @@
   function addDailyAnswer(day, correct) {
     if (!state.dailyAnswers[day]) state.dailyAnswers[day] = { correct: 0, wrong: 0 };
     state.dailyAnswers[day][correct ? "correct" : "wrong"] += 1;
+  }
+
+  function addDailyQuestion(day, questionId) {
+    if (!state.dailyQuestionIds[day]) state.dailyQuestionIds[day] = [];
+    if (state.dailyQuestionIds[day].indexOf(questionId) === -1) state.dailyQuestionIds[day].push(questionId);
   }
 
   function flushStudyTime() {
@@ -560,6 +585,7 @@
     }
     state.questionStats[question.id] = current;
     addDailyAnswer(todayKey(), correct);
+    addDailyQuestion(todayKey(), question.id);
     state.attempts.unshift({ questionId: question.id, chapter: question.chapter, correct: correct, durationMs: durationMs, selectedIndex: selectedIndex, at: new Date().toISOString() });
     state.attempts = state.attempts.slice(0, 500);
     saveState();
@@ -836,15 +862,27 @@
 
   function refreshSummary() {
     var today = todayKey();
+    summaryDay = today;
     var todayAttempts = state.attempts.filter(function (attempt) { return Boolean(getQuestion(attempt.questionId)) && todayKey(new Date(attempt.at)) === today; });
-    var correctToday = todayAttempts.filter(function (attempt) { return attempt.correct; });
+    var counts = state.dailyAnswers[today] || { correct: 0, wrong: 0 };
+    var total = counts.correct + counts.wrong;
+    var distinct = (state.dailyQuestionIds[today] || []).filter(function (id) { return Boolean(getQuestion(id)); }).length;
+    var estimated = (state.dailyQuestionIdsEstimated || []).indexOf(today) !== -1;
     var average = todayAttempts.length ? todayAttempts.reduce(function (sum, a) { return sum + a.durationMs; }, 0) / todayAttempts.length : null;
-    byId("todayDone").textContent = todayAttempts.length;
-    byId("todayAccuracy").textContent = todayAttempts.length ? Math.round(correctToday.length / todayAttempts.length * 100) + "%" : "—";
+    byId("todayDone").textContent = total;
+    byId("todayDistinct").textContent = (estimated ? "≥ " : "") + distinct;
+    byId("todayDistinct").title = estimated ? "旧记录有截断，已从现存记录补算；不重复题数可能不完整。" : "同一道题今天重复刷，只算一道。";
+    byId("todayAccuracy").textContent = total ? Math.round(counts.correct / total * 100) + "%" : "—";
     byId("todaySpeed").textContent = formatSeconds(average);
     byId("todayMistakes").textContent = mistakeQuestions().length;
     byId("mistakeNavCount").textContent = mistakeQuestions().length;
-    byId("progressRing").style.setProperty("--percent", Math.min(100, todayAttempts.length / (state.dailyGoal || 20) * 100));
+    byId("progressRing").style.setProperty("--percent", Math.min(100, total / (state.dailyGoal || 20) * 100));
+    var learned = new Set(state.attempts.map(function (attempt) { return attempt.questionId; }));
+    Object.keys(state.questionStats).forEach(function (id) { if (state.questionStats[id].attempts > 0) learned.add(id); });
+    var remaining = BANK.questions.filter(function (q) { return !learned.has(q.id); }).length;
+    byId("bankStatus").textContent = remaining + " / " + BANK.questions.length;
+    byId("bankStatus").title = "未学 / 总题量（提交过答案即计为已学）";
+    byId("bankStatus").setAttribute("aria-label", "未学 " + remaining + " 题 / 共 " + BANK.questions.length + " 题");
   }
 
   function refreshAll() {
@@ -928,7 +966,6 @@
   }
 
   function renderAudit() {
-    byId("bankStatus").textContent = BANK.questions.length + " 个练习项";
     byId("bankSummary").textContent = "填空题 " + window.SHIYI_FILL_BANK.questions.length + " 道（按题逐空填写） · 另有 " + window.SHIYI_FILL_BANK.pending.length + " 项待核对；选择题已保留 " + BANK.sourceQuestionCount + " 道原题 · " + BANK.gradedSourceCount + " 道进入判分 · 多空题逐空练习";
     byId("auditSummary").textContent = "题库核对说明 · " + (BANK.pending.length + window.SHIYI_FILL_BANK.pending.length) + " 项待核对（不参与判分）";
     byId("answerPolicy").textContent = BANK.answerPolicy;
@@ -1033,6 +1070,7 @@
   setInterval(function () {
     flushStudyTime();
     initDate();
+    if (summaryDay !== todayKey()) refreshSummary();
     if (views.records.classList.contains("is-visible")) renderStudyDates();
   }, 15000);
   initDate();
