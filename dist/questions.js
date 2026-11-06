@@ -1,7 +1,7 @@
 window.SHIYI_QUESTION_BANK = {
-  "version": "2026-11-06-restored",
-  "sourceQuestionCount": 576,
-  "gradedSourceCount": 576,
+  "version": "2026-11-06-chapter9",
+  "sourceQuestionCount": 582,
+  "gradedSourceCount": 582,
   "answerPolicy": "既有已更正答案继续保留；本轮争议题按用户指定的原书/试卷考试口径恢复，学术分歧及补全说明在答题后以红字展示。明确的文字错误、漏空及作者错配作修订，原题原答案逐项保留。",
   "corrections": [
     {
@@ -12912,6 +12912,154 @@ window.SHIYI_QUESTION_BANK = {
         "kind": "s",
         "part": null
       }
+    },
+    {
+      "id": "w26-c09-m08",
+      "chapter": 9,
+      "stem": "文学语言具有（　）审美特性。",
+      "options": [
+        "准确性",
+        "鲜明性",
+        "生动性",
+        "叙事性",
+        "形象性"
+      ],
+      "multiple": true,
+      "answers": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 8,
+        "kind": "m",
+        "importId": "w26-c09-m08"
+      },
+      "explanation": "用户提供《第九章语言艺术综合测试》PDF第1页 · 多选第8题；试卷无附答案，依据网络资料核对，录入答案ABCE。"
+    },
+    {
+      "id": "w26-c09-s04",
+      "chapter": 9,
+      "stem": "《荷马史诗》用文字记录下来于公元前（　）。",
+      "options": [
+        "三世纪",
+        "六世纪",
+        "八世纪",
+        "十世纪"
+      ],
+      "multiple": false,
+      "answers": [
+        1
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 4,
+        "kind": "s",
+        "importId": "w26-c09-s04"
+      },
+      "explanation": "用户提供《第九章语言艺术综合测试》PDF第1页 · 单选第4题；试卷无附答案，依据网络资料核对，录入答案B。"
+    },
+    {
+      "id": "w26-c09-s11",
+      "chapter": 9,
+      "stem": "（　）的早期散文《背影》，通过倾诉琐碎的家事，反映父子之间的真挚感情。",
+      "options": [
+        "俞平伯",
+        "胡适",
+        "朱自清",
+        "老舍"
+      ],
+      "multiple": false,
+      "answers": [
+        2
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 11,
+        "kind": "s",
+        "importId": "w26-c09-s11"
+      },
+      "explanation": "用户提供《第九章语言艺术综合测试》PDF第1页 · 单选第11题；试卷无附答案，依据网络资料核对，录入答案C。"
+    },
+    {
+      "id": "w26-c09-s13",
+      "chapter": 9,
+      "stem": "下列选项中，属于中篇小说的是（　）。",
+      "options": [
+        "《红与黑》",
+        "《战争与和平》",
+        "《简·爱》",
+        "《老人与海》"
+      ],
+      "multiple": false,
+      "answers": [
+        3
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 13,
+        "kind": "s",
+        "importId": "w26-c09-s13"
+      },
+      "explanation": "用户提供《第九章语言艺术综合测试》PDF第1页 · 单选第13题；试卷无附答案，依据网络资料核对，录入答案D。"
+    },
+    {
+      "id": "w26-c09-s14",
+      "chapter": 9,
+      "stem": "下列作品可以称之为报告文学成熟的标志（　）。",
+      "options": [
+        "《包身工》",
+        "《往事》",
+        "《小石潭记》",
+        "《龙须沟》"
+      ],
+      "multiple": false,
+      "answers": [
+        0
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 14,
+        "kind": "s",
+        "importId": "w26-c09-s14"
+      },
+      "explanation": "用户提供《第九章语言艺术综合测试》PDF第1页 · 单选第14题；试卷无附答案，依据网络资料核对，录入答案A。"
+    },
+    {
+      "id": "w26-c09-s15",
+      "chapter": 9,
+      "stem": "“先天下之忧而忧，后天下之乐而乐。”出自于（　）。",
+      "options": [
+        "《包身工》",
+        "《桃花源记》",
+        "《小石潭记》",
+        "《岳阳楼记》"
+      ],
+      "multiple": false,
+      "answers": [
+        3
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 15,
+        "kind": "s",
+        "importId": "w26-c09-s15"
+      },
+      "explanation": "用户提供《第九章语言艺术综合测试》PDF第1页 · 单选第15题；试卷无附答案，依据网络资料核对，录入答案D。"
     },
     {
       "id": "c10-m01",

@@ -2,7 +2,7 @@ const fs=require('node:fs');const vm=require('node:vm');const assert=require('no
 const ctx={window:{}};const dir=path.join(__dirname,'../dist');
 for(const f of ['questions.js','fill-questions.js','fill-utils.js'])vm.runInNewContext(fs.readFileSync(path.join(dir,f),'utf8'),ctx);
 const b=JSON.parse(JSON.stringify(ctx.window.SHIYI_FILL_BANK));const u=ctx.window.SHIYI_FILL_UTILS;
-assert.equal(b.questions.length,612);assert.equal(b.pending.length,0);assert.equal(new Set(b.questions.map(q=>q.id)).size,b.questions.length);
+assert.equal(b.questions.length,616);assert.equal(b.pending.length,0);assert.equal(new Set(b.questions.map(q=>q.id)).size,b.questions.length);
 for(const q of b.questions){
  assert.equal(q.type,'fill');assert.equal((q.stem.match(/____/g)||[]).length,q.answers.length,q.id);
  assert(q.answers.every(a=>typeof a==='string'&&a.length&&!/简答|名词解释|^[A-G]+$/.test(a)),q.id);

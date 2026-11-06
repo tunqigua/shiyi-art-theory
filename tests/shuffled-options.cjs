@@ -31,10 +31,10 @@ const assert=require('node:assert/strict');const {chromium}=require(process.env.
    if(JSON.stringify(q)!==snapshot)failures.push(q.id+':原题被改动');
   }
   bank.questions.splice(0,bank.questions.length,...original);return{failures,count:questions.length};
- });assert.deepEqual(result.failures,[]);assert.equal(result.count,597);
+ });assert.deepEqual(result.failures,[]);assert.equal(result.count,603);
  await page.reload();
  const multi=await page.evaluate(()=>{const qs=window.SHIYI_QUESTION_BANK.questions,q=qs.find(q=>q.options?.length===7);qs.splice(0,qs.length,q);document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();document.querySelector('#enterStageButton').click();return JSON.parse(JSON.stringify(q));});
  const texts=await page.locator('.option-button span').allTextContents();for(const i of multi.answers)await page.keyboard.press(String(texts.indexOf(multi.options[i])+1));
  await page.keyboard.press('Enter');assert.equal(await page.locator('#answerStatus').textContent(),'✓');
- assert.deepEqual(errors,[]);console.log('PASS: 597题随机排列、重复换位、内容判分、原编号记录、红绿与解析映射、原题不变，7选项多选键盘提交正常。');
+ assert.deepEqual(errors,[]);console.log('PASS: 603题随机排列、重复换位、内容判分、原编号记录、红绿与解析映射、原题不变，7选项多选键盘提交正常。');
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

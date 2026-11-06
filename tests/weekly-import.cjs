@@ -6,7 +6,7 @@ const rows=JSON.parse(fs.readFileSync(path.join(root,'data/weekly-tests-20261103
 const all=[...choices.questions,...fill.questions],ids=new Map(all.map(q=>[q.id,q]));
 assert.equal(rows.length,190);assert.equal(rows.filter(q=>q.kind!=='fill').length,131);assert.equal(rows.filter(q=>q.kind==='fill').length,59);
 assert.equal(rows.filter(q=>q.status==='added').length,98);assert.equal(rows.filter(q=>q.status==='existing').length,85);assert.equal(rows.filter(q=>q.status==='restored').length,7);
-assert.equal(all.length,1209);assert.equal(ids.size,1209);
+assert.equal(all.length,1219);assert.equal(ids.size,1219);
 assert.equal(choices.questions.filter(q=>!q.id.startsWith('w26-')).length,520);
 assert.equal(fill.questions.filter(q=>!q.id.startsWith('w26-')).length,584);
 for(const row of rows){
@@ -27,4 +27,4 @@ assert(ids.get('c04-m10').answerRevision);
 assert.equal(ids.get('c06-f064').answers[0],'张璪');
 assert.equal(ids.get('w26-c05-f08').answers[0],'园冶');
 assert.equal(ids.get('c04-f031').id,'c04-f031');assert(!ids.get('c04-f031').stem.includes('西斯廷教堂'));
-console.log('PASS: 190题逐项去向明确，98新增、85关联、7恢复；全部1079个旧练习编号保留，1209个练习无重复编号，关键勘误正确。');
+console.log('PASS: 190题逐项去向明确，98新增、85关联、7恢复；全部1079个旧练习编号保留，1219个练习无重复编号，关键勘误正确。');

@@ -1,0 +1,1007 @@
+{
+  "title": "第九章语言艺术综合测试",
+  "sourceFile": "第九章综合测试   .pdf",
+  "version": "2026-11-06-chapter9",
+  "policy": "仅选择、填空。跨题型逐题核对，相同考问、同一作者作品人物配对、换序或覆盖关系不新增；新题联网核对答案，未确认唯一答案不入判分。既有题、答案、编号和学习记录均保留。",
+  "counts": {
+    "total": 35,
+    "added": 10,
+    "existing": 24,
+    "pending": 1
+  },
+  "questions": [
+    {
+      "id": "w26-c09-s01",
+      "chapter": 9,
+      "kind": "s",
+      "number": 1,
+      "pdfPage": 1,
+      "stem": "美国 19 世纪诗人惠特曼是自由诗的创始者，其代表作是诗集（ ）",
+      "opts": {
+        "A": "《草叶集》",
+        "B": "《组歌》",
+        "C": "《飞鸟集》",
+        "D": "《荒原》"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-f015"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 1,
+        "kind": "s",
+        "importId": "w26-c09-s01"
+      }
+    },
+    {
+      "id": "w26-c09-s02",
+      "chapter": 9,
+      "kind": "s",
+      "number": 2,
+      "pdfPage": 1,
+      "stem": "以下最擅长描绘人物的内心世界的艺术种类是（ ）",
+      "opts": {
+        "A": "电影",
+        "B": "电视剧",
+        "C": "戏剧",
+        "D": "小说"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-s14"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 2,
+        "kind": "s",
+        "importId": "w26-c09-s02"
+      }
+    },
+    {
+      "id": "w26-c09-s03",
+      "chapter": 9,
+      "kind": "s",
+      "number": 3,
+      "pdfPage": 1,
+      "stem": "我国现实主义诗歌的源头是（ ）。",
+      "opts": {
+        "A": "《离骚》",
+        "B": "《毛诗序》",
+        "C": "《诗经》",
+        "D": "《楚辞》"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-s02"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 3,
+        "kind": "s",
+        "importId": "w26-c09-s03"
+      }
+    },
+    {
+      "id": "w26-c09-s04",
+      "chapter": 9,
+      "kind": "s",
+      "number": 4,
+      "pdfPage": 1,
+      "stem": "《荷马史诗》用文字记录下来于公元前（ ）。",
+      "opts": {
+        "A": "三世纪",
+        "B": "六世纪",
+        "C": "八世纪",
+        "D": "十世纪"
+      },
+      "status": "added",
+      "targets": [
+        "w26-c09-s04"
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 4,
+        "kind": "s",
+        "importId": "w26-c09-s04"
+      },
+      "key": "B",
+      "verificationSources": [
+        {
+          "title": "西南大学：张绪强《“口头传统”理论与荷马研究》",
+          "url": "https://icc.swu.edu.cn/info/1006/1256.htm",
+          "scope": "讨论公元前六世纪的雅典抄本与后来的文本编订；区分口头形成与文字记录，不将成书过程简化为无争议的单一事件。"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-s05",
+      "chapter": 9,
+      "kind": "s",
+      "number": 5,
+      "pdfPage": 1,
+      "stem": "北朝民歌《木兰诗》属于（ ）。",
+      "opts": {
+        "A": "抒情诗",
+        "B": "叙事诗",
+        "C": "格律诗",
+        "D": "自由诗"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-s08"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 5,
+        "kind": "s",
+        "importId": "w26-c09-s05"
+      }
+    },
+    {
+      "id": "w26-c09-s06",
+      "chapter": 9,
+      "kind": "s",
+      "number": 6,
+      "pdfPage": 1,
+      "stem": "（ ）的语言，可是说是一切文学作品中最凝练、最优美、最富音乐感的语言。",
+      "opts": {
+        "A": "诗歌",
+        "B": "散文",
+        "C": "小说",
+        "D": "剧本"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-s12"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 6,
+        "kind": "s",
+        "importId": "w26-c09-s06"
+      }
+    },
+    {
+      "id": "w26-c09-s07",
+      "chapter": 9,
+      "kind": "s",
+      "number": 7,
+      "pdfPage": 1,
+      "stem": "库尔特·冯尼格的意识流小说《第五号屠场》属于（ ）。",
+      "opts": {
+        "A": "单线型结构",
+        "B": "复线型结构",
+        "C": "蛛网型结构",
+        "D": "辐射型结构"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-s21-3"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 7,
+        "kind": "s",
+        "importId": "w26-c09-s07"
+      }
+    },
+    {
+      "id": "w26-c09-s08",
+      "chapter": 9,
+      "kind": "s",
+      "number": 8,
+      "pdfPage": 1,
+      "stem": "欧洲古典诗歌中的十四行诗属于（ ）。",
+      "opts": {
+        "A": "旧体诗",
+        "B": "自由诗",
+        "C": "格律诗",
+        "D": "四言诗"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-s10"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 8,
+        "kind": "s",
+        "importId": "w26-c09-s08"
+      }
+    },
+    {
+      "id": "w26-c09-s09",
+      "chapter": 9,
+      "kind": "s",
+      "number": 9,
+      "pdfPage": 1,
+      "stem": "《一个女人一生中的二十四小时》是（ ）的作品。",
+      "opts": {
+        "A": "惠特曼",
+        "B": "茨威格",
+        "C": "司汤达",
+        "D": "马尔克斯"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-f013"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 9,
+        "kind": "s",
+        "importId": "w26-c09-s09"
+      }
+    },
+    {
+      "id": "w26-c09-s10",
+      "chapter": 9,
+      "kind": "s",
+      "number": 10,
+      "pdfPage": 1,
+      "stem": "下列表述不正确的有（ ）",
+      "opts": {
+        "A": "诗歌在文学发展历史上出现最早",
+        "B": "《荷马史诗》诞生于公元前 8 世纪",
+        "C": "自由诗又称新诗",
+        "D": "意识流小说常采用蛛网型小说结构"
+      },
+      "status": "pending",
+      "targets": [],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 10,
+        "kind": "s",
+        "importId": "w26-c09-s10"
+      },
+      "reason": "试卷列为单选但写“不正确的有”，且自由诗与新诗不能无条件等同；意识流小说结构也依分类口径而异。无原试卷答案，不能可靠确认唯一选项，暂不纳入判分。",
+      "verificationSources": [
+        {
+          "title": "中国社会科学网：在世界之中的“中国现代诗律学”",
+          "url": "https://cssn.cn/skgz/bwyc/202209/t20220915_5497387.shtml",
+          "scope": "讨论自由诗与新诗格律理论并存，不能不加限定地将新诗与自由诗视为完全同义。"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-s11",
+      "chapter": 9,
+      "kind": "s",
+      "number": 11,
+      "pdfPage": 1,
+      "stem": "（ ）的早期散文《背影》，通过倾诉琐碎的家事，反应父子之间的真挚感情。",
+      "opts": {
+        "A": "俞平伯",
+        "B": "胡适",
+        "C": "朱自清",
+        "D": "老舍"
+      },
+      "status": "added",
+      "targets": [
+        "w26-c09-s11"
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 11,
+        "kind": "s",
+        "importId": "w26-c09-s11"
+      },
+      "key": "C",
+      "verificationSources": [
+        {
+          "title": "大连艺术学院图书馆：《背影》",
+          "url": "https://tsg.dac.edu.cn/detail/2983_4a78f2f8a3b1232dd9e1a77112e0b8b0.html",
+          "scope": "确认《背影》作者朱自清及父亲送站、买橘子所表现的父子情感。"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-s12",
+      "chapter": 9,
+      "kind": "s",
+      "number": 12,
+      "pdfPage": 1,
+      "stem": "哥伦比亚作家马尔克斯的长篇小说《 》采用魔幻现实主义的手法。",
+      "opts": {
+        "A": "《红与黑》",
+        "B": "《百年孤独》",
+        "C": "《简·爱》",
+        "D": "《老人与海》"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-f003"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 12,
+        "kind": "s",
+        "importId": "w26-c09-s12"
+      }
+    },
+    {
+      "id": "w26-c09-s13",
+      "chapter": 9,
+      "kind": "s",
+      "number": 13,
+      "pdfPage": 1,
+      "stem": "下列选项中，属于中篇小说的是（ ）。",
+      "opts": {
+        "A": "《红与黑》",
+        "B": "《战争与和平》",
+        "C": "《简·爱》",
+        "D": "《老人与海》"
+      },
+      "status": "added",
+      "targets": [
+        "w26-c09-s13"
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 13,
+        "kind": "s",
+        "importId": "w26-c09-s13"
+      },
+      "key": "D",
+      "verificationSources": [
+        {
+          "title": "东华大学出版社：《老人与海》",
+          "url": "https://dhupress.dhu.edu.cn/2019/0805/c17127a219528/page.htm",
+          "scope": "出版社明确将海明威《老人与海》列为中篇小说。"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-s14",
+      "chapter": 9,
+      "kind": "s",
+      "number": 14,
+      "pdfPage": 1,
+      "stem": "下列作品可以称之为报告文学成熟的标志（ ）。",
+      "opts": {
+        "A": "《包身工》",
+        "B": "《往事》",
+        "C": "《小石潭记》",
+        "D": "《龙须沟》"
+      },
+      "status": "added",
+      "targets": [
+        "w26-c09-s14"
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 14,
+        "kind": "s",
+        "importId": "w26-c09-s14"
+      },
+      "key": "A",
+      "verificationSources": [
+        {
+          "title": "中国文联：李朝全《报告文学六十年》",
+          "url": "https://cflac.org.cn/zt/2009-09/28/content_17834888.htm",
+          "scope": "将夏衍1936年发表的《包身工》称为中国现代报告文学的成熟之作。"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-s15",
+      "chapter": 9,
+      "kind": "s",
+      "number": 15,
+      "pdfPage": 1,
+      "stem": "“先天下之忧而忧，后天下之乐而乐。”出自于（ ）。",
+      "opts": {
+        "A": "《包身工》",
+        "B": "《往桃花源记》",
+        "C": "《小石潭记》",
+        "D": "《岳阳楼记》"
+      },
+      "status": "added",
+      "targets": [
+        "w26-c09-s15"
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 15,
+        "kind": "s",
+        "importId": "w26-c09-s15"
+      },
+      "key": "D",
+      "verificationSources": [
+        {
+          "title": "中央纪委国家监委：先天下之忧而忧 后天下之乐而乐",
+          "url": "https://www.ccdi.gov.cn/specialn/lswhyl/202606/t20260626_497940.html",
+          "scope": "明确该名句出自范仲淹《岳阳楼记》。"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-m01",
+      "chapter": 9,
+      "kind": "m",
+      "number": 1,
+      "pdfPage": 1,
+      "stem": "下列属于语言艺术的审美特征的有（ ）。",
+      "opts": {
+        "A": "节奏性与韵律美",
+        "B": "综合性与独特性",
+        "C": "间接性与广阔性",
+        "D": "情感性与思想性",
+        "E": "结构性与语言美"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-m08"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 1,
+        "kind": "m",
+        "importId": "w26-c09-m01"
+      }
+    },
+    {
+      "id": "w26-c09-m02",
+      "chapter": 9,
+      "kind": "m",
+      "number": 2,
+      "pdfPage": 1,
+      "stem": "关于文艺作品的情感性与思想性，下列说法中正确的有（ ）。",
+      "opts": {
+        "A": "一切艺术品从总体上讲都离不开情感性与思想性",
+        "B": "由于语言艺术在揭示人物的内心世界和表现作者的思想情感等方面独具特点，因此文学作品的思想性和情感性格外突 出",
+        "C": "文学作品中的思想性总是被情感所包裹",
+        "D": "文学作品中的思想性和情感性相互渗透、相互融会",
+        "E": "文学作品的情感性和思想性是其区别于其他艺术的重要特征"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-m09"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 2,
+        "kind": "m",
+        "importId": "w26-c09-m02"
+      }
+    },
+    {
+      "id": "w26-c09-m03",
+      "chapter": 9,
+      "kind": "m",
+      "number": 3,
+      "pdfPage": 1,
+      "stem": "下列关于《离骚》的表述正确的有（ ）。",
+      "opts": {
+        "A": "作者是战国诗人屈原",
+        "B": "是楚辞的代表作",
+        "C": "开创了我国浪漫主义诗歌的先河",
+        "D": "具有楚文化的地方特色",
+        "E": "全诗共 373 句，2490 字"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-m10"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 3,
+        "kind": "m",
+        "importId": "w26-c09-m03"
+      }
+    },
+    {
+      "id": "w26-c09-m04",
+      "chapter": 9,
+      "kind": "m",
+      "number": 4,
+      "pdfPage": 1,
+      "stem": "下列不属于散文的审美特色的有（ ）。",
+      "opts": {
+        "A": "形散而神不散",
+        "B": "具有完整的情节",
+        "C": "塑造典型人物",
+        "D": "遵守韵律和节奏",
+        "E": "自由灵活"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-m04"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 4,
+        "kind": "m",
+        "importId": "w26-c09-m04"
+      }
+    },
+    {
+      "id": "w26-c09-m05",
+      "chapter": 9,
+      "kind": "m",
+      "number": 5,
+      "pdfPage": 1,
+      "stem": "下列关于小说《红楼梦》的表述正确的有（ ）。",
+      "opts": {
+        "A": "清代曹雪芹所著章回体长篇小说，共一百二十回。",
+        "B": "全书共 400 多个人物",
+        "C": "以贾宝玉、林黛玉、薛宝钗的爱情婚姻故事为主线",
+        "D": "堪称中国封建社会晚期的一部大百科全书",
+        "E": "作品规模宏大，结构严谨，语言丰富生动"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-m12"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 5,
+        "kind": "m",
+        "importId": "w26-c09-m05"
+      }
+    },
+    {
+      "id": "w26-c09-m06",
+      "chapter": 9,
+      "kind": "m",
+      "number": 6,
+      "pdfPage": 1,
+      "stem": "按照作品的性质和塑造形象的方式不同，分为（ ）",
+      "opts": {
+        "A": "格律诗",
+        "B": "自由诗",
+        "C": "抒情诗",
+        "D": "叙事诗",
+        "E": "旧诗"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-f009"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 6,
+        "kind": "m",
+        "importId": "w26-c09-m06"
+      }
+    },
+    {
+      "id": "w26-c09-m07",
+      "chapter": 9,
+      "kind": "m",
+      "number": 7,
+      "pdfPage": 1,
+      "stem": "下列作者是柳宗元的是（ ）。",
+      "opts": {
+        "A": "《小石潭记》",
+        "B": "《茶馆》",
+        "C": "《钴鉧潭西小丘记》",
+        "D": "《桃花源记》",
+        "E": "《童区寄传》"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-m05"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 7,
+        "kind": "m",
+        "importId": "w26-c09-m07"
+      }
+    },
+    {
+      "id": "w26-c09-m08",
+      "chapter": 9,
+      "kind": "m",
+      "number": 8,
+      "pdfPage": 1,
+      "stem": "文学语言具有（ ）审美特性。",
+      "opts": {
+        "A": "准确性",
+        "B": "鲜明性",
+        "C": "生动性",
+        "D": "叙事性",
+        "E": "形象性"
+      },
+      "status": "added",
+      "targets": [
+        "w26-c09-m08"
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 8,
+        "kind": "m",
+        "importId": "w26-c09-m08"
+      },
+      "key": "ABCE",
+      "verificationSources": [
+        {
+          "title": "华东师范大学：王加兴讲座《尤里·洛特曼的文学语言观》",
+          "url": "https://www.fl.ecnu.edu.cn/_t5110/6b/77/c11686a551799/page.htm",
+          "scope": "区分广义文学语言的准确、鲜明、生动与狭义文学语言的形象、音乐、情感等要求。"
+        },
+        {
+          "title": "《外语学刊》2016年第4期：影响文学翻译修辞选择的语言外因素",
+          "url": "https://rlls.hlju.edu.cn/__local/6/4C/E4/8FFF64A3086B982D0C1473AFE1E_988E69C1_3B6D4.pdf?e=.pdf",
+          "scope": "结语说明文学语言兼具准确性、生动性、鲜明性，形象性与艺术性构成其核心；据此本题形象性也应选。"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-m09",
+      "chapter": 9,
+      "kind": "m",
+      "number": 9,
+      "pdfPage": 2,
+      "stem": "《荷马史诗》包括（ ）。",
+      "opts": {
+        "A": "《伊利亚特》",
+        "B": "《奥赛罗》",
+        "C": "《奥德赛》",
+        "D": "《哈姆雷特》",
+        "E": "《李尔王》"
+      },
+      "status": "existing",
+      "targets": [
+        "c09-f004"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 9,
+        "kind": "m",
+        "importId": "w26-c09-m09"
+      }
+    },
+    {
+      "id": "w26-c09-m10",
+      "chapter": 9,
+      "kind": "m",
+      "number": 10,
+      "pdfPage": 2,
+      "stem": "列夫·托尔斯泰的作品（ ）",
+      "opts": {
+        "A": "《老人与海》",
+        "B": "《战争与和平》",
+        "C": "《安娜·卡列尼娜》",
+        "D": "《复活》",
+        "E": "《罗生门》"
+      },
+      "status": "existing",
+      "targets": [
+        "c04-m08"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 10,
+        "kind": "m",
+        "importId": "w26-c09-m10"
+      }
+    },
+    {
+      "id": "w26-c09-f01",
+      "chapter": 9,
+      "kind": "fill",
+      "number": 1,
+      "pdfPage": 2,
+      "stem": "于连是长篇小说《 》的主人公。",
+      "status": "existing",
+      "targets": [
+        "c09-s16"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 1,
+        "kind": "fill",
+        "importId": "w26-c09-f01"
+      }
+    },
+    {
+      "id": "w26-c09-f02",
+      "chapter": 9,
+      "kind": "fill",
+      "number": 2,
+      "pdfPage": 2,
+      "stem": "文学形象区别于其他一切艺术的重要特征是（ ）。",
+      "status": "existing",
+      "targets": [
+        "c11-f020"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 2,
+        "kind": "fill",
+        "importId": "w26-c09-f02"
+      }
+    },
+    {
+      "id": "w26-c09-f03",
+      "chapter": 9,
+      "kind": "fill",
+      "number": 3,
+      "pdfPage": 2,
+      "stem": "《战争与和平》的女主人公是（ ）。",
+      "status": "existing",
+      "targets": [
+        "c09-s20"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 3,
+        "kind": "fill",
+        "importId": "w26-c09-f03"
+      }
+    },
+    {
+      "id": "w26-c09-f04",
+      "chapter": 9,
+      "kind": "fill",
+      "number": 4,
+      "pdfPage": 2,
+      "stem": "小说的首要任务应当是塑造鲜明生动的（ ）。",
+      "status": "existing",
+      "targets": [
+        "c09-s15"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 4,
+        "kind": "fill",
+        "importId": "w26-c09-f04"
+      }
+    },
+    {
+      "id": "w26-c09-f05",
+      "chapter": 9,
+      "kind": "fill",
+      "number": 5,
+      "pdfPage": 2,
+      "stem": "西方流传至今最早的文学作品是（ ）。",
+      "status": "existing",
+      "targets": [
+        "c09-s05"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 5,
+        "kind": "fill",
+        "importId": "w26-c09-f05"
+      }
+    },
+    {
+      "id": "w26-c09-f06",
+      "chapter": 9,
+      "kind": "fill",
+      "number": 6,
+      "pdfPage": 2,
+      "stem": "我国古代的散文范围很广，主要指的是与（ ）、骈文相对里的文体。",
+      "status": "existing",
+      "targets": [
+        "c09-f016"
+      ],
+      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 6,
+        "kind": "fill",
+        "importId": "w26-c09-f06"
+      }
+    },
+    {
+      "id": "w26-c09-f07",
+      "chapter": 9,
+      "kind": "fill",
+      "number": 7,
+      "pdfPage": 2,
+      "stem": "“明月松间照，清泉石上流”出自于《 》。",
+      "status": "added",
+      "targets": [
+        "w26-c09-f07"
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 7,
+        "kind": "fill",
+        "importId": "w26-c09-f07"
+      },
+      "answers": [
+        "山居秋暝"
+      ],
+      "verificationSources": [
+        {
+          "title": "中国教育和科研计算机网：王维《山居秋暝》",
+          "url": "https://cernet.edu.cn/zhong_guo_jiao_yu/zhuan_ti_lan_mu/jie_ri_zhuan_ti/zqj/2010zqj/syzq/zqsc/201009/t20100914_521790.shtml",
+          "scope": "诗歌原文包含“明月松间照，清泉石上流”，题为《山居秋暝》，作者王维。"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-f08",
+      "chapter": 9,
+      "kind": "fill",
+      "number": 8,
+      "pdfPage": 2,
+      "stem": "（ ）作于五四时期的抒情长诗《凤凰涅槃》。",
+      "status": "added",
+      "targets": [
+        "w26-c09-f08"
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 8,
+        "kind": "fill",
+        "importId": "w26-c09-f08"
+      },
+      "answers": [
+        "郭沫若"
+      ],
+      "verificationSources": [
+        {
+          "title": "中国人民大学文学院：五四时期宗白华与郭沫若的交往回忆",
+          "url": "https://wenxueyuan.ruc.edu.cn/xyzj/ljsy/wyjy/1e14a8d5313d4fa3850ff49fc1ef7b64.htm",
+          "scope": "明确郭沫若在五四时期向《学灯》投寄《女神》中的诗篇，包括《凤凰涅槃》。"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-f09",
+      "chapter": 9,
+      "kind": "fill",
+      "number": 9,
+      "pdfPage": 2,
+      "stem": "《荷马史诗》记载公元前 11 世纪至公元前 9 世纪，史称（ ）或“荷马时代”。",
+      "status": "added",
+      "targets": [
+        "w26-c09-f09"
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 9,
+        "kind": "fill",
+        "importId": "w26-c09-f09"
+      },
+      "answers": [
+        "英雄时代"
+      ],
+      "verificationSources": [
+        {
+          "title": "阮炜：阿伽门农们是君王还是头人？——从荷马史诗看早期希腊政制",
+          "url": "https://ccj.pku.edu.cn/Article/DownLoad?id=184440995&type=ArticleFile",
+          "scope": "文中将约公元前1110—800年的英雄时代亦称荷马时代；本题填写时代名称，不以试卷较窄的年代范围替代历史分期讨论。"
+        },
+        {
+          "title": "清华大学出版社：从轴心时代的李耳到科技社会的李约瑟（试读）",
+          "url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/095868-01.pdf",
+          "scope": "试读将英雄时代又称荷马时代，并讨论迈锡尼文明之后的黑暗时代与荷马时代的关系，兼容本空的常见历史称呼。"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-f10",
+      "chapter": 9,
+      "kind": "fill",
+      "number": 10,
+      "pdfPage": 2,
+      "stem": "（ ），是指戏剧文学和影视文学。",
+      "status": "added",
+      "targets": [
+        "w26-c09-f10"
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 10,
+        "kind": "fill",
+        "importId": "w26-c09-f10"
+      },
+      "answers": [
+        "剧本"
+      ],
+      "verificationSources": [
+        {
+          "title": "《大辞海·戏剧电影卷》：脚本条",
+          "url": "https://s.zhangyue.com/read?anchorId=&appId=ed2aade2&bid=12288708&cid=7&rentId=106488",
+          "scope": "辞书释脚本为剧本的别称，指戏剧排演或电影拍摄使用的底本。"
+        },
+        {
+          "title": "中国作家协会：文学作品改编为影视作品协议常见条款解读",
+          "url": "https://www.chinawriter.com.cn/n1/2022/0406/c403993-32392367.html",
+          "scope": "列举电影、电视剧、网络剧、舞台剧、音乐剧等剧本形式，与辞书共同核对戏剧与影视的文学底本。"
+        }
+      ]
+    }
+  ]
+}
