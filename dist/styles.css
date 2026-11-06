@@ -518,3 +518,10 @@ main { margin-left: var(--rail); min-height: 100vh; }
 #practiceView .back-button, #practiceView .favorite-button, #practiceView .question-progress > div, #practiceView .practice-actions > span { font-size: 16px; }
 #practiceView .option-button b { font-size: 18px; }
 #practiceView #nextButton, #practiceView #submitButton { font-size: 18px; min-height: 48px; }
+
+@media (max-width: 680px) {
+  .today-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .today-stats div + div { border-left: 0; }
+  .today-stats div:nth-child(even) { border-left: 1px solid var(--line); }
+  .today-stats div:nth-child(n+3) { border-top: 1px solid var(--line); }
+}

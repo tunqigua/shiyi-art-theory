@@ -9,7 +9,7 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?v=20261106-no-mix" />
+    <link rel="stylesheet" href="./styles.css?v=20261106-counts" />
   </head>
   <body>
     <div class="app-shell">
@@ -57,7 +57,7 @@
             <strong id="pageTitle">学习总览</strong>
           </div>
           <div class="topbar-meta">
-            <span class="status-pill" id="bankStatus">十二章题库</span>
+            <span class="status-pill" id="bankStatus">未学 / 总题量</span>
             <span id="todayLabel"></span>
           </div>
         </header>
@@ -81,8 +81,9 @@
                 <span class="date-chip" id="dateChip"></span>
               </div>
               <div class="ring-wrap">
-                <div class="progress-ring" id="progressRing"><strong id="todayDone">0</strong><span>今日作答</span></div>
+                <div class="progress-ring" id="progressRing"><strong id="todayDone">0</strong><span>今日刷题次数</span></div>
                 <div class="today-stats">
+                  <div><span>不重复题数</span><strong id="todayDistinct">0</strong></div>
                   <div><span>正确率</span><strong id="todayAccuracy">—</strong></div>
                   <div><span>平均速度</span><strong id="todaySpeed">—</strong></div>
                   <div><span>待复习错题</span><strong id="todayMistakes">0</strong></div>
@@ -225,7 +226,7 @@
     <script src="./fill-questions.js?v=20261103"></script>
     <script src="./fill-utils.js?v=20261106-library"></script>
     <script src="./fill-feedback.js?v=20261106-library"></script>
-    <script src="./app.js?v=20261106-shuffle"></script>
+    <script src="./app.js?v=20261106-counts"></script>
   </body>
 </html>
 
