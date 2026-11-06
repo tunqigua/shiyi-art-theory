@@ -9,9 +9,9 @@ const bank = JSON.parse(JSON.stringify(ctx.window.SHIYI_QUESTION_BANK));
 const source = JSON.parse(fs.readFileSync(path.join(root,'data/source-questions.json'),'utf8'));
 const originals = [...source.questions,...source.pending.filter(q=>q.stem)];
 assert.equal(originals.length,576);
-assert.equal(bank.questions.length,588);
-assert.equal(source.questions.length,569);
-assert.equal(bank.pending.length,9);
+assert.equal(bank.questions.length,597);
+assert.equal(source.questions.length,576);
+assert.equal(bank.pending.length,2);
 assert.equal(bank.corrections.length,17);
 assert.deepEqual(Array.from({length:12},(_,i)=>originals.filter(q=>q.chapter===i+1&&!q.code?.startsWith("w26-")&&!q.source?.importId).length),[24,9,13,32,38,91,89,74,35,34,25,35]);
 assert.equal(new Set(bank.questions.map(q=>q.id)).size,bank.questions.length);
@@ -32,7 +32,7 @@ for (const q of bank.questions) {
   assert(!/https?:|金航|51020268|[a-z]/.test(q.stem+q.options.join('')),q.id);
   assert(q.options.every(x=>x.length>0),q.id);
 }
-assert.equal(seen.size,569);
+assert.equal(seen.size,576);
 for(const q of bank.pending.filter(q=>q.stem)) {
   const matching=bank.questions.filter(x=>x.chapter===q.chapter&&x.source.kind===q.kind&&x.source.number===q.number&&(q.source?.importId ? x.id===q.source.importId : !x.source.importId));
   assert(matching.length===0 || q.reason.includes('重复题号'),q.reason);
@@ -42,5 +42,5 @@ for (const c of bank.corrections) {
  assert(s && s.key===c.key && Object.hasOwn(s,'originalKey'),c.id);
  assert(c.url.startsWith('https://'),c.id);
 }
-console.log('PASS: 576原题无遗漏，588练习项逐项答案与来源一致，17项更正保留原答案及依据，9待核对项不误入判分。');
+console.log('PASS: 576原题无遗漏，597练习项逐项答案与来源一致，17项更正保留原答案及依据，2缺题项不误入判分。');
 

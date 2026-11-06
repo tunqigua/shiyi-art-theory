@@ -1,6 +1,6 @@
 {
   "version": "2026-11-03-weekly-v1",
-  "policy": "原题与手写勾选仅作参考；同考法合并，改变应选范围或反向设问保留；疑义隔离，不删除旧题与旧编号。",
+  "policy": "既有去向保留；原7项pending于2026-11-06按用户指定考试口径恢复为restored，原答案与分歧说明一并保留。",
   "questions": [
     {
       "id": "w26-c02-s01",
@@ -442,7 +442,7 @@
       "answers": [
         "2万"
       ],
-      "status": "pending",
+      "status": "restored",
       "reason": "答案写2万年；西班牙文化部给多彩野牛约14500 BP，不同图像及校正年代不同，原题未说明口径，暂不作唯一数值判分。",
       "pdfPage": 2,
       "source": {
@@ -455,6 +455,21 @@
         "answerDocument": "艺术概论第二章周测答案",
         "referenceAnswers": [
           "2万"
+        ]
+      },
+      "previousStatus": "pending",
+      "targets": [
+        "w26-c02-f01"
+      ],
+      "resolution": {
+        "policy": "按原试卷参考答案判分",
+        "text": "本题按试卷参考答案2万判分。西班牙文化部列举的多彩野牛约为14500 BP，不同图像年代和测年口径不同；不要把教材约数当作整个洞穴唯一年代。",
+        "sources": [
+          {
+            "title": "西班牙文化部：阿尔塔米拉图像与年代",
+            "url": "https://www.cultura.gob.es/mnaltamira/dam/jcr%3A178b1057-f52d-42db-852f-5ccf77855875/folleto-en-neocueva-altamira.pdf",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
         ]
       }
     },
@@ -2228,7 +2243,7 @@
       "referenceKey": "B",
       "sourceTitle": "金航艺术概论第四章综合测试",
       "key": "B",
-      "status": "pending",
+      "status": "restored",
       "reason": "试卷题干为“艺术与哲学”，答案PDF文字层为“艺术与科学”、图面仍为“哲学”，参考勾B。科学与哲学的设问不能互换，原题保留待核对。",
       "pdfPage": 1,
       "source": {
@@ -2240,6 +2255,21 @@
         "importId": "w26-c04-s20",
         "answerDocument": "金航艺术概论第四章综合测试答案",
         "referenceKey": "B"
+      },
+      "previousStatus": "pending",
+      "targets": [
+        "w26-c04-s20"
+      ],
+      "resolution": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "按原试卷文艺复兴判分。此答案更符合“艺术与科学联系”的常见教学表述，原题却写艺术与哲学，题干与答案文字层存在混杂，不把二者视作同一问题。",
+        "sources": [
+          {
+            "title": "艺术与科学关系教学资料",
+            "url": "https://mjineng.hqqt.com/chengrengk-kaoshi/news/14587869074645.html",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
       }
     },
     {
@@ -2650,7 +2680,7 @@
       "answers": [
         "佛教的寺庙"
       ],
-      "status": "pending",
+      "status": "restored",
       "reason": "佛教寺庙与早期演出关系密切，但“中国古代最早的正式剧场”范围、断代未明，不能仅凭参考答案认定唯一结论。",
       "pdfPage": 2,
       "source": {
@@ -2664,6 +2694,15 @@
         "referenceAnswers": [
           "佛教的寺庙"
         ]
+      },
+      "previousStatus": "pending",
+      "targets": [
+        "w26-c04-f03"
+      ],
+      "resolution": {
+        "policy": "按原试卷参考答案判分",
+        "text": "本题按原试卷“佛教的寺庙”判分。寺庙与早期演出关系密切，但“最早正式剧场”需要限定地区、时期与定义，不据此宣布统一的考古结论。",
+        "sources": []
       }
     },
     {
@@ -3530,7 +3569,7 @@
       "referenceKey": "B",
       "sourceTitle": "艺术概论第五章综合测试",
       "key": "B",
-      "status": "pending",
+      "status": "restored",
       "reason": "“彩陶王”、辽西出土与红山文化三者的指认混杂。国家民委所述“彩陶王”为甘肃马家窑文化，现选项缺该文化，不照抄勾选B。",
       "pdfPage": 1,
       "source": {
@@ -3542,6 +3581,21 @@
         "importId": "w26-c05-s20",
         "answerDocument": "艺术概论第五章综合测试答案",
         "referenceKey": "B"
+      },
+      "previousStatus": "pending",
+      "targets": [
+        "w26-c05-s20"
+      ],
+      "resolution": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "按原试卷红山文化判分。原题辽宁西部的前提与甘肃马家窑文化“彩陶王”的常见指认并不一致；本题仅保留考试参考口径。",
+        "sources": [
+          {
+            "title": "国家民委：甘肃彩陶与彩陶王",
+            "url": "https://www.neac.gov.cn/seac/c103391/202304/1162653.shtml",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
       }
     },
     {
@@ -3692,7 +3746,7 @@
       "referenceKey": "BCE",
       "sourceTitle": "艺术概论第五章综合测试",
       "key": "BCE",
-      "status": "pending",
+      "status": "restored",
       "reason": "“实用”与“适用”在该命题中近义，A、B不能作为互斥选项；参考BCE不能证明A错误。保留待修订，不判分。",
       "pdfPage": 1,
       "source": {
@@ -3704,6 +3758,21 @@
         "importId": "w26-c05-m04",
         "answerDocument": "艺术概论第五章综合测试答案",
         "referenceKey": "BCE"
+      },
+      "previousStatus": "pending",
+      "targets": [
+        "w26-c05-m04"
+      ],
+      "resolution": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "按试卷实用、坚固、美观判分。适用与实用均可译述utilitas，A和B近义；参考答案不选A，并不证明“适用”在建筑原则中错误。",
+        "sources": [
+          {
+            "title": "芝加哥大学图书馆：建筑三原则",
+            "url": "https://www.lib.uchicago.edu/collex/exhibits/firmness-commodity-and-delight/",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
       }
     },
     {
@@ -4958,7 +5027,7 @@
       "referenceKey": "A",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "A",
-      "status": "pending",
+      "status": "restored",
       "reason": "故宫博物院说明《听琴图》曾归赵佶，现考证为宣和画院画家所作。选项没有“宣和画院画家”，参考A不作为无条件正确答案。",
       "pdfPage": 1,
       "source": {
@@ -4970,6 +5039,21 @@
         "importId": "w26-c06-s23",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "A"
+      },
+      "previousStatus": "pending",
+      "targets": [
+        "w26-c06-s23"
+      ],
+      "resolution": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "按书中旧归属赵佶判分。故宫资料讨论该画由宣和画院画家描绘宋徽宗宫中行乐；考试旧归属和现行归属说明需区分。",
+        "sources": [
+          {
+            "title": "故宫博物院：《听琴图》",
+            "url": "https://www.dpm.org.cn/collection/paint/231409.html",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
       }
     },
     {
@@ -5585,7 +5669,7 @@
       "answers": [
         "2万"
       ],
-      "status": "pending",
+      "status": "restored",
       "reason": "洞穴壁画跨越约36000至13000年前，原题笼统问壁画年代，2万多年不是全部壁画的统一年代，待明确具体图像。",
       "pdfPage": 2,
       "source": {
@@ -5598,6 +5682,21 @@
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceAnswers": [
           "2万"
+        ]
+      },
+      "previousStatus": "pending",
+      "targets": [
+        "w26-c06-f02"
+      ],
+      "resolution": {
+        "policy": "按原试卷参考答案判分",
+        "text": "本题按试卷参考答案2万判分。阿尔塔米拉洞穴包含多个时期的图像，官方示例约14500至36000 BP；题目的笼统年代说法只作考试口径。",
+        "sources": [
+          {
+            "title": "西班牙文化部：阿尔塔米拉图像与年代",
+            "url": "https://www.cultura.gob.es/mnaltamira/dam/jcr%3A178b1057-f52d-42db-852f-5ccf77855875/folleto-en-neocueva-altamira.pdf",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
         ]
       }
     },
@@ -6180,5 +6279,6 @@
         ]
       }
     }
-  ]
+  ],
+  "previousPolicy": "原题与手写勾选仅作参考；同考法合并，改变应选范围或反向设问保留；疑义隔离，不删除旧题与旧编号。"
 }

@@ -446,6 +446,20 @@
       element.textContent = text;
       container.appendChild(element);
     }
+    if (question.reviewNotice) {
+      var notice = document.createElement("aside");
+      notice.className = "review-notice";
+      notice.setAttribute("role", "note");
+      paragraph(notice, "review-notice-title", "考试口径与核对提示：" + question.reviewNotice.policy);
+      paragraph(notice, "review-notice-text", question.reviewNotice.text);
+      (question.reviewNotice.sources || []).forEach(function (source) {
+        var link = document.createElement("a");
+        link.href = source.url; link.textContent = source.title;
+        link.target = "_blank"; link.rel = "noopener noreferrer";
+        notice.appendChild(link);
+      });
+      container.appendChild(notice);
+    }
     if (question.type === "fill") {
       if (selectedValues) {
         heading("你的填写与易混辨析");

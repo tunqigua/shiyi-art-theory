@@ -9143,24 +9143,9 @@
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "AC"
       }
-    }
-  ],
-  "pending": [
-    {
-      "chapter": 7,
-      "kind": "m",
-      "number": 22,
-      "key": "ABCDEFG",
-      "reason": "答案页有第22题，但所提供题目页只到第21题。"
     },
     {
-      "chapter": 10,
-      "kind": "m",
-      "number": 18,
-      "key": "DE",
-      "reason": "答案页有第18题，但所提供题目页只到第17题。"
-    },
-    {
+      "code": "c05-s19",
       "chapter": 5,
       "kind": "s",
       "number": 19,
@@ -9173,9 +9158,26 @@
         "D": "半坡"
       },
       "key": "A",
-      "reason": "彩陶王属于马家窑文化，原选项缺少该文化，不能用“最接近”的仰韶代替；保留原题，不判分。"
+      "originalKey": "A",
+      "source": {
+        "page": 12,
+        "number": 19,
+        "kind": "s"
+      },
+      "reviewNotice": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "按原书红山判分。国家民委所指甘肃“彩陶王”为马家窑文化；原题未明确器物、且选项缺马家窑，存在指认混杂。",
+        "sources": [
+          {
+            "title": "国家民委：甘肃彩陶与彩陶王",
+            "url": "https://www.neac.gov.cn/seac/c103391/202304/1162653.shtml",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      }
     },
     {
+      "code": "c07-m17",
       "chapter": 7,
       "kind": "m",
       "number": 17,
@@ -9189,9 +9191,175 @@
         "E": "提倡审美的人生态度，反对伦理的和功利的人生态度"
       },
       "key": "ABCDE",
-      "reason": "清单建议BCDE，但尼采的权力意志与叔本华意志论的区别不能仅据A的简化表述定夺，仍不判分。"
+      "originalKey": "ABCDE",
+      "source": {
+        "page": 29,
+        "number": 17,
+        "kind": "m"
+      },
+      "reviewNotice": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "按原书全选判分。A对主观意志的笼统说法也常用于概括叔本华；尼采的权力意志不宜与其等同。其余涉及日神/酒神、《悲剧的诞生》及审美人生的内容，可结合资料辨析。",
+        "sources": [
+          {
+            "title": "李醒尘：尼采的美学思想",
+            "url": "https://media.open.com.cn/media_file/0909/dongshi/meixue/xxzyku/lunwen/5/1.pdf",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      }
     },
     {
+      "code": "w26-c04-s20",
+      "chapter": 4,
+      "kind": "s",
+      "number": 20,
+      "page": 1,
+      "stem": "艺术与哲学联系的高峰期是（　）时期。",
+      "opts": {
+        "A": "古希腊",
+        "B": "文艺复兴",
+        "C": "20世纪下半叶",
+        "D": "当代社会"
+      },
+      "key": "B",
+      "originalKey": "B",
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 20,
+        "kind": "s",
+        "importId": "w26-c04-s20",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceKey": "B"
+      },
+      "reviewNotice": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "按原试卷文艺复兴判分。此答案更符合“艺术与科学联系”的常见教学表述，原题却写艺术与哲学，题干与答案文字层存在混杂，不把二者视作同一问题。",
+        "sources": [
+          {
+            "title": "艺术与科学关系教学资料",
+            "url": "https://mjineng.hqqt.com/chengrengk-kaoshi/news/14587869074645.html",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      }
+    },
+    {
+      "code": "w26-c05-s20",
+      "chapter": 5,
+      "kind": "s",
+      "number": 19,
+      "page": 1,
+      "stem": "我国目前发现的年代最早、体积最大的“彩陶王”，是20世纪80年代初期在辽宁西部出土的具有（　）特征。",
+      "opts": {
+        "A": "仰韶文化",
+        "B": "红山文化",
+        "C": "中原文化",
+        "D": "龙山文化"
+      },
+      "key": "B",
+      "originalKey": "B",
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 19,
+        "kind": "s",
+        "importId": "w26-c05-s20",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceKey": "B"
+      },
+      "reviewNotice": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "按原试卷红山文化判分。原题辽宁西部的前提与甘肃马家窑文化“彩陶王”的常见指认并不一致；本题仅保留考试参考口径。",
+        "sources": [
+          {
+            "title": "国家民委：甘肃彩陶与彩陶王",
+            "url": "https://www.neac.gov.cn/seac/c103391/202304/1162653.shtml",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      }
+    },
+    {
+      "code": "w26-c05-m04",
+      "chapter": 5,
+      "kind": "m",
+      "number": 4,
+      "page": 1,
+      "stem": "古罗马建筑师维特鲁威提出了建筑的三条基本原则是（　）",
+      "opts": {
+        "A": "适用",
+        "B": "实用",
+        "C": "坚固",
+        "D": "经济",
+        "E": "美观"
+      },
+      "key": "BCE",
+      "originalKey": "BCE",
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 4,
+        "kind": "m",
+        "importId": "w26-c05-m04",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceKey": "BCE"
+      },
+      "reviewNotice": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "按试卷实用、坚固、美观判分。适用与实用均可译述utilitas，A和B近义；参考答案不选A，并不证明“适用”在建筑原则中错误。",
+        "sources": [
+          {
+            "title": "芝加哥大学图书馆：建筑三原则",
+            "url": "https://www.lib.uchicago.edu/collex/exhibits/firmness-commodity-and-delight/",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      }
+    },
+    {
+      "code": "w26-c06-s23",
+      "chapter": 6,
+      "kind": "s",
+      "number": 23,
+      "page": 1,
+      "stem": "《听琴图》是（　）的绘画作品。",
+      "opts": {
+        "A": "赵佶",
+        "B": "齐白石",
+        "C": "郑板桥",
+        "D": "王维"
+      },
+      "key": "A",
+      "originalKey": "A",
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 23,
+        "kind": "s",
+        "importId": "w26-c06-s23",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "A"
+      },
+      "reviewNotice": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "按书中旧归属赵佶判分。故宫资料讨论该画由宣和画院画家描绘宋徽宗宫中行乐；考试旧归属和现行归属说明需区分。",
+        "sources": [
+          {
+            "title": "故宫博物院：《听琴图》",
+            "url": "https://www.dpm.org.cn/collection/paint/231409.html",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      }
+    },
+    {
+      "code": "c09-s21",
       "chapter": 9,
       "kind": "s",
       "number": 21,
@@ -9203,8 +9371,80 @@
         "C": "蛛网型结构",
         "D": "辐射型结构"
       },
-      "key": "D",
-      "reason": "题干有三个空，但答案页只有D，无法可靠分配三个答案。"
+      "key": "(BCD)",
+      "originalKey": "D",
+      "source": {
+        "page": 38,
+        "number": 21,
+        "kind": "s",
+        "part": 1
+      },
+      "reviewNotice": {
+        "policy": "按原书/原试卷参考口径练习",
+        "text": "原书三空只列一个D；现按本题教学分类补为复线、蛛网、辐射。小说结构存在多种分析维度，此为复习用归类，不是三部作品唯一可能的结构描述。",
+        "sources": [
+          {
+            "title": "小说结构教学摘录（非原版教材）",
+            "url": "https://www.jjwxc.net/onebook.php?novelid=429672&chapterid=4",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [
+    {
+      "chapter": 7,
+      "kind": "m",
+      "number": 22,
+      "reason": "答案页有第22题，但所提供题目页只到第21题。",
+      "stem": null,
+      "options": [],
+      "originalKey": "ABCDEFG",
+      "page": null
+    },
+    {
+      "chapter": 10,
+      "kind": "m",
+      "number": 18,
+      "reason": "答案页有第18题，但所提供题目页只到第17题。",
+      "stem": null,
+      "options": [],
+      "originalKey": "DE",
+      "page": null
+    }
+  ],
+  "resolvedPending": [
+    {
+      "chapter": 5,
+      "kind": "s",
+      "number": 19,
+      "reason": "彩陶王属于马家窑文化，原选项缺少该文化，不能用“最接近”的仰韶代替；保留原题，不判分。",
+      "stem": "我国目前出土年代最早体积最大的“彩陶王”具有（　）文化特征。",
+      "options": [
+        "红山",
+        "龙山",
+        "仰韶",
+        "半坡"
+      ],
+      "originalKey": "A",
+      "page": 12
+    },
+    {
+      "chapter": 7,
+      "kind": "m",
+      "number": 17,
+      "reason": "清单建议BCDE，但尼采的权力意志与叔本华意志论的区别不能仅据A的简化表述定夺，仍不判分。",
+      "stem": "下列属于尼采观点的有（　）。",
+      "options": [
+        "人的主观意志是万事万物的主宰",
+        "把日神冲动和酒神冲动看作是艺术的两种根源",
+        "酒神精神是最根本的冲动",
+        "著有美学著作《悲剧的诞生》",
+        "提倡审美的人生态度，反对伦理的和功利的人生态度"
+      ],
+      "originalKey": "ABCDE",
+      "page": 29
     },
     {
       "chapter": 4,
@@ -9306,6 +9546,51 @@
         "王维"
       ],
       "originalKey": "A"
+    },
+    {
+      "chapter": 9,
+      "kind": "s",
+      "number": 21,
+      "reason": "题干有三个空，但答案页只有D，无法可靠分配三个答案。",
+      "stem": "《安娜·卡列尼娜》的安娜与列文两条主要情节线索，在本题分类中属于（　）结构。",
+      "options": [
+        "单线型结构",
+        "复线型结构",
+        "蛛网型结构",
+        "辐射型结构"
+      ],
+      "originalKey": "D",
+      "page": 38
+    },
+    {
+      "chapter": 9,
+      "kind": "s",
+      "number": 21,
+      "reason": "题干有三个空，但答案页只有D，无法可靠分配三个答案。",
+      "stem": "柳青《创业史》多条人物与事件线索交织，在本题分类中属于（　）结构。",
+      "options": [
+        "单线型结构",
+        "复线型结构",
+        "蛛网型结构",
+        "辐射型结构"
+      ],
+      "originalKey": "D",
+      "page": 38
+    },
+    {
+      "chapter": 9,
+      "kind": "s",
+      "number": 21,
+      "reason": "题干有三个空，但答案页只有D，无法可靠分配三个答案。",
+      "stem": "《第五号屠场》围绕主人公经历作时空跳接，在本题分类中属于（　）结构。",
+      "options": [
+        "单线型结构",
+        "复线型结构",
+        "蛛网型结构",
+        "辐射型结构"
+      ],
+      "originalKey": "D",
+      "page": 38
     }
   ]
 }

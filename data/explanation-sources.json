@@ -94,5 +94,61 @@
     "title": "波士顿美术馆：我们从哪里来？",
     "url": "https://collections.mfa.org/objects/32558/where-do-we-come-from-what-are-we-where-are-we-going",
     "scope": "高更、1897至1898年及作品信息"
+  },
+  {
+    "title": "国家民委：甘肃彩陶与彩陶王",
+    "url": "https://www.neac.gov.cn/seac/c103391/202304/1162653.shtml",
+    "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。",
+    "ids": [
+      "c05-s19"
+    ]
+  },
+  {
+    "title": "李醒尘：尼采的美学思想",
+    "url": "https://media.open.com.cn/media_file/0909/dongshi/meixue/xxzyku/lunwen/5/1.pdf",
+    "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。",
+    "ids": [
+      "c07-m17"
+    ]
+  },
+  {
+    "title": "艺术与科学关系教学资料",
+    "url": "https://mjineng.hqqt.com/chengrengk-kaoshi/news/14587869074645.html",
+    "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。",
+    "ids": [
+      "w26-c04-s20"
+    ]
+  },
+  {
+    "title": "国家民委：甘肃彩陶与彩陶王",
+    "url": "https://www.neac.gov.cn/seac/c103391/202304/1162653.shtml",
+    "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。",
+    "ids": [
+      "w26-c05-s20"
+    ]
+  },
+  {
+    "title": "芝加哥大学图书馆：建筑三原则",
+    "url": "https://www.lib.uchicago.edu/collex/exhibits/firmness-commodity-and-delight/",
+    "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。",
+    "ids": [
+      "w26-c05-m04"
+    ]
+  },
+  {
+    "title": "故宫博物院：《听琴图》",
+    "url": "https://www.dpm.org.cn/collection/paint/231409.html",
+    "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。",
+    "ids": [
+      "w26-c06-s23"
+    ]
+  },
+  {
+    "title": "小说结构教学摘录（非原版教材）",
+    "url": "https://www.jjwxc.net/onebook.php?novelid=429672&chapterid=4",
+    "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。",
+    "ids": [
+      "c09-s21"
+    ]
   }
 ]

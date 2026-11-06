@@ -1,5 +1,5 @@
 window.SHIYI_FILL_BANK = {
-  "version": "2026-11-03-weekly-v1",
+  "version": "2026-11-06-restored",
   "questions": [
     {
       "id": "c01-f001",
@@ -276,6 +276,52 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 46
       },
       "explanation": "用户提供扫描题集 · PDF第1页 · 第1章填空第15题；答案见PDF第46页文档后附第1章第15项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c01-f016",
+      "type": "fill",
+      "chapter": 1,
+      "stem": "____讲过：“没有一件艺术作品，单靠线条或色调的匀称，仅仅为了视觉满足的作品，能够打动人的。”也因此说明了艺术形象是____和____的统一。",
+      "answers": [
+        "罗丹",
+        "感性",
+        "理性"
+      ],
+      "source": {
+        "pdfPage": 2,
+        "number": 16,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第2页 · 第1章填空第16题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书只列罗丹，后两空按艺术形象的感性与理性统一补全。此处强调可感形式承载思想内容；个性与共性是艺术典型的另一组概念。",
+        "sources": [
+          {
+            "title": "艺术形象教学资料",
+            "url": "https://ggyishu.sqnu.edu.cn/__local/3/FD/3F/0B7A01237342259BCCEC0A14E8A_D02B628D_1CC405.pdf",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书只列罗丹，后两空按艺术形象的感性与理性统一补全。此处强调可感形式承载思想内容；个性与共性是艺术典型的另一组概念。",
+        "sources": [
+          {
+            "title": "艺术形象教学资料",
+            "url": "https://ggyishu.sqnu.edu.cn/__local/3/FD/3F/0B7A01237342259BCCEC0A14E8A_D02B628D_1CC405.pdf",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 1,
+        "number": 16,
+        "page": 2,
+        "stem": "____讲过：“没有一件艺术作品，单靠线条或色调的匀称，仅仅为了视觉满足的作品，能够打动人的。”也因此说明了艺术形象是____和____的统一。",
+        "originalKey": "罗丹",
+        "reason": "题干有三空，后附答案仅给“罗丹”，后两空缺答案。"
+      }
     },
     {
       "id": "c01-f017",
@@ -1279,6 +1325,107 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第4页 · 第2章填空第35题；答案见PDF第46页文档后附第2章第35项。按文档参考答案录入；未作全题库独立学术审定。"
     },
     {
+      "id": "w26-c02-f01",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "西班牙阿尔塔米拉洞穴的野牛画，距今约有____年的历史。",
+      "answers": [
+        "2万"
+      ],
+      "source": {
+        "document": "艺术概论第二章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 1,
+        "kind": "fill",
+        "importId": "w26-c02-f01",
+        "answerDocument": "艺术概论第二章周测答案",
+        "referenceAnswers": [
+          "2万"
+        ]
+      },
+      "explanation": "用户提供题集 · PDF第2页 · 第2章填空第1题；2026-11-06补全或修订。",
+      "study": {
+        "point": "本题按试卷参考答案2万判分。西班牙文化部列举的多彩野牛约为14500 BP，不同图像年代和测年口径不同；不要把教材约数当作整个洞穴唯一年代。",
+        "sources": [
+          {
+            "title": "西班牙文化部：阿尔塔米拉图像与年代",
+            "url": "https://www.cultura.gob.es/mnaltamira/dam/jcr%3A178b1057-f52d-42db-852f-5ccf77855875/folleto-en-neocueva-altamira.pdf",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "按原试卷参考答案判分",
+        "text": "本题按试卷参考答案2万判分。西班牙文化部列举的多彩野牛约为14500 BP，不同图像年代和测年口径不同；不要把教材约数当作整个洞穴唯一年代。",
+        "sources": [
+          {
+            "title": "西班牙文化部：阿尔塔米拉图像与年代",
+            "url": "https://www.cultura.gob.es/mnaltamira/dam/jcr%3A178b1057-f52d-42db-852f-5ccf77855875/folleto-en-neocueva-altamira.pdf",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 2,
+        "kind": "fill",
+        "number": 1,
+        "reason": "答案写2万年；西班牙文化部给多彩野牛约14500 BP，不同图像及校正年代不同，原题未说明口径，暂不作唯一数值判分。",
+        "stem": "西班牙阿尔塔米拉洞穴的野牛画，距今约有____年的历史。",
+        "page": 2,
+        "source": {
+          "document": "艺术概论第二章周测",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 1,
+          "kind": "fill",
+          "importId": "w26-c02-f01",
+          "answerDocument": "艺术概论第二章周测答案",
+          "referenceAnswers": [
+            "2万"
+          ]
+        },
+        "originalAnswer": "2万",
+        "pdfPage": 2,
+        "originalKey": "2万"
+      },
+      "aliases": [
+        [
+          "两万",
+          "20000",
+          "二万",
+          "2万年",
+          "20000年"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c02-f03",
+      "type": "fill",
+      "chapter": 2,
+      "stem": "____的“模仿论”，在欧洲“竟雄霸了两千余年”。",
+      "answers": [
+        "亚里士多德"
+      ],
+      "source": {
+        "document": "艺术概论第二章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 3,
+        "kind": "fill",
+        "importId": "w26-c02-f03",
+        "answerDocument": "艺术概论第二章周测答案",
+        "referenceAnswers": [
+          "亚里士多德"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第二章周测》PDF第2页 · 填空第3题。参考答案已按题意复核。",
+      "study": {
+        "point": "亚里士多德《诗学》系统讨论模仿，朱光潜以“两千余年”概括其欧洲影响。应填写理论家，不能把“模仿论”再填入作者位置。",
+        "sources": []
+      }
+    },
+    {
       "id": "c03-f001",
       "type": "fill",
       "chapter": 3,
@@ -1817,6 +1964,162 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 46
       },
       "explanation": "用户提供扫描题集 · PDF第6页 · 第3章填空第28题；答案见PDF第46页文档后附第3章第28项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "w26-c03-f02",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "孔子以____的思想，创立了我国古代最早的教育体系。",
+      "answers": [
+        "礼乐相济"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 2,
+        "kind": "fill",
+        "importId": "w26-c03-f02",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "礼乐相济"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第2题。参考答案已按题意复核。",
+      "study": {
+        "point": "孔子重视礼与乐的配合：礼以规范行为，乐以陶冶情感，教材概括为礼乐相济。题面“最早的教育体系”属简化史论表述，并不否认孔子以前已有教育制度。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f03",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "艺术家采用化____为“美”的方法，使艺术教育作用不同于普通的道德教育。",
+      "answers": [
+        "善"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 3,
+        "kind": "fill",
+        "importId": "w26-c03-f03",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "善"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第3题。参考答案已按题意复核。",
+      "study": {
+        "point": "艺术教育通过审美形象和情感感染，将伦理上的善转化为可感的美，区别于直接讲授道德规范；“化善为美”不是把丑恶行为美化。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f04",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "古罗马美学家____明确提出艺术应当“寓教于乐”。",
+      "answers": [
+        "贺拉斯"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 4,
+        "kind": "fill",
+        "importId": "w26-c03-f04",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "贺拉斯"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第4题。参考答案已按题意复核。",
+      "study": {
+        "point": "贺拉斯《诗艺》把有益与愉悦联系起来，通常概括为寓教于乐；注意与亚里士多德的教育、净化、快感三功能区分。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f08",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "柴可夫斯基《D大调弦乐四重奏》第二乐章____。",
+      "answers": [
+        "如歌的行板"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 8,
+        "kind": "fill",
+        "importId": "w26-c03-f08",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "如歌的行板"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第8题。参考答案已按题意复核。",
+      "study": {
+        "point": "《如歌的行板》是柴可夫斯基《D大调第一弦乐四重奏》第二乐章的常用曲名。本题填写乐章名称，而不是作曲家或整部四重奏的名称。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f09",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "唐代诗人____《燕歌行》“汉家烟尘在东北，汉将辞家破残贼”。",
+      "answers": [
+        "高适"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 9,
+        "kind": "fill",
+        "importId": "w26-c03-f09",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "高适"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第9题。参考答案已按题意复核。",
+      "study": {
+        "point": "“汉家烟尘在东北，汉将辞家破残贼”出自唐代高适《燕歌行》。同名乐府题可有多位作者，此处以所引诗句确定为高适。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c03-f10",
+      "type": "fill",
+      "chapter": 3,
+      "stem": "杜甫____“国破山河在，城春草木深”。",
+      "answers": [
+        "春望"
+      ],
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 10,
+        "kind": "fill",
+        "importId": "w26-c03-f10",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceAnswers": [
+          "春望"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第10题。参考答案已按题意复核。",
+      "study": {
+        "point": "“国破山河在，城春草木深”是杜甫《春望》的开篇。本题填写篇名，不能填诗人姓名。",
+        "sources": []
+      }
     },
     {
       "id": "c04-f001",
@@ -2733,6 +3036,207 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第10页 · 第4章填空第59题；答案见PDF第47页文档后附第4章第59项。按文档参考答案录入；未作全题库独立学术审定。"
     },
     {
+      "id": "w26-c04-f03",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "中国古代最早的正式剧场就是____。",
+      "answers": [
+        "佛教的寺庙"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 3,
+        "kind": "fill",
+        "importId": "w26-c04-f03",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "佛教的寺庙"
+        ]
+      },
+      "explanation": "用户提供题集 · PDF第2页 · 第4章填空第3题；2026-11-06补全或修订。",
+      "study": {
+        "point": "本题按原试卷“佛教的寺庙”判分。寺庙与早期演出关系密切，但“最早正式剧场”需要限定地区、时期与定义，不据此宣布统一的考古结论。",
+        "sources": []
+      },
+      "reviewNotice": {
+        "policy": "按原试卷参考答案判分",
+        "text": "本题按原试卷“佛教的寺庙”判分。寺庙与早期演出关系密切，但“最早正式剧场”需要限定地区、时期与定义，不据此宣布统一的考古结论。",
+        "sources": []
+      },
+      "restoredFrom": {
+        "chapter": 4,
+        "kind": "fill",
+        "number": 3,
+        "reason": "佛教寺庙与早期演出关系密切，但“中国古代最早的正式剧场”范围、断代未明，不能仅凭参考答案认定唯一结论。",
+        "stem": "中国古代最早的正式剧场就是____。",
+        "page": 2,
+        "source": {
+          "document": "金航艺术概论第四章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 3,
+          "kind": "fill",
+          "importId": "w26-c04-f03",
+          "answerDocument": "金航艺术概论第四章综合测试答案",
+          "referenceAnswers": [
+            "佛教的寺庙"
+          ]
+        },
+        "originalAnswer": "佛教的寺庙",
+        "pdfPage": 2,
+        "originalKey": "佛教的寺庙"
+      },
+      "aliases": [
+        [
+          "佛教寺庙",
+          "佛教寺院",
+          "寺庙",
+          "寺院"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c04-f05",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "《离骚》、《九歌》的作者是____。",
+      "answers": [
+        "屈原"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 5,
+        "kind": "fill",
+        "importId": "w26-c04-f05",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "屈原"
+        ]
+      },
+      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第5题。参考答案已按题意复核。",
+      "study": {
+        "point": "《离骚》《九歌》均与屈原及楚辞传统相联系。本题问作者，填屈原；不要填总集名《楚辞》。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c04-f06",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "《洛神赋图》的作者传为东晋____。",
+      "answers": [
+        "顾恺之"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 6,
+        "kind": "fill",
+        "importId": "w26-c04-f06",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "顾恺之"
+        ]
+      },
+      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第6题。参考答案已按题意复核。",
+      "study": {
+        "point": "《洛神赋图》传统归于东晋顾恺之，取材于曹植《洛神赋》。现存传本与摹本的问题应与作品传统归属区分，因此题面保留“传为”。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c04-f07",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "被称为存在主义先驱的是丹麦哲学家____。",
+      "answers": [
+        "克尔凯郭尔"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 7,
+        "kind": "fill",
+        "importId": "w26-c04-f07",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "克尔凯郭尔"
+        ]
+      },
+      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第7题。参考答案已按题意复核。",
+      "study": {
+        "point": "丹麦哲学家克尔凯郭尔强调个体存在、选择和信仰，被视为存在主义的先驱。萨特属于20世纪存在主义代表，而不是此处问的丹麦先驱。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "克尔恺郭尔",
+          "克尔凯戈尔",
+          "祁克果",
+          "基尔凯郭尔",
+          "克尔凯郭耳"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c04-f08",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "英国著名美学家克莱夫·贝尔的（____）一书，被不少人看做是现代派艺术理论的基石。",
+      "answers": [
+        "艺术"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 8,
+        "kind": "fill",
+        "importId": "w26-c04-f08",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "艺术"
+        ]
+      },
+      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第8题。参考答案已按题意复核。",
+      "study": {
+        "point": "克莱夫·贝尔在《艺术》中提出“有意味的形式”，对现代形式主义艺术理论有重要影响。本题填书名，与旧题问作者不同。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c04-f10",
+      "type": "fill",
+      "chapter": 4,
+      "stem": "《喻世明言》《警世通言》《醒世恒言》的作者是____。",
+      "answers": [
+        "冯梦龙"
+      ],
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 10,
+        "kind": "fill",
+        "importId": "w26-c04-f10",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceAnswers": [
+          "冯梦龙"
+        ]
+      },
+      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第10题。参考答案已按题意复核。",
+      "study": {
+        "point": "“三言”由冯梦龙编纂：《喻世明言》《警世通言》《醒世恒言》。原试卷把“明言”写成“名言”，规范题面已修正；“二拍”则与凌濛初相关。",
+        "sources": []
+      }
+    },
+    {
       "id": "c05-f001",
       "type": "fill",
       "chapter": 5,
@@ -3574,6 +4078,168 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 48
       },
       "explanation": "用户提供扫描题集 · PDF第13页 · 第5章填空第47题；答案见PDF第48页文档后附第5章第47项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "w26-c05-f05",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "我国现存最精致的金银错工艺品，是河北定州出土的____，它是汉武帝时代的作品。",
+      "answers": [
+        "狩猎纹车饰"
+      ],
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 5,
+        "kind": "fill",
+        "importId": "w26-c05-f05",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceAnswers": [
+          "狩猎纹车饰"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第5题。参考答案已按题意复核。",
+      "study": {
+        "point": "河北定州三盘山汉墓出土的金错狩猎纹铜车饰，是汉代金银错工艺的例证，常简称狩猎纹车饰。题面“最精致”是教材评价性用语，不代表可量化的唯一排名。",
+        "sources": [
+          {
+            "title": "中央美术学院：西汉金错铜管学术讲座",
+            "url": "https://www.cafa.com.cn/cn/news/details/216555",
+            "scope": "定州三盘山出土金错狩猎纹铜管及相关研究"
+          }
+        ]
+      },
+      "aliases": [
+        [
+          "金银错狩猎纹车饰",
+          "狩猎纹铜车饰",
+          "金错狩猎纹铜管"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c05-f06",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "太和殿，位于故宫的中心部位，俗称____。",
+      "answers": [
+        "金銮殿"
+      ],
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 6,
+        "kind": "fill",
+        "importId": "w26-c05-f06",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceAnswers": [
+          "金銮殿"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第6题。参考答案已按题意复核。",
+      "study": {
+        "point": "太和殿俗称金銮殿，是紫禁城等级最高、规模最大的殿宇。金銮殿为俗称，不能与中和殿、保和殿的正式名称混用。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "金銮宝殿"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c05-f07",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "秦汉时期的____已经有了很大的规模，成为统一大帝国的艺术象征，并且逐渐形成了中国园林的传统样式，为以后历朝历代皇家园林的发展奠定了基础。",
+      "answers": [
+        "帝王宫苑"
+      ],
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 7,
+        "kind": "fill",
+        "importId": "w26-c05-f07",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceAnswers": [
+          "帝王宫苑"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第7题。参考答案已按题意复核。",
+      "study": {
+        "point": "秦汉帝王宫苑把宫殿、游赏山水及政治象征结合起来，逐渐形成皇家园林传统。本题的关键词是帝王宫苑，而非后来发展的江南私家园林。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c05-f08",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "明代园林家计成在____一书中提出“虽由人作，宛自天开”的造园境界。",
+      "answers": [
+        "园冶"
+      ],
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 8,
+        "kind": "fill",
+        "importId": "w26-c05-f08",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceAnswers": [
+          "园冶"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第8题。参考答案已按题意复核。",
+      "study": {
+        "point": "计成是明代造园家，《园冶》是其造园专著。试卷把书名误写“园治”，引文也有讹字；规范题面按常见原文“虽由人作，宛自天开”整理。",
+        "sources": [
+          {
+            "title": "上海市绿化市容管理局：园林与中国造园观",
+            "url": "https://lhsr.sh.gov.cn/jnylwh/20200615/ae44208f-09bb-4449-a507-8d2d145eae77.html",
+            "scope": "计成《园冶》及虽由人作、宛自天开的表述"
+          }
+        ]
+      },
+      "note": "答案图写“园治”，应为《园冶》；引文按通行原文修订。"
+    },
+    {
+      "id": "w26-c05-f09",
+      "type": "fill",
+      "chapter": 5,
+      "stem": "北京的颐和园属于____园林。",
+      "answers": [
+        "北方大型皇家"
+      ],
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 9,
+        "kind": "fill",
+        "importId": "w26-c05-f09",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceAnswers": [
+          "北方大型皇家"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第9题。参考答案已按题意复核。",
+      "study": {
+        "point": "颐和园位于北京，是北方大型皇家园林代表；与拙政园、网师园等江南小型私家园林区分。本题空位后已有“园林”，可填写北方大型皇家。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "北方皇家",
+          "皇家",
+          "北方大型皇家园林"
+        ]
+      ]
     },
     {
       "id": "c06-f001",
@@ -4997,6 +5663,103 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第18页 · 第6章填空第79题；答案见PDF第49页文档后附第6章第79项。按文档参考答案录入；未作全题库独立学术审定。"
     },
     {
+      "id": "c06-f080",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "《梅杜萨之筏》的作者是浪漫主义美术的代表人物____。",
+      "answers": [
+        "籍里柯"
+      ],
+      "source": {
+        "pdfPage": 18,
+        "number": 80,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第18页 · 第6章填空第80题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书写德拉克罗瓦，属于作者错配；本题已按卢浮宫资料更正为籍里柯。不要与德拉克罗瓦《自由引导人民》混记。",
+        "sources": [
+          {
+            "title": "卢浮宫：浪漫主义绘画",
+            "url": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书写德拉克罗瓦，属于作者错配；本题已按卢浮宫资料更正为籍里柯。不要与德拉克罗瓦《自由引导人民》混记。",
+        "sources": [
+          {
+            "title": "卢浮宫：浪漫主义绘画",
+            "url": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 6,
+        "number": 80,
+        "page": 18,
+        "stem": "《梅杜萨之筏》的作者是浪漫主义美术的代表人物____。",
+        "originalKey": "德拉克罗瓦",
+        "reason": "《梅杜萨之筏》题干与后附作者答案不对应，待复核。"
+      },
+      "aliases": [
+        [
+          "热里科",
+          "热里柯",
+          "席里柯",
+          "籍里科",
+          "泰奥多尔籍里柯"
+        ]
+      ]
+    },
+    {
+      "id": "c06-f081",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "绘画作品《自由女神领导人民》的作者是____。",
+      "answers": [
+        "德拉克罗瓦"
+      ],
+      "source": {
+        "pdfPage": 18,
+        "number": 81,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第18页 · 第6章填空第81题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书答案ABC不属于人名，已补正为德拉克罗瓦；作品也常译《自由引导人民》。",
+        "sources": [
+          {
+            "title": "卢浮宫：浪漫主义绘画",
+            "url": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书答案ABC不属于人名，已补正为德拉克罗瓦；作品也常译《自由引导人民》。",
+        "sources": [
+          {
+            "title": "卢浮宫：浪漫主义绘画",
+            "url": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 6,
+        "number": 81,
+        "page": 18,
+        "stem": "绘画作品《自由女神领导人民》的作者是____。",
+        "originalKey": "ABC",
+        "reason": "题干为作者填空，后附答案却为 ABC，不能直接配对。"
+      }
+    },
+    {
       "id": "c06-f086",
       "type": "fill",
       "chapter": 6,
@@ -5100,6 +5863,299 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 49
       },
       "explanation": "用户提供扫描题集 · PDF第20页 · 第6章填空第99题；答案见PDF第49页文档后附第6章第99项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "w26-c06-f02",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "西班牙阿尔塔米拉洞穴壁画，属于旧石器时代的作品，距今____多年的历史。",
+      "answers": [
+        "2万"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 2,
+        "kind": "fill",
+        "importId": "w26-c06-f02",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "2万"
+        ]
+      },
+      "explanation": "用户提供题集 · PDF第2页 · 第6章填空第2题；2026-11-06补全或修订。",
+      "study": {
+        "point": "本题按试卷参考答案2万判分。阿尔塔米拉洞穴包含多个时期的图像，官方示例约14500至36000 BP；题目的笼统年代说法只作考试口径。",
+        "sources": [
+          {
+            "title": "西班牙文化部：阿尔塔米拉图像与年代",
+            "url": "https://www.cultura.gob.es/mnaltamira/dam/jcr%3A178b1057-f52d-42db-852f-5ccf77855875/folleto-en-neocueva-altamira.pdf",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "按原试卷参考答案判分",
+        "text": "本题按试卷参考答案2万判分。阿尔塔米拉洞穴包含多个时期的图像，官方示例约14500至36000 BP；题目的笼统年代说法只作考试口径。",
+        "sources": [
+          {
+            "title": "西班牙文化部：阿尔塔米拉图像与年代",
+            "url": "https://www.cultura.gob.es/mnaltamira/dam/jcr%3A178b1057-f52d-42db-852f-5ccf77855875/folleto-en-neocueva-altamira.pdf",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 6,
+        "kind": "fill",
+        "number": 2,
+        "reason": "洞穴壁画跨越约36000至13000年前，原题笼统问壁画年代，2万多年不是全部壁画的统一年代，待明确具体图像。",
+        "stem": "西班牙阿尔塔米拉洞穴壁画，属于旧石器时代的作品，距今____多年的历史。",
+        "page": 2,
+        "source": {
+          "document": "艺术概论第六章综合测试",
+          "pdfPage": 2,
+          "page": 2,
+          "number": 2,
+          "kind": "fill",
+          "importId": "w26-c06-f02",
+          "answerDocument": "艺术概论第六章综合测试答案",
+          "referenceAnswers": [
+            "2万"
+          ]
+        },
+        "originalAnswer": "2万",
+        "pdfPage": 2,
+        "originalKey": "2万"
+      },
+      "aliases": [
+        [
+          "两万",
+          "20000",
+          "二万",
+          "2万年",
+          "20000年"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c06-f03",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "由于采用特制的毛笔来作画，使得“____”成为中国画技法和理论中的重要术语。",
+      "answers": [
+        "笔墨"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 3,
+        "kind": "fill",
+        "importId": "w26-c06-f03",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "笔墨"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第2页 · 填空第3题。参考答案已按题意复核。",
+      "study": {
+        "point": "笔墨既指毛笔与墨这两类材料工具，也指笔法、墨法及其审美表现。题面仅以特制毛笔解释“笔墨”不够完整，应把用笔与用墨合起来理解。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f05",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "肖像摄影又称____摄影。",
+      "answers": [
+        "人物"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 5,
+        "kind": "fill",
+        "importId": "w26-c06-f05",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "人物"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第2页 · 填空第5题。参考答案已按题意复核。",
+      "study": {
+        "point": "肖像摄影又称人物摄影，以人物形象为主要表现对象。人物摄影可包括头像、半身、全身及群像等，不仅限于证件照片。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f08",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____是以表现各种体育运动或竞赛中运动员的技术水平、健美姿态和优异成绩为内容的摄影艺术形式。",
+      "answers": [
+        "体育摄影"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 8,
+        "kind": "fill",
+        "importId": "w26-c06-f08",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "体育摄影"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第2页 · 填空第8题。参考答案已按题意复核。",
+      "study": {
+        "point": "体育摄影以体育运动与竞赛为内容，通过拍摄技术捕捉动作、力量、姿态和赛事瞬间；常用抓拍，但不能把抓拍本身当作题材名称。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f10",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "____是书法艺术的鼎盛时期。",
+      "answers": [
+        "唐代"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 3,
+        "page": 3,
+        "number": 10,
+        "kind": "fill",
+        "importId": "w26-c06-f10",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "唐代"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第10题。参考答案已按题意复核。",
+      "study": {
+        "point": "本章教材把唐代概括为书法鼎盛期，尤其强调楷书成就；这是阶段概括，不否认晋人行书、宋人尚意等各有高峰。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f12",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "秦代统一了文字，由大篆变为____。",
+      "answers": [
+        "小篆"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 3,
+        "page": 3,
+        "number": 12,
+        "kind": "fill",
+        "importId": "w26-c06-f12",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "小篆"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第12题。参考答案已按题意复核。",
+      "study": {
+        "point": "秦统一文字，以小篆为规范书体。小篆又称秦篆，与笔画更繁复、形体较多样的大篆相区分。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "秦篆"
+        ]
+      ]
+    },
+    {
+      "id": "w26-c06-f13",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "书法的用笔是指行笔的方式、方法及其所产生的效果，宋代米芾称他自己是“____”字。",
+      "answers": [
+        "刷"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 3,
+        "page": 3,
+        "number": 13,
+        "kind": "fill",
+        "importId": "w26-c06-f13",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "刷"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第13题。参考答案已按题意复核。",
+      "study": {
+        "point": "米芾自称“刷字”，突出其用笔迅疾、痛快的特点。此处问自评的动词，不是书体名称，也不意味着写字没有法度。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f14",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "书法的____是指作品的总体布局，即整幅字在行次布局中应当错综变化，疏密相宜，具有节奏和气势，从而体现出整幅作品内在的神韵。",
+      "answers": [
+        "章法"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 3,
+        "page": 3,
+        "number": 14,
+        "kind": "fill",
+        "importId": "w26-c06-f14",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "章法"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第14题。参考答案已按题意复核。",
+      "study": {
+        "point": "章法是书法作品整体的组织布局，包括行列、字距、行距、疏密、虚实与节奏；用笔指笔画运行，结体指单字结构，三者层次不同。",
+        "sources": []
+      }
+    },
+    {
+      "id": "w26-c06-f17",
+      "type": "fill",
+      "chapter": 6,
+      "stem": "顾闳中的《韩熙载夜宴图》采用的是____的方式绘画出来的。",
+      "answers": [
+        "心识默记"
+      ],
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 3,
+        "page": 3,
+        "number": 17,
+        "kind": "fill",
+        "importId": "w26-c06-f17",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceAnswers": [
+          "心识默记"
+        ]
+      },
+      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第17题。参考答案已按题意复核。",
+      "study": {
+        "point": "顾闳中作《韩熙载夜宴图》的传统叙述常用“心识默记”概括，指先观察记忆再组织成画。这是传述的创作方式，不能把现藏宋摹本当作亲历夜宴的原作。",
+        "sources": []
+      },
+      "aliases": [
+        [
+          "心识默记法"
+        ]
+      ]
     },
     {
       "id": "c07-f001",
@@ -5458,6 +6514,38 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第22页 · 第7章填空第20题；答案见PDF第49页文档后附第7章第20项。按文档参考答案录入；未作全题库独立学术审定。"
     },
     {
+      "id": "c07-f021",
+      "type": "fill",
+      "chapter": 7,
+      "stem": "____常被教材称作音乐艺术的精髓和音乐创作的重要高级形式。",
+      "answers": [
+        "交响乐"
+      ],
+      "source": {
+        "pdfPage": 22,
+        "number": 21,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第22页 · 第7章填空第21题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原文没有挖空，已按后附答案补设填空；“最高形式”属教材评价性概括，不是对所有音乐类型的客观价值排名。",
+        "sources": []
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原文没有挖空，已按后附答案补设填空；“最高形式”属教材评价性概括，不是对所有音乐类型的客观价值排名。",
+        "sources": []
+      },
+      "restoredFrom": {
+        "chapter": 7,
+        "number": 21,
+        "page": 22,
+        "stem": "交响乐可以说是音乐艺术的精髓，是音乐创作的最高形式，是人类文明的积淀。",
+        "originalKey": "交响乐",
+        "reason": "原文为陈述句，无填空位置，后附却列答案“交响乐”。"
+      }
+    },
+    {
       "id": "c07-f022",
       "type": "fill",
       "chapter": 7,
@@ -5673,6 +6761,65 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 49
       },
       "explanation": "用户提供扫描题集 · PDF第25页 · 第7章填空第58题；答案见PDF第49页文档后附第7章第58项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f001",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "人们常把____、____和____称作戏剧艺术的三要素，其中最本质的要素是____，戏剧的中心应当是____。",
+      "answers": [
+        "剧本",
+        "演员",
+        "观众",
+        "演员",
+        "演员的表演艺术"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 1,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第26页 · 第8章填空第1题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书只给前三空；后两空按该教材关于演员和表演艺术的论述补全。此为本教材的表演中心论口径。",
+        "sources": [
+          {
+            "title": "艺术学概论教学转录：审美注意",
+            "url": "https://qlljlyqh.com/nd.jsp?id=922",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书只给前三空；后两空按该教材关于演员和表演艺术的论述补全。此为本教材的表演中心论口径。",
+        "sources": [
+          {
+            "title": "艺术学概论教学转录：审美注意",
+            "url": "https://qlljlyqh.com/nd.jsp?id=922",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 8,
+        "number": 1,
+        "page": 26,
+        "stem": "人们常把____、____和____称作戏剧艺术的三要素，其中最本质的要素具____。戏剧的中心应当是____。",
+        "originalKey": "剧本、演员、观众",
+        "reason": "题干五空，后附答案只覆盖戏剧三要素，缺后两空。"
+      },
+      "aliases": [
+        [],
+        [],
+        [],
+        [],
+        [
+          "表演艺术",
+          "演员表演",
+          "表演"
+        ]
+      ]
     },
     {
       "id": "c08-f002",
@@ -5921,6 +7068,123 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第26页 · 第8章填空第14题；答案见PDF第50页文档后附第8章第14项。按文档参考答案录入；未作全题库独立学术审定。"
     },
     {
+      "id": "c08-f015",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "古希腊悲剧的题材大多来自____与____，三大悲剧家是____、____和____。",
+      "answers": [
+        "神话传说",
+        "英雄史诗",
+        "埃斯库罗斯",
+        "索福克勒斯",
+        "欧里庇得斯"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 15,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第26页 · 第8章填空第15题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书只给前两空，已补全三大悲剧家；按姓名与人物配对记忆，不用死记空的顺序。",
+        "sources": [
+          {
+            "title": "上海外国语大学：古希腊戏剧课程",
+            "url": "https://ses.shisu.edu.cn/da/2a/c17078a186922/page.htm",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书只给前两空，已补全三大悲剧家；按姓名与人物配对记忆，不用死记空的顺序。",
+        "sources": [
+          {
+            "title": "上海外国语大学：古希腊戏剧课程",
+            "url": "https://ses.shisu.edu.cn/da/2a/c17078a186922/page.htm",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 8,
+        "number": 15,
+        "page": 26,
+        "stem": "西方戏剧史上，最早出现的古希腊悲剧，题材大多来自____与____，代表与希腊悲剧艺术最高成就的是____、____和____，他们并称为i希腊三大悲剧家。",
+        "originalKey": "神话传说、英雄史诗",
+        "reason": "题干五空，后附只提供前两空，三大悲剧家缺答案。"
+      },
+      "aliases": [
+        [],
+        [],
+        [],
+        [
+          "索福克里斯"
+        ],
+        [
+          "欧里庇德斯",
+          "欧里皮得斯"
+        ]
+      ]
+    },
+    {
+      "id": "c08-f016",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "从广义上讲，戏剧包括____、____、____、____，乃至在欧美影响广泛的____等。",
+      "answers": [
+        "话剧",
+        "中国戏曲",
+        "歌剧",
+        "舞剧",
+        "音乐剧"
+      ],
+      "source": {
+        "pdfPage": 26,
+        "number": 16,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第26页 · 第8章填空第16题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原题五空而答案只列四种，漏了舞剧；已补齐常见的五种门类。",
+        "sources": [
+          {
+            "title": "中国戏剧家协会：戏剧门类",
+            "url": "https://chinatheatre.org.cn/jxgg/202604/t20260416_1358881.html",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原题五空而答案只列四种，漏了舞剧；已补齐常见的五种门类。",
+        "sources": [
+          {
+            "title": "中国戏剧家协会：戏剧门类",
+            "url": "https://chinatheatre.org.cn/jxgg/202604/t20260416_1358881.html",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 8,
+        "number": 16,
+        "page": 26,
+        "stem": "从广义上讲，戏剧包括____、____、____、____，乃至目前欧美各国影响广泛的____等。",
+        "originalKey": "话剧、戏曲、歌剧、音乐剧",
+        "reason": "题干五空，后附只有四项，缺一项答案。"
+      },
+      "aliases": [
+        [],
+        [
+          "戏曲"
+        ],
+        [],
+        [],
+        []
+      ]
+    },
+    {
       "id": "c08-f017",
       "type": "fill",
       "chapter": 8,
@@ -6082,6 +7346,40 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第25题；答案见PDF第50页文档后附第8章第25项。按文档参考答案录入；未作全题库独立学术审定。"
     },
     {
+      "id": "c08-f026",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "按本题后附参考答案列举的戏剧类型，依次有____、____、____等。",
+      "answers": [
+        "历史剧",
+        "现代剧",
+        "儿童剧"
+      ],
+      "source": {
+        "pdfPage": 27,
+        "number": 26,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第27页 · 第8章填空第26题；2026-11-06补全或修订。",
+      "study": {
+        "point": "按原书列举恢复三项并补足三空。历史/现代主要涉及时代与题材，儿童剧涉及受众；它们不是严格平行的同一分类轴，勿据此推断只有这三类。",
+        "sources": []
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "按原书列举恢复三项并补足三空。历史/现代主要涉及时代与题材，儿童剧涉及受众；它们不是严格平行的同一分类轴，勿据此推断只有这三类。",
+        "sources": []
+      },
+      "restoredFrom": {
+        "chapter": 8,
+        "number": 26,
+        "page": 27,
+        "stem": "戏剧按照作品题材不同，以分为____、____等。",
+        "originalKey": "历史剧、现代剧、儿童剧",
+        "reason": "题干两空，后附给历史剧、现代剧、儿童剧三项，需核对排版。"
+      }
+    },
+    {
       "id": "c08-f027",
       "type": "fill",
       "chapter": 8,
@@ -6182,6 +7480,50 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 50
       },
       "explanation": "用户提供扫描题集 · PDF第27页 · 第8章填空第33题；答案见PDF第50页文档后附第8章第33项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f034",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "按原题后附答案所列，常见文学体裁包括____、____、____和____。",
+      "answers": [
+        "诗歌",
+        "散文",
+        "小说",
+        "戏剧剧本"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 34,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第28页 · 第8章填空第34题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原题把电影题干与文学体裁答案混排。此处明确修订为文学体裁题并补足四空；这四项不是电影样式的分类。",
+        "sources": []
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原题把电影题干与文学体裁答案混排。此处明确修订为文学体裁题并补足四空；这四项不是电影样式的分类。",
+        "sources": []
+      },
+      "restoredFrom": {
+        "chapter": 8,
+        "number": 34,
+        "page": 28,
+        "stem": "作为电影艺术最主要样式的故事片，又可作各种具体的划分。电影包括____、____和____等体裁。",
+        "originalKey": "诗歌、散文、小说、戏剧剧本",
+        "reason": "题干三空，后附四种体裁，空数不一致。"
+      },
+      "aliases": [
+        [],
+        [],
+        [],
+        [
+          "剧本",
+          "戏剧"
+        ]
+      ]
     },
     {
       "id": "c08-f035",
@@ -6325,6 +7667,59 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第42题；答案见PDF第50页文档后附第8章第42项。按文档参考答案录入；未作全题库独立学术审定。"
     },
     {
+      "id": "c08-f043",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "按教材对中西悲剧结局倾向的概括，西方悲剧常遵循____的原则，中国戏曲悲剧结局往往追求____。",
+      "answers": [
+        "一悲到底",
+        "大团圆"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 43,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第28页 · 第8章填空第43题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书漏了后空，按教材补为大团圆。这是概括性比较，中西双方都存在反例，不代表每部作品一律如此。",
+        "sources": [
+          {
+            "title": "高校悲剧分类教学资料",
+            "url": "https://mooc1.chaoxing.com/mooc-ans/ztnodedetailcontroller/visitnodedetail?_from_=&courseId=200499704&knowledgeId=109058051&rtag=",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书漏了后空，按教材补为大团圆。这是概括性比较，中西双方都存在反例，不代表每部作品一律如此。",
+        "sources": [
+          {
+            "title": "高校悲剧分类教学资料",
+            "url": "https://mooc1.chaoxing.com/mooc-ans/ztnodedetailcontroller/visitnodedetail?_from_=&courseId=200499704&knowledgeId=109058051&rtag=",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 8,
+        "number": 43,
+        "page": 28,
+        "stem": "西方悲剧之所以一贯遵循____的悲剧结局原则。中国戏曲悲剧的结局往往是____。",
+        "originalKey": "“一悲到底”",
+        "reason": "中西悲剧结局两空，后附只给“一悲到底”。"
+      },
+      "aliases": [
+        [],
+        [
+          "团圆",
+          "团圆结局",
+          "大团圆结局"
+        ]
+      ]
+    },
+    {
       "id": "c08-f044",
       "type": "fill",
       "chapter": 8,
@@ -6376,6 +7771,63 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 50
       },
       "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第46题；答案见PDF第50页文档后附第8章第46项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f047",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "按教材常见的历史概括，古希腊、文艺复兴、近代欧洲的悲剧常分别概括为____悲剧、____悲剧、____悲剧。",
+      "answers": [
+        "命运",
+        "性格",
+        "社会"
+      ],
+      "source": {
+        "pdfPage": 28,
+        "number": 47,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第28页 · 第8章填空第47题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原题把不同分类轴直接等同，后附古典主义/浪漫主义/现实主义不能与命运/性格/社会简单一一对应。此题已改为明确的历史分期考法。",
+        "sources": [
+          {
+            "title": "高校悲剧分类教学资料",
+            "url": "https://mooc1.chaoxing.com/mooc-ans/ztnodedetailcontroller/visitnodedetail?_from_=&courseId=200499704&knowledgeId=109058051&rtag=",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原题把不同分类轴直接等同，后附古典主义/浪漫主义/现实主义不能与命运/性格/社会简单一一对应。此题已改为明确的历史分期考法。",
+        "sources": [
+          {
+            "title": "高校悲剧分类教学资料",
+            "url": "https://mooc1.chaoxing.com/mooc-ans/ztnodedetailcontroller/visitnodedetail?_from_=&courseId=200499704&knowledgeId=109058051&rtag=",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 8,
+        "number": 47,
+        "page": 28,
+        "stem": "欧洲悲剧分为命运悲剧、性格悲剧、社会悲剧，或者将以上三种悲剧称作____悲剧、____悲剧、____。",
+        "originalKey": "古典主义、浪漫主义、现实主义",
+        "reason": "题干命运/性格/社会悲剧与后附古典主义/浪漫主义/现实主义分类对应存疑。"
+      },
+      "aliases": [
+        [
+          "命运悲剧"
+        ],
+        [
+          "性格悲剧"
+        ],
+        [
+          "社会悲剧"
+        ]
+      ]
     },
     {
       "id": "c08-f048",
@@ -6480,6 +7932,66 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 50
       },
       "explanation": "用户提供扫描题集 · PDF第28页 · 第8章填空第54题；答案见PDF第50页文档后附第8章第54项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c08-f056",
+      "type": "fill",
+      "chapter": 8,
+      "stem": "梁赞诺夫的“爱情三部曲”包括____、____和____，从电影大类看属于____。",
+      "answers": [
+        "命运的嘲弄",
+        "两个人的车站",
+        "办公室的故事",
+        "喜剧"
+      ],
+      "source": {
+        "pdfPage": 29,
+        "number": 56,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第29页 · 第8章填空第56题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书只列三部片名，漏了类型。这里明确问喜剧大类；爱情轻喜剧、抒情喜剧或悲喜剧是对其不同风格层面的描述。",
+        "sources": [
+          {
+            "title": "电影频道：《两个人的车站》",
+            "url": "https://www.1905.com/mdb/film/48082/",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书只列三部片名，漏了类型。这里明确问喜剧大类；爱情轻喜剧、抒情喜剧或悲喜剧是对其不同风格层面的描述。",
+        "sources": [
+          {
+            "title": "电影频道：《两个人的车站》",
+            "url": "https://www.1905.com/mdb/film/48082/",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 8,
+        "number": 56,
+        "page": 29,
+        "stem": "苏联电影导演梁赞诺夫著名的“爱情三部曲”，包括________和____都是典型的____电影。",
+        "originalKey": "《命运的嘲弄》、《两个人的车站》、《办公室的故事》",
+        "reason": "题干四空，后附只列三部作品，缺电影风格答案。"
+      },
+      "aliases": [
+        [
+          "命运的捉弄"
+        ],
+        [],
+        [],
+        [
+          "抒情喜剧",
+          "悲喜剧",
+          "爱情轻喜剧",
+          "轻喜剧"
+        ]
+      ]
     },
     {
       "id": "c09-f001",
@@ -6666,6 +8178,62 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 51
       },
       "explanation": "用户提供扫描题集 · PDF第30页 · 第9章填空第10题；答案见PDF第51页文档后附第9章第10项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c09-f011",
+      "type": "fill",
+      "chapter": 9,
+      "stem": "列夫·托尔斯泰的三部长篇代表作是____、____和____；其中篇幅最长的是____。",
+      "answers": [
+        "战争与和平",
+        "复活",
+        "安娜卡列尼娜",
+        "战争与和平"
+      ],
+      "source": {
+        "pdfPage": 30,
+        "number": 11,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第30页 · 第9章填空第11题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书称其“三部曲”不严谨，已改为三部长篇代表作。托尔斯泰通常所说的自传三部曲是《童年》《少年》《青年》，不要混淆。",
+        "sources": [
+          {
+            "title": "山东大学：《战争与和平》讲座",
+            "url": "https://culture.sdu.edu.cn/info/1223/4562.htm",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书称其“三部曲”不严谨，已改为三部长篇代表作。托尔斯泰通常所说的自传三部曲是《童年》《少年》《青年》，不要混淆。",
+        "sources": [
+          {
+            "title": "山东大学：《战争与和平》讲座",
+            "url": "https://culture.sdu.edu.cn/info/1223/4562.htm",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 9,
+        "number": 11,
+        "page": 30,
+        "stem": "俄国作家列夫托尔斯泰“三部曲”包括____、____和____。其中，）是托尔斯泰篇幅最长的一部小说。",
+        "originalKey": "《战争与和平》、《复活》、《安娜•卡列尼娜》",
+        "reason": "题干四空，后附只列三部小说，缺最长篇作品答案。"
+      },
+      "aliases": [
+        [],
+        [],
+        [
+          "安娜卡列尼娜",
+          "安娜卡列宁娜"
+        ],
+        []
+      ]
     },
     {
       "id": "c09-f012",
@@ -7748,6 +9316,62 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 52
       },
       "explanation": "用户提供扫描题集 · PDF第35页 · 第10章填空第62题；答案见PDF第52页文档后附第10章第62项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c10-f067",
+      "type": "fill",
+      "chapter": 10,
+      "stem": "现代主义艺术思潮的正式形成，是在20世纪初叶，这一时期的代表作品有德国____电影《卡里加里博士》，法国____作家布勒东的文学作品《可溶解的鱼》，爱尔兰作家乔伊斯的____小说《尤利西斯》，意大利诗人、剧作家____编选的《未来主义诗集》等。",
+      "answers": [
+        "表现主义",
+        "超现实主义",
+        "意识流",
+        "马里内蒂"
+      ],
+      "source": {
+        "pdfPage": 35,
+        "number": 67,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第35页 · 第10章填空第67题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书只列前两空，后两空补为意识流、马里内蒂。按教材作品与流派配对训练；不同译本的人名和书名可能存在差别。",
+        "sources": [
+          {
+            "title": "都灵理工大学图书馆：I Poeti futuristi（1912）",
+            "url": "https://digit.biblio.polito.it/4271/",
+            "scope": "佐证未来主义诗集与马里内蒂的文献关联。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书只列前两空，后两空补为意识流、马里内蒂。按教材作品与流派配对训练；不同译本的人名和书名可能存在差别。",
+        "sources": [
+          {
+            "title": "都灵理工大学图书馆：I Poeti futuristi（1912）",
+            "url": "https://digit.biblio.polito.it/4271/",
+            "scope": "佐证未来主义诗集与马里内蒂的文献关联。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 10,
+        "number": 67,
+        "page": 35,
+        "stem": "现代主义艺术思潮的正式形成，是在20世纪初叶，这一时期的代表作品有德国____电影《卡里加里博士》，法国____作家布勒东的文学作品《可溶解的鱼》，爱尔兰作家乔伊斯的____小说《尤利西斯》，意大利诗人、剧作家____编选的《未来主义诗集》等。",
+        "originalKey": "表现主义、超现实主义",
+        "reason": "题干四空，后附只给表现主义、超现实主义两项。"
+      },
+      "aliases": [
+        [],
+        [],
+        [],
+        [
+          "马利内蒂",
+          "菲利波托马索马里内蒂"
+        ]
+      ]
     },
     {
       "id": "c11-f001",
@@ -8891,6 +10515,52 @@ window.SHIYI_FILL_BANK = {
       "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
     },
     {
+      "id": "c11-f064",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "意境的实的部分存在于画面、文字、乐曲及想象的____之中；而虚的部分，即意境之重要或本质的部分存在于____和____之中。",
+      "answers": [
+        "意象",
+        "想象",
+        "感悟"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 64,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第39页 · 第11章填空第64题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书“一箱”为明显文字讹误，已更正为意象。实处在可感的意象，虚处在欣赏者的想象与感悟。",
+        "sources": [
+          {
+            "title": "彭吉象：意境的虚实结构",
+            "url": "https://blog.sina.com.cn/s/blog_5d21c5890102x2cl.html",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书“一箱”为明显文字讹误，已更正为意象。实处在可感的意象，虚处在欣赏者的想象与感悟。",
+        "sources": [
+          {
+            "title": "彭吉象：意境的虚实结构",
+            "url": "https://blog.sina.com.cn/s/blog_5d21c5890102x2cl.html",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 11,
+        "number": 64,
+        "page": 39,
+        "stem": "意境的实的部分存在于画面、文字、乐曲及想象的____之中；而虚的部分，即意境之重要或本质的部分存在于____和____之中。",
+        "originalKey": "一箱、想象、感悟",
+        "reason": "原书首空答案印作“一箱”，与题意不符，待核对。"
+      }
+    },
+    {
       "id": "c11-f065",
       "type": "fill",
       "chapter": 11,
@@ -8999,6 +10669,52 @@ window.SHIYI_FILL_BANK = {
       },
       "explanation": "用户提供扫描题集 · PDF第39页 · 第11章填空第70题；答案见PDF第53页文档后附第11章第71项。按文档参考答案录入；未作全题库独立学术审定。",
       "note": "原书答案编号从此处起比题目编号大1，已按题意对应。"
+    },
+    {
+      "id": "c11-f071",
+      "type": "fill",
+      "chapter": 11,
+      "stem": "王昌龄《诗格》中把诗分为三境：____、____、____。",
+      "answers": [
+        "物境",
+        "情境",
+        "意境"
+      ],
+      "source": {
+        "pdfPage": 39,
+        "number": 71,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第39页 · 第11章填空第71题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书漏掉第三空，已补为意境；三境是本题所采用的传统诗论表述。",
+        "sources": [
+          {
+            "title": "中国美术学院：物境、情境、意境",
+            "url": "https://caam.caa.edu.cn/info/1044/1836.htm",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书漏掉第三空，已补为意境；三境是本题所采用的传统诗论表述。",
+        "sources": [
+          {
+            "title": "中国美术学院：物境、情境、意境",
+            "url": "https://caam.caa.edu.cn/info/1044/1836.htm",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 11,
+        "number": 71,
+        "page": 39,
+        "stem": "王昌龄《诗格》中把诗分为三境：____、____、____。",
+        "originalKey": "物境、情境",
+        "reason": "题干问物境、情境、意境三境，后附只给物境、情境两项，缺第三空。"
+      }
     },
     {
       "id": "c11-f072",
@@ -9707,6 +11423,52 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第42页 · 第12章填空第24题；答案见PDF第54页文档后附第12章第24项。按文档参考答案录入；未作全题库独立学术审定。"
     },
     {
+      "id": "c12-f025",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "心理学上把注意分为____和____两种，艺术鉴赏活动中多采用____。",
+      "answers": [
+        "有意注意",
+        "无意注意",
+        "有意注意"
+      ],
+      "source": {
+        "pdfPage": 42,
+        "number": 25,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第42页 · 第12章填空第25题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书只给前两空，第三空按该教材补为有意注意。审美注意可以有多种起始方式，“多采用”不等于只允许这一种。",
+        "sources": [
+          {
+            "title": "艺术学概论教学转录：审美注意",
+            "url": "https://qlljlyqh.com/nd.jsp?id=922",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书只给前两空，第三空按该教材补为有意注意。审美注意可以有多种起始方式，“多采用”不等于只允许这一种。",
+        "sources": [
+          {
+            "title": "艺术学概论教学转录：审美注意",
+            "url": "https://qlljlyqh.com/nd.jsp?id=922",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 12,
+        "number": 25,
+        "page": 42,
+        "stem": "心理学上把注意分为____和____两种，艺术鉴赏活动中多采用____。",
+        "originalKey": "有意注意、无意注意",
+        "reason": "题干三空，后附只给有意注意、无意注意，缺末空。"
+      }
+    },
+    {
       "id": "c12-f026",
       "type": "fill",
       "chapter": 12,
@@ -10378,6 +12140,61 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第62题；答案见PDF第54页文档后附第12章第62项。按文档参考答案录入；未作全题库独立学术审定。"
     },
     {
+      "id": "c12-f063",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "被称为“美学之父”的德国哲学家____于____年出版《美学》第一卷，这通常被视为美学作为独立学科的重要标志。",
+      "answers": [
+        "鲍姆嘉通",
+        "1750"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 63,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第44页 · 第12章填空第63题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原书1950系年代错误；已改为1750年出版《美学》。注意首次提出aesthetics一词通常追溯到1735年，与出版《美学》不是同一事件。",
+        "sources": [
+          {
+            "title": "斯坦福哲学百科：18世纪德国美学",
+            "url": "https://plato.stanford.edu/archives/sum2026/entries/aesthetics-18th-german/",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原书1950系年代错误；已改为1750年出版《美学》。注意首次提出aesthetics一词通常追溯到1735年，与出版《美学》不是同一事件。",
+        "sources": [
+          {
+            "title": "斯坦福哲学百科：18世纪德国美学",
+            "url": "https://plato.stanford.edu/archives/sum2026/entries/aesthetics-18th-german/",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
+          }
+        ]
+      },
+      "restoredFrom": {
+        "chapter": 12,
+        "number": 63,
+        "page": 44,
+        "stem": "被称为美学之父的18世纪德国哲学家、美学家____，在____年第一次使用“美学”这个术语，标志着美学作为一门独立学科的诞生。",
+        "originalKey": "鲍姆嘉通、1950",
+        "reason": "题干为18世纪美学家，原书答案年份1950与题干世纪矛盾，暂不判分。"
+      },
+      "aliases": [
+        [
+          "鲍姆加登",
+          "鲍姆嘉登",
+          "鲍姆加通"
+        ],
+        [
+          "1750年"
+        ]
+      ]
+    },
+    {
       "id": "c12-f064",
       "type": "fill",
       "chapter": 12,
@@ -10577,6 +12394,39 @@ window.SHIYI_FILL_BANK = {
         "answerPdfPage": 54
       },
       "explanation": "用户提供扫描题集 · PDF第44页 · 第12章填空第74题；答案见PDF第54页文档后附第12章第74项。按文档参考答案录入；未作全题库独立学术审定。"
+    },
+    {
+      "id": "c12-f075",
+      "type": "fill",
+      "chapter": 12,
+      "stem": "在艺术鉴赏中，到了审美升华阶段，才更加集中于欣赏作品内在的____，使感性直观达到理性____。",
+      "answers": [
+        "艺术意蕴",
+        "升华"
+      ],
+      "source": {
+        "pdfPage": 44,
+        "number": 75,
+        "kind": "fill"
+      },
+      "explanation": "用户提供题集 · PDF第44页 · 第12章填空第75题；2026-11-06补全或修订。",
+      "study": {
+        "point": "原文未挖空，现按后附“艺术意蕴、升华”设置两空，未改变原段落的核心意思。",
+        "sources": []
+      },
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原文未挖空，现按后附“艺术意蕴、升华”设置两空，未改变原段落的核心意思。",
+        "sources": []
+      },
+      "restoredFrom": {
+        "chapter": 12,
+        "number": 75,
+        "page": 44,
+        "stem": "在艺术鉴赏时，审美直觉阶段和审美体验阶段常常集中在欣赏作品的艺术语言和艺术形象，只有到了审美升华阶段，才更加集中于欣赏作品内在的艺术意蕴，使艺术鉴赏的感性直观达到理性升华。",
+        "originalKey": "艺术意蕴、升华",
+        "reason": "题干没有挖空，答案列艺术意蕴、升华，保留待核对。"
+      }
     },
     {
       "id": "c12-f076",
@@ -10883,938 +12733,61 @@ window.SHIYI_FILL_BANK = {
       "explanation": "用户提供扫描题集 · PDF第45页 · 第12章填空第92题；答案见PDF第54页文档后附第12章第92项。按文档参考答案录入；未作全题库独立学术审定。"
     },
     {
-      "id": "w26-c02-f03",
+      "id": "c12-f093",
       "type": "fill",
-      "chapter": 2,
-      "stem": "____的“模仿论”，在欧洲“竟雄霸了两千余年”。",
+      "chapter": 12,
+      "stem": "接受美学中，姚斯提出了____理论，伊塞尔提出了文本____等理论。",
       "answers": [
-        "亚里士多德"
+        "期待视野",
+        "空白"
       ],
       "source": {
-        "document": "艺术概论第二章周测",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 3,
-        "kind": "fill",
-        "importId": "w26-c02-f03",
-        "answerDocument": "艺术概论第二章周测答案",
-        "referenceAnswers": [
-          "亚里士多德"
-        ]
+        "pdfPage": 45,
+        "number": 93,
+        "kind": "fill"
       },
-      "explanation": "用户提供《艺术概论第二章周测》PDF第2页 · 填空第3题。参考答案已按题意复核。",
+      "explanation": "用户提供题集 · PDF第45页 · 第12章填空第93题；2026-11-06补全或修订。",
       "study": {
-        "point": "亚里士多德《诗学》系统讨论模仿，朱光潜以“两千余年”概括其欧洲影响。应填写理论家，不能把“模仿论”再填入作者位置。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c03-f02",
-      "type": "fill",
-      "chapter": 3,
-      "stem": "孔子以____的思想，创立了我国古代最早的教育体系。",
-      "answers": [
-        "礼乐相济"
-      ],
-      "source": {
-        "document": "艺术概论第三章周测",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 2,
-        "kind": "fill",
-        "importId": "w26-c03-f02",
-        "answerDocument": "艺术概论第三章周测答案",
-        "referenceAnswers": [
-          "礼乐相济"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第2题。参考答案已按题意复核。",
-      "study": {
-        "point": "孔子重视礼与乐的配合：礼以规范行为，乐以陶冶情感，教材概括为礼乐相济。题面“最早的教育体系”属简化史论表述，并不否认孔子以前已有教育制度。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c03-f03",
-      "type": "fill",
-      "chapter": 3,
-      "stem": "艺术家采用化____为“美”的方法，使艺术教育作用不同于普通的道德教育。",
-      "answers": [
-        "善"
-      ],
-      "source": {
-        "document": "艺术概论第三章周测",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 3,
-        "kind": "fill",
-        "importId": "w26-c03-f03",
-        "answerDocument": "艺术概论第三章周测答案",
-        "referenceAnswers": [
-          "善"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第3题。参考答案已按题意复核。",
-      "study": {
-        "point": "艺术教育通过审美形象和情感感染，将伦理上的善转化为可感的美，区别于直接讲授道德规范；“化善为美”不是把丑恶行为美化。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c03-f04",
-      "type": "fill",
-      "chapter": 3,
-      "stem": "古罗马美学家____明确提出艺术应当“寓教于乐”。",
-      "answers": [
-        "贺拉斯"
-      ],
-      "source": {
-        "document": "艺术概论第三章周测",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 4,
-        "kind": "fill",
-        "importId": "w26-c03-f04",
-        "answerDocument": "艺术概论第三章周测答案",
-        "referenceAnswers": [
-          "贺拉斯"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第4题。参考答案已按题意复核。",
-      "study": {
-        "point": "贺拉斯《诗艺》把有益与愉悦联系起来，通常概括为寓教于乐；注意与亚里士多德的教育、净化、快感三功能区分。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c03-f08",
-      "type": "fill",
-      "chapter": 3,
-      "stem": "柴可夫斯基《D大调弦乐四重奏》第二乐章____。",
-      "answers": [
-        "如歌的行板"
-      ],
-      "source": {
-        "document": "艺术概论第三章周测",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 8,
-        "kind": "fill",
-        "importId": "w26-c03-f08",
-        "answerDocument": "艺术概论第三章周测答案",
-        "referenceAnswers": [
-          "如歌的行板"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第8题。参考答案已按题意复核。",
-      "study": {
-        "point": "《如歌的行板》是柴可夫斯基《D大调第一弦乐四重奏》第二乐章的常用曲名。本题填写乐章名称，而不是作曲家或整部四重奏的名称。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c03-f09",
-      "type": "fill",
-      "chapter": 3,
-      "stem": "唐代诗人____《燕歌行》“汉家烟尘在东北，汉将辞家破残贼”。",
-      "answers": [
-        "高适"
-      ],
-      "source": {
-        "document": "艺术概论第三章周测",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 9,
-        "kind": "fill",
-        "importId": "w26-c03-f09",
-        "answerDocument": "艺术概论第三章周测答案",
-        "referenceAnswers": [
-          "高适"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第9题。参考答案已按题意复核。",
-      "study": {
-        "point": "“汉家烟尘在东北，汉将辞家破残贼”出自唐代高适《燕歌行》。同名乐府题可有多位作者，此处以所引诗句确定为高适。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c03-f10",
-      "type": "fill",
-      "chapter": 3,
-      "stem": "杜甫____“国破山河在，城春草木深”。",
-      "answers": [
-        "春望"
-      ],
-      "source": {
-        "document": "艺术概论第三章周测",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 10,
-        "kind": "fill",
-        "importId": "w26-c03-f10",
-        "answerDocument": "艺术概论第三章周测答案",
-        "referenceAnswers": [
-          "春望"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第三章周测》PDF第2页 · 填空第10题。参考答案已按题意复核。",
-      "study": {
-        "point": "“国破山河在，城春草木深”是杜甫《春望》的开篇。本题填写篇名，不能填诗人姓名。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c04-f05",
-      "type": "fill",
-      "chapter": 4,
-      "stem": "《离骚》、《九歌》的作者是____。",
-      "answers": [
-        "屈原"
-      ],
-      "source": {
-        "document": "金航艺术概论第四章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 5,
-        "kind": "fill",
-        "importId": "w26-c04-f05",
-        "answerDocument": "金航艺术概论第四章综合测试答案",
-        "referenceAnswers": [
-          "屈原"
-        ]
-      },
-      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第5题。参考答案已按题意复核。",
-      "study": {
-        "point": "《离骚》《九歌》均与屈原及楚辞传统相联系。本题问作者，填屈原；不要填总集名《楚辞》。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c04-f06",
-      "type": "fill",
-      "chapter": 4,
-      "stem": "《洛神赋图》的作者传为东晋____。",
-      "answers": [
-        "顾恺之"
-      ],
-      "source": {
-        "document": "金航艺术概论第四章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 6,
-        "kind": "fill",
-        "importId": "w26-c04-f06",
-        "answerDocument": "金航艺术概论第四章综合测试答案",
-        "referenceAnswers": [
-          "顾恺之"
-        ]
-      },
-      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第6题。参考答案已按题意复核。",
-      "study": {
-        "point": "《洛神赋图》传统归于东晋顾恺之，取材于曹植《洛神赋》。现存传本与摹本的问题应与作品传统归属区分，因此题面保留“传为”。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c04-f07",
-      "type": "fill",
-      "chapter": 4,
-      "stem": "被称为存在主义先驱的是丹麦哲学家____。",
-      "answers": [
-        "克尔凯郭尔"
-      ],
-      "source": {
-        "document": "金航艺术概论第四章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 7,
-        "kind": "fill",
-        "importId": "w26-c04-f07",
-        "answerDocument": "金航艺术概论第四章综合测试答案",
-        "referenceAnswers": [
-          "克尔凯郭尔"
-        ]
-      },
-      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第7题。参考答案已按题意复核。",
-      "study": {
-        "point": "丹麦哲学家克尔凯郭尔强调个体存在、选择和信仰，被视为存在主义的先驱。萨特属于20世纪存在主义代表，而不是此处问的丹麦先驱。",
-        "sources": []
-      },
-      "aliases": [
-        [
-          "克尔恺郭尔",
-          "克尔凯戈尔",
-          "祁克果",
-          "基尔凯郭尔",
-          "克尔凯郭耳"
-        ]
-      ]
-    },
-    {
-      "id": "w26-c04-f08",
-      "type": "fill",
-      "chapter": 4,
-      "stem": "英国著名美学家克莱夫·贝尔的（____）一书，被不少人看做是现代派艺术理论的基石。",
-      "answers": [
-        "艺术"
-      ],
-      "source": {
-        "document": "金航艺术概论第四章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 8,
-        "kind": "fill",
-        "importId": "w26-c04-f08",
-        "answerDocument": "金航艺术概论第四章综合测试答案",
-        "referenceAnswers": [
-          "艺术"
-        ]
-      },
-      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第8题。参考答案已按题意复核。",
-      "study": {
-        "point": "克莱夫·贝尔在《艺术》中提出“有意味的形式”，对现代形式主义艺术理论有重要影响。本题填书名，与旧题问作者不同。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c04-f10",
-      "type": "fill",
-      "chapter": 4,
-      "stem": "《喻世明言》《警世通言》《醒世恒言》的作者是____。",
-      "answers": [
-        "冯梦龙"
-      ],
-      "source": {
-        "document": "金航艺术概论第四章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 10,
-        "kind": "fill",
-        "importId": "w26-c04-f10",
-        "answerDocument": "金航艺术概论第四章综合测试答案",
-        "referenceAnswers": [
-          "冯梦龙"
-        ]
-      },
-      "explanation": "用户提供《金航艺术概论第四章综合测试》PDF第2页 · 填空第10题。参考答案已按题意复核。",
-      "study": {
-        "point": "“三言”由冯梦龙编纂：《喻世明言》《警世通言》《醒世恒言》。原试卷把“明言”写成“名言”，规范题面已修正；“二拍”则与凌濛初相关。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c05-f05",
-      "type": "fill",
-      "chapter": 5,
-      "stem": "我国现存最精致的金银错工艺品，是河北定州出土的____，它是汉武帝时代的作品。",
-      "answers": [
-        "狩猎纹车饰"
-      ],
-      "source": {
-        "document": "艺术概论第五章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 5,
-        "kind": "fill",
-        "importId": "w26-c05-f05",
-        "answerDocument": "艺术概论第五章综合测试答案",
-        "referenceAnswers": [
-          "狩猎纹车饰"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第5题。参考答案已按题意复核。",
-      "study": {
-        "point": "河北定州三盘山汉墓出土的金错狩猎纹铜车饰，是汉代金银错工艺的例证，常简称狩猎纹车饰。题面“最精致”是教材评价性用语，不代表可量化的唯一排名。",
+        "point": "原扫描题在“伊塞尔提”处截断，已按后附答案与接受美学概念补全设问；并非声称恢复了扫描件缺失的逐字原文。",
         "sources": [
           {
-            "title": "中央美术学院：西汉金错铜管学术讲座",
-            "url": "https://www.cafa.com.cn/cn/news/details/216555",
-            "scope": "定州三盘山出土金错狩猎纹铜管及相关研究"
+            "title": "中国社会科学网：期待视野与空白",
+            "url": "https://www.cssn.cn/wx/wx_wyx/202208/t20220802_5442778.shtml",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
           }
         ]
       },
-      "aliases": [
-        [
-          "金银错狩猎纹车饰",
-          "狩猎纹铜车饰",
-          "金错狩猎纹铜管"
-        ]
-      ]
-    },
-    {
-      "id": "w26-c05-f06",
-      "type": "fill",
-      "chapter": 5,
-      "stem": "太和殿，位于故宫的中心部位，俗称____。",
-      "answers": [
-        "金銮殿"
-      ],
-      "source": {
-        "document": "艺术概论第五章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 6,
-        "kind": "fill",
-        "importId": "w26-c05-f06",
-        "answerDocument": "艺术概论第五章综合测试答案",
-        "referenceAnswers": [
-          "金銮殿"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第6题。参考答案已按题意复核。",
-      "study": {
-        "point": "太和殿俗称金銮殿，是紫禁城等级最高、规模最大的殿宇。金銮殿为俗称，不能与中和殿、保和殿的正式名称混用。",
-        "sources": []
-      },
-      "aliases": [
-        [
-          "金銮宝殿"
-        ]
-      ]
-    },
-    {
-      "id": "w26-c05-f07",
-      "type": "fill",
-      "chapter": 5,
-      "stem": "秦汉时期的____已经有了很大的规模，成为统一大帝国的艺术象征，并且逐渐形成了中国园林的传统样式，为以后历朝历代皇家园林的发展奠定了基础。",
-      "answers": [
-        "帝王宫苑"
-      ],
-      "source": {
-        "document": "艺术概论第五章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 7,
-        "kind": "fill",
-        "importId": "w26-c05-f07",
-        "answerDocument": "艺术概论第五章综合测试答案",
-        "referenceAnswers": [
-          "帝王宫苑"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第7题。参考答案已按题意复核。",
-      "study": {
-        "point": "秦汉帝王宫苑把宫殿、游赏山水及政治象征结合起来，逐渐形成皇家园林传统。本题的关键词是帝王宫苑，而非后来发展的江南私家园林。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c05-f08",
-      "type": "fill",
-      "chapter": 5,
-      "stem": "明代园林家计成在____一书中提出“虽由人作，宛自天开”的造园境界。",
-      "answers": [
-        "园冶"
-      ],
-      "source": {
-        "document": "艺术概论第五章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 8,
-        "kind": "fill",
-        "importId": "w26-c05-f08",
-        "answerDocument": "艺术概论第五章综合测试答案",
-        "referenceAnswers": [
-          "园冶"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第8题。参考答案已按题意复核。",
-      "study": {
-        "point": "计成是明代造园家，《园冶》是其造园专著。试卷把书名误写“园治”，引文也有讹字；规范题面按常见原文“虽由人作，宛自天开”整理。",
+      "reviewNotice": {
+        "policy": "本题已补全或修订，以下说明供对照",
+        "text": "原扫描题在“伊塞尔提”处截断，已按后附答案与接受美学概念补全设问；并非声称恢复了扫描件缺失的逐字原文。",
         "sources": [
           {
-            "title": "上海市绿化市容管理局：园林与中国造园观",
-            "url": "https://lhsr.sh.gov.cn/jnylwh/20200615/ae44208f-09bb-4449-a507-8d2d145eae77.html",
-            "scope": "计成《园冶》及虽由人作、宛自天开的表述"
+            "title": "中国社会科学网：期待视野与空白",
+            "url": "https://www.cssn.cn/wx/wx_wyx/202208/t20220802_5442778.shtml",
+            "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。"
           }
         ]
       },
-      "note": "答案图写“园治”，应为《园冶》；引文按通行原文修订。"
-    },
-    {
-      "id": "w26-c05-f09",
-      "type": "fill",
-      "chapter": 5,
-      "stem": "北京的颐和园属于____园林。",
-      "answers": [
-        "北方大型皇家"
-      ],
-      "source": {
-        "document": "艺术概论第五章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 9,
-        "kind": "fill",
-        "importId": "w26-c05-f09",
-        "answerDocument": "艺术概论第五章综合测试答案",
-        "referenceAnswers": [
-          "北方大型皇家"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第五章综合测试》PDF第2页 · 填空第9题。参考答案已按题意复核。",
-      "study": {
-        "point": "颐和园位于北京，是北方大型皇家园林代表；与拙政园、网师园等江南小型私家园林区分。本题空位后已有“园林”，可填写北方大型皇家。",
-        "sources": []
+      "restoredFrom": {
+        "chapter": 12,
+        "number": 93,
+        "page": 45,
+        "stem": "接受美学的内容十分丰富，但其中影响最大的，要数姚斯提出的____和伊塞尔提。",
+        "originalKey": "期待视野、空白",
+        "reason": "扫描件在“伊塞尔提”处截断，缺后续题干，不自动补造。"
       },
       "aliases": [
         [
-          "北方皇家",
-          "皇家",
-          "北方大型皇家园林"
-        ]
-      ]
-    },
-    {
-      "id": "w26-c06-f03",
-      "type": "fill",
-      "chapter": 6,
-      "stem": "由于采用特制的毛笔来作画，使得“____”成为中国画技法和理论中的重要术语。",
-      "answers": [
-        "笔墨"
-      ],
-      "source": {
-        "document": "艺术概论第六章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 3,
-        "kind": "fill",
-        "importId": "w26-c06-f03",
-        "answerDocument": "艺术概论第六章综合测试答案",
-        "referenceAnswers": [
-          "笔墨"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第六章综合测试》PDF第2页 · 填空第3题。参考答案已按题意复核。",
-      "study": {
-        "point": "笔墨既指毛笔与墨这两类材料工具，也指笔法、墨法及其审美表现。题面仅以特制毛笔解释“笔墨”不够完整，应把用笔与用墨合起来理解。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c06-f05",
-      "type": "fill",
-      "chapter": 6,
-      "stem": "肖像摄影又称____摄影。",
-      "answers": [
-        "人物"
-      ],
-      "source": {
-        "document": "艺术概论第六章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 5,
-        "kind": "fill",
-        "importId": "w26-c06-f05",
-        "answerDocument": "艺术概论第六章综合测试答案",
-        "referenceAnswers": [
-          "人物"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第六章综合测试》PDF第2页 · 填空第5题。参考答案已按题意复核。",
-      "study": {
-        "point": "肖像摄影又称人物摄影，以人物形象为主要表现对象。人物摄影可包括头像、半身、全身及群像等，不仅限于证件照片。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c06-f08",
-      "type": "fill",
-      "chapter": 6,
-      "stem": "____是以表现各种体育运动或竞赛中运动员的技术水平、健美姿态和优异成绩为内容的摄影艺术形式。",
-      "answers": [
-        "体育摄影"
-      ],
-      "source": {
-        "document": "艺术概论第六章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 8,
-        "kind": "fill",
-        "importId": "w26-c06-f08",
-        "answerDocument": "艺术概论第六章综合测试答案",
-        "referenceAnswers": [
-          "体育摄影"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第六章综合测试》PDF第2页 · 填空第8题。参考答案已按题意复核。",
-      "study": {
-        "point": "体育摄影以体育运动与竞赛为内容，通过拍摄技术捕捉动作、力量、姿态和赛事瞬间；常用抓拍，但不能把抓拍本身当作题材名称。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c06-f10",
-      "type": "fill",
-      "chapter": 6,
-      "stem": "____是书法艺术的鼎盛时期。",
-      "answers": [
-        "唐代"
-      ],
-      "source": {
-        "document": "艺术概论第六章综合测试",
-        "pdfPage": 3,
-        "page": 3,
-        "number": 10,
-        "kind": "fill",
-        "importId": "w26-c06-f10",
-        "answerDocument": "艺术概论第六章综合测试答案",
-        "referenceAnswers": [
-          "唐代"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第10题。参考答案已按题意复核。",
-      "study": {
-        "point": "本章教材把唐代概括为书法鼎盛期，尤其强调楷书成就；这是阶段概括，不否认晋人行书、宋人尚意等各有高峰。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c06-f12",
-      "type": "fill",
-      "chapter": 6,
-      "stem": "秦代统一了文字，由大篆变为____。",
-      "answers": [
-        "小篆"
-      ],
-      "source": {
-        "document": "艺术概论第六章综合测试",
-        "pdfPage": 3,
-        "page": 3,
-        "number": 12,
-        "kind": "fill",
-        "importId": "w26-c06-f12",
-        "answerDocument": "艺术概论第六章综合测试答案",
-        "referenceAnswers": [
-          "小篆"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第12题。参考答案已按题意复核。",
-      "study": {
-        "point": "秦统一文字，以小篆为规范书体。小篆又称秦篆，与笔画更繁复、形体较多样的大篆相区分。",
-        "sources": []
-      },
-      "aliases": [
+          "期待视界"
+        ],
         [
-          "秦篆"
-        ]
-      ]
-    },
-    {
-      "id": "w26-c06-f13",
-      "type": "fill",
-      "chapter": 6,
-      "stem": "书法的用笔是指行笔的方式、方法及其所产生的效果，宋代米芾称他自己是“____”字。",
-      "answers": [
-        "刷"
-      ],
-      "source": {
-        "document": "艺术概论第六章综合测试",
-        "pdfPage": 3,
-        "page": 3,
-        "number": 13,
-        "kind": "fill",
-        "importId": "w26-c06-f13",
-        "answerDocument": "艺术概论第六章综合测试答案",
-        "referenceAnswers": [
-          "刷"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第13题。参考答案已按题意复核。",
-      "study": {
-        "point": "米芾自称“刷字”，突出其用笔迅疾、痛快的特点。此处问自评的动词，不是书体名称，也不意味着写字没有法度。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c06-f14",
-      "type": "fill",
-      "chapter": 6,
-      "stem": "书法的____是指作品的总体布局，即整幅字在行次布局中应当错综变化，疏密相宜，具有节奏和气势，从而体现出整幅作品内在的神韵。",
-      "answers": [
-        "章法"
-      ],
-      "source": {
-        "document": "艺术概论第六章综合测试",
-        "pdfPage": 3,
-        "page": 3,
-        "number": 14,
-        "kind": "fill",
-        "importId": "w26-c06-f14",
-        "answerDocument": "艺术概论第六章综合测试答案",
-        "referenceAnswers": [
-          "章法"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第14题。参考答案已按题意复核。",
-      "study": {
-        "point": "章法是书法作品整体的组织布局，包括行列、字距、行距、疏密、虚实与节奏；用笔指笔画运行，结体指单字结构，三者层次不同。",
-        "sources": []
-      }
-    },
-    {
-      "id": "w26-c06-f17",
-      "type": "fill",
-      "chapter": 6,
-      "stem": "顾闳中的《韩熙载夜宴图》采用的是____的方式绘画出来的。",
-      "answers": [
-        "心识默记"
-      ],
-      "source": {
-        "document": "艺术概论第六章综合测试",
-        "pdfPage": 3,
-        "page": 3,
-        "number": 17,
-        "kind": "fill",
-        "importId": "w26-c06-f17",
-        "answerDocument": "艺术概论第六章综合测试答案",
-        "referenceAnswers": [
-          "心识默记"
-        ]
-      },
-      "explanation": "用户提供《艺术概论第六章综合测试》PDF第3页 · 填空第17题。参考答案已按题意复核。",
-      "study": {
-        "point": "顾闳中作《韩熙载夜宴图》的传统叙述常用“心识默记”概括，指先观察记忆再组织成画。这是传述的创作方式，不能把现藏宋摹本当作亲历夜宴的原作。",
-        "sources": []
-      },
-      "aliases": [
-        [
-          "心识默记法"
+          "空白理论",
+          "空白点"
         ]
       ]
     }
   ],
-  "pending": [
-    {
-      "chapter": 1,
-      "number": 16,
-      "page": 2,
-      "stem": "____讲过：“没有一件艺术作品，单靠线条或色调的匀称，仅仅为了视觉满足的作品，能够打动人的。”也因此说明了艺术形象是____和____的统一。",
-      "originalKey": "罗丹",
-      "reason": "题干有三空，后附答案仅给“罗丹”，后两空缺答案。"
-    },
-    {
-      "chapter": 6,
-      "number": 80,
-      "page": 18,
-      "stem": "《梅杜萨之筏》的作者是浪漫主义美术的代表人物____。",
-      "originalKey": "德拉克罗瓦",
-      "reason": "《梅杜萨之筏》题干与后附作者答案不对应，待复核。"
-    },
-    {
-      "chapter": 6,
-      "number": 81,
-      "page": 18,
-      "stem": "绘画作品《自由女神领导人民》的作者是____。",
-      "originalKey": "ABC",
-      "reason": "题干为作者填空，后附答案却为 ABC，不能直接配对。"
-    },
-    {
-      "chapter": 7,
-      "number": 21,
-      "page": 22,
-      "stem": "交响乐可以说是音乐艺术的精髓，是音乐创作的最高形式，是人类文明的积淀。",
-      "originalKey": "交响乐",
-      "reason": "原文为陈述句，无填空位置，后附却列答案“交响乐”。"
-    },
-    {
-      "chapter": 8,
-      "number": 1,
-      "page": 26,
-      "stem": "人们常把____、____和____称作戏剧艺术的三要素，其中最本质的要素具____。戏剧的中心应当是____。",
-      "originalKey": "剧本、演员、观众",
-      "reason": "题干五空，后附答案只覆盖戏剧三要素，缺后两空。"
-    },
-    {
-      "chapter": 8,
-      "number": 15,
-      "page": 26,
-      "stem": "西方戏剧史上，最早出现的古希腊悲剧，题材大多来自____与____，代表与希腊悲剧艺术最高成就的是____、____和____，他们并称为i希腊三大悲剧家。",
-      "originalKey": "神话传说、英雄史诗",
-      "reason": "题干五空，后附只提供前两空，三大悲剧家缺答案。"
-    },
-    {
-      "chapter": 8,
-      "number": 16,
-      "page": 26,
-      "stem": "从广义上讲，戏剧包括____、____、____、____，乃至目前欧美各国影响广泛的____等。",
-      "originalKey": "话剧、戏曲、歌剧、音乐剧",
-      "reason": "题干五空，后附只有四项，缺一项答案。"
-    },
-    {
-      "chapter": 8,
-      "number": 26,
-      "page": 27,
-      "stem": "戏剧按照作品题材不同，以分为____、____等。",
-      "originalKey": "历史剧、现代剧、儿童剧",
-      "reason": "题干两空，后附给历史剧、现代剧、儿童剧三项，需核对排版。"
-    },
-    {
-      "chapter": 8,
-      "number": 34,
-      "page": 28,
-      "stem": "作为电影艺术最主要样式的故事片，又可作各种具体的划分。电影包括____、____和____等体裁。",
-      "originalKey": "诗歌、散文、小说、戏剧剧本",
-      "reason": "题干三空，后附四种体裁，空数不一致。"
-    },
-    {
-      "chapter": 8,
-      "number": 43,
-      "page": 28,
-      "stem": "西方悲剧之所以一贯遵循____的悲剧结局原则。中国戏曲悲剧的结局往往是____。",
-      "originalKey": "“一悲到底”",
-      "reason": "中西悲剧结局两空，后附只给“一悲到底”。"
-    },
-    {
-      "chapter": 8,
-      "number": 47,
-      "page": 28,
-      "stem": "欧洲悲剧分为命运悲剧、性格悲剧、社会悲剧，或者将以上三种悲剧称作____悲剧、____悲剧、____。",
-      "originalKey": "古典主义、浪漫主义、现实主义",
-      "reason": "题干命运/性格/社会悲剧与后附古典主义/浪漫主义/现实主义分类对应存疑。"
-    },
-    {
-      "chapter": 8,
-      "number": 56,
-      "page": 29,
-      "stem": "苏联电影导演梁赞诺夫著名的“爱情三部曲”，包括________和____都是典型的____电影。",
-      "originalKey": "《命运的嘲弄》、《两个人的车站》、《办公室的故事》",
-      "reason": "题干四空，后附只列三部作品，缺电影风格答案。"
-    },
-    {
-      "chapter": 9,
-      "number": 11,
-      "page": 30,
-      "stem": "俄国作家列夫托尔斯泰“三部曲”包括____、____和____。其中，）是托尔斯泰篇幅最长的一部小说。",
-      "originalKey": "《战争与和平》、《复活》、《安娜•卡列尼娜》",
-      "reason": "题干四空，后附只列三部小说，缺最长篇作品答案。"
-    },
-    {
-      "chapter": 10,
-      "number": 67,
-      "page": 35,
-      "stem": "现代主义艺术思潮的正式形成，是在20世纪初叶，这一时期的代表作品有德国____电影《卡里加里博士》，法国____作家布勒东的文学作品《可溶解的鱼》，爱尔兰作家乔伊斯的____小说《尤利西斯》，意大利诗人、剧作家____编选的《未来主义诗集》等。",
-      "originalKey": "表现主义、超现实主义",
-      "reason": "题干四空，后附只给表现主义、超现实主义两项。"
-    },
-    {
-      "chapter": 11,
-      "number": 64,
-      "page": 39,
-      "stem": "意境的实的部分存在于画面、文字、乐曲及想象的____之中；而虚的部分，即意境之重要或本质的部分存在于____和____之中。",
-      "originalKey": "一箱、想象、感悟",
-      "reason": "原书首空答案印作“一箱”，与题意不符，待核对。"
-    },
-    {
-      "chapter": 11,
-      "number": 71,
-      "page": 39,
-      "stem": "王昌龄《诗格》中把诗分为三境：____、____、____。",
-      "originalKey": "物境、情境",
-      "reason": "题干问物境、情境、意境三境，后附只给物境、情境两项，缺第三空。"
-    },
-    {
-      "chapter": 12,
-      "number": 25,
-      "page": 42,
-      "stem": "心理学上把注意分为____和____两种，艺术鉴赏活动中多采用____。",
-      "originalKey": "有意注意、无意注意",
-      "reason": "题干三空，后附只给有意注意、无意注意，缺末空。"
-    },
-    {
-      "chapter": 12,
-      "number": 63,
-      "page": 44,
-      "stem": "被称为美学之父的18世纪德国哲学家、美学家____，在____年第一次使用“美学”这个术语，标志着美学作为一门独立学科的诞生。",
-      "originalKey": "鲍姆嘉通、1950",
-      "reason": "题干为18世纪美学家，原书答案年份1950与题干世纪矛盾，暂不判分。"
-    },
-    {
-      "chapter": 12,
-      "number": 75,
-      "page": 44,
-      "stem": "在艺术鉴赏时，审美直觉阶段和审美体验阶段常常集中在欣赏作品的艺术语言和艺术形象，只有到了审美升华阶段，才更加集中于欣赏作品内在的艺术意蕴，使艺术鉴赏的感性直观达到理性升华。",
-      "originalKey": "艺术意蕴、升华",
-      "reason": "题干没有挖空，答案列艺术意蕴、升华，保留待核对。"
-    },
-    {
-      "chapter": 12,
-      "number": 93,
-      "page": 45,
-      "stem": "接受美学的内容十分丰富，但其中影响最大的，要数姚斯提出的____和伊塞尔提。",
-      "originalKey": "期待视野、空白",
-      "reason": "扫描件在“伊塞尔提”处截断，缺后续题干，不自动补造。"
-    },
-    {
-      "chapter": 2,
-      "kind": "fill",
-      "number": 1,
-      "reason": "答案写2万年；西班牙文化部给多彩野牛约14500 BP，不同图像及校正年代不同，原题未说明口径，暂不作唯一数值判分。",
-      "stem": "西班牙阿尔塔米拉洞穴的野牛画，距今约有____年的历史。",
-      "page": 2,
-      "source": {
-        "document": "艺术概论第二章周测",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 1,
-        "kind": "fill",
-        "importId": "w26-c02-f01",
-        "answerDocument": "艺术概论第二章周测答案",
-        "referenceAnswers": [
-          "2万"
-        ]
-      },
-      "originalAnswer": "2万",
-      "pdfPage": 2,
-      "originalKey": "2万"
-    },
-    {
-      "chapter": 4,
-      "kind": "fill",
-      "number": 3,
-      "reason": "佛教寺庙与早期演出关系密切，但“中国古代最早的正式剧场”范围、断代未明，不能仅凭参考答案认定唯一结论。",
-      "stem": "中国古代最早的正式剧场就是____。",
-      "page": 2,
-      "source": {
-        "document": "金航艺术概论第四章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 3,
-        "kind": "fill",
-        "importId": "w26-c04-f03",
-        "answerDocument": "金航艺术概论第四章综合测试答案",
-        "referenceAnswers": [
-          "佛教的寺庙"
-        ]
-      },
-      "originalAnswer": "佛教的寺庙",
-      "pdfPage": 2,
-      "originalKey": "佛教的寺庙"
-    },
-    {
-      "chapter": 6,
-      "kind": "fill",
-      "number": 2,
-      "reason": "洞穴壁画跨越约36000至13000年前，原题笼统问壁画年代，2万多年不是全部壁画的统一年代，待明确具体图像。",
-      "stem": "西班牙阿尔塔米拉洞穴壁画，属于旧石器时代的作品，距今____多年的历史。",
-      "page": 2,
-      "source": {
-        "document": "艺术概论第六章综合测试",
-        "pdfPage": 2,
-        "page": 2,
-        "number": 2,
-        "kind": "fill",
-        "importId": "w26-c06-f02",
-        "answerDocument": "艺术概论第六章综合测试答案",
-        "referenceAnswers": [
-          "2万"
-        ]
-      },
-      "originalAnswer": "2万",
-      "pdfPage": 2,
-      "originalKey": "2万"
-    }
-  ],
+  "pending": [],
   "excludedChoiceCount": 99,
   "sourceFile": "掃描全能王 2026-10-28 14.40 2.pdf",
   "policy": "只录入填空，排除名词解释、简答和文档中的选择题。按题填写全部空格；题干文字作排版整理，保留题号及PDF页码。缺漏或矛盾项单列待核对，不参与判分。"
