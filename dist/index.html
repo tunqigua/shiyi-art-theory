@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f4f1ea" />
-    <meta name="description" content="识艺：12章艺术概论选择与填空题学习站，支持单元练、疯狂混练、错题本与答题速度记录。" />
+    <meta name="description" content="识艺：12章艺术概论选择与填空题学习站，支持单元练、错题本与答题速度记录。" />
     <title>识艺 · 艺术概论刷题</title>
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?v=20261106-library" />
+    <link rel="stylesheet" href="./styles.css?v=20261106-no-mix" />
   </head>
   <body>
     <div class="app-shell">
@@ -25,9 +25,6 @@
           </button>
           <button class="rail-item" id="unitTrigger" aria-expanded="false" aria-controls="unitPanel">
             <span>单元练</span>
-          </button>
-          <button class="rail-item" data-action="mix" aria-label="疯狂混练">
-            <span>疯狂混</span>
           </button>
           <button class="rail-item" data-view="mistakes" aria-label="错题本">
             <span>错题本</span>
@@ -72,7 +69,7 @@
               <p>每章分“选”和“填”两类：选择题先单选、后多选，填空题逐空打字作答，学习进度分别保存。</p>
               <div class="hero-actions">
                 <button class="primary-button" id="continueButton">选择章节</button>
-                <button class="secondary-button" data-action="mix">选择混练</button><button class="secondary-button" id="fillMixButton">填空混练</button>
+                <button class="secondary-button" id="fillMixButton">填空混练</button>
               </div>
             </article>
 
@@ -228,7 +225,7 @@
     <script src="./fill-questions.js?v=20261103"></script>
     <script src="./fill-utils.js?v=20261106-library"></script>
     <script src="./fill-feedback.js?v=20261106-library"></script>
-    <script src="./app.js?v=20261106-numbers"></script>
+    <script src="./app.js?v=20261106-no-mix"></script>
   </body>
 </html>
 

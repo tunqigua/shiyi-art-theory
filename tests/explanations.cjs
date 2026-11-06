@@ -14,7 +14,7 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
       for (const q of questions) {
         function answer(indices) {
           window.SHIYI_QUESTION_BANK.questions.splice(0, window.SHIYI_QUESTION_BANK.questions.length, q);
-          document.querySelector('[data-action="mix"]').click();
+          document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();
           document.querySelector('#enterStageButton').click();
           const buttons = document.querySelectorAll('.option-button');
           for (const i of indices) buttons[i].click();
@@ -51,7 +51,7 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
       await page.evaluate(({id, correct}) => {
         const q = window.SHIYI_QUESTION_BANK.questions.find(q => q.id === id);
         window.SHIYI_QUESTION_BANK.questions.splice(0, window.SHIYI_QUESTION_BANK.questions.length, q);
-        document.querySelector('[data-action="mix"]').click();
+        document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();
         document.querySelector('#enterStageButton').click();
         for (const i of correct ? q.answers : [(q.answers[0] + 1) % q.options.length]) document.querySelectorAll('.option-button')[i].click();
         if (q.multiple) document.querySelector('#submitButton').click();

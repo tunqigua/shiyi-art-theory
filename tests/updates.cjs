@@ -26,7 +26,7 @@ const key = 'shiyi-art-theory-progress-v1';
   await page.evaluate(()=>{
    const q=window.SHIYI_QUESTION_BANK.questions.find(q=>q.id==='c05-s25');
    window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,q);
-   document.querySelector('[data-action="mix"]').click();document.querySelector('#enterStageButton').click();
+   document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();document.querySelector('#enterStageButton').click();
   });
   await page.clock.runFor(20000);
   const layout=await page.locator('#questionCard').boundingBox();

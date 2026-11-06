@@ -316,7 +316,7 @@ main { margin-left: var(--rail); min-height: 100vh; }
   :root { --rail: 0px; }
   .rail { inset: auto 0 0 0; width: 100%; height: 68px; flex-direction: row; border-right: 0; border-top: 1px solid var(--line); }
   .brand { display: none; }
-  .rail-nav { height: 100%; padding: 4px 8px; grid-template-columns: repeat(5, 1fr); gap: 2px; }
+  .rail-nav { height: 100%; padding: 4px 8px; grid-template-columns: repeat(4, 1fr); gap: 2px; }
   .rail-item { min-height: 58px; }
   .rail-item.is-active::before { top: -4px; left: 50%; width: 26px; height: 3px; transform: translateX(-50%); }
   .local-state { display: none; }
