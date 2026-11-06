@@ -7,7 +7,7 @@
   var STORAGE_KEY = "shiyi-art-theory-progress-v1";
   var REVIEW_DAYS = [1, 3, 7, 14, 30, 60, 90];
   var state = loadState();
-  var session = { queue: [], index: 0, answered: false, startedAt: 0, timer: null, mode: "chapter", selected: null, intro: false, stageStart: 0 };
+  var session = { queue: [], index: 0, answered: false, startedAt: 0, timer: null, mode: "chapter", selected: null, intro: false };
   var studyStartedAt = null;
   var calendarMonth = null;
   var mistakeBrowse = { kind: "choice", chapter: "all", subtype: "all", status: "all", wrong: 0, sort: "wrong", query: "", page: 1 };
@@ -155,15 +155,11 @@
     showToast.timeout = setTimeout(function () { toast.classList.remove("is-showing"); }, 2200);
   }
 
-  function orderQuestions(questions, batchSize) {
+  function orderQuestions(questions) {
     var fills = shuffle(questions.filter(function (q) { return q.type === "fill"; }));
     var singles = shuffle(questions.filter(function (q) { return !q.multiple && q.type !== "fill"; }));
     var multiples = shuffle(questions.filter(function (q) { return q.multiple; }));
-    var queue = [];
-    while (singles.length || multiples.length) {
-      queue = queue.concat(singles.splice(0, batchSize), multiples.splice(0, batchSize));
-    }
-    return queue.concat(fills);
+    return singles.concat(multiples, fills);
   }
 
   function setView(name) {
@@ -244,21 +240,18 @@
       showToast("第" + chapterId + "章等待你提供正式题库");
       return;
     }
-    session.queue = orderQuestions(questions, questions.length);
+    session.queue = orderQuestions(questions);
     session.index = 0;
     session.mode = "chapter";
     beginQuestion();
   }
 
-  function startMix(customQuestions) {
-    var source = customQuestions || BANK.questions.filter(function (q) { return q.type !== "fill"; });
-    if (!source.length) {
-      showToast("题库加入后即可开始疯狂混练");
-      return;
-    }
-    session.queue = orderQuestions(source, customQuestions ? source.length : 5);
+  function startFillPractice() {
+    var questions = BANK.questions.filter(function (q) { return q.type === "fill"; });
+    if (!questions.length) return showToast("填空题库暂时为空");
+    session.queue = shuffle(questions);
     session.index = 0;
-    session.mode = customQuestions ? "mistakes" : "mix";
+    session.mode = "fillMix";
     beginQuestion();
   }
 
@@ -269,11 +262,10 @@
     setView("practice");
     var question = session.queue[session.index];
     var previous = session.queue[session.index - 1];
-    session.intro = session.mode !== "review" && !enterStage && (!previous || (previous.type === "fill") !== (question.type === "fill") || Boolean(previous.multiple) !== Boolean(question.multiple) || (session.mode === "mix" && session.index - session.stageStart === 5));
+    session.intro = session.mode !== "review" && !enterStage && (!previous || (previous.type === "fill") !== (question.type === "fill") || Boolean(previous.multiple) !== Boolean(question.multiple));
     byId("typeIntro").hidden = !session.intro;
     byId("questionStage").hidden = session.intro;
     if (session.intro) {
-      session.stageStart = session.index;
       byId("enterStageButton").textContent = question.type === "fill" ? "填空题" : (question.multiple ? "多选题" : "单选题");
       byId("enterStageButton").focus();
       return;
@@ -288,7 +280,7 @@
     var question = session.queue[session.index];
     if (!question) return;
     var chapter = BANK.chapters.find(function (item) { return item.id === question.chapter; });
-    byId("practiceTitle").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "mix" ? "疯狂混练" : (session.mode === "fillMix" ? "填空混练" : "错题重练"));
+    byId("practiceTitle").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "fillMix" ? "填空混练" : "错题重练");
     if (session.mode === "review") byId("practiceTitle").textContent = "错题轮回 · " + ({single:"单选", multiple:"多选", fill:"填空"})[questionKind(question)];
     var backButton = document.querySelector("#questionStage .back-button");
     backButton.dataset.view = session.mode === "review" ? "mistakes" : "overview";
@@ -851,9 +843,6 @@
     document.querySelectorAll("[data-view]").forEach(function (button) {
       button.addEventListener("click", function () { setView(button.dataset.view); });
     });
-    document.querySelectorAll("[data-action=\"mix\"]").forEach(function (button) {
-      button.addEventListener("click", function () { startMix(); });
-    });
     byId("unitTrigger").addEventListener("click", function () {
       if (byId("unitPanel").classList.contains("is-open")) closeUnitPanel(); else openUnitPanel();
     });
@@ -984,10 +973,7 @@
     setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
   }
 
-  byId("fillMixButton").addEventListener("click", function () {
-    startMix(BANK.questions.filter(function (q) { return q.type === "fill"; }));
-    session.mode = "fillMix";
-  });
+  byId("fillMixButton").addEventListener("click", startFillPractice);
   byId("savePlan").addEventListener("click", function () {
     var goal = Number(byId("dailyGoal").value);
     if (!Number.isInteger(goal) || goal < 1 || goal > 10000) return showToast("请输入 1–10000 的整数");
