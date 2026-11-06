@@ -24,6 +24,11 @@
     Object.keys(state.questionStats).forEach(function(id) {
       var s = state.questionStats[id];
       if (!ids.has(id) || !object(s) || !Number.isInteger(s.attempts) || s.attempts < 1 || !Number.isInteger(s.wrongCount) || s.wrongCount < 0 || s.wrongCount > s.attempts || typeof s.lastCorrect !== "boolean" || !count(s.lastDurationMs) || !(s.bestMs === null || count(s.bestMs))) fail();
+      if (s.review !== undefined) {
+        var r = s.review;
+        function validDay(day) { return typeof day === "string" && /^\d{4}-\d{2}-\d{2}$/.test(day) && Number.isFinite(Date.parse(day)) && new Date(day).toISOString().slice(0, 10) === day; }
+        if (!object(r) || !Number.isInteger(r.step) || r.step < 0 || r.step > 7 || !validDay(r.due) || !(r.passedDay === null || validDay(r.passedDay))) fail();
+      }
     });
     ["dailyStudyMs", "dailyAnswers"].forEach(function(field) {
       if (state[field] === undefined) return;
