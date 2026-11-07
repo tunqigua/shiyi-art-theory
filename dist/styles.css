@@ -554,3 +554,6 @@ main { margin-left: var(--rail); min-height: 100vh; }
 .term-rule-fields input { width:100%; min-height:44px; padding:8px; }
 .terms-view [hidden] { display:none !important; }
 @media(max-width:600px) { .term-answer {font-size:19px;} .term-actions button {flex:1 1 140px;} .terms-view select {width:100%; margin-top:8px;} }
+/* Keep three chapter actions readable and comfortably tappable on tablets too. */
+.chapter-map,.chapter-grid { grid-template-columns:repeat(auto-fit,minmax(168px,1fr)); }
+.chapter-kinds button { min-width:44px; }
