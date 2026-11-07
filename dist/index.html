@@ -9,7 +9,7 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?v=20261106-restored" />
+    <link rel="stylesheet" href="./styles.css?terms=20261107&v=20261106-restored" />
   </head>
   <body>
     <div class="app-shell">
@@ -47,7 +47,7 @@
           </div>
           <button class="icon-button" id="closeUnitPanel" aria-label="关闭章节选择">×</button>
         </div>
-        <p class="panel-note">每章点击“选”练选择题（先单选、后多选），点击“填”打字答填空题；两类进度分别记录。</p>
+        <p class="panel-note">每章点击“选”练选择题（先单选、后多选），点击“填”打字答填空题；点击“名”抽背名词解释；三类进度分别记录。</p>
         <div class="chapter-grid" id="chapterGrid"></div>
       </section>
 
@@ -66,7 +66,7 @@
           <div class="hero-grid">
             <article class="hero-card">
               <h1>把艺术史论，<br />练成你的直觉。</h1>
-              <p>每章分“选”和“填”两类：选择题先单选、后多选，填空题逐空打字作答，学习进度分别保存。</p>
+              <p>每章点击“选”练选择题、“填”练填空题、“名”背名词解释，学习进度分别保存。</p>
               <div class="hero-actions">
                 <button class="primary-button" id="continueButton">选择章节</button>
                 <button class="secondary-button" id="fillMixButton">填空混练</button>
@@ -182,7 +182,7 @@
           <div class="page-intro"><h1>计划与备份</h1><p>设置每日目标，将题库与学习记录保存到自己的设备。</p></div>
           <section class="record-section"><h2>每日计划</h2><label for="dailyGoal">每日答题目标（题）</label><div class="backup-actions"><input id="dailyGoal" type="number" min="1" max="10000" value="20"><button class="primary-button" id="savePlan">保存计划</button></div><p id="planStatus" role="status"></p></section>
           <section class="record-section"><h2>题库导出</h2><p>按章节保留题干、答案与来源，JSON 格式。选择题（含单选、多选）和填空题可以分别导出。</p><div class="backup-actions"><button class="secondary-button" data-export="choice">导出选择题库</button><button class="secondary-button" data-export="fill">导出填空题库</button></div></section>
-          <section class="record-section"><h2>学习备份与恢复</h2><p>完整备份包含两类题库、答题记录、错题、收藏及计划。恢复只替换学习数据，题库随网站更新。</p><div class="backup-actions"><button class="primary-button" id="backupAll">下载完整备份</button><label class="secondary-button restore-label">恢复学习备份<input id="restoreBackup" type="file" accept=".json,application/json"></label></div></section>
+          <section class="record-section"><h2>学习备份与恢复</h2><p>完整备份包含选择、填空和名词题库，以及答题记录、错题、收藏、计划和名词评分历史。名词题库随备份恢复并合并网站新增内容；旧备份不影响当前名词记录。</p><div class="backup-actions"><button class="primary-button" id="backupAll">下载完整备份</button><label class="secondary-button restore-label">恢复学习备份<input id="restoreBackup" type="file" accept=".json,application/json"></label></div></section>
         </section>
         <section class="view" id="recordsView">
           <section class="record-section study-calendar">
@@ -214,6 +214,31 @@
             <div class="attempt-log" id="attemptLog"></div>
           </section>
         </section>
+
+<section class="view terms-view" id="termsView">
+  <button class="back-button" data-view="overview">返回总览</button>
+  <div class="section-heading"><div><p class="eyebrow">名词解释 · 纸上默写，自主评价</p><h2 id="termChapter">名词解释</h2></div></div>
+  <label for="termSelect">当前章节</label> <select id="termSelect"></select>
+  <p id="termStats" class="term-muted"></p>
+  <div class="term-actions"><button id="termRandom">本章随机抽背</button><button id="termDue">今日到期复习</button></div>
+  <p class="term-muted">题库与记录仅保存在当前浏览器，不跨设备自动同步。请定期在“计划与备份”下载完整备份。新名词默认未学习，评分后才安排复习。</p>
+  <p id="termMessage" role="status" aria-live="polite"></p>
+  <article class="term-card" aria-labelledby="termName">
+    <p id="termCardChapter"></p><p id="termProgress" aria-live="polite"></p>
+    <h2 id="termName" tabindex="-1"></h2>
+    <div class="term-actions"><button id="termReveal" hidden>显示答案</button><button id="termSkip" hidden>换一个</button><button id="termAgain" hidden>再来一轮</button><button id="termUndo" disabled>撤销刚才评分</button></div>
+    <div id="termAnswer" class="term-answer" hidden></div>
+    <div id="termGrades" hidden>
+      <p class="term-muted">仅供自评参考：低于50%选红色；50%～84%选黄色；85%以上且主要框架完整选绿色。请自行选择。</p>
+      <div class="term-actions term-grades"><button data-term-color="red">红色 · 不会／遗漏较多</button><button data-term-color="yellow">黄色 · 部分记住／需要巩固</button><button data-term-color="green">绿色 · 基本掌握／主要要点完整</button></div>
+    </div><p id="termSource" class="term-muted"></p>
+  </article>
+  <details class="term-history-wrap"><summary>查看本章每个名词的进度与历史评分</summary><p class="term-muted">最新颜色代表最近一次表现，一次绿色不代表永久掌握。</p><div id="termHistory"></div></details>
+  <details class="term-rules"><summary>复习周期设置（北京时间）</summary>
+    <p>连续绿色按3、7、30天推进，之后每30天检查；黄色3天，暂停推进；红色次日并重置。红黄之后再选绿色从第一个阶段开始。间隔从实际评分当天计算，逾期保留。</p>
+    <div class="term-rule-fields"><label>红色（天）<input id="termRedDays" type="number" min="1" max="3650"></label><label>黄色（天）<input id="termYellowDays" type="number" min="1" max="3650"></label><label>绿色第一阶段<input id="termGreen1" type="number" min="1" max="3650"></label><label>绿色第二阶段<input id="termGreen2" type="number" min="1" max="3650"></label><label>绿色第三阶段及后续<input id="termGreen3" type="number" min="1" max="3650"></label></div><button id="termSaveRules">保存周期</button>
+  </details>
+</section>
       </main>
     </div>
 
@@ -226,7 +251,9 @@
     <script src="./fill-questions.js?v=20261106-chapter9"></script>
     <script src="./fill-utils.js?v=20261106-library"></script>
     <script src="./fill-feedback.js?v=20261106-library"></script>
-    <script src="./app.js?v=20261106-learned"></script>
+    <script src="./terms-bank.js?v=20261107"></script>
+    <script src="./terms.js?v=20261107"></script>
+    <script src="./app.js?v=20261107-terms"></script>
   </body>
 </html>
 
