@@ -529,3 +529,28 @@ main { margin-left: var(--rail); min-height: 100vh; }
 .answer-panel .review-notice p, .answer-panel .review-notice a { color: #ab3028; }
 .answer-panel .review-notice-title { font-weight: 600; }
 .answer-panel .review-notice a { display: block; margin-top: 10px; font-size: 16px; line-height: 1.8; }
+
+/* Name recall shares the existing chapter controls and paper palette. */
+.terms-view { max-width:1000px; margin:0 auto; }
+.terms-view button, .terms-view select { min-height:44px; padding:10px 16px; border:1px solid var(--line); background:var(--white); cursor:pointer; max-width:100%; }
+.terms-view button:hover { border-color:var(--blue); }
+.terms-view button:disabled { opacity:.5; cursor:default; }
+.terms-view button:focus-visible,.terms-view summary:focus-visible { outline:3px solid var(--blue); outline-offset:3px; }
+.term-actions { display:flex; flex-wrap:wrap; gap:10px; margin:16px 0; }
+.term-muted,#termProgress,#termCardChapter { font-size:15px; color:var(--muted); line-height:1.8; }
+.term-card { background:var(--white); padding:clamp(18px,4vw,36px); border:1px solid var(--line); margin:24px 0; }
+#termName { font-size:clamp(26px,4vw,36px); line-height:1.5; }
+.term-answer { font-size:20px; line-height:2; white-space:pre-wrap; overflow-wrap:anywhere; border-top:1px solid var(--line); padding:24px 0; margin-top:24px; }
+.term-grades button { flex:1 1 200px; color:white; font-size:16px; }
+.term-grades [data-term-color="red"] { background:#a8372a; }
+.term-grades [data-term-color="yellow"] { background:#f0cf64; color:#3c310b; }
+.term-grades [data-term-color="green"] { background:#35664e; }
+.term-history-wrap,.term-rules { border-top:1px solid var(--line); padding:20px 0; line-height:1.8; }
+.terms-view summary { cursor:pointer; min-height:44px; padding:10px 0; }
+#termHistory details { border-bottom:1px solid var(--line); padding:8px 0; overflow-wrap:anywhere; }
+#termHistory li { margin:12px 0; }
+.term-rule-fields { display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px; }
+.term-rule-fields label { display:flex; flex-direction:column; width:160px; }
+.term-rule-fields input { width:100%; min-height:44px; padding:8px; }
+.terms-view [hidden] { display:none !important; }
+@media(max-width:600px) { .term-answer {font-size:19px;} .term-actions button {flex:1 1 140px;} .terms-view select {width:100%; margin-top:8px;} }

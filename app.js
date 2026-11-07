@@ -21,7 +21,8 @@
     practice: document.getElementById("practiceView"),
     mistakes: document.getElementById("mistakesView"),
     records: document.getElementById("recordsView"),
-    backup: document.getElementById("backupView")
+    backup: document.getElementById("backupView"),
+    terms: document.getElementById("termsView")
   };
 
   function loadState() {
@@ -198,7 +199,7 @@
     document.querySelectorAll(".rail-item[data-view]").forEach(function (button) {
       button.classList.toggle("is-active", button.dataset.view === name || (name === "practice" && button.dataset.view === (session.mode === "review" ? "mistakes" : "overview")));
     });
-    var titles = { overview: "学习总览", practice: "正在练习", mistakes: "错题本", records: "学习记录", backup: "计划与备份" };
+    var titles = { overview: "学习总览", practice: "正在练习", mistakes: "错题本", records: "学习记录", backup: "计划与备份", terms: "名词解释" };
     byId("pageTitle").textContent = titles[name];
     closeUnitPanel();
     if (name !== "practice") stopTimer();
@@ -255,6 +256,13 @@
           button.addEventListener("click", function () { startChapter(chapter.id, kind); });
           actions.appendChild(button);
         });
+        var termStats = window.SHIYI_TERMS.stats(chapter.id);
+        var termButton = document.createElement("button"); termButton.type = "button";
+        termButton.dataset.kind = "terms"; termButton.dataset.chapter = chapter.id;
+        termButton.setAttribute("aria-label", chapter.title + "名词解释");
+        termButton.innerHTML = "<b>名</b><small>" + termStats.attempted + "/" + termStats.total + "</small>";
+        termButton.addEventListener("click", function () { setView("terms"); window.SHIYI_TERMS.open(chapter.id); });
+        actions.appendChild(termButton);
         card.appendChild(actions); parent.appendChild(card);
       });
     });
@@ -1049,7 +1057,7 @@
     state.dailyGoal = goal; saveState(); renderPlan(); refreshSummary(); showToast("计划已保存");
   });
   byId("backupAll").addEventListener("click", function () {
-    flushStudyTime(); downloadJSON({format:"shiyi-backup",version:1,exportedAt:new Date().toISOString(),state:state,banks:{choice:BANK.questions.filter(function(q){return q.type!=="fill";}),fill:window.SHIYI_FILL_BANK}}, "识艺-完整备份");
+    flushStudyTime(); downloadJSON({format:"shiyi-backup",version:1,exportedAt:new Date().toISOString(),state:state,terms:window.SHIYI_TERMS.exportData(),banks:{choice:BANK.questions.filter(function(q){return q.type!=="fill";}),fill:window.SHIYI_FILL_BANK}}, "识艺-完整备份");
   });
   document.querySelectorAll("[data-export]").forEach(function (button) {
     button.addEventListener("click", function () {
@@ -1063,9 +1071,18 @@
       if (file.size > 30 * 1024 * 1024) throw new Error("备份文件过大");
       var data = JSON.parse(await file.text());
       window.SHIYI_FILL_UTILS.validateBackup(data, BANK.questions);
+      if (data.terms !== undefined) window.SHIYI_TERMS.validate(data.terms);
       if (!window.confirm("恢复备份会替换本机学习记录、收藏和计划。继续前会自动下载一份当前记录备份。是否继续？")) return;
-      flushStudyTime(); downloadJSON({format:"shiyi-backup",version:1,state:state}, "识艺-恢复前备份");
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(data.state));
+      flushStudyTime(); downloadJSON({format:"shiyi-backup",version:1,state:state,terms:window.SHIYI_TERMS.exportData()}, "识艺-恢复前备份");
+      var previousTerms = window.SHIYI_TERMS.raw();
+      try {
+        if (data.terms !== undefined) window.SHIYI_TERMS.restore(data.terms);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data.state));
+      } catch (error) {
+        if (previousTerms === null) localStorage.removeItem(window.SHIYI_TERMS.KEY);
+        else localStorage.setItem(window.SHIYI_TERMS.KEY, previousTerms);
+        throw error;
+      }
       window.location.reload();
     } catch (error) { showToast("无法恢复：" + error.message); }
     finally { this.value = ""; }
