@@ -557,3 +557,14 @@ main { margin-left: var(--rail); min-height: 100vh; }
 /* Keep three chapter actions readable and comfortably tappable on tablets too. */
 .chapter-map,.chapter-grid { grid-template-columns:repeat(auto-fit,minmax(168px,1fr)); }
 .chapter-kinds button { min-width:44px; }
+
+/* Recall opens only after choosing a mode; the active question gets its own screen. */
+.terms-view.term-focus { position:fixed; inset:0; z-index:200; overflow-y:auto; max-width:none; margin:0; padding:24px max(20px,calc((100vw - 900px)/2)); background:var(--white); }
+.term-focus .term-card { border:0; margin:0; padding:20px 0; min-height:calc(100dvh - 130px); display:flex; flex-direction:column; }
+.term-focus #termName { font-size:clamp(32px,6vw,56px); text-align:center; margin:40px 0; }
+.term-focus .term-card > .term-actions { margin-top:auto; padding-top:24px; }
+.term-focus .term-answer { padding-top:24px; }
+.term-practicing { overflow:hidden; }
+.term-practicing .rail,.term-practicing .topbar { visibility:hidden; }
+#termHome .term-history-wrap { margin-top:24px; }
+#termHistory h3 { margin:24px 0 6px; font-size:17px; }
