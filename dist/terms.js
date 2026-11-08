@@ -41,14 +41,14 @@ function refresh(){
  $('termChapter').textContent='第'+chapter+'章 · '+root.SHIYI_QUESTION_BANK.chapters.find(c=>c.id===chapter).subtitle;
  $('termStats').textContent=`本章总数 ${items.length} · 未学习 ${items.filter(t=>!latest(t)).length} · 最近红 ${counts.red}／黄 ${counts.yellow}／绿 ${counts.green} · 今日到期 ${items.filter(t=>latest(t)?.due<=day()).length}（含逾期）`;
  $('termDue').textContent='今日到期复习（全部章节 '+dueQueue(data.bank,data.records).length+'）';
- const list=$('termHistory');list.replaceChildren();items.forEach(t=>{const row=document.createElement('details'),summary=document.createElement('summary'),last=latest(t);summary.textContent=t.name+' · '+(last?labels[last.color]+' · 下次 '+last.due:'未学习');row.append(summary);
+ const list=$('termHistory');list.replaceChildren();const groups=new Map();items.forEach(t=>{const last=latest(t);const group=last?(last.due<=day()?'今日到期（含逾期）':'待复习 · '+last.due):'未学习';if(!groups.has(group))groups.set(group,[]);groups.get(group).push(t);});[...groups].sort((a,b)=>{const rank=k=>k.startsWith('今日')?0:k==='未学习'?2:1;return rank(a[0])-rank(b[0])||a[0].localeCompare(b[0]);}).forEach(([group,terms])=>{const heading=document.createElement('h3');heading.textContent=group+'（'+terms.length+'）';list.append(heading);terms.forEach(t=>{const row=document.createElement('details'),summary=document.createElement('summary'),last=latest(t);summary.textContent=t.name+' · '+(last?labels[last.color]+' · 下次 '+last.due:'未学习');row.append(summary);
  const meta=document.createElement('p');meta.textContent='复习次数：'+history(t).length+'；来源：教材第'+t.source?.page+'页。最新颜色仅代表最近一次表现。';row.append(meta);
- const ul=document.createElement('ul');history(t).slice().reverse().forEach(r=>{const li=document.createElement('li');li.textContent=new Date(r.at).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})+'（北京时间） · '+labels[r.color]+' · 第'+r.count+'次 · 下次 '+r.due;ul.append(li);});row.append(ul);list.append(row);});
+ const ul=document.createElement('ul');history(t).slice().reverse().forEach(r=>{const li=document.createElement('li');li.textContent=new Date(r.at).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})+'（北京时间） · '+labels[r.color]+' · 第'+r.count+'次 · 下次 '+r.due;ul.append(li);});row.append(ul);list.append(row);});});
  if(!items.length)list.textContent='名词解释待录入';
  $('termUndo').disabled=!undo;
 }
 function render(){
- refresh();shown=false;$('termAnswer').hidden=true;$('termGrades').hidden=true;$('termReveal').hidden=true;$('termSkip').hidden=true;$('termAgain').hidden=true;
+ refresh();$('termHome').hidden=!!round;$('termCard').hidden=!round;$('termBack').hidden=!round;$('termsView').classList.toggle('term-focus',!!round);document.body.classList.toggle('term-practicing',!!round);shown=false;$('termAnswer').hidden=true;$('termGrades').hidden=true;$('termReveal').hidden=true;$('termSkip').hidden=true;$('termAgain').hidden=true;
  const q=round?.queue[round.index];$('termSource').textContent='';$('termCardChapter').textContent=q?'第'+q.chapter+'章':'';
  $('termProgress').textContent=round?`本轮已评分 ${round.scored} / ${round.queue.length} · 已跳过 ${round.skipped} · 待抽 ${Math.max(0,round.queue.length-round.index)}`:'';
  if(!round){$('termName').textContent='名词解释待录入';return;}
@@ -57,7 +57,8 @@ function render(){
  $('termSource').textContent='教材第'+q.source?.page+'页 · '+q.source?.file;
 }
 function start(mode){const queue=mode==='due'?dueQueue(data.bank,data.records):shuffle(data.bank.filter(t=>t.chapter===chapter));round={mode,queue,index:0,scored:0,skipped:0,token:crypto.randomUUID()};$('termMessage').textContent='';render();if(!queue.length&&mode!=='due')$('termName').textContent='名词解释待录入';}
-function open(id){chapter=id;undo=null;$('termSelect').value=String(id);start('chapter');}
+function open(id){chapter=id;round=null;shown=false;undo=null;$('termSelect').value=String(id);$('termMessage').textContent='';render();}
+$('termBack').onclick=()=>{round=null;shown=false;$('termMessage').textContent='';render();};
 root.SHIYI_TERMS=Object.assign(root.SHIYI_TERMS,{open,stats,exportData:()=>JSON.parse(JSON.stringify(data)),restore:value=>{validate(value);localStorage.setItem(KEY,JSON.stringify(value));},raw:()=>localStorage.getItem(KEY)});
 root.SHIYI_QUESTION_BANK.chapters.forEach(c=>{const option=document.createElement('option');option.value=c.id;option.textContent=c.title+' · '+c.subtitle;$('termSelect').append(option);});
 $('termSelect').onchange=()=>open(Number($('termSelect').value));$('termRandom').onclick=()=>start('chapter');$('termDue').onclick=()=>start('due');$('termAgain').onclick=()=>start(round.mode);

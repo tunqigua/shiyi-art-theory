@@ -9,7 +9,7 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?terms=20261108&v=20261106-restored" />
+    <link rel="stylesheet" href="./styles.css?terms=20261108-simple&v=20261106-restored" />
   </head>
   <body>
     <div class="app-shell">
@@ -216,14 +216,23 @@
         </section>
 
 <section class="view terms-view" id="termsView">
+  <button id="termBack" class="back-button" hidden>返回名词列表</button>
+  <div id="termHome">
   <button class="back-button" data-view="overview">返回总览</button>
   <div class="section-heading"><div><p class="eyebrow">名词解释 · 纸上默写，自主评价</p><h2 id="termChapter">名词解释</h2></div></div>
   <label for="termSelect">当前章节</label> <select id="termSelect"></select>
   <p id="termStats" class="term-muted"></p>
   <div class="term-actions"><button id="termRandom">本章随机抽背</button><button id="termDue">今日到期复习</button></div>
-  <p class="term-muted">题库与记录仅保存在当前浏览器，不跨设备自动同步。请定期在“计划与备份”下载完整备份。新名词默认未学习，评分后才安排复习。</p>
+  <p class="term-muted">记录仅保存在当前浏览器，可用“计划与备份”迁移。</p>
+
+  <section class="term-history-wrap"><h3>本章名词与复习日期</h3><div id="termHistory"></div></section>
+  <details class="term-rules"><summary>复习周期设置（北京时间）</summary>
+    <p>连续绿色按3、7、30天推进，之后每30天检查；黄色3天，暂停推进；红色次日并重置。红黄之后再选绿色从第一个阶段开始。间隔从实际评分当天计算，逾期保留。</p>
+    <div class="term-rule-fields"><label>红色（天）<input id="termRedDays" type="number" min="1" max="3650"></label><label>黄色（天）<input id="termYellowDays" type="number" min="1" max="3650"></label><label>绿色第一阶段<input id="termGreen1" type="number" min="1" max="3650"></label><label>绿色第二阶段<input id="termGreen2" type="number" min="1" max="3650"></label><label>绿色第三阶段及后续<input id="termGreen3" type="number" min="1" max="3650"></label></div><button id="termSaveRules">保存周期</button>
+  </details>
+  </div>
   <p id="termMessage" role="status" aria-live="polite"></p>
-  <article class="term-card" aria-labelledby="termName">
+  <article id="termCard" class="term-card" hidden aria-labelledby="termName">
     <p id="termCardChapter"></p><p id="termProgress" aria-live="polite"></p>
     <h2 id="termName" tabindex="-1"></h2>
     <div class="term-actions"><button id="termReveal" hidden>显示答案</button><button id="termSkip" hidden>换一个</button><button id="termAgain" hidden>再来一轮</button><button id="termUndo" disabled>撤销刚才评分</button></div>
@@ -233,11 +242,6 @@
       <div class="term-actions term-grades"><button data-term-color="red">红色 · 不会／遗漏较多</button><button data-term-color="yellow">黄色 · 部分记住／需要巩固</button><button data-term-color="green">绿色 · 基本掌握／主要要点完整</button></div>
     </div><p id="termSource" class="term-muted"></p>
   </article>
-  <details class="term-history-wrap"><summary>查看本章每个名词的进度与历史评分</summary><p class="term-muted">最新颜色代表最近一次表现，一次绿色不代表永久掌握。</p><div id="termHistory"></div></details>
-  <details class="term-rules"><summary>复习周期设置（北京时间）</summary>
-    <p>连续绿色按3、7、30天推进，之后每30天检查；黄色3天，暂停推进；红色次日并重置。红黄之后再选绿色从第一个阶段开始。间隔从实际评分当天计算，逾期保留。</p>
-    <div class="term-rule-fields"><label>红色（天）<input id="termRedDays" type="number" min="1" max="3650"></label><label>黄色（天）<input id="termYellowDays" type="number" min="1" max="3650"></label><label>绿色第一阶段<input id="termGreen1" type="number" min="1" max="3650"></label><label>绿色第二阶段<input id="termGreen2" type="number" min="1" max="3650"></label><label>绿色第三阶段及后续<input id="termGreen3" type="number" min="1" max="3650"></label></div><button id="termSaveRules">保存周期</button>
-  </details>
 </section>
       </main>
     </div>
@@ -252,7 +256,7 @@
     <script src="./fill-utils.js?v=20261106-library"></script>
     <script src="./fill-feedback.js?v=20261106-library"></script>
     <script src="./terms-bank.js?v=20261107"></script>
-    <script src="./terms.js?v=20261107"></script>
+    <script src="./terms.js?v=20261108-simple"></script>
     <script src="./app.js?v=20261107-terms"></script>
   </body>
 </html>
