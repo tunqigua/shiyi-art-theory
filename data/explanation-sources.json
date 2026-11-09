@@ -148,7 +148,8 @@
     "url": "https://www.jjwxc.net/onebook.php?novelid=429672&chapterid=4",
     "scope": "供核对提示中的具体知识点参考；不将考试口径与学术结论混为一谈。",
     "ids": [
-      "c09-s21"
+      "c09-s21",
+      "w26-c09-s07"
     ]
   },
   {
@@ -246,5 +247,100 @@
     "title": "西南大学：美育的宗旨和操作原则",
     "url": "https://epc.swu.edu.cn/info/1371/6022.htm",
     "scope": "席勒以审美心境协调人的发展及体智德美并列的表述"
+  },
+  {
+    "ids": [
+      "c04-m02",
+      "w26-c04-m01"
+    ],
+    "title": "文艺报：波德莱尔与《恶之花》",
+    "url": "https://wyb.chinawriter.com.cn/attachment/202106/11/0fb97653-c98a-4fb3-8266-ed414e1c855b.pdf",
+    "scope": "核对波德莱尔的中文译名与作品配对；不据此给《恶之花》另定出版年。"
+  },
+  {
+    "ids": [],
+    "title": "清华大学美术学院代大权：何谓版画及其它",
+    "url": "https://www.ad.tsinghua.edu.cn/info/1207/10595.htm",
+    "scope": "石版、铜版、木版分别对应平版、凹版、凸版。"
+  },
+  {
+    "ids": [
+      "c08-s24"
+    ],
+    "title": "全国政协：谭派老生艺术的继往开来",
+    "url": "https://www.cppcc.gov.cn/zxww/2019/06/24/ARTI1561338506836263.shtml",
+    "scope": "核对谭鑫培及谭派传承的人名。"
+  },
+  {
+    "ids": [],
+    "title": "伦敦弗洛伊德博物馆：What is the Unconscious?",
+    "url": "https://www.freud.org.uk/schools/resources/what-is-the-unconscious/",
+    "scope": "区分无意识与可进入意识的前意识；不是本我、自我、超我的人格结构分法。"
+  },
+  {
+    "ids": [
+      "c06-s29",
+      "w26-c06-s19"
+    ],
+    "title": "MoMA：Daguerreotype",
+    "url": "https://www.moma.org/collection/terms/daguerreotype",
+    "scope": "达盖尔银版摄影法于1839年公开宣布；摄影形成还有其他先驱贡献。"
+  },
+  {
+    "ids": [
+      "c07-s51"
+    ],
+    "title": "美国国会图书馆：Tap Dance in America",
+    "url": "https://www.loc.gov/collections/songs-of-america/articles-and-essays/musical-styles/parlor-and-concert-stage/tap-dance/",
+    "scope": "通行所称tap dance在美国由非洲与欧洲舞蹈传统融合发展，不支持无条件把踢踏舞起源定为墨西哥。"
+  },
+  {
+    "ids": [
+      "c08-s40"
+    ],
+    "title": "BBC历史档案：1930s",
+    "url": "https://downloads.bbc.co.uk/historyofthebbc/1930s.pdf",
+    "scope": "1936年BBC在伦敦开始定期高清晰度电视服务；高清晰度采用当时标准。"
+  },
+  {
+    "ids": [
+      "c04-m08",
+      "w26-c09-m10"
+    ],
+    "title": "中国作家网：托尔斯泰自传体小说",
+    "url": "https://www.chinawriter.com.cn/n1/2019/0318/c404090-30980974.html",
+    "scope": "《童年》《少年》《青年》为自传体三部曲；不要与三部长篇代表作混称。"
+  },
+  {
+    "ids": [
+      "w26-c09-s01"
+    ],
+    "title": "美国国会图书馆：惠特曼与草叶集",
+    "url": "https://www.loc.gov/exhibits/whitman/overview.html",
+    "scope": "惠特曼的代表诗集及持续修订。"
+  },
+  {
+    "ids": [
+      "w26-c09-s09"
+    ],
+    "title": "企鹅兰登书屋：Twenty-Four Hours in the Life of a Woman",
+    "url": "https://www.penguinrandomhouse.com/books/243357/twenty-four-hours-in-the-life-of-a-woman-by-stefan-zweig/",
+    "scope": "核对茨威格与作品归属。"
+  },
+  {
+    "ids": [
+      "w26-c09-s12"
+    ],
+    "title": "联合国教科文组织：马尔克斯访谈",
+    "url": "https://www.unesco.org/en/articles/interview-gabriel-garcia-marquez-0",
+    "scope": "核对马尔克斯与百年孤独。"
+  },
+  {
+    "ids": [
+      "w26-c09-m09"
+    ],
+    "title": "芝加哥大学图书馆：荷马史诗展览",
+    "url": "https://www.lib.uchicago.edu/collex/exhibits/o-homer-where-art-thou-adaptations-iliad-and-odyssey-ancient-and-modern/",
+    "scope": "核对伊利亚特、奥德赛两部史诗。"
   }
 ]

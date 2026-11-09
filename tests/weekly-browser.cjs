@@ -30,13 +30,13 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
    }
    window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,...full);
    return{failures,count:fills.length};
-  });assert.deepEqual(result.failures,[]);assert.equal(result.count,644);
+  });assert.deepEqual(result.failures,[]);assert.equal(result.count,650);
   await page.reload();await page.setViewportSize({width:390,height:844});
   await page.evaluate(()=>{const q=window.SHIYI_QUESTION_BANK.questions.find(q=>q.id==='w26-c05-f08');window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,q);document.querySelector('#fillMixButton').click();document.querySelector('#enterStageButton').click();});
   await page.locator('.fill-input').fill('园冶');await page.locator('#submitButton').click();
   assert.equal(await page.locator('#answerStatus').textContent(),'✓');assert(await page.locator('.knowledge-point').isVisible());assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   await page.screenshot({path:path.join(__dirname,'../outputs/weekly-fill-mobile-20261103.png'),fullPage:true});
   assert.deepEqual(errors,[]);
-  console.log('PASS: 644填空题正确/错误实测；新题考点、填写依据、手机布局正常；旧答题、错题、收藏、时长和目标保留，更正只重判相关记录且刷新不重复累计。');
+  console.log('PASS: 650填空题正确/错误实测；新题考点、填写依据、手机布局正常；旧答题、错题、收藏、时长和目标保留，更正只重判相关记录且刷新不重复累计。');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

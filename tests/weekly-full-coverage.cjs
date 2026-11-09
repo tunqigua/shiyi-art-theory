@@ -5,7 +5,7 @@ const rows=JSON.parse(fs.readFileSync('data/weekly-tests-20261103.json')).questi
 const report=JSON.parse(fs.readFileSync('data/weekly-recheck-20261109.json'));
 const norm=s=>s.normalize('NFKC').replace(/[\s\p{P}\p{S}_]/gu,'').replaceAll('逝水','似水');
 const opts=q=>q.options.map(norm).sort().join('|');
-assert.equal(rows.length,190);assert.equal(all.length,1276);assert.equal(report.restored.length,57);
+assert.equal(rows.length,190);assert.equal(all.length,1291);assert.equal(report.restored.length,57);
 for(const row of rows){
  const matches=all.filter(q=>q.chapter===row.chapter && (row.kind==='fill'?q.type==='fill':q.type!=='fill'&&q.multiple===(row.kind==='m')) && norm(q.stem)===norm(row.correctedStem||row.stem) && (row.kind==='fill'||opts(q)===opts(row)));
  assert(matches.length>0,row.id+': 缺少本单元的完整试卷版本');

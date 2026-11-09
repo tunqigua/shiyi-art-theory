@@ -117,11 +117,17 @@
         var rows = state.attempts.filter(function (a) { return a.questionId === q.id; });
         var stat = state.questionStats[q.id];
         rows.forEach(function (attempt) {
-          if (attempt.correct || !Array.isArray(attempt.selectedIndex) || attempt.selectedIndex.length !== q.answers.length || !attempt.selectedIndex.every(function (x) { return typeof x === "string"; }) || !window.SHIYI_FILL_UTILS.grade(q, attempt.selectedIndex).every(Boolean)) return;
-          attempt.correct = true;
-          if (stat) stat.wrongCount = Math.max(0, stat.wrongCount - 1);
+          if (!Array.isArray(attempt.selectedIndex) || attempt.selectedIndex.length !== q.answers.length || !attempt.selectedIndex.every(function (x) { return typeof x === "string"; })) return;
+          var correct = window.SHIYI_FILL_UTILS.grade(q, attempt.selectedIndex).every(Boolean);
+          // 答案勘误需要双向重判；普通别名或顺序兼容仍只修复误判。
+          if (correct === attempt.correct || (!q.fillAnswerRevision && !correct)) return;
+          if (stat) stat.wrongCount = Math.max(0, stat.wrongCount + (correct ? -1 : 1));
           var counts = state.dailyAnswers[todayKey(new Date(attempt.at))];
-          if (counts) { counts.wrong = Math.max(0, counts.wrong - 1); counts.correct += 1; }
+          if (counts) {
+            counts[attempt.correct ? "correct" : "wrong"] = Math.max(0, counts[attempt.correct ? "correct" : "wrong"] - 1);
+            counts[correct ? "correct" : "wrong"] += 1;
+          }
+          attempt.correct = correct;
         });
         if (stat && rows.length) stat.lastCorrect = rows[0].correct;
         if (stat && stat.wrongCount === 0) delete stat.review;

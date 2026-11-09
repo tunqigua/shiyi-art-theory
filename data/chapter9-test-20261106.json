@@ -2,11 +2,12 @@
   "title": "第九章语言艺术综合测试",
   "sourceFile": "第九章综合测试   .pdf",
   "version": "2026-11-06-chapter9",
-  "policy": "仅选择、填空。跨题型逐题核对，相同考问、同一作者作品人物配对、换序或覆盖关系不新增；新题联网核对答案，未确认唯一答案不入判分。既有题、答案、编号和学习记录均保留。",
+  "policy": "本章、同题型、完整题干、选项集合与空位均对应才视为已有；考点相同不代表原题相同。保留所有既有编号与学习记录。",
   "counts": {
     "total": 35,
     "added": 10,
-    "existing": 24,
+    "restored": 15,
+    "existing": 9,
     "pending": 1
   },
   "questions": [
@@ -23,11 +24,11 @@
         "C": "《飞鸟集》",
         "D": "《荒原》"
       },
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-f015"
+        "w26-c09-s01"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 1,
@@ -35,7 +36,11 @@
         "number": 1,
         "kind": "s",
         "importId": "w26-c09-s01"
-      }
+      },
+      "key": "A",
+      "previousTargets": [
+        "c09-f015"
+      ]
     },
     {
       "id": "w26-c09-s02",
@@ -165,11 +170,11 @@
         "C": "小说",
         "D": "剧本"
       },
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-s12"
+        "w26-c09-s06"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 1,
@@ -177,7 +182,12 @@
         "number": 6,
         "kind": "s",
         "importId": "w26-c09-s06"
-      }
+      },
+      "key": "A",
+      "previousTargets": [
+        "c09-s12"
+      ],
+      "correctedStem": "（ ）的语言，可以说是一切文学作品中最凝练、最优美、最富音乐感的语言。"
     },
     {
       "id": "w26-c09-s07",
@@ -192,11 +202,11 @@
         "C": "蛛网型结构",
         "D": "辐射型结构"
       },
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-s21-3"
+        "w26-c09-s07"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 1,
@@ -204,7 +214,12 @@
         "number": 7,
         "kind": "s",
         "importId": "w26-c09-s07"
-      }
+      },
+      "key": "D",
+      "previousTargets": [
+        "c09-s21-3"
+      ],
+      "correctedStem": "库尔特·冯内古特的意识流小说《第五号屠场》属于（ ）。"
     },
     {
       "id": "w26-c09-s08",
@@ -246,11 +261,11 @@
         "C": "司汤达",
         "D": "马尔克斯"
       },
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-f013"
+        "w26-c09-s09"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 1,
@@ -258,7 +273,11 @@
         "number": 9,
         "kind": "s",
         "importId": "w26-c09-s09"
-      }
+      },
+      "key": "B",
+      "previousTargets": [
+        "c09-f013"
+      ]
     },
     {
       "id": "w26-c09-s10",
@@ -324,7 +343,8 @@
           "url": "https://tsg.dac.edu.cn/detail/2983_4a78f2f8a3b1232dd9e1a77112e0b8b0.html",
           "scope": "确认《背影》作者朱自清及父亲送站、买橘子所表现的父子情感。"
         }
-      ]
+      ],
+      "correctedStem": "（　）的早期散文《背影》，通过倾诉琐碎的家事，反映父子之间的真挚感情。"
     },
     {
       "id": "w26-c09-s12",
@@ -339,11 +359,11 @@
         "C": "《简·爱》",
         "D": "《老人与海》"
       },
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-f003"
+        "w26-c09-s12"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 1,
@@ -351,7 +371,11 @@
         "number": 12,
         "kind": "s",
         "importId": "w26-c09-s12"
-      }
+      },
+      "key": "B",
+      "previousTargets": [
+        "c09-f003"
+      ]
     },
     {
       "id": "w26-c09-s13",
@@ -453,7 +477,13 @@
           "url": "https://www.ccdi.gov.cn/specialn/lswhyl/202606/t20260626_497940.html",
           "scope": "明确该名句出自范仲淹《岳阳楼记》。"
         }
-      ]
+      ],
+      "correctedOptions": {
+        "A": "《包身工》",
+        "B": "《桃花源记》",
+        "C": "《小石潭记》",
+        "D": "《岳阳楼记》"
+      }
     },
     {
       "id": "w26-c09-m01",
@@ -609,11 +639,11 @@
         "D": "叙事诗",
         "E": "旧诗"
       },
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-f009"
+        "w26-c09-m06"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 1,
@@ -621,7 +651,12 @@
         "number": 6,
         "kind": "m",
         "importId": "w26-c09-m06"
-      }
+      },
+      "key": "CD",
+      "previousTargets": [
+        "c09-f009"
+      ],
+      "correctedStem": "诗歌按照作品的性质和塑造形象的方式不同，分为（ ）"
     },
     {
       "id": "w26-c09-m07",
@@ -637,11 +672,11 @@
         "D": "《桃花源记》",
         "E": "《童区寄传》"
       },
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-m05"
+        "w26-c09-m07"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 1,
@@ -649,7 +684,11 @@
         "number": 7,
         "kind": "m",
         "importId": "w26-c09-m07"
-      }
+      },
+      "key": "ACE",
+      "previousTargets": [
+        "c09-m05"
+      ]
     },
     {
       "id": "w26-c09-m08",
@@ -705,11 +744,11 @@
         "D": "《哈姆雷特》",
         "E": "《李尔王》"
       },
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-f004"
+        "w26-c09-m09"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 2,
@@ -717,7 +756,11 @@
         "number": 9,
         "kind": "m",
         "importId": "w26-c09-m09"
-      }
+      },
+      "key": "AC",
+      "previousTargets": [
+        "c09-f004"
+      ]
     },
     {
       "id": "w26-c09-m10",
@@ -733,11 +776,11 @@
         "D": "《复活》",
         "E": "《罗生门》"
       },
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c04-m08"
+        "w26-c09-m10"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 2,
@@ -745,7 +788,11 @@
         "number": 10,
         "kind": "m",
         "importId": "w26-c09-m10"
-      }
+      },
+      "key": "BCD",
+      "previousTargets": [
+        "c04-m08"
+      ]
     },
     {
       "id": "w26-c09-f01",
@@ -754,11 +801,11 @@
       "number": 1,
       "pdfPage": 2,
       "stem": "于连是长篇小说《 》的主人公。",
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-s16"
+        "w26-c09-f01"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 2,
@@ -766,7 +813,14 @@
         "number": 1,
         "kind": "fill",
         "importId": "w26-c09-f01"
-      }
+      },
+      "correctedStem": "于连是长篇小说《____》的主人公。",
+      "correctedAnswers": [
+        "红与黑"
+      ],
+      "previousTargets": [
+        "c09-s16"
+      ]
     },
     {
       "id": "w26-c09-f02",
@@ -775,11 +829,11 @@
       "number": 2,
       "pdfPage": 2,
       "stem": "文学形象区别于其他一切艺术的重要特征是（ ）。",
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c11-f020"
+        "w26-c09-f02"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 2,
@@ -787,7 +841,14 @@
         "number": 2,
         "kind": "fill",
         "importId": "w26-c09-f02"
-      }
+      },
+      "correctedStem": "文学形象区别于其他一切艺术的重要特征是____。",
+      "correctedAnswers": [
+        "间接性"
+      ],
+      "previousTargets": [
+        "c11-f020"
+      ]
     },
     {
       "id": "w26-c09-f03",
@@ -796,11 +857,11 @@
       "number": 3,
       "pdfPage": 2,
       "stem": "《战争与和平》的女主人公是（ ）。",
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-s20"
+        "w26-c09-f03"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 2,
@@ -808,7 +869,14 @@
         "number": 3,
         "kind": "fill",
         "importId": "w26-c09-f03"
-      }
+      },
+      "correctedStem": "《战争与和平》的女主人公是____。",
+      "correctedAnswers": [
+        "娜塔莎"
+      ],
+      "previousTargets": [
+        "c09-s20"
+      ]
     },
     {
       "id": "w26-c09-f04",
@@ -817,11 +885,11 @@
       "number": 4,
       "pdfPage": 2,
       "stem": "小说的首要任务应当是塑造鲜明生动的（ ）。",
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-s15"
+        "w26-c09-f04"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 2,
@@ -829,7 +897,14 @@
         "number": 4,
         "kind": "fill",
         "importId": "w26-c09-f04"
-      }
+      },
+      "correctedStem": "小说的首要任务应当是塑造鲜明生动的____。",
+      "correctedAnswers": [
+        "人物形象"
+      ],
+      "previousTargets": [
+        "c09-s15"
+      ]
     },
     {
       "id": "w26-c09-f05",
@@ -838,11 +913,11 @@
       "number": 5,
       "pdfPage": 2,
       "stem": "西方流传至今最早的文学作品是（ ）。",
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-s05"
+        "w26-c09-f05"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 2,
@@ -850,7 +925,14 @@
         "number": 5,
         "kind": "fill",
         "importId": "w26-c09-f05"
-      }
+      },
+      "correctedStem": "西方流传至今最早的文学作品是____。",
+      "correctedAnswers": [
+        "荷马史诗"
+      ],
+      "previousTargets": [
+        "c09-s05"
+      ]
     },
     {
       "id": "w26-c09-f06",
@@ -859,11 +941,11 @@
       "number": 6,
       "pdfPage": 2,
       "stem": "我国古代的散文范围很广，主要指的是与（ ）、骈文相对里的文体。",
-      "status": "existing",
+      "status": "restored",
       "targets": [
-        "c09-f016"
+        "w26-c09-f06"
       ],
-      "reason": "同一考问或同一作者、作品、人物配对已在现有选择/填空题覆盖；不因换题型、换问法或增减干扰项再增加。",
+      "reason": "按本章、题型、完整题干、全部选项或空位重新对照；不同版本独立恢复，保留原题。",
       "source": {
         "document": "第九章语言艺术综合测试",
         "pdfPage": 2,
@@ -871,7 +953,14 @@
         "number": 6,
         "kind": "fill",
         "importId": "w26-c09-f06"
-      }
+      },
+      "correctedStem": "我国古代的散文范围很广，主要指的是与____、骈文相对里的文体。",
+      "correctedAnswers": [
+        "韵文"
+      ],
+      "previousTargets": [
+        "c09-f016"
+      ]
     },
     {
       "id": "w26-c09-f07",
@@ -901,7 +990,8 @@
           "url": "https://cernet.edu.cn/zhong_guo_jiao_yu/zhuan_ti_lan_mu/jie_ri_zhuan_ti/zqj/2010zqj/syzq/zqsc/201009/t20100914_521790.shtml",
           "scope": "诗歌原文包含“明月松间照，清泉石上流”，题为《山居秋暝》，作者王维。"
         }
-      ]
+      ],
+      "correctedStem": "“明月松间照，清泉石上流”出自王维《____》。"
     },
     {
       "id": "w26-c09-f08",
@@ -931,7 +1021,8 @@
           "url": "https://wenxueyuan.ruc.edu.cn/xyzj/ljsy/wyjy/1e14a8d5313d4fa3850ff49fc1ef7b64.htm",
           "scope": "明确郭沫若在五四时期向《学灯》投寄《女神》中的诗篇，包括《凤凰涅槃》。"
         }
-      ]
+      ],
+      "correctedStem": "____作于五四时期的抒情长诗是《凤凰涅槃》。"
     },
     {
       "id": "w26-c09-f09",
@@ -966,7 +1057,8 @@
           "url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/095868-01.pdf",
           "scope": "试读将英雄时代又称荷马时代，并讨论迈锡尼文明之后的黑暗时代与荷马时代的关系，兼容本空的常见历史称呼。"
         }
-      ]
+      ],
+      "correctedStem": "《荷马史诗》反映的公元前11世纪至公元前9世纪的早期希腊社会，史称____或“荷马时代”。"
     },
     {
       "id": "w26-c09-f10",

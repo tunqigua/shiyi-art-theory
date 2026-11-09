@@ -1,8 +1,8 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const ctx={window:{}};for(const f of ['questions.js','fill-questions.js'])vm.runInNewContext(fs.readFileSync('dist/'+f,'utf8'),ctx);
-const all=[...ctx.window.SHIYI_QUESTION_BANK.questions,...ctx.window.SHIYI_FILL_BANK.questions],restored=all.filter(q=>q.reviewNotice);
-assert.equal(restored.length,32);assert.equal(all.length,1276);assert.equal(ctx.window.SHIYI_QUESTION_BANK.pending.length,2);assert.equal(ctx.window.SHIYI_FILL_BANK.pending.length,0);
+const all=[...ctx.window.SHIYI_QUESTION_BANK.questions,...ctx.window.SHIYI_FILL_BANK.questions],restored=all.filter(q=>q.restoredFrom&&q.reviewNotice);
+assert.equal(restored.length,32);assert.equal(all.length,1291);assert.equal(ctx.window.SHIYI_QUESTION_BANK.pending.length,2);assert.equal(ctx.window.SHIYI_FILL_BANK.pending.length,0);
 assert(restored.every(q=>q.restoredFrom&&q.reviewNotice.text));
 assert.equal(all.find(q=>q.id==='w26-c06-s23').options[all.find(q=>q.id==='w26-c06-s23').answers[0]],'赵佶');
 assert.equal(all.find(q=>q.id==='c06-f080').answers[0],'籍里柯');assert.deepEqual(Array.from(all.find(q=>q.id==='c01-f016').answers),['罗丹','感性','理性']);
