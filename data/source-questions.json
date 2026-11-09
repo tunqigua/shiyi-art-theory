@@ -9576,6 +9576,773 @@
           "scope": "结语说明文学语言兼具准确性、生动性、鲜明性，形象性与艺术性构成其核心；据此本题形象性也应选。"
         }
       ]
+    },
+    {
+      "code": "w26-c02-m01",
+      "chapter": 2,
+      "stem": "下列主张艺术起源于模仿的有（　）。",
+      "opts": {
+        "A": "德谟克利特",
+        "B": "亚里士多德",
+        "C": "黑格尔",
+        "D": "管子",
+        "E": "克罗齐"
+      },
+      "key": "ABD",
+      "originalKey": "ABD",
+      "kind": "m",
+      "number": 1,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第二章周测",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 1,
+        "kind": "m",
+        "importId": "w26-c02-m01",
+        "answerDocument": "艺术概论第二章周测答案",
+        "referenceKey": "ABD"
+      }
+    },
+    {
+      "code": "w26-c02-m02",
+      "chapter": 2,
+      "stem": "下列主张艺术起源于表现的有（　）。",
+      "opts": {
+        "A": "克罗齐",
+        "B": "科林伍德",
+        "C": "托尔斯泰",
+        "D": "苏珊朗格",
+        "E": "谷鲁斯"
+      },
+      "key": "ABCD",
+      "originalKey": "ABCD",
+      "kind": "m",
+      "number": 2,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第二章周测",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 2,
+        "kind": "m",
+        "importId": "w26-c02-m02",
+        "answerDocument": "艺术概论第二章周测答案",
+        "referenceKey": "ABCD"
+      }
+    },
+    {
+      "code": "w26-c02-m03",
+      "chapter": 2,
+      "stem": "下列属于席勒的美学观点的有（　）。",
+      "opts": {
+        "A": "只有审美才是人实现精神解放，再现完美人性的先决条件",
+        "B": "人的“感性冲动”和“理性冲动”，必须通过“游戏冲动”才能有机地协调起来",
+        "C": "直觉即表现",
+        "D": "艺术起源于游戏",
+        "E": "明确地把体智德美四项教育并提，使美育有了独立地位和任务。"
+      },
+      "key": "ABDE",
+      "originalKey": "ABDE",
+      "kind": "m",
+      "number": 3,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第二章周测",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 3,
+        "kind": "m",
+        "importId": "w26-c02-m03",
+        "answerDocument": "艺术概论第二章周测答案",
+        "referenceKey": "ABDE"
+      }
+    },
+    {
+      "code": "w26-c03-m07",
+      "chapter": 3,
+      "stem": "亚里士多德教育的三个作用（　）。",
+      "opts": {
+        "A": "教育",
+        "B": "理智",
+        "C": "净化",
+        "D": "美感",
+        "E": "快感"
+      },
+      "key": "ACE",
+      "originalKey": "ACE",
+      "kind": "m",
+      "number": 7,
+      "page": 2,
+      "source": {
+        "document": "艺术概论第三章周测",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 7,
+        "kind": "m",
+        "importId": "w26-c03-m07",
+        "answerDocument": "艺术概论第三章周测答案",
+        "referenceKey": "ACE"
+      }
+    },
+    {
+      "code": "w26-c04-s01",
+      "chapter": 4,
+      "stem": "杜甫的审美理想，深受（　）家美学的影响。",
+      "opts": {
+        "A": "儒家",
+        "B": "道家",
+        "C": "禅宗",
+        "D": "法家"
+      },
+      "key": "A",
+      "originalKey": "A",
+      "kind": "s",
+      "number": 1,
+      "page": 1,
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 1,
+        "kind": "s",
+        "importId": "w26-c04-s01",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceKey": "A"
+      }
+    },
+    {
+      "code": "w26-c04-m03",
+      "chapter": 4,
+      "stem": "在黑格尔的客观唯心主义体系里，人类认识绝对真理的方式包括（　）。",
+      "opts": {
+        "A": "天才的想象",
+        "B": "宗教",
+        "C": "道德",
+        "D": "哲学",
+        "E": "艺术"
+      },
+      "key": "BDE",
+      "originalKey": "BDE",
+      "kind": "m",
+      "number": 3,
+      "page": 1,
+      "source": {
+        "document": "金航艺术概论第四章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 3,
+        "kind": "m",
+        "importId": "w26-c04-m03",
+        "answerDocument": "金航艺术概论第四章综合测试答案",
+        "referenceKey": "BDE"
+      }
+    },
+    {
+      "code": "w26-c05-s02",
+      "chapter": 5,
+      "stem": "（　）在拉丁文原意是“巨大的工艺”。",
+      "opts": {
+        "A": "雕塑",
+        "B": "绘画",
+        "C": "建筑",
+        "D": "电影"
+      },
+      "key": "C",
+      "originalKey": "C",
+      "kind": "s",
+      "number": 2,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 2,
+        "kind": "s",
+        "importId": "w26-c05-s02",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceKey": "C"
+      }
+    },
+    {
+      "code": "w26-c05-s04",
+      "chapter": 5,
+      "stem": "建筑和音乐具有共同之处，因而人们把它们分别说成是“凝固的音乐”和“流动的建筑”，体现的是（　）。",
+      "opts": {
+        "A": "形体美",
+        "B": "旋律美",
+        "C": "节奏美",
+        "D": "文化美"
+      },
+      "key": "C",
+      "originalKey": "C",
+      "kind": "s",
+      "number": 4,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 4,
+        "kind": "s",
+        "importId": "w26-c05-s04",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceKey": "C"
+      }
+    },
+    {
+      "code": "w26-c05-s05",
+      "chapter": 5,
+      "stem": "中世纪欧洲，宗教统治根深蒂固，最典型的（　）建筑风格，以巴黎圣母院为例。",
+      "opts": {
+        "A": "罗可可",
+        "B": "拜占庭",
+        "C": "新古典",
+        "D": "哥特式"
+      },
+      "key": "D",
+      "originalKey": "D",
+      "kind": "s",
+      "number": 5,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 5,
+        "kind": "s",
+        "importId": "w26-c05-s05",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceKey": "D"
+      }
+    },
+    {
+      "code": "w26-c05-s09",
+      "chapter": 5,
+      "stem": "颐和园中的（　）指的是贯通东西的长廊，将颐和园分成北边的山区（万寿山）和南边的湖区（昆明湖），使游人在其中游山玩水，收到移步换景的效果。",
+      "opts": {
+        "A": "借景",
+        "B": "分景",
+        "C": "隔景",
+        "D": "对景"
+      },
+      "key": "B",
+      "originalKey": "B",
+      "kind": "s",
+      "number": 8,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 8,
+        "kind": "s",
+        "importId": "w26-c05-s09",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceKey": "B"
+      }
+    },
+    {
+      "code": "w26-c05-s14",
+      "chapter": 5,
+      "stem": "北京的四合院，主要是指我国明清时代形成的典型的北方住宅形式，它的格局体现出封建社会尊卑有序、长幼有别的（　）。",
+      "opts": {
+        "A": "伦理观念",
+        "B": "政治观念",
+        "C": "迷信观念",
+        "D": "经济观念"
+      },
+      "key": "A",
+      "originalKey": "A",
+      "kind": "s",
+      "number": 13,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 13,
+        "kind": "s",
+        "importId": "w26-c05-s14",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceKey": "A"
+      }
+    },
+    {
+      "code": "w26-c05-m02",
+      "chapter": 5,
+      "stem": "下列选项中属于综合艺术的有（　）。",
+      "opts": {
+        "A": "戏剧",
+        "B": "电影",
+        "C": "戏曲",
+        "D": "电视",
+        "E": "舞蹈"
+      },
+      "key": "ABCD",
+      "originalKey": "ABCD",
+      "kind": "m",
+      "number": 2,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 2,
+        "kind": "m",
+        "importId": "w26-c05-m02",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceKey": "ABCD"
+      }
+    },
+    {
+      "code": "w26-c05-m08",
+      "chapter": 5,
+      "stem": "环境设计包括（　）",
+      "opts": {
+        "A": "室内设计",
+        "B": "庭园设计",
+        "C": "建筑设计",
+        "D": "城市设计",
+        "E": "国土设计"
+      },
+      "key": "ABCDE",
+      "originalKey": "ABCDE",
+      "kind": "m",
+      "number": 8,
+      "page": 2,
+      "source": {
+        "document": "艺术概论第五章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 8,
+        "kind": "m",
+        "importId": "w26-c05-m08",
+        "answerDocument": "艺术概论第五章综合测试答案",
+        "referenceKey": "ABCDE"
+      }
+    },
+    {
+      "code": "w26-c06-s04",
+      "chapter": 6,
+      "stem": "中国绘画艺术中，山水画派青绿山水的代表人物（　）。",
+      "opts": {
+        "A": "吴道子",
+        "B": "阎立本",
+        "C": "李思训",
+        "D": "王维"
+      },
+      "key": "C",
+      "originalKey": "C",
+      "kind": "s",
+      "number": 4,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 4,
+        "kind": "s",
+        "importId": "w26-c06-s04",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "C"
+      }
+    },
+    {
+      "code": "w26-c06-s07",
+      "chapter": 6,
+      "stem": "《饭前祈祷》法国的（　）的绘画作品。",
+      "opts": {
+        "A": "伦勃朗",
+        "B": "委拉斯贵支",
+        "C": "夏尔丹",
+        "D": "鲁本斯"
+      },
+      "key": "C",
+      "originalKey": "C",
+      "kind": "s",
+      "number": 7,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 7,
+        "kind": "s",
+        "importId": "w26-c06-s07",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "C"
+      }
+    },
+    {
+      "code": "w26-c06-s10",
+      "chapter": 6,
+      "stem": "《清明上河图》属于中国画营造空间的（　）",
+      "opts": {
+        "A": "全景式空间",
+        "B": "分层式空间",
+        "C": "焦点透视",
+        "D": "分段式空间"
+      },
+      "key": "D",
+      "originalKey": "D",
+      "kind": "s",
+      "number": 10,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 10,
+        "kind": "s",
+        "importId": "w26-c06-s10",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "D"
+      }
+    },
+    {
+      "code": "w26-c06-s13",
+      "chapter": 6,
+      "stem": "小型玩赏性雕塑日趋繁荣是（　）时期。",
+      "opts": {
+        "A": "唐宋",
+        "B": "秦汉",
+        "C": "魏晋",
+        "D": "元明清"
+      },
+      "key": "D",
+      "originalKey": "D",
+      "kind": "s",
+      "number": 13,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 13,
+        "kind": "s",
+        "importId": "w26-c06-s13",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "D"
+      }
+    },
+    {
+      "code": "w26-c06-s14",
+      "chapter": 6,
+      "stem": "魏晋南北朝和唐宋时期，（　）雕塑发展迅速。",
+      "opts": {
+        "A": "人物",
+        "B": "静物",
+        "C": "宗教",
+        "D": "历史"
+      },
+      "key": "C",
+      "originalKey": "C",
+      "kind": "s",
+      "number": 14,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 14,
+        "kind": "s",
+        "importId": "w26-c06-s14",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "C"
+      }
+    },
+    {
+      "code": "w26-c06-s19",
+      "chapter": 6,
+      "stem": "摄影艺术是一门现代的造型艺术，是1839年法国人（　）发明了摄影技术。",
+      "opts": {
+        "A": "卡希",
+        "B": "达盖尔",
+        "C": "乔·洛蒂",
+        "D": "丘吉尔"
+      },
+      "key": "B",
+      "originalKey": "B",
+      "kind": "s",
+      "number": 19,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 19,
+        "kind": "s",
+        "importId": "w26-c06-s19",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "B"
+      }
+    },
+    {
+      "code": "w26-c06-s20",
+      "chapter": 6,
+      "stem": "绘画主义摄影起源（　）",
+      "opts": {
+        "A": "中国",
+        "B": "英国",
+        "C": "日本",
+        "D": "泰国"
+      },
+      "key": "B",
+      "originalKey": "B",
+      "kind": "s",
+      "number": 20,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 20,
+        "kind": "s",
+        "importId": "w26-c06-s20",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "B"
+      }
+    },
+    {
+      "code": "w26-c06-s21",
+      "chapter": 6,
+      "stem": "（　）的行书《祭侄文稿》，是他为追祭以身殉国的侄子所写的一篇祭文。",
+      "opts": {
+        "A": "黄庭坚",
+        "B": "颜真卿",
+        "C": "蔡襄",
+        "D": "米芾"
+      },
+      "key": "B",
+      "originalKey": "B",
+      "kind": "s",
+      "number": 21,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 21,
+        "kind": "s",
+        "importId": "w26-c06-s21",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "B"
+      }
+    },
+    {
+      "code": "w26-c06-s22",
+      "chapter": 6,
+      "stem": "造型艺术最基本的特征就是（　）",
+      "opts": {
+        "A": "直观性",
+        "B": "造型性",
+        "C": "瞬间性",
+        "D": "表现性"
+      },
+      "key": "B",
+      "originalKey": "B",
+      "kind": "s",
+      "number": 22,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 22,
+        "kind": "s",
+        "importId": "w26-c06-s22",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "B"
+      }
+    },
+    {
+      "code": "w26-c06-s25",
+      "chapter": 6,
+      "stem": "（　）被称为中华第一神品。",
+      "opts": {
+        "A": "《风竹图》",
+        "B": "《听琴图》",
+        "C": "《清明上河图》",
+        "D": "《日出》"
+      },
+      "key": "C",
+      "originalKey": "C",
+      "kind": "s",
+      "number": 25,
+      "page": 1,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 25,
+        "kind": "s",
+        "importId": "w26-c06-s25",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "C"
+      }
+    },
+    {
+      "code": "w26-c06-m03",
+      "chapter": 6,
+      "stem": "六朝三杰指的是（　）。",
+      "opts": {
+        "A": "顾恺之",
+        "B": "阎立本",
+        "C": "陆探微",
+        "D": "张僧繇",
+        "E": "吴道子"
+      },
+      "key": "ACD",
+      "originalKey": "ACD",
+      "kind": "m",
+      "number": 3,
+      "page": 2,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 3,
+        "kind": "m",
+        "importId": "w26-c06-m03",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "ACD"
+      }
+    },
+    {
+      "code": "w26-c06-m04",
+      "chapter": 6,
+      "stem": "北方山水画派五代时期的代表人物（　）。",
+      "opts": {
+        "A": "李成",
+        "B": "范宽",
+        "C": "荆浩",
+        "D": "关仝",
+        "E": "董源"
+      },
+      "key": "CD",
+      "originalKey": "CD",
+      "kind": "m",
+      "number": 4,
+      "page": 2,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 4,
+        "kind": "m",
+        "importId": "w26-c06-m04",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "CD"
+      }
+    },
+    {
+      "code": "w26-c06-m05",
+      "chapter": 6,
+      "stem": "中国绘画元代四大家包括（　）。",
+      "opts": {
+        "A": "沈周",
+        "B": "黄公望",
+        "C": "吴镇",
+        "D": "王蒙",
+        "E": "倪瓒"
+      },
+      "key": "BCDE",
+      "originalKey": "BCDE",
+      "kind": "m",
+      "number": 5,
+      "page": 2,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 5,
+        "kind": "m",
+        "importId": "w26-c06-m05",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "BCDE"
+      }
+    },
+    {
+      "code": "w26-c06-m06",
+      "chapter": 6,
+      "stem": "下列选项中属于后印象主义的三位绘画大师（　）。",
+      "opts": {
+        "A": "莫奈",
+        "B": "雷诺阿",
+        "C": "高更",
+        "D": "塞尚",
+        "E": "梵高"
+      },
+      "key": "CDE",
+      "originalKey": "CDE",
+      "kind": "m",
+      "number": 6,
+      "page": 2,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 6,
+        "kind": "m",
+        "importId": "w26-c06-m06",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "CDE"
+      }
+    },
+    {
+      "code": "w26-c06-m09",
+      "chapter": 6,
+      "stem": "法国现实主义流派大师罗丹的代表作品有（　）。",
+      "opts": {
+        "A": "《巴尔扎克像》",
+        "B": "《加莱义民》",
+        "C": "《思想者》",
+        "D": "《地狱之门》",
+        "E": "《青铜时代》"
+      },
+      "key": "ABCDE",
+      "originalKey": "ABCDE",
+      "kind": "m",
+      "number": 9,
+      "page": 2,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 9,
+        "kind": "m",
+        "importId": "w26-c06-m09",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "ABCDE"
+      }
+    },
+    {
+      "code": "w26-c06-m15",
+      "chapter": 6,
+      "stem": "印象派的代表人物（　）。",
+      "opts": {
+        "A": "莫奈",
+        "B": "马奈",
+        "C": "塞尚",
+        "D": "雷诺阿",
+        "E": "德加"
+      },
+      "key": "ABDE",
+      "originalKey": "ABDE",
+      "kind": "m",
+      "number": 15,
+      "page": 2,
+      "source": {
+        "document": "艺术概论第六章综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 15,
+        "kind": "m",
+        "importId": "w26-c06-m15",
+        "answerDocument": "艺术概论第六章综合测试答案",
+        "referenceKey": "ABDE"
+      }
     }
   ],
   "pending": [

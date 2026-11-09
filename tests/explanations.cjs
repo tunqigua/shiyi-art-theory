@@ -44,8 +44,8 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
       return {failures, questions:questions.length, excluded};
     });
     assert.deepEqual(result.failures, []);
-    assert.equal(result.questions, 603);
-    assert.equal(result.excluded, 1515);
+    assert.equal(result.questions, 632);
+    assert.equal(result.excluded, 1581);
     async function show(id, correct) {
       await page.evaluate(({id, correct}) => {
         const q = window.SHIYI_QUESTION_BANK.questions.find(q => q.id === id);
@@ -72,6 +72,6 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     await page.locator('#nextButton').click();
     assert(await page.locator('#overviewView').isVisible());
     assert.deepEqual(errors, []);
-    console.log('PASS: 603题答对/答错均显示完整解析，1515个非应选项有辨析，拆空、出处链接、红绿框、手机布局和下一题正常。');
+    console.log('PASS: 632题答对/答错均显示完整解析，1581个非应选项有辨析，拆空、出处链接、红绿框、手机布局和下一题正常。');
   } finally { await browser.close(); }
 })().catch(error => {console.error(error); process.exitCode=1;});

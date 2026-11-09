@@ -1,0 +1,790 @@
+{
+  "date": "2026-11-09",
+  "scope": "第二至六章五份试卷的全部131道选择与59道填空",
+  "restored": [
+    {
+      "id": "w26-c02-m01",
+      "chapter": 2,
+      "kind": "m",
+      "number": 1,
+      "previousTargets": [
+        "c02-m01"
+      ],
+      "reasons": [
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c02-m02",
+      "chapter": 2,
+      "kind": "m",
+      "number": 2,
+      "previousTargets": [
+        "c02-m03"
+      ],
+      "reasons": [
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c02-m03",
+      "chapter": 2,
+      "kind": "m",
+      "number": 3,
+      "previousTargets": [
+        "c03-m04"
+      ],
+      "reasons": [
+        "跨单元"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c02-f02",
+      "chapter": 2,
+      "kind": "fill",
+      "number": 2,
+      "previousTargets": [
+        "c02-f018"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c02-f04",
+      "chapter": 2,
+      "kind": "fill",
+      "number": 4,
+      "previousTargets": [
+        "c02-f012",
+        "c02-f016"
+      ],
+      "reasons": [
+        "拼合/拆分",
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c02-f05",
+      "chapter": 2,
+      "kind": "fill",
+      "number": 5,
+      "previousTargets": [
+        "c05-f038"
+      ],
+      "reasons": [
+        "跨单元",
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c02-f06",
+      "chapter": 2,
+      "kind": "fill",
+      "number": 6,
+      "previousTargets": [
+        "c02-f013"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c02-f07",
+      "chapter": 2,
+      "kind": "fill",
+      "number": 7,
+      "previousTargets": [
+        "c02-f005"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c02-f08",
+      "chapter": 2,
+      "kind": "fill",
+      "number": 8,
+      "previousTargets": [
+        "c02-f002"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c02-f09",
+      "chapter": 2,
+      "kind": "fill",
+      "number": 9,
+      "previousTargets": [
+        "c02-f001"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c03-m07",
+      "chapter": 3,
+      "kind": "m",
+      "number": 7,
+      "previousTargets": [
+        "c03-m05"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c03-f01",
+      "chapter": 3,
+      "kind": "fill",
+      "number": 1,
+      "previousTargets": [
+        "c05-f038"
+      ],
+      "reasons": [
+        "跨单元",
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c03-f05",
+      "chapter": 3,
+      "kind": "fill",
+      "number": 5,
+      "previousTargets": [
+        "c03-f012"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c03-f06",
+      "chapter": 3,
+      "kind": "fill",
+      "number": 6,
+      "previousTargets": [
+        "c03-f026"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c03-f07",
+      "chapter": 3,
+      "kind": "fill",
+      "number": 7,
+      "previousTargets": [
+        "c03-f008"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c04-s01",
+      "chapter": 4,
+      "kind": "s",
+      "number": 1,
+      "previousTargets": [
+        "c04-s02"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c04-m03",
+      "chapter": 4,
+      "kind": "m",
+      "number": 3,
+      "previousTargets": [
+        "c04-m04"
+      ],
+      "reasons": [
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c04-f01",
+      "chapter": 4,
+      "kind": "fill",
+      "number": 1,
+      "previousTargets": [
+        "c04-f031"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": [
+        "原题误称该画为西斯廷教堂祭坛画；原为皮亚琴察圣西斯托教堂所绘，现藏德累斯顿，作者仍为拉斐尔。"
+      ]
+    },
+    {
+      "id": "w26-c04-f02",
+      "chapter": 4,
+      "kind": "fill",
+      "number": 2,
+      "previousTargets": [
+        "c04-f019"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c04-f04",
+      "chapter": 4,
+      "kind": "fill",
+      "number": 4,
+      "previousTargets": [
+        "c04-f011"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c04-f09",
+      "chapter": 4,
+      "kind": "fill",
+      "number": 9,
+      "previousTargets": [
+        "c04-f020"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": [
+        "空位后已有“佛像”，规范填写“檀香木弥勒”，同时接受试卷整称。"
+      ]
+    },
+    {
+      "id": "w26-c05-s02",
+      "chapter": 5,
+      "kind": "s",
+      "number": 2,
+      "previousTargets": [
+        "c05-s04"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-s04",
+      "chapter": 5,
+      "kind": "s",
+      "number": 4,
+      "previousTargets": [
+        "c05-s03"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-s05",
+      "chapter": 5,
+      "kind": "s",
+      "number": 5,
+      "previousTargets": [
+        "c05-s07"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-s09",
+      "chapter": 5,
+      "kind": "s",
+      "number": 8,
+      "previousTargets": [
+        "c05-s17"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-s14",
+      "chapter": 5,
+      "kind": "s",
+      "number": 13,
+      "previousTargets": [
+        "c05-s21"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-m02",
+      "chapter": 5,
+      "kind": "m",
+      "number": 2,
+      "previousTargets": [
+        "c08-m01"
+      ],
+      "reasons": [
+        "跨单元",
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-m08",
+      "chapter": 5,
+      "kind": "m",
+      "number": 8,
+      "previousTargets": [
+        "c05-m06"
+      ],
+      "reasons": [
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-f01",
+      "chapter": 5,
+      "kind": "fill",
+      "number": 1,
+      "previousTargets": [
+        "c05-f016"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-f02",
+      "chapter": 5,
+      "kind": "fill",
+      "number": 2,
+      "previousTargets": [
+        "c05-f030"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-f03",
+      "chapter": 5,
+      "kind": "fill",
+      "number": 3,
+      "previousTargets": [
+        "c05-f014"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-f04",
+      "chapter": 5,
+      "kind": "fill",
+      "number": 4,
+      "previousTargets": [
+        "c05-f034"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c05-f10",
+      "chapter": 5,
+      "kind": "fill",
+      "number": 10,
+      "previousTargets": [
+        "c05-f004"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-s04",
+      "chapter": 6,
+      "kind": "s",
+      "number": 4,
+      "previousTargets": [
+        "c06-s11"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-s07",
+      "chapter": 6,
+      "kind": "s",
+      "number": 7,
+      "previousTargets": [
+        "c06-s20"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-s10",
+      "chapter": 6,
+      "kind": "s",
+      "number": 10,
+      "previousTargets": [
+        "c06-s07"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-s13",
+      "chapter": 6,
+      "kind": "s",
+      "number": 13,
+      "previousTargets": [
+        "c06-s58"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-s14",
+      "chapter": 6,
+      "kind": "s",
+      "number": 14,
+      "previousTargets": [
+        "c06-m17"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-s19",
+      "chapter": 6,
+      "kind": "s",
+      "number": 19,
+      "previousTargets": [
+        "c06-s29"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-s20",
+      "chapter": 6,
+      "kind": "s",
+      "number": 20,
+      "previousTargets": [
+        "c06-s34"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-s21",
+      "chapter": 6,
+      "kind": "s",
+      "number": 21,
+      "previousTargets": [
+        "c06-s43"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-s22",
+      "chapter": 6,
+      "kind": "s",
+      "number": 22,
+      "previousTargets": [
+        "c06-s04"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-s25",
+      "chapter": 6,
+      "kind": "s",
+      "number": 25,
+      "previousTargets": [
+        "c06-m24"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": [
+        "原题“背称为”规范为“被称为”。"
+      ]
+    },
+    {
+      "id": "w26-c06-m03",
+      "chapter": 6,
+      "kind": "m",
+      "number": 3,
+      "previousTargets": [
+        "c06-m01"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-m04",
+      "chapter": 6,
+      "kind": "m",
+      "number": 4,
+      "previousTargets": [
+        "c06-m02"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-m05",
+      "chapter": 6,
+      "kind": "m",
+      "number": 5,
+      "previousTargets": [
+        "c06-m07"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-m06",
+      "chapter": 6,
+      "kind": "m",
+      "number": 6,
+      "previousTargets": [
+        "c06-m13"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-m09",
+      "chapter": 6,
+      "kind": "m",
+      "number": 9,
+      "previousTargets": [
+        "c06-m18"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-m15",
+      "chapter": 6,
+      "kind": "m",
+      "number": 15,
+      "previousTargets": [
+        "c06-m28"
+      ],
+      "reasons": [
+        "题干",
+        "选项"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-f04",
+      "chapter": 6,
+      "kind": "fill",
+      "number": 4,
+      "previousTargets": [
+        "c06-f020"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-f06",
+      "chapter": 6,
+      "kind": "fill",
+      "number": 6,
+      "previousTargets": [
+        "c06-f060"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-f07",
+      "chapter": 6,
+      "kind": "fill",
+      "number": 7,
+      "previousTargets": [
+        "c06-f050"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-f15",
+      "chapter": 6,
+      "kind": "fill",
+      "number": 15,
+      "previousTargets": [
+        "c06-f028"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": [
+        "原题“注明”规范为“著名”。"
+      ]
+    },
+    {
+      "id": "w26-c06-f16",
+      "chapter": 6,
+      "kind": "fill",
+      "number": 16,
+      "previousTargets": [
+        "c06-f064"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": [
+        "参考答案图“张造”规范为张璪，不能接受把规范姓名错写为张造。"
+      ]
+    },
+    {
+      "id": "w26-c06-f18",
+      "chapter": 6,
+      "kind": "fill",
+      "number": 18,
+      "previousTargets": [
+        "c06-f058"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-f19",
+      "chapter": 6,
+      "kind": "fill",
+      "number": 19,
+      "previousTargets": [
+        "c06-f053"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "w26-c06-f20",
+      "chapter": 6,
+      "kind": "fill",
+      "number": 20,
+      "previousTargets": [
+        "c06-f059"
+      ],
+      "reasons": [
+        "题干"
+      ],
+      "corrections": []
+    }
+  ],
+  "counts": {
+    "choice": 29,
+    "fill": 28,
+    "total": 57
+  },
+  "method": "逐题检查同单元、题型、完整题干、全部选项、空位及答案内容；忽略纯排版符号与选项排列顺序，不以同考点替代原题。"
+}

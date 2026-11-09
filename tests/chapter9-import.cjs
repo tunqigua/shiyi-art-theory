@@ -6,7 +6,7 @@ const all=[...choices.questions,...fills.questions],byId=new Map(all.map(q=>[q.i
 const manifest=JSON.parse(fs.readFileSync('data/chapter9-test-20261106.json','utf8'));
 const rows=manifest.questions,added=rows.filter(r=>r.status==='added');
 assert.equal(rows.length,35);assert.deepEqual(manifest.counts,{total:35,added:10,existing:24,pending:1});
-assert.equal(new Set(rows.map(r=>r.id)).size,35);assert.equal(byId.size,1219);
+assert.equal(new Set(rows.map(r=>r.id)).size,35);assert.equal(byId.size,1276);
 assert.equal(added.length,10);assert.equal(rows.filter(r=>r.status==='existing').length,24);
 assert.equal(added.filter(r=>r.kind==='s').length,5);assert.equal(added.filter(r=>r.kind==='m').length,1);assert.equal(added.filter(r=>r.kind==='fill').length,4);
 for(const row of rows){

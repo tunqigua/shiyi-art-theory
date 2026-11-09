@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-03-weekly-v1",
-  "policy": "既有去向保留；原7项pending于2026-11-06按用户指定考试口径恢复为restored，原答案与分歧说明一并保留。",
+  "version": "2026-11-09-full-paper-check",
+  "policy": "逐题核对190题，只有同一单元、同一题型且完整题干、选项或空位一致的题才合并。原试卷与经查证的题面修订分别保留，所有旧题、旧编号和学习记录继续保留。",
   "questions": [
     {
       "id": "w26-c02-s01",
@@ -346,9 +346,9 @@
       "referenceKey": "ABD",
       "sourceTitle": "艺术概论第二章周测",
       "key": "ABD",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c02-m01"
+        "w26-c02-m01"
       ],
       "pdfPage": 1,
       "source": {
@@ -360,6 +360,17 @@
         "importId": "w26-c02-m01",
         "answerDocument": "艺术概论第二章周测答案",
         "referenceKey": "ABD"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c02-m01"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -379,9 +390,9 @@
       "referenceKey": "ABCD",
       "sourceTitle": "艺术概论第二章周测",
       "key": "ABCD",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c02-m03"
+        "w26-c02-m02"
       ],
       "pdfPage": 1,
       "source": {
@@ -393,6 +404,17 @@
         "importId": "w26-c02-m02",
         "answerDocument": "艺术概论第二章周测答案",
         "referenceKey": "ABCD"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c02-m03"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -412,9 +434,9 @@
       "referenceKey": "ABDE",
       "sourceTitle": "艺术概论第二章周测",
       "key": "ABDE",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c03-m04"
+        "w26-c02-m03"
       ],
       "pdfPage": 1,
       "source": {
@@ -426,6 +448,17 @@
         "importId": "w26-c02-m03",
         "answerDocument": "艺术概论第二章周测答案",
         "referenceKey": "ABDE"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c03-m04"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "跨单元"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -487,9 +520,9 @@
       "answers": [
         "模仿"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c02-f018"
+        "w26-c02-f02"
       ],
       "pdfPage": 2,
       "source": {
@@ -503,6 +536,17 @@
         "referenceAnswers": [
           "模仿"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c02-f018"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -553,10 +597,9 @@
         "席勒",
         "游戏冲动"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c02-f012",
-        "c02-f016"
+        "w26-c02-f04"
       ],
       "pdfPage": 2,
       "source": {
@@ -571,6 +614,19 @@
           "席勒",
           "游戏冲动"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c02-f012",
+        "c02-f016"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "拼合/拆分",
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -587,9 +643,9 @@
       "answers": [
         "伍重"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-f038"
+        "w26-c02-f05"
       ],
       "pdfPage": 2,
       "source": {
@@ -603,6 +659,18 @@
         "referenceAnswers": [
           "伍重"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-f038"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "跨单元",
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -619,9 +687,9 @@
       "answers": [
         "克罗齐"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c02-f013"
+        "w26-c02-f06"
       ],
       "pdfPage": 2,
       "source": {
@@ -635,6 +703,17 @@
         "referenceAnswers": [
           "克罗齐"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c02-f013"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -651,9 +730,9 @@
       "answers": [
         "爱德华·泰勒"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c02-f005"
+        "w26-c02-f07"
       ],
       "pdfPage": 2,
       "source": {
@@ -667,6 +746,17 @@
         "referenceAnswers": [
           "爱德华·泰勒"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c02-f005"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -683,9 +773,9 @@
       "answers": [
         "交感巫术"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c02-f002"
+        "w26-c02-f08"
       ],
       "pdfPage": 2,
       "source": {
@@ -699,6 +789,17 @@
         "referenceAnswers": [
           "交感巫术"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c02-f002"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -715,9 +816,9 @@
       "answers": [
         "阿尔都塞"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c02-f001"
+        "w26-c02-f09"
       ],
       "pdfPage": 2,
       "source": {
@@ -731,6 +832,17 @@
         "referenceAnswers": [
           "阿尔都塞"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c02-f001"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -1276,9 +1388,9 @@
       "referenceKey": "ACE",
       "sourceTitle": "艺术概论第三章周测",
       "key": "ACE",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c03-m05"
+        "w26-c03-m07"
       ],
       "pdfPage": 2,
       "source": {
@@ -1290,6 +1402,18 @@
         "importId": "w26-c03-m07",
         "answerDocument": "艺术概论第三章周测答案",
         "referenceKey": "ACE"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c03-m05"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -1306,9 +1430,9 @@
       "answers": [
         "伍重"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-f038"
+        "w26-c03-f01"
       ],
       "pdfPage": 2,
       "source": {
@@ -1322,6 +1446,18 @@
         "referenceAnswers": [
           "伍重"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-f038"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "跨单元",
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -1434,9 +1570,9 @@
       "answers": [
         "王国维"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c03-f012"
+        "w26-c03-f05"
       ],
       "pdfPage": 2,
       "source": {
@@ -1450,6 +1586,17 @@
         "referenceAnswers": [
           "王国维"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c03-f012"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -1466,9 +1613,9 @@
       "answers": [
         "蔡元培"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c03-f026"
+        "w26-c03-f06"
       ],
       "pdfPage": 2,
       "source": {
@@ -1482,6 +1629,17 @@
         "referenceAnswers": [
           "蔡元培"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c03-f026"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -1498,9 +1656,9 @@
       "answers": [
         "木兰诗"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c03-f008"
+        "w26-c03-f07"
       ],
       "pdfPage": 2,
       "source": {
@@ -1514,6 +1672,17 @@
         "referenceAnswers": [
           "木兰诗"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c03-f008"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -1628,9 +1797,9 @@
       "referenceKey": "A",
       "sourceTitle": "金航艺术概论第四章综合测试",
       "key": "A",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c04-s02"
+        "w26-c04-s01"
       ],
       "pdfPage": 1,
       "source": {
@@ -1642,6 +1811,17 @@
         "importId": "w26-c04-s01",
         "answerDocument": "金航艺术概论第四章综合测试答案",
         "referenceKey": "A"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c04-s02"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -2355,9 +2535,9 @@
       "referenceKey": "BDE",
       "sourceTitle": "金航艺术概论第四章综合测试",
       "key": "BDE",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c04-m04"
+        "w26-c04-m03"
       ],
       "pdfPage": 1,
       "source": {
@@ -2369,6 +2549,17 @@
         "importId": "w26-c04-m03",
         "answerDocument": "金航艺术概论第四章综合测试答案",
         "referenceKey": "BDE"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c04-m04"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -2616,9 +2807,9 @@
       "answers": [
         "拉斐尔"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c04-f031"
+        "w26-c04-f01"
       ],
       "pdfPage": 2,
       "source": {
@@ -2632,7 +2823,19 @@
         "referenceAnswers": [
           "拉斐尔"
         ]
-      }
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c04-f031"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
+      },
+      "correctedStem": "祭坛画《西斯廷圣母》的作者为____。"
     },
     {
       "id": "w26-c04-f02",
@@ -2648,9 +2851,9 @@
       "answers": [
         "吴道子"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c04-f019"
+        "w26-c04-f02"
       ],
       "pdfPage": 2,
       "source": {
@@ -2664,6 +2867,17 @@
         "referenceAnswers": [
           "吴道子"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c04-f019"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -2719,9 +2933,9 @@
       "answers": [
         "毛诗序"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c04-f011"
+        "w26-c04-f04"
       ],
       "pdfPage": 2,
       "source": {
@@ -2735,6 +2949,17 @@
         "referenceAnswers": [
           "毛诗序"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c04-f011"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -2879,9 +3104,9 @@
       "answers": [
         "檀香木弥勒佛像"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c04-f020"
+        "w26-c04-f09"
       ],
       "pdfPage": 2,
       "source": {
@@ -2895,6 +3120,20 @@
         "referenceAnswers": [
           "檀香木弥勒佛像"
         ]
+      },
+      "correctedAnswers": [
+        "檀香木弥勒"
+      ],
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c04-f020"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -2979,9 +3218,9 @@
       "referenceKey": "C",
       "sourceTitle": "艺术概论第五章综合测试",
       "key": "C",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-s04"
+        "w26-c05-s02"
       ],
       "pdfPage": 1,
       "source": {
@@ -2993,6 +3232,18 @@
         "importId": "w26-c05-s02",
         "answerDocument": "艺术概论第五章综合测试答案",
         "referenceKey": "C"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-s04"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -3043,9 +3294,9 @@
       "referenceKey": "C",
       "sourceTitle": "艺术概论第五章综合测试",
       "key": "C",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-s03"
+        "w26-c05-s04"
       ],
       "pdfPage": 1,
       "source": {
@@ -3057,6 +3308,18 @@
         "importId": "w26-c05-s04",
         "answerDocument": "艺术概论第五章综合测试答案",
         "referenceKey": "C"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-s03"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -3075,9 +3338,9 @@
       "referenceKey": "D",
       "sourceTitle": "艺术概论第五章综合测试",
       "key": "D",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-s07"
+        "w26-c05-s05"
       ],
       "pdfPage": 1,
       "source": {
@@ -3089,6 +3352,18 @@
         "importId": "w26-c05-s05",
         "answerDocument": "艺术概论第五章综合测试答案",
         "referenceKey": "D"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-s07"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -3210,9 +3485,9 @@
       "referenceKey": "B",
       "sourceTitle": "艺术概论第五章综合测试",
       "key": "B",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-s17"
+        "w26-c05-s09"
       ],
       "pdfPage": 1,
       "source": {
@@ -3224,6 +3499,18 @@
         "importId": "w26-c05-s09",
         "answerDocument": "艺术概论第五章综合测试答案",
         "referenceKey": "B"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-s17"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -3377,9 +3664,9 @@
       "referenceKey": "A",
       "sourceTitle": "艺术概论第五章综合测试",
       "key": "A",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-s21"
+        "w26-c05-s14"
       ],
       "pdfPage": 1,
       "source": {
@@ -3391,6 +3678,18 @@
         "importId": "w26-c05-s14",
         "answerDocument": "艺术概论第五章综合测试答案",
         "referenceKey": "A"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-s21"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -3680,9 +3979,9 @@
       "referenceKey": "ABCD",
       "sourceTitle": "艺术概论第五章综合测试",
       "key": "ABCD",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c08-m01"
+        "w26-c05-m02"
       ],
       "pdfPage": 1,
       "source": {
@@ -3694,6 +3993,19 @@
         "importId": "w26-c05-m02",
         "answerDocument": "艺术概论第五章综合测试答案",
         "referenceKey": "ABCD"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c08-m01"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "跨单元",
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -3891,9 +4203,9 @@
       "referenceKey": "ABCDE",
       "sourceTitle": "艺术概论第五章综合测试",
       "key": "ABCDE",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-m06"
+        "w26-c05-m08"
       ],
       "pdfPage": 2,
       "source": {
@@ -3905,6 +4217,17 @@
         "importId": "w26-c05-m08",
         "answerDocument": "艺术概论第五章综合测试答案",
         "referenceKey": "ABCDE"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-m06"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -3988,9 +4311,9 @@
       "answers": [
         "自然式"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-f016"
+        "w26-c05-f01"
       ],
       "pdfPage": 2,
       "source": {
@@ -4004,6 +4327,17 @@
         "referenceAnswers": [
           "自然式"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-f016"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4020,9 +4354,9 @@
       "answers": [
         "诗情画意"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-f030"
+        "w26-c05-f02"
       ],
       "pdfPage": 2,
       "source": {
@@ -4036,6 +4370,17 @@
         "referenceAnswers": [
           "诗情画意"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-f030"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4052,9 +4397,9 @@
       "answers": [
         "适用"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-f014"
+        "w26-c05-f03"
       ],
       "pdfPage": 2,
       "source": {
@@ -4068,6 +4413,17 @@
         "referenceAnswers": [
           "适用"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-f014"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4084,9 +4440,9 @@
       "answers": [
         "考工记"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-f034"
+        "w26-c05-f04"
       ],
       "pdfPage": 2,
       "source": {
@@ -4100,6 +4456,17 @@
         "referenceAnswers": [
           "考工记"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-f034"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4282,9 +4649,9 @@
       "answers": [
         "建筑"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c05-f004"
+        "w26-c05-f10"
       ],
       "pdfPage": 2,
       "source": {
@@ -4298,6 +4665,17 @@
         "referenceAnswers": [
           "建筑"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c05-f004"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4412,9 +4790,9 @@
       "referenceKey": "C",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "C",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-s11"
+        "w26-c06-s04"
       ],
       "pdfPage": 1,
       "source": {
@@ -4426,6 +4804,18 @@
         "importId": "w26-c06-s04",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "C"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-s11"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4515,9 +4905,9 @@
       "referenceKey": "C",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "C",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-s20"
+        "w26-c06-s07"
       ],
       "pdfPage": 1,
       "source": {
@@ -4529,6 +4919,18 @@
         "importId": "w26-c06-s07",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "C"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-s20"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4611,9 +5013,9 @@
       "referenceKey": "D",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "D",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-s07"
+        "w26-c06-s10"
       ],
       "pdfPage": 1,
       "source": {
@@ -4625,6 +5027,18 @@
         "importId": "w26-c06-s10",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "D"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-s07"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4707,9 +5121,9 @@
       "referenceKey": "D",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "D",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-s58"
+        "w26-c06-s13"
       ],
       "pdfPage": 1,
       "source": {
@@ -4721,6 +5135,18 @@
         "importId": "w26-c06-s13",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "D"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-s58"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4739,9 +5165,9 @@
       "referenceKey": "C",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "C",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-m17"
+        "w26-c06-s14"
       ],
       "pdfPage": 1,
       "source": {
@@ -4753,6 +5179,18 @@
         "importId": "w26-c06-s14",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "C"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-m17"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4899,9 +5337,9 @@
       "referenceKey": "B",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "B",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-s29"
+        "w26-c06-s19"
       ],
       "pdfPage": 1,
       "source": {
@@ -4913,6 +5351,18 @@
         "importId": "w26-c06-s19",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "B"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-s29"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4931,9 +5381,9 @@
       "referenceKey": "B",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "B",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-s34"
+        "w26-c06-s20"
       ],
       "pdfPage": 1,
       "source": {
@@ -4945,6 +5395,18 @@
         "importId": "w26-c06-s20",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "B"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-s34"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4963,9 +5425,9 @@
       "referenceKey": "B",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "B",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-s43"
+        "w26-c06-s21"
       ],
       "pdfPage": 1,
       "source": {
@@ -4977,6 +5439,18 @@
         "importId": "w26-c06-s21",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "B"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-s43"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -4995,9 +5469,9 @@
       "referenceKey": "B",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "B",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-s04"
+        "w26-c06-s22"
       ],
       "pdfPage": 1,
       "source": {
@@ -5009,6 +5483,18 @@
         "importId": "w26-c06-s22",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "B"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-s04"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -5104,9 +5590,9 @@
       "referenceKey": "C",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "C",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-m24"
+        "w26-c06-s25"
       ],
       "pdfPage": 1,
       "source": {
@@ -5118,7 +5604,20 @@
         "importId": "w26-c06-s25",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "C"
-      }
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-m24"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
+      },
+      "correctedStem": "（　）被称为中华第一神品。"
     },
     {
       "id": "w26-c06-m01",
@@ -5203,9 +5702,9 @@
       "referenceKey": "ACD",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "ACD",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-m01"
+        "w26-c06-m03"
       ],
       "pdfPage": 2,
       "source": {
@@ -5217,6 +5716,18 @@
         "importId": "w26-c06-m03",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "ACD"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-m01"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -5236,9 +5747,9 @@
       "referenceKey": "CD",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "CD",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-m02"
+        "w26-c06-m04"
       ],
       "originalStem": "北方山水画派五代时期的代表人物（　）。",
       "originalOptions": [
@@ -5258,6 +5769,18 @@
         "importId": "w26-c06-m04",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "CD"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-m02"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -5277,9 +5800,9 @@
       "referenceKey": "BCDE",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "BCDE",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-m07"
+        "w26-c06-m05"
       ],
       "pdfPage": 2,
       "source": {
@@ -5291,6 +5814,18 @@
         "importId": "w26-c06-m05",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "BCDE"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-m07"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -5310,9 +5845,9 @@
       "referenceKey": "CDE",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "CDE",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-m13"
+        "w26-c06-m06"
       ],
       "pdfPage": 2,
       "source": {
@@ -5324,6 +5859,18 @@
         "importId": "w26-c06-m06",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "CDE"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-m13"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -5409,9 +5956,9 @@
       "referenceKey": "ABCDE",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "ABCDE",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-m18"
+        "w26-c06-m09"
       ],
       "pdfPage": 2,
       "source": {
@@ -5423,6 +5970,17 @@
         "importId": "w26-c06-m09",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "ABCDE"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-m18"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -5607,9 +6165,9 @@
       "referenceKey": "ABDE",
       "sourceTitle": "艺术概论第六章综合测试",
       "key": "ABDE",
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-m28"
+        "w26-c06-m15"
       ],
       "pdfPage": 2,
       "source": {
@@ -5621,6 +6179,18 @@
         "importId": "w26-c06-m15",
         "answerDocument": "艺术概论第六章综合测试答案",
         "referenceKey": "ABDE"
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-m28"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干",
+          "选项"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -5746,9 +6316,9 @@
       "answers": [
         "乔托"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-f020"
+        "w26-c06-f04"
       ],
       "pdfPage": 2,
       "source": {
@@ -5762,6 +6332,17 @@
         "referenceAnswers": [
           "乔托"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-f020"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -5810,9 +6391,9 @@
       "answers": [
         "卡希"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-f060"
+        "w26-c06-f06"
       ],
       "pdfPage": 2,
       "source": {
@@ -5826,6 +6407,17 @@
         "referenceAnswers": [
           "卡希"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-f060"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -5842,9 +6434,9 @@
       "answers": [
         "乡村"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-f050"
+        "w26-c06-f07"
       ],
       "pdfPage": 2,
       "source": {
@@ -5858,6 +6450,17 @@
         "referenceAnswers": [
           "乡村"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-f050"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -6100,9 +6703,9 @@
       "answers": [
         "柳公权"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-f028"
+        "w26-c06-f15"
       ],
       "pdfPage": 3,
       "source": {
@@ -6116,7 +6719,19 @@
         "referenceAnswers": [
           "柳公权"
         ]
-      }
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-f028"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
+      },
+      "correctedStem": "“颜筋柳骨”，就是对唐代著名书法家颜真卿和____书法作品不同风格的评价。"
     },
     {
       "id": "w26-c06-f16",
@@ -6132,9 +6747,9 @@
       "answers": [
         "张造"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-f064"
+        "w26-c06-f16"
       ],
       "pdfPage": 3,
       "source": {
@@ -6149,7 +6764,21 @@
           "张造"
         ]
       },
-      "verification": "答案图“张造”应为张璪，已有c06-f064答案正确，沿用旧编号。"
+      "verification": "答案图“张造”应为张璪，已有c06-f064答案正确，沿用旧编号。",
+      "correctedAnswers": [
+        "张璪"
+      ],
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-f064"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
+      }
     },
     {
       "id": "w26-c06-f17",
@@ -6197,9 +6826,9 @@
       "answers": [
         "马奈"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-f058"
+        "w26-c06-f18"
       ],
       "pdfPage": 3,
       "source": {
@@ -6213,6 +6842,17 @@
         "referenceAnswers": [
           "马奈"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-f058"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -6229,9 +6869,9 @@
       "answers": [
         "点彩派"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-f053"
+        "w26-c06-f19"
       ],
       "pdfPage": 3,
       "source": {
@@ -6245,6 +6885,17 @@
         "referenceAnswers": [
           "点彩派"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-f053"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     },
     {
@@ -6261,9 +6912,9 @@
       "answers": [
         "兰亭序"
       ],
-      "status": "existing",
+      "status": "added",
       "targets": [
-        "c06-f059"
+        "w26-c06-f20"
       ],
       "pdfPage": 3,
       "source": {
@@ -6277,6 +6928,17 @@
         "referenceAnswers": [
           "兰亭序"
         ]
+      },
+      "previousStatus": "existing",
+      "previousTargets": [
+        "c06-f059"
+      ],
+      "recheck": {
+        "date": "2026-11-09",
+        "reasons": [
+          "题干"
+        ],
+        "policy": "同一单元、同一题型、完整题干及全部选项或空位一致才可合并；不以相同考点代替试卷原题。"
       }
     }
   ],
