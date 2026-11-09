@@ -9,7 +9,7 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?terms=20261108-simple&v=20261106-restored" />
+    <link rel="stylesheet" href="./styles.css?v=20261109-review-flow" />
   </head>
   <body>
     <div class="app-shell">
@@ -69,7 +69,9 @@
               <p>每章点击“选”练选择题、“填”练填空题、“名”背名词解释，学习进度分别保存。</p>
               <div class="hero-actions">
                 <button class="primary-button" id="continueButton">选择章节</button>
+                <button class="secondary-button" id="choiceMixButton">选择混练</button>
                 <button class="secondary-button" id="fillMixButton">填空混练</button>
+                <button class="secondary-button" id="termMixButton">名解混练</button>
               </div>
             </article>
 
@@ -147,7 +149,7 @@
 
         <section class="view" id="mistakesView">
           <header class="mistakes-heading"><div><h1>错题与解析</h1><p id="mistakeSummary"></p></div>
-            <nav class="mistake-view-switch" aria-label="错题功能"><button data-mistake-view="browse" aria-pressed="true">查阅解析</button><button data-mistake-view="review" aria-pressed="false">循环复习</button></nav>
+            <nav class="mistake-view-switch" aria-label="错题功能"><button data-mistake-view="browse" aria-pressed="true">查阅解析</button><button data-mistake-view="review" aria-pressed="false">循环复习</button><button data-mistake-view="terms" aria-pressed="false">名词记录与解析</button></nav>
           </header>
           <section id="reviewDashboard" hidden aria-label="循环复习">
             <p class="review-instruction">先练到期错题，答错的稍后再来，答对后逐步拉长复习间隔。</p>
@@ -155,8 +157,26 @@
               <button class="review-module" data-review-kind="single"><span>单选</span><strong>0</strong><span class="review-count-label">今日待复习</span><small></small><span class="review-next"></span></button>
               <button class="review-module" data-review-kind="multiple"><span>多选</span><strong>0</strong><span class="review-count-label">今日待复习</span><small></small><span class="review-next"></span></button>
               <button class="review-module" data-review-kind="fill"><span>填空</span><strong>0</strong><span class="review-count-label">今日待复习</span><small></small><span class="review-next"></span></button>
+              <button class="review-module" data-review-kind="terms"><span>名词解释</span><strong>0</strong><span class="review-count-label">今日待复习</span><small></small><span class="review-next"></span></button>
             </div>
-            <details class="review-rules"><summary>复习周期说明</summary><p>答对后依次间隔 1、3、7、14、30、60、90 天复习，之后每 90 天循环；再次答错从头开始。按北京时间到期，提前巩固答对不改期。</p></details>
+            <details class="review-rules"><summary>复习周期说明</summary><p>答对后依次间隔 1、3、7、14、30、60、90 天复习，之后每 90 天循环；再次答错从头开始。名词解释沿用红、黄、绿自评周期，可在“名词记录与解析”中调整。按北京时间到期，提前巩固答对不改期。</p></details>
+          </section>
+          <section id="termLibrary" hidden aria-label="名词解释记录与复习">
+  <div id="termHome">
+  
+  <div class="section-heading"><div><p class="eyebrow">名词解释 · 纸上默写，自主评价</p><h2 id="termChapter">名词解释</h2></div></div>
+  <label for="termSelect">当前章节</label> <select id="termSelect"></select>
+  <p id="termStats" class="term-muted"></p>
+  <div class="term-actions"><button id="termRandom">本章随机抽背</button><button id="termDue">今日到期复习</button></div>
+  <p class="term-muted">记录仅保存在当前浏览器，可用“计划与备份”迁移。</p>
+
+  <div class="term-library-filters"><label>颜色<select id="termColorFilter"><option value="all">全部颜色</option><option value="red">红色</option><option value="yellow">黄色</option><option value="green">绿色</option></select></label><label>复习状态<select id="termStatusFilter"><option value="all">全部名词</option><option value="due">今日到期（含逾期）</option><option value="future">尚未到期</option><option value="unseen">未学习</option></select></label></div>
+  <section class="term-history-wrap"><h3>本章名词与复习日期</h3><div id="termHistory"></div></section>
+  <details class="term-rules"><summary>复习周期设置（北京时间）</summary>
+    <p>连续绿色按3、7、30天推进，之后每30天检查；黄色3天，暂停推进；红色次日并重置。红黄之后再选绿色从第一个阶段开始。间隔从实际评分当天计算，逾期保留。</p>
+    <div class="term-rule-fields"><label>红色（天）<input id="termRedDays" type="number" min="1" max="3650"></label><label>黄色（天）<input id="termYellowDays" type="number" min="1" max="3650"></label><label>绿色第一阶段<input id="termGreen1" type="number" min="1" max="3650"></label><label>绿色第二阶段<input id="termGreen2" type="number" min="1" max="3650"></label><label>绿色第三阶段及后续<input id="termGreen3" type="number" min="1" max="3650"></label></div><button id="termSaveRules">保存周期</button>
+  </details>
+  </div>
           </section>
           <section class="mistake-library" id="mistakeLibrary" aria-label="错题解析查阅">
             <div class="mistake-kind-tabs" role="group" aria-label="解析分类"><button data-mistake-kind="choice" aria-pressed="true">选择题 <span></span></button><button data-mistake-kind="fill" aria-pressed="false">填空题 <span></span></button></div>
@@ -216,21 +236,8 @@
         </section>
 
 <section class="view terms-view" id="termsView">
-  <button id="termBack" class="back-button" hidden>返回名词列表</button>
-  <div id="termHome">
-  <button class="back-button" data-view="overview">返回总览</button>
-  <div class="section-heading"><div><p class="eyebrow">名词解释 · 纸上默写，自主评价</p><h2 id="termChapter">名词解释</h2></div></div>
-  <label for="termSelect">当前章节</label> <select id="termSelect"></select>
-  <p id="termStats" class="term-muted"></p>
-  <div class="term-actions"><button id="termRandom">本章随机抽背</button><button id="termDue">今日到期复习</button></div>
-  <p class="term-muted">记录仅保存在当前浏览器，可用“计划与备份”迁移。</p>
+  <button id="termBack" class="back-button" hidden>返回错题与解析</button>
 
-  <section class="term-history-wrap"><h3>本章名词与复习日期</h3><div id="termHistory"></div></section>
-  <details class="term-rules"><summary>复习周期设置（北京时间）</summary>
-    <p>连续绿色按3、7、30天推进，之后每30天检查；黄色3天，暂停推进；红色次日并重置。红黄之后再选绿色从第一个阶段开始。间隔从实际评分当天计算，逾期保留。</p>
-    <div class="term-rule-fields"><label>红色（天）<input id="termRedDays" type="number" min="1" max="3650"></label><label>黄色（天）<input id="termYellowDays" type="number" min="1" max="3650"></label><label>绿色第一阶段<input id="termGreen1" type="number" min="1" max="3650"></label><label>绿色第二阶段<input id="termGreen2" type="number" min="1" max="3650"></label><label>绿色第三阶段及后续<input id="termGreen3" type="number" min="1" max="3650"></label></div><button id="termSaveRules">保存周期</button>
-  </details>
-  </div>
   <p id="termMessage" role="status" aria-live="polite"></p>
   <article id="termCard" class="term-card" hidden aria-labelledby="termName">
     <p id="termCardChapter"></p><p id="termProgress" aria-live="polite"></p>
@@ -249,6 +256,7 @@
     <section class="type-intro" id="typeIntro" role="dialog" aria-modal="true" aria-label="题型提示" hidden>
       <button id="enterStageButton">单选题</button>
     </section>
+    <dialog id="mixScope" aria-labelledby="mixScopeTitle"><h2 id="mixScopeTitle">选择混练范围</h2><p>从所选范围随机抽题，本轮不重复。</p><div class="mix-scope-actions"><button data-mix-range="first">1—6章</button><button data-mix-range="last">7—12章</button><button data-mix-range="all">全部章节</button></div><button id="closeMixScope" class="text-button">取消</button></dialog>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script src="./questions.js?v=20261109-audit"></script>
     <script src="./explanations.js?v=20261109-audit"></script>
@@ -256,8 +264,8 @@
     <script src="./fill-utils.js?v=20261106-library"></script>
     <script src="./fill-feedback.js?v=20261106-library"></script>
     <script src="./terms-bank.js?v=20261107"></script>
-    <script src="./terms.js?v=20261108-simple"></script>
-    <script src="./app.js?v=20261109-audit"></script>
+    <script src="./terms.js?v=20261109-review-flow"></script>
+    <script src="./app.js?v=20261109-review-flow"></script>
   </body>
 </html>
 
