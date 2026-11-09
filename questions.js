@@ -1,7 +1,8 @@
+// 全章复核题库，保留既有编号与原题记录。
 window.SHIYI_QUESTION_BANK = {
-  "version": "2026-11-09-weekly-variants",
-  "sourceQuestionCount": 611,
-  "gradedSourceCount": 611,
+  "version": "2026-11-09-all-chapter-audit",
+  "sourceQuestionCount": 620,
+  "gradedSourceCount": 620,
   "answerPolicy": "既有已更正答案继续保留；本轮争议题按用户指定的原书/试卷考试口径恢复，学术分歧及补全说明在答题后以红字展示。明确的文字错误、漏空及作者错配作修订，原题原答案逐项保留。",
   "corrections": [
     {
@@ -106,9 +107,9 @@ window.SHIYI_QUESTION_BANK = {
     },
     {
       "id": "c12-m03",
-      "key": "ABCD",
-      "note": "审美直觉获得感官层次的悦耳悦目，D应选入；中心环节指审美体验，不是审美直觉。",
-      "url": "https://www.cqcvc.edu.cn/zhuzhan/file/2024-11-26/1732591192573ff808081932099c23120193667b89fd15ce.pdf"
+      "key": "ABC",
+      "note": "D前半句把审美直觉的作用方向写反：教材是艺术作品作用于鉴赏主体；后半句悦耳悦目正确不能使整个复合选项成立。E的中心环节应指审美体验。因此按现有完整选项选ABC。",
+      "url": "https://qlljlyqh.com/nd.jsp?id=922"
     },
     {
       "id": "c04-m10",
@@ -329,7 +330,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c01-m07",
       "chapter": 1,
-      "stem": "下列属于俄国 19世纪著名文艺评论家的的有（　）。",
+      "stem": "下列属于俄国 19世纪著名文艺评论家的有（　）。",
       "options": [
         "柴可夫斯基",
         "别林斯基",
@@ -348,7 +349,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 7,
         "kind": "m",
         "part": null
-      }
+      },
+      "originalStem": "下列属于俄国 19世纪著名文艺评论家的的有（　）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "校正重复字、漏字、标点或姓名译写：家的的→家的"
+        }
+      ]
     },
     {
       "id": "c01-m08",
@@ -1761,7 +1770,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c04-m01",
       "chapter": 4,
-      "stem": "以下关于哲学家柏格森的描述正确的的有（　）。",
+      "stem": "以下关于哲学家柏格森的描述正确的有（　）。",
       "options": [
         "认为只有人的梦幻世界或直觉领域才能达到绝对真实。",
         "其哲学思想对超现实主义艺术产生巨大影响。",
@@ -1782,7 +1791,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 1,
         "kind": "m",
         "part": null
-      }
+      },
+      "originalStem": "以下关于哲学家柏格森的描述正确的的有（　）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "校正重复字、漏字、标点或姓名译写：正确的的→正确的"
+        }
+      ]
     },
     {
       "id": "c04-m02",
@@ -1966,7 +1983,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c04-m08",
       "chapter": 4,
-      "stem": "托尔斯泰著名的“三部曲”包括（　）。",
+      "stem": "列夫·托尔斯泰的三部长篇代表作包括（　）。",
       "options": [
         "《伊凡·伊里奇之死》",
         "《战争与和平》",
@@ -1986,7 +2003,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 8,
         "kind": "m",
         "part": null
-      }
+      },
+      "originalStem": "托尔斯泰著名的“三部曲”包括（　）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "stem",
+          "text": "把三部长篇代表作与自传体三部曲区别，答案组合不变。"
+        }
+      ]
     },
     {
       "id": "c04-m09",
@@ -3985,7 +4010,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c05-s22",
       "chapter": 5,
-      "stem": "4世纪到15世纪，以君士坦丁堡为中心的东罗马帝国的建筑艺术，植根于古罗马教堂又明显受到埃及、波兰、叙利亚等东方建筑风格影响，这种建筑艺术是（　）。",
+      "stem": "4世纪到15世纪，以君士坦丁堡为中心的东罗马帝国建筑艺术，植根于古罗马传统，又受到埃及、叙利亚等东方建筑风格影响，这种建筑艺术是（　）。",
       "options": [
         "拜占庭式建筑",
         "洛可可式建筑",
@@ -4002,7 +4027,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 22,
         "kind": "s",
         "part": null
-      }
+      },
+      "originalStem": "4世纪到15世纪，以君士坦丁堡为中心的东罗马帝国的建筑艺术，植根于古罗马教堂又明显受到埃及、波兰、叙利亚等东方建筑风格影响，这种建筑艺术是（　）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "stem",
+          "text": "删除把波兰列作东方建筑来源的错误地名，不臆测原稿本意。"
+        }
+      ]
     },
     {
       "id": "c05-s23-1",
@@ -5625,7 +5658,7 @@ window.SHIYI_QUESTION_BANK = {
       "options": [
         "作者是法国画家达芬奇",
         "是卢浮宫三宝之一",
-        "是一副偏重于心理描写的肖像画",
+        "是一幅偏重于心理描写的肖像画",
         "反映了文艺复兴时期人文主义的理想",
         "运用解剖学原理刻画形体"
       ],
@@ -5642,7 +5675,21 @@ window.SHIYI_QUESTION_BANK = {
         "number": 26,
         "kind": "m",
         "part": null
-      }
+      },
+      "originalOptions": [
+        "作者是法国画家达芬奇",
+        "是卢浮宫三宝之一",
+        "是一副偏重于心理描写的肖像画",
+        "反映了文艺复兴时期人文主义的理想",
+        "运用解剖学原理刻画形体"
+      ],
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "一副→一幅；选项位置与答案索引不变。"
+        }
+      ]
     },
     {
       "id": "c06-m27",
@@ -5740,7 +5787,7 @@ window.SHIYI_QUESTION_BANK = {
       "options": [
         "是欧洲美术从现实主义向现代主义过渡的一个重要阶段",
         "反对传统，引起了世界艺术形式的重大变革",
-        "仍然是以模仿自然为宗旨，并没有完全放奔传统的写实主义",
+        "仍然是以模仿自然为宗旨，并没有完全放弃传统的写实主义",
         "代表人物有马奈、莫奈、雷诺阿、德加等",
         "是十九世纪在法国兴起的一个绘画流派"
       ],
@@ -5758,7 +5805,21 @@ window.SHIYI_QUESTION_BANK = {
         "number": 30,
         "kind": "m",
         "part": null
-      }
+      },
+      "originalOptions": [
+        "是欧洲美术从现实主义向现代主义过渡的一个重要阶段",
+        "反对传统，引起了世界艺术形式的重大变革",
+        "仍然是以模仿自然为宗旨，并没有完全放奔传统的写实主义",
+        "代表人物有马奈、莫奈、雷诺阿、德加等",
+        "是十九世纪在法国兴起的一个绘画流派"
+      ],
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "放奔→放弃；选项位置与答案索引不变。"
+        }
+      ]
     },
     {
       "id": "c06-m31",
@@ -6504,7 +6565,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c06-s29",
       "chapter": 6,
-      "stem": "摄影艺术由（　）发明。",
+      "stem": "1839年公开宣布的达盖尔银版摄影法，由（　）发明。",
       "options": [
         "达盖尔",
         "爱迪生",
@@ -6532,6 +6593,14 @@ window.SHIYI_QUESTION_BANK = {
           "importId": "w26-c06-s19",
           "answerDocument": "艺术概论第六章综合测试答案",
           "referenceKey": "B"
+        }
+      ],
+      "originalStem": "摄影艺术由（　）发明。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "stem",
+          "text": "区分银版摄影法的发明与摄影整体的多位先驱。"
         }
       ]
     },
@@ -7200,7 +7269,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c06-s55",
       "chapter": 6,
-      "stem": "提出“外师造化，中得心源“的画家是（　）。",
+      "stem": "提出“外师造化，中得心源”的画家是（　）。",
       "options": [
         "张彦远",
         "张璪",
@@ -7217,7 +7286,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 55,
         "kind": "s",
         "part": null
-      }
+      },
+      "originalStem": "提出“外师造化，中得心源“的画家是（　）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "校正重复字、漏字、标点或姓名译写：心源“→心源”"
+        }
+      ]
     },
     {
       "id": "c06-s56",
@@ -8800,7 +8877,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c07-s12",
       "chapter": 7,
-      "stem": "康弗斯的《神秘的号手》的属于（　）。",
+      "stem": "康弗斯的《神秘的号手》属于（　）。",
       "options": [
         "幻想曲",
         "组曲",
@@ -8817,7 +8894,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 12,
         "kind": "s",
         "part": null
-      }
+      },
+      "originalStem": "康弗斯的《神秘的号手》的属于（　）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "校正重复字、漏字、标点或姓名译写：号手》的属于→号手》属于"
+        }
+      ]
     },
     {
       "id": "c07-s13",
@@ -9235,7 +9320,19 @@ window.SHIYI_QUESTION_BANK = {
         "number": 31,
         "kind": "s",
         "part": null
-      }
+      },
+      "reviewNotice": {
+        "policy": "原题表述有边界，参考答案与核对说明分开理解",
+        "text": "原题“欧洲音乐史上记录最早”过于绝对。格里高利圣咏是欧洲中世纪音乐的重要传统，但存在更早古希腊音乐记谱遗存。",
+        "sources": []
+      },
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "review",
+          "text": "原题“欧洲音乐史上记录最早”过于绝对。格里高利圣咏是欧洲中世纪音乐的重要传统，但存在更早古希腊音乐记谱遗存。"
+        }
+      ]
     },
     {
       "id": "c07-s32",
@@ -9591,7 +9688,19 @@ window.SHIYI_QUESTION_BANK = {
         "number": 47,
         "kind": "s",
         "part": null
-      }
+      },
+      "reviewNotice": {
+        "policy": "原题表述有边界，参考答案与核对说明分开理解",
+        "text": "“古典舞”不是全世界单一起源的舞种：印度古典舞、中国古典舞、古典芭蕾各有传统。本题印度答案只能按教材这一组亚洲民族舞举例理解。",
+        "sources": []
+      },
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "review",
+          "text": "“古典舞”不是全世界单一起源的舞种：印度古典舞、中国古典舞、古典芭蕾各有传统。本题印度答案只能按教材这一组亚洲民族舞举例理解。"
+        }
+      ]
     },
     {
       "id": "c07-s48",
@@ -9679,7 +9788,25 @@ window.SHIYI_QUESTION_BANK = {
         "number": 51,
         "kind": "s",
         "part": null
-      }
+      },
+      "reviewNotice": {
+        "policy": "原题表述有边界，参考答案与核对说明分开理解",
+        "text": "原书参考为墨西哥；若按通行tap dance概念，此题缺美国选项，不能把“踢踏舞起源墨西哥”当成无条件史实。保留原题供考试口径辨认。",
+        "sources": [
+          {
+            "title": "美国国会图书馆：Tap Dance in America",
+            "url": "https://www.loc.gov/collections/songs-of-america/articles-and-essays/musical-styles/parlor-and-concert-stage/tap-dance/",
+            "scope": "通行所称tap dance在美国由非洲与欧洲舞蹈传统融合发展，不支持无条件把踢踏舞起源定为墨西哥。"
+          }
+        ]
+      },
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "review",
+          "text": "原书参考为墨西哥；若按通行tap dance概念，此题缺美国选项，不能把“踢踏舞起源墨西哥”当成无条件史实。保留原题供考试口径辨认。"
+        }
+      ]
     },
     {
       "id": "c07-s52",
@@ -10140,7 +10267,19 @@ window.SHIYI_QUESTION_BANK = {
         "number": 2,
         "kind": "m",
         "part": null
-      }
+      },
+      "reviewNotice": {
+        "policy": "原题表述有边界，参考答案与核对说明分开理解",
+        "text": "B“戏剧”与题干为同一上位词，和话剧、歌剧等不同级；未取得原扫描页以确认是否误录为戏曲。保留原选项和原书全选答案，勿把它背作规范同级分类。",
+        "sources": []
+      },
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "review",
+          "text": "B“戏剧”与题干为同一上位词，和话剧、歌剧等不同级；未取得原扫描页以确认是否误录为戏曲。保留原选项和原书全选答案，勿把它背作规范同级分类。"
+        }
+      ]
     },
     {
       "id": "c08-m03",
@@ -10366,7 +10505,19 @@ window.SHIYI_QUESTION_BANK = {
         "number": 9,
         "kind": "m",
         "part": null
-      }
+      },
+      "reviewNotice": {
+        "policy": "原题表述有边界，参考答案与核对说明分开理解",
+        "text": "A的“一次性完成”不能理解为拍摄只拍一遍，影视可以多次拍摄并剪辑；E也不能理解为戏剧无须逼真。保留原书ABE，但应以舞台现场连续表演与影视镜头摄录的差别理解。",
+        "sources": []
+      },
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "review",
+          "text": "A的“一次性完成”不能理解为拍摄只拍一遍，影视可以多次拍摄并剪辑；E也不能理解为戏剧无须逼真。保留原书ABE，但应以舞台现场连续表演与影视镜头摄录的差别理解。"
+        }
+      ]
     },
     {
       "id": "c08-m10",
@@ -10560,7 +10711,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c08-m17",
       "chapter": 8,
-      "stem": "中国悲剧为了达到“善有善报，恶有恶报”的大团圆结局，常使用的的办法有（　）。",
+      "stem": "中国悲剧为了达到“善有善报，恶有恶报”的大团圆结局，常使用的办法有（　）。",
       "options": [
         "寄希望于宗教信仰",
         "一悲到底",
@@ -10580,7 +10731,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 17,
         "kind": "m",
         "part": null
-      }
+      },
+      "originalStem": "中国悲剧为了达到“善有善报，恶有恶报”的大团圆结局，常使用的的办法有（　）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "校正重复字、漏字、标点或姓名译写：使用的的→使用的"
+        }
+      ]
     },
     {
       "id": "c08-m18",
@@ -10636,7 +10795,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c08-m20",
       "chapter": 8,
-      "stem": "下列对我国著名电影《现代启示录》的描述正确的有（　）。",
+      "stem": "下列对著名美国电影《现代启示录》的描述正确的有（　）。",
       "options": [
         "美国影片，由科波拉导演",
         "反映越南战争题材",
@@ -10657,7 +10816,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 20,
         "kind": "m",
         "part": null
-      }
+      },
+      "originalStem": "下列对我国著名电影《现代启示录》的描述正确的有（　）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "stem",
+          "text": "原题我国与正确选项美国影片自相矛盾，纠正题干国别。"
+        }
+      ]
     },
     {
       "id": "c08-s01",
@@ -10728,7 +10895,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c08-s04",
       "chapter": 8,
-      "stem": "戏剧按作品题裁可分为（　）。",
+      "stem": "戏剧按作品题材可分为（　）。",
       "options": [
         "多幕剧和独幕剧",
         "历史剧、现代剧、儿童剧",
@@ -10745,7 +10912,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 4,
         "kind": "s",
         "part": null
-      }
+      },
+      "originalStem": "戏剧按作品题裁可分为（　）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "stem",
+          "text": "题裁→题材"
+        }
+      ]
     },
     {
       "id": "c08-s05",
@@ -11193,7 +11368,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c08-s22",
       "chapter": 8,
-      "stem": "中国戏曲的渊源可追溯到于（　）时期的乐舞、俳优、百戏。",
+      "stem": "中国戏曲的渊源可追溯到（　）时期的乐舞、俳优、百戏。",
       "options": [
         "秦汉",
         "唐代",
@@ -11210,7 +11385,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 22,
         "kind": "s",
         "part": null
-      }
+      },
+      "originalStem": "中国戏曲的渊源可追溯到于（　）时期的乐舞、俳优、百戏。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "校正重复字、漏字、标点或姓名译写：追溯到于→追溯到"
+        }
+      ]
     },
     {
       "id": "c08-s23",
@@ -11237,7 +11420,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c08-s24-1",
       "chapter": 8,
-      "stem": "京剧“谭派”创始人是【本空】；麟派创始人是（第2空）；“盖派”创始人是（第3空）。（本题填写第1空）",
+      "stem": "京剧“谭派”创始人是【本空】；麒派创始人是（第2空）；“盖派”创始人是（第3空）。（本题填写第1空）",
       "options": [
         "谭鑫培",
         "周信芳",
@@ -11254,12 +11437,20 @@ window.SHIYI_QUESTION_BANK = {
         "number": 24,
         "kind": "s",
         "part": 1
-      }
+      },
+      "originalStem": "京剧“谭派”创始人是【本空】；麟派创始人是（第2空）；“盖派”创始人是（第3空）。（本题填写第1空）",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "麟派→麒派"
+        }
+      ]
     },
     {
       "id": "c08-s24-2",
       "chapter": 8,
-      "stem": "京剧“谭派”创始人是（第1空）；麟派创始人是【本空】；“盖派”创始人是（第3空）。（本题填写第2空）",
+      "stem": "京剧“谭派”创始人是（第1空）；麒派创始人是【本空】；“盖派”创始人是（第3空）。（本题填写第2空）",
       "options": [
         "谭鑫培",
         "周信芳",
@@ -11276,12 +11467,20 @@ window.SHIYI_QUESTION_BANK = {
         "number": 24,
         "kind": "s",
         "part": 2
-      }
+      },
+      "originalStem": "京剧“谭派”创始人是（第1空）；麟派创始人是【本空】；“盖派”创始人是（第3空）。（本题填写第2空）",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "麟派→麒派"
+        }
+      ]
     },
     {
       "id": "c08-s24-3",
       "chapter": 8,
-      "stem": "京剧“谭派”创始人是（第1空）；麟派创始人是（第2空）；“盖派”创始人是【本空】。（本题填写第3空）",
+      "stem": "京剧“谭派”创始人是（第1空）；麒派创始人是（第2空）；“盖派”创始人是【本空】。（本题填写第3空）",
       "options": [
         "谭鑫培",
         "周信芳",
@@ -11298,7 +11497,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 24,
         "kind": "s",
         "part": 3
-      }
+      },
+      "originalStem": "京剧“谭派”创始人是（第1空）；麟派创始人是（第2空）；“盖派”创始人是【本空】。（本题填写第3空）",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "麟派→麒派"
+        }
+      ]
     },
     {
       "id": "c08-s25",
@@ -11656,7 +11863,7 @@ window.SHIYI_QUESTION_BANK = {
     {
       "id": "c08-s40",
       "chapter": 8,
-      "stem": "世界上第一座电视台开播于（　）。",
+      "stem": "1936年BBC开始定期高清晰度电视广播服务，所在国家是（　）。",
       "options": [
         "法国",
         "英国",
@@ -11673,7 +11880,15 @@ window.SHIYI_QUESTION_BANK = {
         "number": 40,
         "kind": "s",
         "part": null
-      }
+      },
+      "originalStem": "世界上第一座电视台开播于（　）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "stem",
+          "text": "明确BBC及当时的高清晰度标准，避免世界第一座电视台的不同统计口径。"
+        }
+      ]
     },
     {
       "id": "c08-s41",
@@ -13465,7 +13680,19 @@ window.SHIYI_QUESTION_BANK = {
         "number": 16,
         "kind": "m",
         "part": null
-      }
+      },
+      "reviewNotice": {
+        "policy": "原题表述有边界，参考答案与核对说明分开理解",
+        "text": "E中“古典主义后现代主义”名称混杂，原题可能有误录。消解艺术与非艺术边界可以描述后现代倾向，不能因为E不选就把这个知识点反背为错误。",
+        "sources": []
+      },
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "review",
+          "text": "E中“古典主义后现代主义”名称混杂，原题可能有误录。消解艺术与非艺术边界可以描述后现代倾向，不能因为E不选就把这个知识点反背为错误。"
+        }
+      ]
     },
     {
       "id": "c10-m17",
@@ -14089,7 +14316,19 @@ window.SHIYI_QUESTION_BANK = {
         "number": 8,
         "kind": "m",
         "part": null
-      }
+      },
+      "reviewNotice": {
+        "policy": "原题表述有边界，参考答案与核对说明分开理解",
+        "text": "“遁世”与“出世”概念有交叠，并非严格互斥；禅宗不能一概概括为离开社会。原书ACD是特定教材标签，勿扩张为全部禅宗思想。",
+        "sources": []
+      },
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "review",
+          "text": "“遁世”与“出世”概念有交叠，并非严格互斥；禅宗不能一概概括为离开社会。原书ACD是特定教材标签，勿扩张为全部禅宗思想。"
+        }
+      ]
     },
     {
       "id": "c11-s01",
@@ -14552,17 +14791,45 @@ window.SHIYI_QUESTION_BANK = {
       "answers": [
         0,
         1,
-        2,
-        3
+        2
       ],
-      "explanation": "核对更正：A、B、C、D。审美直觉获得感官层次的悦耳悦目，D应选入；中心环节指审美体验，不是审美直觉。 原书答案：ABC。",
+      "explanation": "2026-11-09复核更正：A、B、C。D前半句把审美直觉的作用方向写反：教材是艺术作品作用于鉴赏主体；后半句悦耳悦目正确不能使整个复合选项成立。E的中心环节应指审美体验。因此按现有完整选项选ABC。此前补选D的勘误撤回；原书答案为ABC。",
       "source": {
         "page": 49,
         "number": 3,
         "kind": "m",
         "part": null
       },
-      "answerRevision": "2026-10-24"
+      "answerRevision": "2026-11-09",
+      "previousAnswers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "answer",
+          "text": "D前半句把审美直觉的作用方向写反：教材是艺术作品作用于鉴赏主体；后半句悦耳悦目正确不能使整个复合选项成立。E的中心环节应指审美体验。因此按现有完整选项选ABC。"
+        },
+        {
+          "date": "2026-11-09",
+          "kind": "review",
+          "text": "此前ABCD的更正不完整，漏看D前半句；本次恢复ABC。勿将“悦耳悦目”正确误当作整项正确。"
+        }
+      ],
+      "reviewNotice": {
+        "policy": "原题表述有边界，参考答案与核对说明分开理解",
+        "text": "此前ABCD的更正不完整，漏看D前半句；本次恢复ABC。勿将“悦耳悦目”正确误当作整项正确。",
+        "sources": [
+          {
+            "title": "课程复习资料：艺术鉴赏的直觉与体验",
+            "url": "https://qlljlyqh.com/nd.jsp?id=922",
+            "scope": "辅助核对教材中作品作用于主体、主体反作用于作品的区分；非原书扫描页。"
+          }
+        ]
+      }
     },
     {
       "id": "c12-m04",
@@ -16170,6 +16437,283 @@ window.SHIYI_QUESTION_BANK = {
         "referenceKey": "ABDE"
       },
       "explanation": "用户提供《艺术概论第六章综合测试》PDF第2页 · 多选第15题。复核答案：ABDE。"
+    },
+    {
+      "id": "w26-c09-s01",
+      "chapter": 9,
+      "stem": "美国 19 世纪诗人惠特曼是自由诗的创始者，其代表作是诗集（ ）",
+      "options": [
+        "《草叶集》",
+        "《组歌》",
+        "《飞鸟集》",
+        "《荒原》"
+      ],
+      "multiple": false,
+      "answers": [
+        0
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 1,
+        "kind": "s",
+        "importId": "w26-c09-s01"
+      },
+      "explanation": "第九章语言艺术综合测试 · PDF第1页 · 单选第1题；依据完整选项核对，答案：A。",
+      "restoredVariantFrom": [
+        "c09-f015"
+      ]
+    },
+    {
+      "id": "w26-c09-s06",
+      "chapter": 9,
+      "stem": "（ ）的语言，可以说是一切文学作品中最凝练、最优美、最富音乐感的语言。",
+      "options": [
+        "诗歌",
+        "散文",
+        "小说",
+        "剧本"
+      ],
+      "multiple": false,
+      "answers": [
+        0
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 6,
+        "kind": "s",
+        "importId": "w26-c09-s06"
+      },
+      "explanation": "第九章语言艺术综合测试 · PDF第1页 · 单选第6题；依据完整选项核对，答案：A。",
+      "restoredVariantFrom": [
+        "c09-s12"
+      ],
+      "originalStem": "（ ）的语言，可是说是一切文学作品中最凝练、最优美、最富音乐感的语言。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "校正重复字、漏字、标点或姓名译写：可是说→可以说"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-s07",
+      "chapter": 9,
+      "stem": "库尔特·冯内古特的意识流小说《第五号屠场》属于（ ）。",
+      "options": [
+        "单线型结构",
+        "复线型结构",
+        "蛛网型结构",
+        "辐射型结构"
+      ],
+      "multiple": false,
+      "answers": [
+        3
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 7,
+        "kind": "s",
+        "importId": "w26-c09-s07"
+      },
+      "explanation": "第九章语言艺术综合测试 · PDF第1页 · 单选第7题；依据完整选项核对，答案：D。",
+      "restoredVariantFrom": [
+        "c09-s21-3"
+      ],
+      "originalStem": "库尔特·冯尼格的意识流小说《第五号屠场》属于（ ）。",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "校正重复字、漏字、标点或姓名译写：库尔特·冯尼格→库尔特·冯内古特"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-s09",
+      "chapter": 9,
+      "stem": "《一个女人一生中的二十四小时》是（ ）的作品。",
+      "options": [
+        "惠特曼",
+        "茨威格",
+        "司汤达",
+        "马尔克斯"
+      ],
+      "multiple": false,
+      "answers": [
+        1
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 9,
+        "kind": "s",
+        "importId": "w26-c09-s09"
+      },
+      "explanation": "第九章语言艺术综合测试 · PDF第1页 · 单选第9题；依据完整选项核对，答案：B。",
+      "restoredVariantFrom": [
+        "c09-f013"
+      ]
+    },
+    {
+      "id": "w26-c09-s12",
+      "chapter": 9,
+      "stem": "哥伦比亚作家马尔克斯的长篇小说《 》采用魔幻现实主义的手法。",
+      "options": [
+        "《红与黑》",
+        "《百年孤独》",
+        "《简·爱》",
+        "《老人与海》"
+      ],
+      "multiple": false,
+      "answers": [
+        1
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 12,
+        "kind": "s",
+        "importId": "w26-c09-s12"
+      },
+      "explanation": "第九章语言艺术综合测试 · PDF第1页 · 单选第12题；依据完整选项核对，答案：B。",
+      "restoredVariantFrom": [
+        "c09-f003"
+      ]
+    },
+    {
+      "id": "w26-c09-m06",
+      "chapter": 9,
+      "stem": "诗歌按照作品的性质和塑造形象的方式不同，分为（ ）",
+      "options": [
+        "格律诗",
+        "自由诗",
+        "抒情诗",
+        "叙事诗",
+        "旧诗"
+      ],
+      "multiple": true,
+      "answers": [
+        2,
+        3
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 6,
+        "kind": "m",
+        "importId": "w26-c09-m06"
+      },
+      "explanation": "第九章语言艺术综合测试 · PDF第1页 · 多选第6题；依据完整选项核对，答案：CD。",
+      "restoredVariantFrom": [
+        "c09-f009"
+      ],
+      "originalStem": "按照作品的性质和塑造形象的方式不同，分为（ ）",
+      "auditNotes": [
+        {
+          "date": "2026-11-09",
+          "kind": "typo",
+          "text": "校正重复字、漏字、标点或姓名译写：按照作品→诗歌按照作品"
+        }
+      ]
+    },
+    {
+      "id": "w26-c09-m07",
+      "chapter": 9,
+      "stem": "下列作者是柳宗元的是（ ）。",
+      "options": [
+        "《小石潭记》",
+        "《茶馆》",
+        "《钴鉧潭西小丘记》",
+        "《桃花源记》",
+        "《童区寄传》"
+      ],
+      "multiple": true,
+      "answers": [
+        0,
+        2,
+        4
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 1,
+        "page": 1,
+        "number": 7,
+        "kind": "m",
+        "importId": "w26-c09-m07"
+      },
+      "explanation": "第九章语言艺术综合测试 · PDF第1页 · 多选第7题；依据完整选项核对，答案：ACE。",
+      "restoredVariantFrom": [
+        "c09-m05"
+      ]
+    },
+    {
+      "id": "w26-c09-m09",
+      "chapter": 9,
+      "stem": "《荷马史诗》包括（ ）。",
+      "options": [
+        "《伊利亚特》",
+        "《奥赛罗》",
+        "《奥德赛》",
+        "《哈姆雷特》",
+        "《李尔王》"
+      ],
+      "multiple": true,
+      "answers": [
+        0,
+        2
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 9,
+        "kind": "m",
+        "importId": "w26-c09-m09"
+      },
+      "explanation": "第九章语言艺术综合测试 · PDF第2页 · 多选第9题；依据完整选项核对，答案：AC。",
+      "restoredVariantFrom": [
+        "c09-f004"
+      ]
+    },
+    {
+      "id": "w26-c09-m10",
+      "chapter": 9,
+      "stem": "列夫·托尔斯泰的作品（ ）",
+      "options": [
+        "《老人与海》",
+        "《战争与和平》",
+        "《安娜·卡列尼娜》",
+        "《复活》",
+        "《罗生门》"
+      ],
+      "multiple": true,
+      "answers": [
+        1,
+        2,
+        3
+      ],
+      "source": {
+        "document": "第九章语言艺术综合测试",
+        "pdfPage": 2,
+        "page": 2,
+        "number": 10,
+        "kind": "m",
+        "importId": "w26-c09-m10"
+      },
+      "explanation": "第九章语言艺术综合测试 · PDF第2页 · 多选第10题；依据完整选项核对，答案：BCD。",
+      "restoredVariantFrom": [
+        "c04-m08"
+      ]
     }
   ],
   "pending": [
