@@ -267,7 +267,7 @@
         termButton.dataset.kind = "terms"; termButton.dataset.chapter = chapter.id;
         termButton.setAttribute("aria-label", chapter.title + "名词解释");
         termButton.innerHTML = "<b>名</b><small>" + termStats.attempted + "/" + termStats.total + "</small>";
-        termButton.addEventListener("click", function () { setView("terms"); window.SHIYI_TERMS.open(chapter.id); });
+        termButton.addEventListener("click", function () { setView("terms"); window.SHIYI_TERMS.practice(chapter.id); });
         actions.appendChild(termButton);
         card.appendChild(actions); parent.appendChild(card);
       });
@@ -286,14 +286,30 @@
     beginQuestion();
   }
 
-  function startFillPractice() {
-    var questions = BANK.questions.filter(function (q) { return q.type === "fill"; });
-    if (!questions.length) return showToast("填空题库暂时为空");
-    session.queue = shuffle(questions);
-    session.index = 0;
-    session.mode = "fillMix";
-    beginQuestion();
+  var mixKind = "fill";
+  function openMix(kind) {
+    mixKind = kind;
+    byId("mixScopeTitle").textContent = ({choice:"选择混练",fill:"填空混练",terms:"名解混练"})[kind] + " · 选择范围";
+    byId("mixScope").showModal();
   }
+  function startMix(range) {
+    byId("mixScope").close();
+    if (mixKind === "terms") return window.SHIYI_TERMS.mix(range);
+    var questions = BANK.questions.filter(function (q) {
+      return (q.type === "fill") === (mixKind === "fill") && (range === "all" || (range === "first" ? q.chapter <= 6 : q.chapter >= 7));
+    });
+    if (!questions.length) return showToast("该范围暂无题目");
+    session.queue = shuffle(questions); session.index = 0; session.mode = mixKind + "Mix";
+    beginQuestion(true);
+  }
+  function showTermLibrary() {
+    setView("mistakes");
+    byId("mistakeLibrary").hidden = true; byId("reviewDashboard").hidden = true; byId("termLibrary").hidden = false;
+    document.querySelectorAll("[data-mistake-view]").forEach(function (b) { b.setAttribute("aria-pressed",String(b.dataset.mistakeView === "terms")); });
+    window.SHIYI_TERMS.open(Number(byId("termSelect").value) || 1);
+  }
+  window.SHIYI_TERMS.onPractice = function () { setView("terms"); };
+  window.SHIYI_TERMS.onReturn = showTermLibrary;
 
   function beginQuestion(enterStage) {
     session.answered = false;
@@ -302,7 +318,7 @@
     setView("practice");
     var question = session.queue[session.index];
     var previous = session.queue[session.index - 1];
-    session.intro = session.mode !== "review" && !enterStage && (!previous || (previous.type === "fill") !== (question.type === "fill") || Boolean(previous.multiple) !== Boolean(question.multiple));
+    session.intro = session.mode !== "review" && !session.mode.endsWith("Mix") && !enterStage && (!previous || (previous.type === "fill") !== (question.type === "fill") || Boolean(previous.multiple) !== Boolean(question.multiple));
     byId("typeIntro").hidden = !session.intro;
     byId("questionStage").hidden = session.intro;
     if (session.intro) {
@@ -320,7 +336,7 @@
     var question = session.queue[session.index];
     if (!question) return;
     var chapter = BANK.chapters.find(function (item) { return item.id === question.chapter; });
-    byId("practiceTitle").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "fillMix" ? "填空混练" : "错题重练");
+    byId("practiceTitle").textContent = session.mode === "chapter" ? chapter.title : (session.mode === "fillMix" ? "填空混练" : session.mode === "choiceMix" ? "选择混练" : "错题重练");
     if (session.mode === "review") byId("practiceTitle").textContent = "错题轮回 · " + ({single:"单选", multiple:"多选", fill:"填空"})[questionKind(question)];
     var backButton = document.querySelector("#questionStage .back-button");
     backButton.dataset.view = session.mode === "review" ? "mistakes" : "overview";
@@ -460,6 +476,16 @@
       element.textContent = text;
       container.appendChild(element);
     }
+    var order = optionOrder || (question.options || []).map(function (_, index) { return index; });
+    if (question.type === "fill") {
+      heading("参考答案");
+      question.answers.forEach(function (answer, index) { paragraph(container, "answer-key", "第 " + (index + 1) + " 空：" + answer); });
+    } else {
+      heading("参考答案");
+    paragraph(container, "answer-key", "本题应选：" + question.answers.slice().sort(function (a, b) { return order.indexOf(a) - order.indexOf(b); }).map(function (i) {
+      return String.fromCharCode(65 + order.indexOf(i)) + " · " + optionText(question, i);
+    }).join("；"));
+    }
     if (question.reviewNotice) {
       var notice = document.createElement("aside");
       notice.className = "review-notice";
@@ -505,8 +531,6 @@
           container.appendChild(item);
         });
       }
-      heading("参考答案");
-      question.answers.forEach(function (answer, index) { paragraph(container, "answer-key", "第 " + (index + 1) + " 空：" + answer); });
       heading("串句理解与记忆");
       paragraph(container, "fill-complete-sentence", window.SHIYI_FILL_FEEDBACK.complete(question));
       paragraph(container, "fill-memory", question.answers.length > 1 ? "按空顺序回忆：" + question.answers.join(" → ") + "。先读完整句，再遮住答案，逐空回想；不要只记答案列表。" : "把题干中的人物、作品或观点与【" + question.answers[0] + "】成对记忆；遮住答案，用自己的话复述这句话。");
@@ -538,13 +562,9 @@
       paragraph(container, "question-source", question.explanation);
       return;
     }
-    var order = optionOrder || question.options.map(function (_, index) { return index; });
     function currentLetters(text) {
       return String(text).replace(/[A-Za-z]+/g, function (token) { var position = /^[A-G]$/.test(token) ? order.indexOf(token.charCodeAt(0) - 65) : -1; return position >= 0 ? String.fromCharCode(65 + position) : token; });
     }
-    paragraph(container, "answer-key", "本题应选：" + question.answers.slice().sort(function (a, b) { return order.indexOf(a) - order.indexOf(b); }).map(function (i) {
-      return String.fromCharCode(65 + order.indexOf(i)) + " · " + optionText(question, i);
-    }).join("；"));
     heading("本题考点与解题依据");
     paragraph(container, "knowledge-location", chapter.title + " · " + chapter.subtitle + (question.source.part ? " · 当前填写第" + question.source.part + "空" : ""));
     paragraph(container, "knowledge-point", currentLetters(study.point));
@@ -667,6 +687,7 @@
   }
 
   function startReview(kind, customQuestions) {
+    if (kind === "terms") return window.SHIYI_TERMS.startReview();
     var all = customQuestions || mistakeQuestions(kind);
     var due = all.filter(function (q) { return state.questionStats[q.id].review.due <= todayKey(); });
     if (!all.length) return showToast("这一类还没有错题");
@@ -687,8 +708,15 @@
   function renderMistakes() {
     var questions = mistakeQuestions();
     var dueCount = questions.filter(function (q) { return state.questionStats[q.id].review.due <= todayKey(); }).length;
-    byId("mistakeSummary").textContent = "今日待复习 " + dueCount + " 题 · 累计错题 " + questions.length + " 题";
+    byId("mistakeSummary").textContent = "选择与填空待复习 " + dueCount + " 题 · 名词到期 " + window.SHIYI_TERMS.reviewSummary().due + " 项 · 累计错题 " + questions.length + " 题";
     document.querySelectorAll("[data-review-kind]").forEach(function (button) {
+      if (button.dataset.reviewKind === "terms") {
+        var summary = window.SHIYI_TERMS.reviewSummary();
+        button.querySelector("strong").textContent = summary.due;
+        button.querySelector("small").textContent = summary.studied ? "已评分 " + summary.studied + " 项 · 按颜色周期复习" : "先到章节中抽背并自评";
+        button.querySelector(".review-next").textContent = summary.next ? "下次到期 " + summary.next.replace(/-/g,"/") : "";
+        button.disabled = !summary.studied; return;
+      }
       var rows = mistakeQuestions(button.dataset.reviewKind);
       var due = rows.filter(function (q) { return state.questionStats[q.id].review.due <= todayKey(); }).length;
       button.querySelector("strong").textContent = due;
@@ -947,6 +975,8 @@
     });
     document.querySelectorAll("[data-mistake-view]").forEach(function (button) {
       button.addEventListener("click", function () {
+        if (button.dataset.mistakeView === "terms") return showTermLibrary();
+        byId("termLibrary").hidden = true;
         var browse = button.dataset.mistakeView === "browse";
         byId("mistakeLibrary").hidden = !browse; byId("reviewDashboard").hidden = browse;
         document.querySelectorAll("[data-mistake-view]").forEach(function (item) { item.setAttribute("aria-pressed", String(item === button)); });
@@ -1056,7 +1086,9 @@
     setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
   }
 
-  byId("fillMixButton").addEventListener("click", startFillPractice);
+  [["choiceMixButton","choice"],["fillMixButton","fill"],["termMixButton","terms"]].forEach(function (pair) { byId(pair[0]).addEventListener("click",function () { openMix(pair[1]); }); });
+  document.querySelectorAll("[data-mix-range]").forEach(function (button) { button.addEventListener("click",function () { startMix(button.dataset.mixRange); }); });
+  byId("closeMixScope").addEventListener("click",function () { byId("mixScope").close(); });
   byId("savePlan").addEventListener("click", function () {
     var goal = Number(byId("dailyGoal").value);
     if (!Number.isInteger(goal) || goal < 1 || goal > 10000) return showToast("请输入 1–10000 的整数");

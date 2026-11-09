@@ -13,7 +13,7 @@ assert.equal(all.find(q=>q.id==='c06-f080').answers[0],'籍里柯');assert.deepE
   const bank=window.SHIYI_QUESTION_BANK,original=bank.questions.slice(),qs=original.filter(q=>q.reviewNotice),failures=[];
   for(const q of qs){
    bank.questions.splice(0,bank.questions.length,q);
-   if(q.type==='fill')document.querySelector('#fillMixButton').click();else document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();
+   if(q.type==='fill'){document.querySelector('#fillMixButton').click();document.querySelector('[data-mix-range="all"]').click();}else document.querySelector('.chapter-kinds [data-kind="choice"][data-chapter="'+q.chapter+'"]').click();
    document.querySelector('#enterStageButton').click();
    if(!document.querySelector('#answerPanel').hidden)failures.push(q.id+':提前显示答案');
    if(q.type==='fill'){

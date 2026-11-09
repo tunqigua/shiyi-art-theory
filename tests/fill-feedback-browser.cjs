@@ -3,7 +3,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 (async()=>{const browser=await chromium.launch({headless:true});try{
  const page=await browser.newPage({viewport:{width:1280,height:900}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(process.env.TEST_URL||'http://127.0.0.1:18767');
- await page.evaluate(()=>{const qs=window.SHIYI_QUESTION_BANK.questions,q=qs.find(q=>q.id==='c01-f001');qs.splice(0,qs.length,q);document.querySelector('#fillMixButton').click();document.querySelector('#enterStageButton').click();});
+ await page.evaluate(()=>{const qs=window.SHIYI_QUESTION_BANK.questions,q=qs.find(q=>q.id==='c01-f001');qs.splice(0,qs.length,q);document.querySelector('#fillMixButton').click();document.querySelector('[data-mix-range="all"]').click();document.querySelector('#enterStageButton').click();});
  assert.equal(await page.locator('.fill-answer-feedback').count(),0);
  for(const [i,value]of ['顾恺之','清吹','<img src=x onerror=alert(1)>'].entries())await page.locator('.fill-input').nth(i).fill(value);
  await page.locator('#submitButton').click();

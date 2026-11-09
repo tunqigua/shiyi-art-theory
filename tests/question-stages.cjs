@@ -40,8 +40,8 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   }
   bank.questions.splice(0,bank.questions.length,...full);return failures;
  });assert.deepEqual(failures,[]);
- await page.locator('#fillMixButton').click();assert.equal(await page.locator('#typeIntro').innerText(),'填空题');
- await page.locator('#enterStageButton').click();assert.equal(await page.locator('#practiceTitle').innerText(),'填空混练');assert(await page.locator('.fill-input').first().isVisible());
+ await page.locator('#fillMixButton').click();await page.locator('[data-mix-range="all"]').click();assert(await page.locator('#typeIntro').isHidden());
+ assert.equal(await page.locator('#practiceTitle').innerText(),'填空混练');assert(await page.locator('.fill-input').first().isVisible());
  await page.locator('#questionStage .back-button').click();await page.setViewportSize({width:390,height:844});
  assert.equal(await page.locator('.rail-nav .rail-item').count(),4);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  await page.screenshot({path:'outputs/no-mix-mobile.png',fullPage:true,animations:'disabled'});

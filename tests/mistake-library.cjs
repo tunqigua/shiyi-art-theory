@@ -39,7 +39,7 @@ const assert=require('node:assert/strict');const {chromium}=require(process.env.
  await page.setViewportSize({width:390,height:844});await page.locator('.mistake-toggle').click();
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  await page.screenshot({path:'outputs/mistake-library-mobile.png',fullPage:true,animations:'disabled'});
- await page.locator('[data-mistake-view="review"]').click();assert(await page.locator('#reviewDashboard').isVisible());assert.equal(await page.locator('.review-module:visible').count(),3);
+ await page.locator('[data-mistake-view="review"]').click();assert(await page.locator('#reviewDashboard').isVisible());assert.equal(await page.locator('.review-module:visible').count(),4);
  await page.locator('[data-mistake-view="browse"]').click();assert(await page.locator('#mistakeLibrary').isVisible());assert.deepEqual(errors,[]);
  console.log('PASS: 选择/填空分类、单元/次数/状态筛选、搜索、排序与分页、直接练习和返回保留筛选、大字解析、手机排版、学习数据保留。');
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

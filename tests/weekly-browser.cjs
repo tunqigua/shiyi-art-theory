@@ -18,7 +18,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
    const full=window.SHIYI_QUESTION_BANK.questions.slice(),fills=full.filter(q=>q.type==='fill'),failures=[];
    function show(q,values){
     window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,q);
-    document.querySelector('#fillMixButton').click();document.querySelector('#enterStageButton').click();
+    document.querySelector('#fillMixButton').click();document.querySelector('[data-mix-range="all"]').click();document.querySelector('#enterStageButton').click();
     [...document.querySelectorAll('.fill-input')].forEach((input,i)=>{input.value=values[i];input.dispatchEvent(new Event('input',{bubbles:true}));});
     document.querySelector('#submitButton').click();
    }
@@ -32,7 +32,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
    return{failures,count:fills.length};
   });assert.deepEqual(result.failures,[]);assert.equal(result.count,650);
   await page.reload();await page.setViewportSize({width:390,height:844});
-  await page.evaluate(()=>{const q=window.SHIYI_QUESTION_BANK.questions.find(q=>q.id==='w26-c05-f08');window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,q);document.querySelector('#fillMixButton').click();document.querySelector('#enterStageButton').click();});
+  await page.evaluate(()=>{const q=window.SHIYI_QUESTION_BANK.questions.find(q=>q.id==='w26-c05-f08');window.SHIYI_QUESTION_BANK.questions.splice(0,window.SHIYI_QUESTION_BANK.questions.length,q);document.querySelector('#fillMixButton').click();document.querySelector('[data-mix-range="all"]').click();document.querySelector('#enterStageButton').click();});
   await page.locator('.fill-input').fill('园冶');await page.locator('#submitButton').click();
   assert.equal(await page.locator('#answerStatus').textContent(),'✓');assert(await page.locator('.knowledge-point').isVisible());assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   await page.screenshot({path:path.join(__dirname,'../outputs/weekly-fill-mobile-20261103.png'),fullPage:true});
