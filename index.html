@@ -9,7 +9,7 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="apple-mobile-web-app-title" content="识艺" />
-    <link rel="stylesheet" href="./styles.css?v=20261109-review-flow" />
+    <link rel="stylesheet" href="./styles.css?v=20261110-custom-mix" />
   </head>
   <body>
     <div class="app-shell">
@@ -256,7 +256,7 @@
     <section class="type-intro" id="typeIntro" role="dialog" aria-modal="true" aria-label="题型提示" hidden>
       <button id="enterStageButton">单选题</button>
     </section>
-    <dialog id="mixScope" aria-labelledby="mixScopeTitle"><h2 id="mixScopeTitle">选择混练范围</h2><p>从所选范围随机抽题，本轮不重复。</p><div class="mix-scope-actions"><button data-mix-range="first">1—6章</button><button data-mix-range="last">7—12章</button><button data-mix-range="all">全部章节</button></div><button id="closeMixScope" class="text-button">取消</button></dialog>
+    <dialog id="mixScope" aria-labelledby="mixScopeTitle"><h2 id="mixScopeTitle">选择混练范围</h2><p>从所选范围随机抽题，本轮不重复。</p><div class="mix-scope-actions"><button data-mix-range="first">1—6章</button><button data-mix-range="last">7—12章</button><button data-mix-range="all">全部章节</button></div><form id="customMixRange"><fieldset><legend>自选章节范围</legend><div class="custom-mix-fields"><label>从 <select id="mixFromChapter" aria-label="起始章节"></select></label><label>到 <select id="mixToChapter" aria-label="结束章节"></select></label><button type="submit" class="primary-button">开始混练</button></div><p id="mixRangeError" role="alert"></p></fieldset></form><button id="closeMixScope" class="text-button">取消</button></dialog>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script src="./questions.js?v=20261109-audit"></script>
     <script src="./explanations.js?v=20261109-audit"></script>
@@ -264,8 +264,8 @@
     <script src="./fill-utils.js?v=20261106-library"></script>
     <script src="./fill-feedback.js?v=20261106-library"></script>
     <script src="./terms-bank.js?v=20261107"></script>
-    <script src="./terms.js?v=20261109-review-flow"></script>
-    <script src="./app.js?v=20261109-review-flow"></script>
+    <script src="./terms.js?v=20261110-custom-mix"></script>
+    <script src="./app.js?v=20261110-custom-mix"></script>
   </body>
 </html>
 

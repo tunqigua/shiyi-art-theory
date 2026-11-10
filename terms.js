@@ -18,13 +18,14 @@ function schedule(history,color,at,rules=DEFAULT_RULES){
  const days=color==='green'?rules.green[stage-1]:rules[color];return{stage,due:addDays(day(new Date(at)),days)};
 }
 function shuffle(items){const a=items.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function inRange(chapter,range){const [from,to]=Array.isArray(range)?range:range==='first'?[1,6]:range==='last'?[7,12]:[1,12];return chapter>=from&&chapter<=to;}
 function dueQueue(bank,records,today=day()){
  return shuffle(bank.filter(t=>records[t.id]?.at(-1)?.due<=today)).sort((a,b)=>{
  const x=records[a.id].at(-1),y=records[b.id].at(-1);
  return Number(y.due<today)-Number(x.due<today)||Number(y.color==='red')-Number(x.color==='red')||x.due.localeCompare(y.due);
  });
 }
-root.SHIYI_TERMS={KEY,day,addDays,validate,schedule,dueQueue,DEFAULT_RULES};
+root.SHIYI_TERMS={KEY,day,addDays,validate,schedule,dueQueue,inRange,DEFAULT_RULES};
 if(typeof document==='undefined')return;
 let data,storageError=false;
 try {const raw=localStorage.getItem(KEY);data=raw?validate(JSON.parse(raw)):{version:1,bank:[],records:{},rules:JSON.parse(JSON.stringify(DEFAULT_RULES))};}catch(e){storageError=true;data={version:1,bank:[],records:{},rules:JSON.parse(JSON.stringify(DEFAULT_RULES))};}
@@ -56,7 +57,7 @@ function render(){
  $('termName').textContent=q.name;$('termAnswer').textContent=q.answer;$('termReveal').hidden=false;$('termSkip').hidden=false;
  $('termSource').textContent='教材第'+q.source?.page+'页 · '+q.source?.file;
 }
-function start(mode,range='all',only=null){if(root.SHIYI_TERMS.onPractice)root.SHIYI_TERMS.onPractice();const queue=only?[only]:mode==='due'?dueQueue(data.bank,data.records):shuffle(data.bank.filter(t=>mode==='mix'?(range==='all'||(range==='first'?t.chapter<=6:t.chapter>=7)):t.chapter===chapter));round={mode,range,only,queue,index:0,scored:0,skipped:0,token:crypto.randomUUID()};$('termMessage').textContent='';render();if(!queue.length&&mode!=='due')$('termName').textContent='名词解释待录入';}
+function start(mode,range='all',only=null){if(root.SHIYI_TERMS.onPractice)root.SHIYI_TERMS.onPractice();const queue=only?[only]:mode==='due'?dueQueue(data.bank,data.records):shuffle(data.bank.filter(t=>mode==='mix'?inRange(t.chapter,range):t.chapter===chapter));round={mode,range,only,queue,index:0,scored:0,skipped:0,token:crypto.randomUUID()};$('termMessage').textContent='';render();if(!queue.length&&mode!=='due')$('termName').textContent='名词解释待录入';}
 function open(id){chapter=id;round=null;shown=false;undo=null;$('termSelect').value=String(id);$('termMessage').textContent='';render();}
 $('termBack').onclick=()=>{if(root.SHIYI_TERMS.onReturn)return root.SHIYI_TERMS.onReturn();round=null;shown=false;render();};
 root.SHIYI_TERMS=Object.assign(root.SHIYI_TERMS,{open,stats,practice:id=>{open(id);start('chapter');},mix:range=>{undo=null;start('mix',range);},startReview:()=>{undo=null;start('due');},reviewSummary:()=>{const studied=data.bank.filter(t=>latest(t));const future=studied.map(t=>latest(t).due).filter(d=>d>day()).sort();return{studied:studied.length,due:studied.filter(t=>latest(t).due<=day()).length,next:future[0]};},exportData:()=>JSON.parse(JSON.stringify(data)),restore:value=>{validate(value);localStorage.setItem(KEY,JSON.stringify(value));},raw:()=>localStorage.getItem(KEY)});
