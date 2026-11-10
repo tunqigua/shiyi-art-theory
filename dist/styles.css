@@ -582,3 +582,11 @@ main { margin-left: var(--rail); min-height: 100vh; }
 .hero-actions { flex-wrap: wrap; }
 .term-record-answer { white-space: pre-wrap; line-height: 1.9; }
 .mistake-view-switch { flex-wrap: wrap; }
+
+/* The question heading receives focus for reading and keyboard flow, not as an input control. */
+#questionText:focus { outline: none; }
+#customMixRange fieldset { margin: 20px 0; padding: 16px; border: 1px solid var(--line); }
+.custom-mix-fields { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.custom-mix-fields select { font: inherit; padding: 10px; }
+#mixRangeError { color: var(--red); margin-bottom: 0; }
+@media(max-width:480px) { .custom-mix-fields button { width: 100%; } }

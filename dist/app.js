@@ -290,13 +290,14 @@
   function openMix(kind) {
     mixKind = kind;
     byId("mixScopeTitle").textContent = ({choice:"选择混练",fill:"填空混练",terms:"名解混练"})[kind] + " · 选择范围";
+    byId("mixRangeError").textContent = "";
     byId("mixScope").showModal();
   }
   function startMix(range) {
     byId("mixScope").close();
     if (mixKind === "terms") return window.SHIYI_TERMS.mix(range);
     var questions = BANK.questions.filter(function (q) {
-      return (q.type === "fill") === (mixKind === "fill") && (range === "all" || (range === "first" ? q.chapter <= 6 : q.chapter >= 7));
+      return (q.type === "fill") === (mixKind === "fill") && window.SHIYI_TERMS.inRange(q.chapter, range);
     });
     if (!questions.length) return showToast("该范围暂无题目");
     session.queue = shuffle(questions); session.index = 0; session.mode = mixKind + "Mix";
@@ -1088,6 +1089,21 @@
 
   [["choiceMixButton","choice"],["fillMixButton","fill"],["termMixButton","terms"]].forEach(function (pair) { byId(pair[0]).addEventListener("click",function () { openMix(pair[1]); }); });
   document.querySelectorAll("[data-mix-range]").forEach(function (button) { button.addEventListener("click",function () { startMix(button.dataset.mixRange); }); });
+  BANK.chapters.forEach(function (chapter) {
+    ["mixFromChapter", "mixToChapter"].forEach(function (id) {
+      var option = document.createElement("option"); option.value = chapter.id; option.textContent = "第" + chapter.id + "章"; byId(id).appendChild(option);
+    });
+  });
+  byId("mixToChapter").value = "12";
+  byId("customMixRange").addEventListener("submit", function (event) {
+    event.preventDefault();
+    var from = Number(byId("mixFromChapter").value), to = Number(byId("mixToChapter").value);
+    if (!Number.isInteger(from) || !Number.isInteger(to) || from < 1 || to > 12 || from > to) {
+      byId("mixRangeError").textContent = "结束章节不能早于起始章节，请重新选择。"; return;
+    }
+    byId("mixRangeError").textContent = "";
+    startMix([from, to]);
+  });
   byId("closeMixScope").addEventListener("click",function () { byId("mixScope").close(); });
   byId("savePlan").addEventListener("click", function () {
     var goal = Number(byId("dailyGoal").value);
